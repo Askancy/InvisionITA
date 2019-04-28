@@ -5173,7 +5173,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="faulty_app" js="0"><![CDATA[Questo errore è stato probabilmente causato dall'applicazione %s.<br> Se il problema persiste, <a href="%s" target="_blank" >disabilita</a> questo e contatta l'autore per ulteriore assistenza.]]></word>
   <word key="member_delete_message" js="0"><![CDATA[Sei sicuro di voler <strong>eliminare definitivamente</strong> l'account di %s?]]></word>
   <word key="group_promotion_reputation" js="0">punti reputazione</word>
-  <word key="rep_level_points_pluralized" js="0">{#![1:Punto][?:punti]}</word>
+  <word key="rep_level_points_pluralized" js="0">{#[1:Punto][?:punti]}</word>
   <word key="pf_search_type_on_off" js="0">Cerca comportamento</word>
   <word key="diagnostics_reporting" js="0">Inviare dati diagnostici a IPS?</word>
   <word key="diagnostics_reporting_desc" js="0">Aiuta la suite IPS Community per migliorare automaticamente l'invio delle informazioni di utilizzo e di diagnostica. I dati inviati non contengono informazioni private sui tuoi utenti o sulla tua comunità.</word>

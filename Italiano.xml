@@ -226,7 +226,7 @@
   <word key="error_page_code" js="0">Codice Errore:</word>
   <word key="requested_route_404" js="0">La pagina richiesta non esiste</word>
   <word key="mark_site_read" js="0">Contrassegna tutti i contenuti del sito come letti</word>
-  <word key="mark_site_read_button" js="0">Segna il sito come letto</word>
+  <word key="mark_site_read_button" js="0"><![CDATA[Segna il sito come letto</a></li> <li> <a href="">Traduzione di InvisionITA</a></li>]]></word>
   <word key="core_site_marked_as_read" js="0">Sito segnato come letto</word>
   <word key="browse" js="0">Esplora</word>
   <word key="new_content" js="0">Nuovo Contenuto</word>

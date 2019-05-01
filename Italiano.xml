@@ -2554,6 +2554,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="theme_template_add_css" js="0">Aggiungi file CSS</word>
   <word key="theme_templates" js="0">Template</word>
   <word key="theme_attributes" js="0">Attributi...</word>
+  <word key="theme_edit_css" js="0">Modifica attributi CSS</word>
   <word key="theme_edit_variables" js="0">Modifica variabili</word>
   <word key="theme_template_variables" js="0">Variabili template</word>
   <word key="core_theme_cannot_delete_default_theme" js="0">Non  puoi eliminare il tema predefinito</word>
@@ -4421,6 +4422,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="image_proxy_cache_period" js="0">Cache immagini remote</word>
   <word key="image_proxy_cache_period_desc" js="0">Una copia dell'immagine remota verrà scaricata sul server e memorizzata per il periodo di tempo specificato. Dopo questa volta, l'immagine memorizzata viene eliminata e verrà scaricata nuovamente se viene visualizzata di nuovo.</word>
   <word key="rss_import_showlink_default" js="0">Leggi l'articolo completo</word>
+  <word key="api_allowed_ips_err" js="0">%s non è un indirizzo IP valido.</word>
+  <word key="api_log_ip_address" js="0">Indirizzo IP</word>
   <word key="r__api_manage" js="0">Può visualizzare le chiavi API?</word>
   <word key="r__api_add" js="0">Può creare chiavi API?</word>
   <word key="r__api_edit" js="0">Può modificare le chiavi API?</word>
@@ -4868,8 +4871,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="device_phone_preview" js="0">Visualizza a dimensioni del telefono approssimative</word>
   <word key="_date_day_and_month" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}
 </word>
+  <word key="_date_this_year_short" js="0">{!1#[1:Gen][2:Feb][3:Mar][4:Apr][5:Mag][6:Giu][7:Lug][8:Ago][9:Set][10:Ott][11:Nov][12:Dic]} {0#}</word>
   <word key="_date_this_year_long" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}	
 </word>
+  <word key="_date_last_year_short" js="0">{!1#[1:Gen][2:Feb][3:Mar][4:Apr][5:Mag][6:Giu][7:Lug][8:Ago][9:Set][10:Ott][11:Nov][12:Dic]} {0#}, %s	</word>
   <word key="_date_last_year_long" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}, %s
 </word>
   <word key="form_multibyte_unicode_admin" js="0"><![CDATA[Il valore immesso include un carattere che non è consentito, ad esempio un Emoji. Per abilitare il supporto di tali caratteri, <a href='{internal.admin.app=core&module=support&controller=utf8mb4&_new=1}' target='_blank'>abilita utf8mb4</a>.]]></word>
@@ -5050,8 +5055,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="msg_ip_address" js="0">Indirizzo IP</word>
   <word key="poll_vote_date" js="0">Data</word>
   <word key="poll_ip_address" js="0">Indirizzo IP</word>
+  <word key="review_ip" js="0">Indirizzo IP</word>
+  <word key="comment_ip_address" js="0">Indirizzo IP</word>
+  <word key="review_ip_address" js="0">Indirizzo IP</word>
+  <word key="reply_ip_address" js="0">Indirizzo IP</word>
   <word key="rating_member" js="0">Membro</word>
   <word key="rating_rated" js="0">Contenuti valutati</word>
+  <word key="rating_ip" js="0">Indirizzo IP</word>
   <word key="rating_rating" js="0">Valutazione</word>
   <word key="members_validatingType" js="0">Tipo di convalida</word>
   <word key="members_entry_date" js="0">Data</word>
@@ -5343,10 +5353,14 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="activity_club" js="0">%s ha creato il club: %s</word>
   <word key="add_message" js="0">Aggiungi messaggio</word>
   <word key="node_mass_move_any_time" js="0">Ogni volta</word>
+  <word key="login_as_x" js="0">Accedi come %s</word>
+  <word key="member_account_actions" js="0">Azioni dell'Account</word>
   <word key="members_device" js="0">Dispositivo</word>
   <word key="members_devices" js="0">Dispositivi</word>
+  <word key="device_table_ip_address" js="0">Indirizzo IP</word>
   <word key="device_table_member_id" js="0">Membro</word>
   <word key="members_iptable_location" js="0">Posizione stimata*</word>
+  <word key="ip_addresses" js="0">Indirizzi IP</word>
   <word key="notification__new_react" js="0">{!#[?:%s ha reagito a]} %s</word>
   <word key="g_can_report" js="0">Può segnalare i contenuti?</word>
   <word key="mf_leaderboard" js="0">Utente del giorno</word>
@@ -5366,6 +5380,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="report_reply" js="0">Segnala risposta</word>
   <word key="acp_search_title_core_Clubs" js="0">Club</word>
   <word key="__api_core_groups" js="0">Gruppi</word>
+  <word key="authy_submit_onetouch" js="0">Ho accettato la richiesta</word>
+  <word key="view_all_picks" js="0">Visualizza tutto</word>
   <word key="promote_tab_permissions" js="0">Permessi</word>
   <word key="club_type_public" js="0">Publico</word>
   <word key="club_type_public_desc" js="0">Tutti possono vedere il club e le discussioni e parteciparvi senza farne parte.</word>
@@ -5434,6 +5450,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="clubs_no_recent_activity" js="0">Quando sei membro di uno o più club, la loro attività recente sarà mostrata qui.</word>
   <word key="club_embed_created_line" js="0">%s ha creato un club</word>
   <word key="history_deleted_group" js="0">gruppo rimosso</word>
+  <word key="log_ip_address" js="0">Indirizzo IP</word>
+  <word key="view_all" js="0">Visualizza tutto</word>
   <word key="complete_profile_app__core_Core" js="0">Sistema</word>
   <word key="month_0_short" js="1">Gen</word>
   <word key="month_1_short" js="1">Feb</word>
@@ -5451,22 +5469,42 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mailsub__core_notification_new_react" js="0"><![CDATA[Qualcuno ha reagito a {$comment->indefiniteArticle( $email->language )}]]></word>
   <word key="email_new_reacted" js="0">%s ha reagito a: %s</word>
   <word key="whatsNew" js="1">Novità in Invision Community</word>
+  <word key="history_enabled_admin_mails" js="0">Iscritto a notizie e aggiornamenti%s.</word>
+  <word key="history_terms_accepted_privacy" js="0">Accettato l'informativa sulla privacy</word>
+  <word key="history_terms_accepted_terms" js="0">Accettato i termini e le condizioni</word>
   <word key="cookies_message" js="0"><![CDATA[Abbiamo inserito dei <a href='%s'>cookies</a> nel tuo dispositivo per aiutarti a migliorare la tua esperienza su questo sito. Puoi <a href='%s'>modificare le impostazioni dei cookie,</a>  altrimenti puoi accettarli cliccando su continua.]]></word>
+  <word key="primary_group" js="0">Gruppo primario</word>
   <word key="members_last_activity" js="0">Ultima attività</word>
   <word key="members_allow_admin_emails" js="0">Consenti email collettive?</word>
+  <word key="edit_cover_photo" js="0">Modifica Foto Copertina</word>
+  <word key="edit_profile_photo" js="0">Modifica Foto del Profilo</word>
+  <word key="edit_member_account" js="0">Modifica Preferenze</word>
+  <word key="account_actions" js="0">Azioni dell'Account</word>
+  <word key="edit_club" js="0">Modifica Club</word>
+  <word key="edit_password" js="0">Modifica Password</word>
+  <word key="devices_and_ips" js="0"><![CDATA[Dispositivi & Indirizzi IP]]></word>
+  <word key="view_all_ip_addresses" js="0">Visualizza tutti gli indirizzi IP</word>
+  <word key="view_all_devices" js="0">Visualizza tutti i dispositivi utilizzati</word>
   <word key="view_attachments" js="0">Visualizza allegati</word>
   <word key="admin_enable_messenger" js="0">Messenger Abilitato</word>
+  <word key="merge_with_another_account" js="0">Unisci con un altro account</word>
+  <word key="all_recent_account_activity" js="0">Attività recenti dell'account</word>
   <word key="report_comment" js="0">segnala un commento</word>
   <word key="report_message_comment" js="0">Questo commento va bene, ma voglio parlare con un moderatore</word>
   <word key="report_message_item" js="0">Va bene, ma voglio parlare con un moderatore</word>
   <word key="report_type" js="0">Perché vuoi segnalare questo?</word>
   <word key="report_type_byline" js="0">Segnalato come %s.</word>
   <word key="notifications__unapproved_club" js="0">Viene creato un nuovo club che richiede l'approvazione</word>
+  <word key="spam_whitelist_ip" js="0">Indirizzo IP</word>
+  <word key="whitelist_ip_content" js="0">Indirizzo IP</word>
+  <word key="spam_whitelist_ip_select" js="0">Indirizzo IP</word>
   <word key="diagnostics_reporting_usage" js="0">Dati di utilizzo</word>
   <word key="task__usagereporting" js="0">Riporta i dati di utilizzo a Invision.</word>
   <word key="site_social_profiles_desc" js="0">Visualizza le icone dei social media nell'intestazione o nel piè di pagina del tuo sito, in base all'impostazione del tema, che collega agli URL dei profili social inseriti.</word>
   <word key="menu__core_membersettings_profilecompletion" js="0">Completamente del profilo</word>
   <word key="menu__core_stats_membersactivity" js="0">Attività dei membri</word>
+  <word key="visits_ip_address" js="0">Indirizzo IP</word>
+  <word key="activity_ip_address" js="0">Indirizzo IP</word>
   <word key="license_renewal_soon" js="0">La licenza scade {! # [0: Oggi] [1: Domani] [?: in # giorni]}	</word>
   <word key="automaticmoderation_enabled" js="0">Abilitato?</word>
   <word key="reportedContent_settings" js="0">impostazioni</word>
@@ -5481,6 +5519,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="__api_core_search" js="0">Cerca</word>
   <word key="oauth_app_revoke" js="0">Rimuovi</word>
   <word key="oauth_revoke_all_tokens" js="0">Revoca tutto</word>
+  <word key="oauth_brute_force_ip_address" js="0">Indirizzo IP</word>
+  <word key="oauth_brute_force_ban" js="0">Ban Indirizzo IP</word>
   <word key="club_active_members" js="0">Membri Attivi</word>
   <word key="club_remove_invitation" js="0">Revoca invito</word>
   <word key="menu__core_clubs_fields" js="0">Campi Extra</word>
@@ -5493,6 +5533,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="clubs_allow_view_change" js="0">Consenti agli utenti di scegliere la visualizzazione?</word>
   <word key="history_photo_resize" js="0">Foto del profilo ridimensionata%s.</word>
   <word key="history_deleted_group_id" js="0"><![CDATA[<em>gruppo rimosso #%d</em>]]></word>
+  <word key="history_group_change_purchase_primary" js="0">gruppo</word>
+  <word key="history_account_register" js="0">Utente registrato.%s</word>
+  <word key="history_account_email_validated" js="0">Indirizzo Email convalidato.</word>
   <word key="history_flagged_spammer_action_delete" js="0">tutti i contenuti rimossi</word>
   <word key="member_filter_core_joined_days_desc" js="0">iscritto oltre %s giorni fa</word>
   <word key="member_filter_core_joined_days_lt_desc" js="0">iscritto meno di %s giorni fa</word>
@@ -6767,6 +6810,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="can_edit_downloads_file" js="0">Può modificare i file?</word>
   <word key="can_unhide_downloads_file" js="0">Può rendere visibile i file?</word>
   <word key="can_delete_downloads_file" js="0">Può rimuovere i file?</word>
+  <word key="can_edit_downloads_file_comment" js="0">Può modificare i commenti?</word>
   <word key="can_hide_downloads_file_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_unhide_downloads_file_comment" js="0">Può rendere visibile i commenti?</word>
   <word key="menu__downloads_downloads_fields" js="0">Campi Extra</word>
@@ -6933,6 +6977,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="dmid" js="0">Membri</word>
   <word key="dtime" js="0">Data/Ora</word>
   <word key="dsize" js="0">Dimensione del file</word>
+  <word key="dip" js="0">Indirizzo IP</word>
+  <word key="bandwidth_use" js="0">Utilizzo della larghezza di banda</word>
   <word key="files_submitted" js="0">File inviati</word>
   <word key="number_of_downloads" js="0">Numeri di Download *</word>
   <word key="downloads_bandwidth_used" js="0">Larghezza di banda utilizzata *</word>
@@ -7006,12 +7052,14 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="downloads_file_review_pl_lc" js="0">recensioni dei file</word>
   <word key="block_recentFiles" js="0">File Recenti</word>
   <word key="file_no_price_for_currency" js="0">Questo file non è attualmente disponibile nella valuta scelta.</word>
+  <word key="file_ipaddress" js="0">Indirizzo IP</word>
   <word key="idm_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
   <word key="file_view_details" js="0">Vedi il file</word>
   <word key="nexus_file_no_longer_available" js="0">Questo file non è più disponibile per il download.</word>
   <word key="search_contextual_item_downloads_categories" js="0">Questa Categoria</word>
   <word key="search_contextual_item_downloads_file" js="0">Questo File</word>
   <word key="downloads_categories" js="0">Categorie Download</word>
+  <word key="view_all_files" js="0">Visualizza tutti i File</word>
   <word key="downloads_categories_pagetitle" js="0">Categorie Download</word>
   <word key="__api_downloads_categories" js="0">Categorie</word>
   <word key="member_restrictions__downloads_Downloads" js="0">Download</word>
@@ -7022,6 +7070,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="idm_cfield_sidebar" js="0">Nella sidebar</word>
  </app>
  <app key="convert" version="104023">
+  <word key="edit_conversion" js="0">Modifica Conversione</word>
   <word key="_convert_members" js="0">Membri</word>
   <word key="_convert_calendar_events" js="0">Eventi Calendario</word>
   <word key="_convert_downloads_files" js="0">File</word>

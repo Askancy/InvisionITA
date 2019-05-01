@@ -44,19 +44,33 @@
   <word key="r__menu_edit" js="0">Può modificare le voci di menu?</word>
   <word key="r__menu_delete" js="0">Può eliminare le voci di menu?</word>
   <word key="module__core_discover" js="0">Esplora contenuti</word>
+  <word key="your_activity_streams" js="0">I miei flussi di attività</word>
   <word key="menu_title_type" js="0">Titolo</word>
   <word key="menu_title_type_stream" js="0">Usa il titolo Stream</word>
   <word key="menu_title_type_custom" js="0">Usa un titolo personalizzato</word>
   <word key="menu_stream_title" js="0">Titolo personalizzato</word>
   <word key="r__streams_manage" js="0">Puà gestire le streams?</word>
   <word key="stream_all_content" js="0">Qualsiasi</word>
+  <word key="stream_button_save" js="0">Salva Cambiamenti</word>
+  <word key="stream_title" js="0">Titolo Flusso</word>
+  <word key="stream_include_comments" js="0">Mostrami</word>
+  <word key="stream_classes_type" js="0">Tipo Contenuto</word>
   <word key="stream_classes_type_all" js="0">Tutti i contenuti</word>
+  <word key="stream_ownership_all" js="0">Qualsiasi</word>
+  <word key="stream_ownership_postedin" js="0">Contenuto che ho pubblicato in</word>
   <word key="stream_read" js="0">Leggi Stati</word>
+  <word key="stream_read_all" js="0">Qualsiasi</word>
+  <word key="stream_read_unread" js="0">Contenuti che non ho letto</word>
+  <word key="stream_follow_all" js="0">Qualsiasi</word>
+  <word key="stream_follow_followed" js="0">Solo il contenuto che seguo</word>
   <word key="stream_date_type" js="0">Periodo di tempo</word>
+  <word key="stream_date_type_all" js="0">Ogni volta</word>
   <word key="stream_date_type_relative" js="0">Periodo di tempo specifico</word>
   <word key="stream_date_relative_days" js="0">Intervallo di date</word>
+  <word key="stream_sort_newest" js="0">Per attività più recente</word>
+  <word key="stream_sort_oldest" js="0">Per attività più vecchia</word>
   <word key="stream_title_1" js="0">Non Letti</word>
-  <word key="stream_title_2" js="0">Inviati da Me</word>
+  <word key="stream_title_2" js="0">Inviati da me</word>
   <word key="activity" js="0">Attività</word>
   <word key="restore_default_streams" js="0">Ripristina i flussi predefiniti</word>
   <word key="restore_default_streams_restored" js="0">Sono stati ripristinati i flussi di default</word>
@@ -68,9 +82,13 @@
   <word key="custom_streams" js="0">Streams personalizzati</word>
   <word key="create_new_stream" js="0">Creare Nuovo Stream</word>
   <word key="stream_blurb_all" js="0">Tutti i contenuti</word>
+  <word key="stream_blurb_following_items" js="0">Sto seguendo</word>
   <word key="stream_no_results" js="0">Non ci sono ancora risultati da mostrare in questo flusso di attività</word>
+  <word key="stream_sorting" js="0">Ordinamento</word>
   <word key="stream_condensed" js="0">Visualizza i risultati compatti in una riga per ogni formato dell'inserimento</word>
   <word key="stream_expanded" js="0">Visualizza i risultati con più dettagli, inclusa un anteprima del contenuto</word>
+  <word key="stream_this_is_default" js="0">Questo è il tuo flusso predefinito. Clicca per rimuoverlo come predefinito.</word>
+  <word key="stream_this_isnt_default" js="0">Imposta come flusso predefinito</word>
   <word key="editor_attach_drag" js="0">Trascinare i file qui per allegarli, o</word>
   <word key="editor_attach_choose_drag" js="0">scegli i file...</word>
   <word key="editor_attach_choose_nodrag" js="0">Clicca per scegliere i file</word>
@@ -390,7 +408,7 @@
   <word key="pinned" js="0">Importante</word>
   <word key="read" js="0">Letti</word>
   <word key="unread" js="0">Non Letti</word>
-  <word key="feature" js="0">Esponi</word>
+  <word key="feature" js="0">Importante</word>
   <word key="unfeature" js="0">Termina Esposizione</word>
   <word key="featured" js="0">Esposto</word>
   <word key="open" js="0">Aperto</word>
@@ -578,6 +596,7 @@
   <word key="disable" js="0">Disattiva</word>
   <word key="enable" js="0">Attiva</word>
   <word key="locked" js="0">Chiuso</word>
+  <word key="start" js="0">Inizio</word>
   <word key="end" js="0">Fine</word>
   <word key="dashboard" js="0">Panoramica</word>
   <word key="processing" js="0">In elaborazione...</word>
@@ -689,7 +708,7 @@
   <word key="information" js="0">Informazioni</word>
   <word key="go" js="0">Vai</word>
   <word key="content" js="0">Contenuto</word>
-  <word key="poll_num_votes" js="0">{# [1:voto][?:voti]}</word>
+  <word key="poll_num_votes" js="0">{# [1:utente ha votato][?:utenti hanno votato]}</word>
   <word key="votes" js="0">voti</word>
   <word key="_split_type" js="0">Separa in</word>
   <word key="split_type_new" js="0">Nuova %s</word>
@@ -2147,6 +2166,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="copyright_line" js="0">Linea Copyright</word>
   <word key="copyright_line_desc" js="0">Testo opzionale che sarà visualizzato di default nel footer del sito. Utile per informazioni generali sul copyright.</word>
   <word key="copyright_line_placeholder" js="0">es. Copyright © 2013 Nome Sito.</word>
+  <word key="menutab__members_icon" js="0">Utente</word>
   <word key="menutab__core" js="0">Sistema</word>
   <word key="menu__core_applications" js="0">Funzionalità Sito</word>
   <word key="menu__core_applications_applications" js="0">Applicazioni</word>
@@ -2883,10 +2903,10 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="attach_filesize" js="0">Dimensione</word>
   <word key="attach_date" js="0">Data caricamento</word>
   <word key="attach_member_id" js="0">Caricato da</word>
-  <word key="attach_hits" js="0">Numero di download</word>
+  <word key="attach_hits" js="0">Download</word>
   <word key="attach_ext" js="0">Estensione</word>
   <word key="attach_view_locations" js="0">Vedi Luogo</word>
-  <word key="attach_hits_count" js="0">{# download}</word>
+  <word key="attach_hits_count" js="0">{# [1:download][?:download]}</word>
   <word key="r__files_view" js="0">Può visualizzare i file?</word>
   <word key="r__files_delete" js="0">Può eliminare i file?</word>
   <word key="r__files_settings" js="0">Può gestire le impostazioni di memorizzazione?</word>
@@ -3004,7 +3024,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="ads_ad_impressions" js="0">Impressioni</word>
   <word key="ads_ad_clicks" js="0">Click</word>
   <word key="ads_ad_active" js="0">Stato</word>
-  <word key="ads_ad_start" js="0">Data di inizio</word>
+  <word key="ads_ad_start" js="0">Inizio</word>
   <word key="ads_ad_end" js="0">Data di fine</word>
   <word key="ads_ad_maximum_value" js="0">Ferma Pubblicità</word>
   <word key="acplog_ad_settings" js="0">Modificate impostazioni annuncio pubblicitario</word>
@@ -3963,12 +3983,13 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="status_date_started" js="0">Inviato da %s</word>
   <word key="status_date_replied" js="0">Ha risposto %s</word>
   <word key="no_photo_to_crop" js="0">Non esiste una foto di profilo disponibile da ritagliare</word>
-  <word key="user_own_activity_item" js="0">%s ha inviato %s in </word>
+  <word key="user_own_activity_item" js="0">%2$s ha inviato %1$s in </word>
   <word key="user_own_activity_comment" js="0">%s ha commentato %s </word>
   <word key="user_own_activity_review" js="0">%s ha recensito %s in </word>
   <word key="user_own_activity_reply" js="0">%2$s ha risposto a %1$s in</word>
   <word key="user_other_activity_comment" js="0">%s ha commentato al %s %s in </word>
   <word key="user_other_activity_review" js="0">%s ha recensito %s %s in </word>
+  <word key="user_other_activity_reply" js="0">%2$s ha risposto a %3$s in %1$s</word>
   <word key="modperms__core_Content_core_Statuses_Status" js="0">Aggiornamenti stato</word>
   <word key="can_edit_member_status" js="0">Può modificare gli stati?</word>
   <word key="can_hide_member_status" js="0">Può nascondere gli stati?</word>
@@ -4200,6 +4221,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="status_num_replies" js="0">{# [1: risposta][?:risposte]}</word>
   <word key="member_posted_status_self" js="0">%s ha inviato un nuovo aggiornamento dello stato</word>
   <word key="member_posted_status_other" js="0">%s ha pubblicato un nuovo aggiornamento di stato sul profilo di %s</word>
+  <word key="search_content_search" js="0">Ricerca contenuti</word>
+  <word key="search_member_search" js="0">Ricerca membro</word>
   <word key="no_results_for_x" js="0">Nessun %s corrisponde a questa ricerca</word>
   <word key="search_section_results" js="0">%s risultati</word>
   <word key="search_custom" js="0">Personalizzata...</word>
@@ -4232,10 +4255,15 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="search_results_title_tag" js="0">Contenuti taggati con %s</word>
   <word key="search_results_title_tag_area" js="0">Contenuti taggati con %s in %s</word>
   <word key="see_results_for" js="0">Guarda i risultati in %s</word>
+  <word key="search_members" js="0">Cerca Membri</word>
   <word key="q" js="0">Termini di ricerca</word>
   <word key="eitherTermsOrTags" js="0">Tipo di corrispondenza</word>
   <word key="termsortags_or_desc" js="0"><![CDATA[Termini di ricerca <strong>O</strong> tags]]></word>
   <word key="termsortags_and_desc" js="0"><![CDATA[Termini di ricerca <strong>E</strong> tags]]></word>
+  <word key="searchIn" js="0">Cerca risultati in...</word>
+  <word key="andOr" js="0">Cerca risultati che contengono...</word>
+  <word key="search_and" js="0"><![CDATA[<em>Tutte</em> le parole della mia ricerca]]></word>
+  <word key="search_or" js="0"><![CDATA[<em>Qualsiasi</em> parola della mia ricerca]]></word>
   <word key="searchType" js="0">Tipo di contenuto</word>
   <word key="startDate" js="0">Data di creazione</word>
   <word key="updatedDate" js="0">Ultimo Aggiornamento</word>
@@ -4260,6 +4288,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="categories" js="0">Categorie</word>
   <word key="categories_add_child" js="0">Crea sotto categoria</word>
   <word key="core_members_pl" js="0">Membri</word>
+  <word key="search_by_tags" js="0">Cerca per tag</word>
+  <word key="search_by_author" js="0">Cerca per autore</word>
   <word key="all_new_content" js="0">Tutti i nuovi contenuti</word>
   <word key="onlyFollowed" js="0">Seguito</word>
   <word key="onlyFollowed_desc" js="0">Trova solo nuovi contenuti nei contenitori o nei contenuti che seguo</word>
@@ -4290,6 +4320,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="last_60_days" js="0">Ultimi 60 giorni</word>
   <word key="last_90_days" js="0">Ultimi 90 giorni</word>
   <word key="earlier" js="0">Prima</word>
+  <word key="search_titles_only" js="0">%s solo nei titoli del contenuto</word>
   <word key="menu__core_support" js="0">Supporto</word>
   <word key="menu__core_support_dashboard" js="0">Supporto</word>
   <word key="get_support" js="0">Otteni Supporto</word>
@@ -4389,6 +4420,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="remote_image_proxy_desc" js="0">Quando si utilizza https e membri inviano link remoti a immagini insicure, ciò può causare la segnalazione della pagina come insicura nel browser. Questa impostazione, se abilitata, provoca l'estrazione dell'immagine e viene quindi servita dal server web locale sopra https.</word>
   <word key="image_proxy_cache_period" js="0">Cache immagini remote</word>
   <word key="image_proxy_cache_period_desc" js="0">Una copia dell'immagine remota verrà scaricata sul server e memorizzata per il periodo di tempo specificato. Dopo questa volta, l'immagine memorizzata viene eliminata e verrà scaricata nuovamente se viene visualizzata di nuovo.</word>
+  <word key="rss_import_showlink_default" js="0">Leggi l'articolo completo</word>
   <word key="r__api_manage" js="0">Può visualizzare le chiavi API?</word>
   <word key="r__api_add" js="0">Può creare chiavi API?</word>
   <word key="r__api_edit" js="0">Può modificare le chiavi API?</word>
@@ -4519,6 +4551,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="searchTitleTerm" js="1">Ricerca per '{{term}}'</word>
   <word key="searchTitleTermType" js="1">Ricerca per '{{term}}' in {{type}}</word>
   <word key="searchTitleType" js="1">Ricerca in  in {{type}}</word>
+  <word key="searchMembers" js="1">Cerca Membri</word>
   <word key="emoticonCategories" js="1">Categorie</word>
   <word key="emoticonSearch" js="1">Cerca</word>
   <word key="emoticonOverview" js="1">Panoramica</word>
@@ -4712,6 +4745,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="errorLoadingStream" js="1">Spiacenti, si è verificato un errore di caricamento di ulteriori attività.</word>
   <word key="loadNewActivity" js="1">Caricare più attività</word>
   <word key="noMoreActivity" js="1">Non esiste più attività da visualizzare</word>
+  <word key="streamDefaultTooltip" js="1">Abbiamo messo il tuo flusso &quot;{{title}}&quot; qui per facilitarne l'accesso</word>
   <word key="notificationGeneralSingle" js="1">Nuova notifica</word>
   <word key="notificationGeneralMultiple" js="1">{# [1:nuova notifica][?:nuove notifiche]}</word>
   <word key="notificationFlashSingle" js="1">Hai una nuova notifica</word>
@@ -4754,6 +4788,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="vnc_view_weekly" js="0">Vista settimanale</word>
   <word key="plugin_step_resourceFiles" js="0">risorse tema</word>
   <word key="search_sphinx_server_err" js="0">È necessario utilizzare un indirizzo IP o un hostname. localhost non è permesso.</word>
+  <word key="stream_edit_title" js="0">Modifica titolo del flusso</word>
   <word key="editor_pasted_embed_link" js="0">Il tuo collegamento è stato incorporato automaticamente</word>
   <word key="editor_remove_embed" js="0">Mostra come un collegamento</word>
   <word key="editor_keep_embed" js="0">Conserva il contenuto incorporato</word>
@@ -4792,6 +4827,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_edit_ok" js="1">Salva membro</word>
   <word key="member_edit_cancel" js="1">Cancella</word>
   <word key="streamFilter_stream_read_unread" js="1">Non Letti</word>
+  <word key="streamFilter_stream_read_all" js="1"><![CDATA[<em>Qualsiasi</em>]]></word>
+  <word key="streamFilter_stream_follow_all" js="1"><![CDATA[<em>Qualsiasi</em>]]></word>
+  <word key="streamFilter_stream_follow_followed" js="1">Sto seguendo</word>
+  <word key="streamFilter_stream_ownership_all" js="1"><![CDATA[<em>Qualsiasi</em>]]></word>
+  <word key="streamFilter_stream_date_type_all" js="1"><![CDATA[<em>Ogni volta</em>]]></word>
+  <word key="streamFilter_stream_date_type_start" js="1">{{start}} in poi</word>
+  <word key="streamFilter_stream_date_type_range" js="1">{{inizio}} a {{fine}}</word>
   <word key="streamFilter_stream_classes_all" js="1"><![CDATA[<em>Qualsiasi</em>
 ]]></word>
   <word key="ip_override_warn" js="0"><![CDATA[Questa impostazione è in corso di override per le sessioni di AdminCP perché il <code>BYPASS_ACP_IP_CHECK</code> La costante è abilitata nel file constants.php. <a href='{external.disable_ip_check}' target='_blank'>Maggiori informazioni</a>]]></word>
@@ -4812,6 +4854,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mail_method_sparkpost_desc" js="0"><![CDATA[Utilizza <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_Sparkpost}'>SparkPost</a> API per inviare e-mail in modo rapido e affidabile.]]></word>
   <word key="core_theme_set_is_acp_default" js="0">Tema Predefinito Pannello Amministrativo?</word>
   <word key="email_content_reported_plain" js="0">%s ha segnalato %s intitolato %s</word>
+  <word key="stream_unread_links" js="0">Fare clic su elementi non letti</word>
+  <word key="stream_unread_links_normal" js="0">Portami in cima alla pagina</word>
+  <word key="stream_unread_links_unread" js="0">Portami al primo commento non letto</word>
+  <word key="stream_unread_links_normal_inline" js="0">I collegamenti degli elementi non letti mi portano in cima alla pagina</word>
+  <word key="stream_unread_links_unread_inline" js="0">I collegamenti degli elementi non letti mi portano al primo commento non letto</word>
   <word key="stream_results_as_condensed" js="0">Riassunto</word>
   <word key="stream_results_as_expanded" js="0">Esteso</word>
   <word key="editor_no_media" js="0">Non hai alcun allegato esistente.</word>
@@ -4882,8 +4929,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="messagesMove" js="1">Muovi la conversazione</word>
   <word key="messageSearchFail" js="1">Non hai selezionato nulla da cercare</word>
   <word key="messageSearchFailSubText" js="1">Seleziona almeno un elemento da cercare nel menu di ricerca.</word>
+  <word key="__defart_personal_conversation" js="0">conversazione personale</word>
+  <word key="__defart_personal_conversation_message" js="0">messaggio in una conversazione personale</word>
   <word key="__defart_report" js="0">segnalazione</word>
   <word key="__defart_report_comment" js="0">commenta una segnalazione</word>
+  <word key="__defart_member_status" js="0">aggiornamento stati</word>
   <word key="form_upload_max_files" js="0">Puoi caricare un massimo di {# [1:file][?:files]}</word>
   <word key="image_width_help" js="0">(larghezza)</word>
   <word key="image_height_help" js="0">(altezza)</word>
@@ -4940,6 +4990,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="dashboard_datastore_broken_desc" js="0"><![CDATA[La Suite Community memorizza determinati dati per migliorare le prestazioni, tuttavia ciò potrebbe non funzionare correttamente. Rivedere la vostra <a href='{internal.app=core&module=settings&controller=advanced&tab=datastore}'>configurazione della memorizzazione dei dati</a> e correggere le impostazioni come necessario per migliorare la velocità e le prestazioni della Suite.]]></word>
   <word key="dashboard_datastore_broken_settings" js="0">La Suite Community memorizza alcuni dati per migliorare le prestazioni, tuttavia ciò potrebbe non funzionare correttamente. Potrebbe essere necessario utilizzare un altro metodo di memorizzazione dei dati o modificare la configurazione del metodo di memorizzazione dei dati che utilizza di seguito.</word>
   <word key="report_no_title_available" js="0">Titolo del rapporto non disponibile</word>
+  <word key="announce_permissions" js="0">Chi può vedere questo annuncio</word>
   <word key="menu__core_settings_contactus" js="0">Contattaci</word>
   <word key="r__contactus" js="0">Contattaci</word>
   <word key="r__contactus_manage" js="0">Può gestire le impostazioni di contatto</word>
@@ -5054,6 +5105,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="profanity_replace_text" js="0">Sostituisci Testo</word>
   <word key="menu__core_promotion_analytics" js="0">Analitica</word>
   <word key="r__analytics_manage" js="0">Può gestire l'integrazione di analisi?</word>
+  <word key="ad_new_window" js="0">Aprire il link in una nuova finestra?</word>
   <word key="guest_terms_options" js="0">Opzioni del cliente</word>
   <word key="guest_terms_bar" js="0">Mostra bar di conferma dei termini di servizio agli Ospiti?</word>
   <word key="guest_terms_bar_text" js="0">Testo da mostrare</word>
@@ -5241,6 +5293,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__mfa" js="0">Autenticazione a Due Fattori</word>
   <word key="r__mfa_manage" js="0">Può gestire le impostazioni di autenticazione a due fattori?</word>
   <word key="r__member_mfa" js="0">Può visualizzare e modificare le impostazioni di autenticazione a due fattori dei membri?</word>
+  <word key="acplogs__mfa_handler_enabled" js="0">Abilitato %s</word>
+  <word key="acplogs__mfa_handler_disabled" js="0">Abilitato %s</word>
   <word key="google_authenticator_scan" js="0">Scansiona questo codice con l'app Google Authenticator</word>
   <word key="google_authenticator_setup_code" js="0">Inserisci il codice dall'app</word>
   <word key="google_submit_code" js="0">Verificare il codice</word>
@@ -5259,6 +5313,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mfa_google_reauth" js="0">Riconfigurare</word>
   <word key="mfa_recovery_questions" js="0">Rispondi a una domanda di sicurezza</word>
   <word key="mfa_questions_reauth" js="0">Scegli le nuove risposte</word>
+  <word key="stream_default_view" js="0">Visualizzazione predefinita</word>
   <word key="stream_default_view_expanded" js="0">Esteso</word>
   <word key="stream_default_view_condensed" js="0">Riassunto</word>
   <word key="move_send_to_item" js="0">Spostare e tornare a questo %s</word>
@@ -5282,10 +5337,25 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="requirements_extension_advice_zip" js="0">Non è stata caricata l'estensione Zip PHP. Senza questa estensione PHP, non sarà possibile installare i plugin CKEditor o utilizzare l'aggiornamento automatico nel AdminCP. È necessario contattare il provider di hosting o l'amministratore di sistema per assistenza per l'installazione di questa estensione.</word>
   <word key="requirements_suhosin_cookie_encrypt" js="0">L'impostazione di PHP suhosin.cookie.encrypt è impostata su 1. Ciò può causare problemi in alcune aree come la funzionalità di salvataggio automatico dell'editor. Abbiamo consigliato un valore di 0 per disattivarlo.</word>
   <word key="google_wait_for_code" js="0">In attesa di un nuovo codice</word>
+  <word key="__defart_comment" js="0">commento</word>
   <word key="stream_club_select_all" js="0">Tutti i contenuti</word>
+  <word key="activity_member_reacted" js="0"><![CDATA[ <img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s">  %s ha reagito a %s: %s]]></word>
+  <word key="activity_club" js="0">%s ha creato il club: %s</word>
   <word key="add_message" js="0">Aggiungi messaggio</word>
+  <word key="node_mass_move_any_time" js="0">Ogni volta</word>
+  <word key="members_device" js="0">Dispositivo</word>
+  <word key="members_devices" js="0">Dispositivi</word>
+  <word key="device_table_member_id" js="0">Membro</word>
+  <word key="members_iptable_location" js="0">Posizione stimata*</word>
+  <word key="notification__new_react" js="0">{!#[?:%s ha reagito a]} %s</word>
   <word key="g_can_report" js="0">Può segnalare i contenuti?</word>
+  <word key="mf_leaderboard" js="0">Utente del giorno</word>
+  <word key="react_blurb_just_you" js="0">Hai reagito a questo</word>
+  <word key="see_who_reacted" js="0">Guarda chi ha reagito</word>
+  <word key="reaction_remove" js="0">Rimuovi la tua reazioni</word>
+  <word key="edit_who_reacted" js="0">Modifica Reazioni</word>
   <word key="pf_allow_attachments" js="0">Consenti allegati?</word>
+  <word key="menu__core_activitystats_memberactivity" js="0">Membri attivi</word>
   <word key="days_ago" js="0">giorni fa</word>
   <word key="dellog_retention_period" js="0">Rimuovi permanentemente il contenuto</word>
   <word key="dellog_days_after_deleted" js="0">giorni dopo che è stato rimosso</word>
@@ -5294,9 +5364,75 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="dellog_deleted_date" js="0">Data</word>
   <word key="dellog_deleted_by" js="0">Moderatore</word>
   <word key="report_reply" js="0">Segnala risposta</word>
+  <word key="acp_search_title_core_Clubs" js="0">Club</word>
+  <word key="__api_core_groups" js="0">Gruppi</word>
+  <word key="promote_tab_permissions" js="0">Permessi</word>
+  <word key="club_type_public" js="0">Publico</word>
+  <word key="club_type_public_desc" js="0">Tutti possono vedere il club e le discussioni e parteciparvi senza farne parte.</word>
+  <word key="club_type_open" js="0">Aperto</word>
+  <word key="club_type_open_desc" js="0">Tutti possono vedere il club e le discussioni, ma solo i membri possono partecipare. Tutti possono iscriversi.</word>
+  <word key="club_type_closed" js="0">Chiuso</word>
+  <word key="club_type_closed_desc" js="0">Tutti possono vedere il club e chi è iscritto, ma solo i membri possono vedere le discussioni e partecipare. Gli utenti devono chiedere a un leader per l'iscrizione.</word>
+  <word key="club_type_private" js="0">Privato</word>
+  <word key="club_open" js="0">Club Aperto</word>
+  <word key="club_type_private_desc" js="0">Solo i membri possono vedere il club e vedere le discussioni. Gli utenti devono essere invitati da un leader per potersi iscrivere.</word>
+  <word key="create_club" js="0">Inizia un Club</word>
+  <word key="club_name" js="0">Nome</word>
+  <word key="my_clubs" js="0">Miei Club</word>
+  <word key="all_clubs" js="0">Tutti i Club</word>
+  <word key="my_clubs_empty" js="0">Non sei membri di nessun club.</word>
+  <word key="all_clubs_empty" js="0">Non ci sono Club da mostrare.</word>
+  <word key="club_invite_members" js="0">Invita Membri</word>
+  <word key="notifications__club_invitation" js="0">Sono invitato a far parte di un club</word>
+  <word key="club_manage" js="0">Gestisci Club</word>
+  <word key="notifications__club_request" js="0">Un membro richiede di entrare a far parte di un club di cui sono leader</word>
+  <word key="notifications__club_join" js="0">Un membro si unisce a un club di cui sono leader</word>
+  <word key="club_members" js="0">Membri</word>
+  <word key="club_all_members" js="0">Tutti i Membri</word>
+  <word key="club_members_count" js="0">{# [1:membro][?:membri]}</word>
+  <word key="notifications__club_response" js="0">Un leader risponde alla mia richiesta di entrare in un club</word>
+  <word key="club_edit_settings" js="0">Modifica Impostazioni Club</word>
+  <word key="club_create_node" js="0">Aggiungi funzioni al club</word>
+  <word key="club_node_name" js="0">Nome</word>
+  <word key="club_node_description" js="0">Descrizione</word>
+  <word key="r__fields" js="0">Campi Extra</word>
+  <word key="r__fields_manage" js="0">Può visualizzare campi aggiuntivi?</word>
+  <word key="r__fields_add" js="0">Può creare campi aggiuntivi?</word>
+  <word key="r__fields_edit" js="0">Può modificare campi aggiuntivi?</word>
+  <word key="r__fields_delete" js="0">Può eliminare campi aggiuntivi?</word>
+  <word key="club_modperm_pin" js="0">Contenuto Importante</word>
+  <word key="club_modperm_unpin" js="0">Contenuto Non Importante</word>
+  <word key="club_modperm_unhide" js="0">Può rendere visibile i Contenuti</word>
+  <word key="club_modperm_edit" js="0">Modificare Contenuto</word>
+  <word key="club_modperm_lock" js="0">Chiudere il contenuto</word>
+  <word key="club_modperm_unlock" js="0">Riaprire il contenuto</word>
+  <word key="club_modperm_reply_to_locked" js="0">Rispondi a contenuto bloccato</word>
   <word key="club_modperm_delete" js="0">Rimuovi contenuto</word>
+  <word key="acplog__club_settings" js="0">Impostazioni Club Modificate</word>
   <word key="acplog__node_deleted_club" js="0">Rimosso %s - %s dal club %s</word>
+  <word key="club_profile_photo" js="0">Icona Club</word>
+  <word key="clubs_header" js="0">Mostra informazioni sul Club</word>
+  <word key="clubs_header_full" js="0">Nell'intestazione</word>
+  <word key="clubs_header_sidebar" js="0">Nella sidebar</word>
   <word key="clubs_activity_joined" js="0">%s è entrato nel club</word>
+  <word key="club_about" js="0">Descrizione</word>
+  <word key="clubs_default_sort" js="0">Ordinamento predefinito nella home page dei Club</word>
+  <word key="clubs_sort_last_activity" js="0">Ultime Attività</word>
+  <word key="clubs_sort_members" js="0">Più Membri</word>
+  <word key="clubs_sort_content" js="0">Più Contenuti</word>
+  <word key="clubs_sort_created" js="0">Ultimo Creato</word>
+  <word key="clubs_sort_name" js="0">Nome</word>
+  <word key="club_home" js="0">Panoramica</word>
+  <word key="club_feature" js="0">Esponi questo Club</word>
+  <word key="club_unfeature" js="0">Non esporre questo Club</word>
+  <word key="club_about_this_club" js="0">Informazioni su questo Club</word>
+  <word key="club_whats_new" js="0">Novità in questo club</word>
+  <word key="clubs_custom_fields" js="0">Campi Extra</word>
+  <word key="club_filter_type" js="0">Tipo del Club</word>
+  <word key="club_member" js="0">Sei un membro di questo club</word>
+  <word key="clubs_recent_activity" js="0">Attività recente nei miei Club</word>
+  <word key="clubs_no_recent_activity" js="0">Quando sei membro di uno o più club, la loro attività recente sarà mostrata qui.</word>
+  <word key="club_embed_created_line" js="0">%s ha creato un club</word>
   <word key="history_deleted_group" js="0">gruppo rimosso</word>
   <word key="complete_profile_app__core_Core" js="0">Sistema</word>
   <word key="month_0_short" js="1">Gen</word>
@@ -5311,29 +5447,50 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="month_9_short" js="1">Ott</word>
   <word key="month_10_short" js="1">Nov</word>
   <word key="month_11_short" js="1">Dic</word>
+  <word key="members_validating_cancelled" js="0">Questo membro ha cancellato la sua registrazione</word>
+  <word key="mailsub__core_notification_new_react" js="0"><![CDATA[Qualcuno ha reagito a {$comment->indefiniteArticle( $email->language )}]]></word>
+  <word key="email_new_reacted" js="0">%s ha reagito a: %s</word>
   <word key="whatsNew" js="1">Novità in Invision Community</word>
   <word key="cookies_message" js="0"><![CDATA[Abbiamo inserito dei <a href='%s'>cookies</a> nel tuo dispositivo per aiutarti a migliorare la tua esperienza su questo sito. Puoi <a href='%s'>modificare le impostazioni dei cookie,</a>  altrimenti puoi accettarli cliccando su continua.]]></word>
+  <word key="members_last_activity" js="0">Ultima attività</word>
+  <word key="members_allow_admin_emails" js="0">Consenti email collettive?</word>
   <word key="view_attachments" js="0">Visualizza allegati</word>
+  <word key="admin_enable_messenger" js="0">Messenger Abilitato</word>
   <word key="report_comment" js="0">segnala un commento</word>
   <word key="report_message_comment" js="0">Questo commento va bene, ma voglio parlare con un moderatore</word>
   <word key="report_message_item" js="0">Va bene, ma voglio parlare con un moderatore</word>
   <word key="report_type" js="0">Perché vuoi segnalare questo?</word>
   <word key="report_type_byline" js="0">Segnalato come %s.</word>
+  <word key="notifications__unapproved_club" js="0">Viene creato un nuovo club che richiede l'approvazione</word>
   <word key="diagnostics_reporting_usage" js="0">Dati di utilizzo</word>
   <word key="task__usagereporting" js="0">Riporta i dati di utilizzo a Invision.</word>
+  <word key="site_social_profiles_desc" js="0">Visualizza le icone dei social media nell'intestazione o nel piè di pagina del tuo sito, in base all'impostazione del tema, che collega agli URL dei profili social inseriti.</word>
+  <word key="menu__core_membersettings_profilecompletion" js="0">Completamente del profilo</word>
+  <word key="menu__core_stats_membersactivity" js="0">Attività dei membri</word>
   <word key="license_renewal_soon" js="0">La licenza scade {! # [0: Oggi] [1: Domani] [?: in # giorni]}	</word>
+  <word key="automaticmoderation_enabled" js="0">Abilitato?</word>
   <word key="reportedContent_settings" js="0">impostazioni</word>
   <word key="automoderation_already_reported" js="0">Ha già segnalato questo: %s</word>
   <word key="automoderation_already_reported_delete" js="0">Rimuovi la tua segnalazione</word>
   <word key="automoderation_report_again_mins_suffix" js="0">minuti</word>
   <word key="automoderation_deleted" js="0">Segnalazione cancellata</word>
   <word key="automaticmod_types" js="0">Tipo di segnalazione</word>
+  <word key="notifications__automatic_moderation" js="0">Il contenuto è automaticamente moderato</word>
+  <word key="block_user_in_editor" js="0">Digitando...</word>
   <word key="__api_core_messages" js="0">Messaggi</word>
   <word key="__api_core_search" js="0">Cerca</word>
   <word key="oauth_app_revoke" js="0">Rimuovi</word>
   <word key="oauth_revoke_all_tokens" js="0">Revoca tutto</word>
+  <word key="club_active_members" js="0">Membri Attivi</word>
   <word key="club_remove_invitation" js="0">Revoca invito</word>
+  <word key="menu__core_clubs_fields" js="0">Campi Extra</word>
   <word key="clubs_delete_this_container" js="0">Rimuovi questo %s</word>
+  <word key="club_view_grid" js="0">Griglia: Mostra i club come carte in una griglia</word>
+  <word key="club_view_list" js="0">Elenco: Visualizza i club in un elenco</word>
+  <word key="club_settings" js="0">Impostazioni Club</word>
+  <word key="club_moderation" js="0">Permessi</word>
+  <word key="clubs_default_view" js="0">Visualizzazione predefinita</word>
+  <word key="clubs_allow_view_change" js="0">Consenti agli utenti di scegliere la visualizzazione?</word>
   <word key="history_photo_resize" js="0">Foto del profilo ridimensionata%s.</word>
   <word key="history_deleted_group_id" js="0"><![CDATA[<em>gruppo rimosso #%d</em>]]></word>
   <word key="history_flagged_spammer_action_delete" js="0">tutti i contenuti rimossi</word>
@@ -5341,10 +5498,18 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_filter_core_joined_days_lt_desc" js="0">iscritto meno di %s giorni fa</word>
   <word key="ac_optional" js="1">Scegli</word>
   <word key="emoji-u6708" js="1">Segno giapponese che significa &quot;importo mensile&quot;</word>
+  <word key="go_to_public_profile" js="0">Vai al Profilo Pubblico</word>
+  <word key="auto_track_type_desc" js="0"><![CDATA[La modifica di questa opzione non influisce sul <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>contenuto già seguito</a>.]]></word>
+  <word key="notifications__embed" js="0">Qualcuno pubblica un link al mio contenuto</word>
+  <word key="everything" js="0">qualsiasi</word>
   <word key="remote_image_proxy_secure_info" js="0">Ciò impedirà ai browser di segnalare che alcuni contenuti della pagina non sono sicuri.</word>
+  <word key="__api_core_clubs" js="0">Club</word>
+  <word key="reorder_club_menu" js="0">Riordina Menu</word>
   <word key="new_version_email_whatsnew" js="0">Ecco cosa c'è di nuovo in questa versione:</word>
   <word key="acp_notification_group_system" js="0">Informazione Sistema</word>
   <word key="s3-RequestTimeTooSkewed_admin" js="0"><![CDATA[Il server S3 ha segnalato che il tempo di richiesta era troppo lungo, il che potrebbe indicare che l'ora del server è impostato in modo errato. Eseguito <a href='{internal.admin.app=core&module=support&controller=support}'> lo strumento di supporto </a> per ulteriori informazioni.]]></word>
+  <word key="attachmentDownloads" js="1">{# [1:download][?:download]}</word>
+  <word key="pbr_confirm_text" js="1">Questo rimuoverà immediatamente la tua richiesta e il tuo indirizzo email.</word>
  </app>
  <app key="cms" version="104023">
   <word key="menutab__cms" js="0">Pagine</word>
@@ -5355,8 +5520,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="rebuilding_cms_database_records" js="0">Ricostruzione %s record</word>
   <word key="module_no_permission" js="0">Nessun permesso</word>
   <word key="sitemap_cms_Pages" js="0">Pagine</word>
+  <word key="can_pin_record" js="0">Può impostare importante %s?</word>
+  <word key="can_unpin_record" js="0">Può rimuovere importanza a %s?</word>
   <word key="can_edit_record" js="0">Può modificare %s?</word>
   <word key="can_hide_record" js="0">Può nascondere %s?</word>
+  <word key="can_unhide_record" js="0">Può rendere visibile %s?</word>
   <word key="can_move_record" js="0">Può spostare %s?</word>
   <word key="can_lock_record" js="0">Può chiudere %s?</word>
   <word key="can_unlock_record" js="0">Può riaprire %s?</word>
@@ -5822,6 +5990,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__media_edit" js="0">Modifica Media </word>
   <word key="r__media_delete" js="0">Elimina Media</word>
   <word key="cms_delete_selected_media" js="0">Rimuovi Selezionati</word>
+  <word key="cms_search_media" js="0">Cerca media...</word>
   <word key="media_folders" js="0">Cartelle</word>
   <word key="media_file_overview" js="0">Panoramica del file</word>
   <word key="media_root_folder" js="0">Pagine Media</word>
@@ -6014,6 +6183,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="field_daterange_end" js="0">Per %s</word>
   <word key="__defart_content_db_lang_sl" js="0">%s</word>
   <word key="__defart_content_record_comments_title" js="0">commento</word>
+  <word key="__defart_content_record_reviews_title" js="0">recensione</word>
   <word key="converting_pages_34x" js="0">Conversione pagina bbcode in HTML</word>
   <word key="content_tree_title" js="0">Albero di Categoria</word>
   <word key="content_record_comments_title_lc" js="0">%s commenti</word>
@@ -6027,6 +6197,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="field_date_time_time" js="0">Consenti l'immissione di tempo</word>
   <word key="database_rss_enable_desc" js="0"><![CDATA[Solo il contenuto disponibile per gli ospiti sarà visualizzato. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>RSS Feed Personalizzato</a>]]></word>
   <word key="database_field__edited" js="0">Data Ultima Modifica</word>
+  <word key="cms_database_permissions" js="0">Permessi Database</word>
   <word key="field_date_tz_set" js="0">Seleziona manualmente un fuso orario</word>
   <word key="field_date_tz_user" js="0">Utilizza il fuso orario del membro della visualizzazione</word>
   <word key="copy_topic_to_database" js="0">Copia nel Database</word>
@@ -6072,6 +6243,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="can_unpin_topic" js="0">Può rimuovere importanza alle discussioni/domande?</word>
   <word key="can_edit_topic" js="0">Può modificare le discussioni/domande?</word>
   <word key="can_hide_topic" js="0">Può nascondere le discussioni/domande?</word>
+  <word key="can_unhide_topic" js="0">Può rendere visibile discussioni/domande?</word>
   <word key="can_view_hidden_topic" js="0">Può visualizzare le discussioni/domande nascoste?</word>
   <word key="can_move_topic" js="0">Può spostare discussione/domande?</word>
   <word key="can_lock_topic" js="0">Può chiudere le discussioni/domande?</word>
@@ -6220,7 +6392,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="archive_storage_location_remote" js="0">Un database remoto</word>
   <word key="greater_than" js="0">Più di</word>
   <word key="less_than" js="0">Meno di</word>
-  <word key="any_time" js="0">Qualsiasi momento</word>
+  <word key="any_time" js="0">Ogni volta</word>
   <word key="archive_rules_effects" js="0">Numero di discussioni che saranno archiviati con le regole selezionate</word>
   <word key="forum_sort_key" js="0">Ordinamento predefinito</word>
   <word key="archive_settings" js="0">Impostazioni di archiviazione</word>
@@ -6293,6 +6465,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="locked_topics" js="0">Chiuso</word>
   <word key="poll" js="0">Sondaggio</word>
   <word key="moved_topics" js="0">Spostato</word>
+  <word key="topics_i_started" js="0">Discussioni che ho iniziato</word>
   <word key="questions_i_asked" js="0">Domande che ho chiesto</word>
   <word key="questions_i_posted_in" js="0">Domande su cui ho inviato una risposta</word>
   <word key="question_answered" js="0">Domande con Miglior risposta</word>
@@ -6437,7 +6610,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mm_leave" js="0">Non cambiare</word>
   <word key="topic_state" js="0">Chiuso/Non Chiuso</word>
   <word key="topic_pin" js="0">Importante/Non Importante</word>
-  <word key="topic_approve" js="0">Visibile/Nascondi</word>
+  <word key="topic_approve" js="0">Nascondi/Visibile</word>
   <word key="topic_move" js="0">Sposta</word>
   <word key="topic_move_none" js="0">Non spostare</word>
   <word key="topic_title_st" js="0">Aggiungere all'inizio del titolo</word>
@@ -6482,6 +6655,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="stats_posts_title" js="0">Periodo Nuovi Messaggi</word>
   <word key="block_topicFeed_title" js="0">Discussioni</word>
   <word key="block_postFeed_title" js="0">Messaggi</word>
+  <word key="widget_poll_tid_desc" js="0">Inizia a digitare il nome della discussione</word>
   <word key="poll_view_topic" js="0">Visualizza topic</word>
   <word key="__api_forums_posts" js="0">Messaggi</word>
   <word key="__api_forums_topics" js="0">Discussioni</word>
@@ -6529,11 +6703,18 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="archivedpost_pl_lc" js="0">Messaggi archiviati</word>
   <word key="question_merged_to" js="0"><![CDATA[La domanda è stata fusa con <a href='%s'> <strong>%s</strong></a>]]></word>
   <word key="can_delete_item_message_topic" js="0">Può rimuovere i messaggi da una discussione?</word>
+  <word key="forums_default_view_grid" js="0">Griglia: Mostra i forum come carte in una griglia</word>
+  <word key="__api_forums_forums" js="0">Forum</word>
+  <word key="remove_your_vote" js="0">Rimuovi il tuo voto</word>
+  <word key="js_remove_your_vote" js="1">Rimuovi il tuo voto</word>
  </app>
  <app key="downloads" version="104023">
   <word key="__indefart_downloads_file_comment" js="0">un commento sul file</word>
   <word key="__indefart_downloads_file" js="0">un file</word>
   <word key="__indefart_downloads_file_review" js="0">una recensione sul file</word>
+  <word key="menu__downloads_downloads" js="0">Download</word>
+  <word key="module__downloads_downloads" js="0">Download</word>
+  <word key="menu__downloads_stats" js="0">Download</word>
   <word key="module__downloads_stats" js="0">Statistiche</word>
   <word key="downloads_file_container" js="0">categoria</word>
   <word key="filestorage__downloads_FileField" js="0">Download campi personalizzati</word>
@@ -6545,9 +6726,15 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__downloads_downloads_categories" js="0">Categorie</word>
   <word key="ctypes" js="0">Estensioni file consentite</word>
   <word key="cparent" js="0">Categoria Genitore</word>
+  <word key="any_extensions" js="0">qualsiasi estensione</word>
   <word key="cmaxfile" js="0">Dimensione massima del file</word>
+  <word key="ccfields" js="0">Campi Extra</word>
+  <word key="cbitoptions_allowss" js="0">Attivare gli screenshot?</word>
+  <word key="cbitoptions_reqss" js="0">Screenshot richiesto?</word>
   <word key="cmaxss" js="0">Dimensione massima dello screenshot</word>
   <word key="csortorder" js="0">Ordinamento predefinito</word>
+  <word key="cbitoptions_comments" js="0">Attivare i Commenti?</word>
+  <word key="cbitoptions_reviews" js="0">Attivare le recensioni?</word>
   <word key="noperm_view" js="0">Impossibile visualizzare i file</word>
   <word key="noperm_view_placeholder" js="0">Aggiungi un messaggio di errore ...</word>
   <word key="noperm_dl" js="0">Impossibile scaricare</word>
@@ -6572,7 +6759,16 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="ctopic_suffix" js="0">Suffisso topic</word>
   <word key="cbitoptions_topic_delete" js="0">Rimuovere la discussione se un file viene rimosso?</word>
   <word key="node_no_parentd" js="0">Nessun genitore</word>
+  <word key="modperms__core_Content_downloads_File" js="0">Download</word>
   <word key="download_categories" js="0">Categorie</word>
+  <word key="can_pin_downloads_file" js="0">Può impostare i file importante?</word>
+  <word key="can_unpin_downloads_file" js="0">Può rimuovere importanza ai file?</word>
+  <word key="can_move_downloads_file" js="0">Può spostare i file?</word>
+  <word key="can_edit_downloads_file" js="0">Può modificare i file?</word>
+  <word key="can_unhide_downloads_file" js="0">Può rendere visibile i file?</word>
+  <word key="can_delete_downloads_file" js="0">Può rimuovere i file?</word>
+  <word key="can_hide_downloads_file_comment" js="0">Può nascondere i commenti?</word>
+  <word key="can_unhide_downloads_file_comment" js="0">Può rendere visibile i commenti?</word>
   <word key="menu__downloads_downloads_fields" js="0">Campi Extra</word>
   <word key="r__fields" js="0">Campi Extra</word>
   <word key="r__fields_manage" js="0">Può visualizzare campi aggiuntivi?</word>
@@ -6618,6 +6814,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="idm_import_files_desc" js="0">Quando abilitato, gli utenti potranno importare i file sul server. Dovresti abilitarlo solo per i gruppi di personale dove tutti gli utenti sono attendibili.</word>
   <word key="idm_bulk_submit" js="0">Può presentare più file contemporaneamente?</word>
   <word key="submit_a_file" js="0">Invia un File</word>
+  <word key="submit_first_file" js="0">Invia il primo file</word>
   <word key="file_auto_follow_suffix" js="0">Informatemi quando gli altri commenti sono inviati</word>
   <word key="dl_get_support" js="0">Otteni Supporto</word>
   <word key="dl_get_support_title" js="0">Ottieni supporto per questo download</word>
@@ -6633,8 +6830,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="file_primary_screenshot" js="0">Screenshot primario</word>
   <word key="file_primary_screenshot_desc" js="0">Lo screenshot primario è utilizzato nelle elenchi di categorie.</word>
   <word key="download_now" js="0">Scarica il file</word>
+  <word key="x_downloads" js="0">{# [1:download][?:download]}</word>
   <word key="idm_purchases" js="0">acquisti</word>
+  <word key="num_downloads" js="0">{# [1:download][?:download]}</word>
   <word key="downloads_file_review" js="0">Recensione del file</word>
+  <word key="downloads_file_pl" js="0">File</word>
+  <word key="downloads_file_pl_lc" js="0">file</word>
   <word key="downloads_file_review_pl" js="0">Recensioni dei file</word>
   <word key="downloads_category_select" js="0">Categoria:</word>
   <word key="report_file" js="0">Segnala questo file</word>
@@ -6650,6 +6851,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="whats_new_in_version" js="0"><![CDATA[Novità nella versione <span data-role='versionTitle'>%s</span>]]></word>
   <word key="see_changelog" js="0">Vedi changelog</word>
   <word key="see_changelog_for" js="0">Vedi changelog per la versione %s</word>
+  <word key="see_changelog_title" js="0">Vedi la cronologia delle versioni per questo file</word>
   <word key="download_your_files" js="0">Scarica i tuoi files</word>
   <word key="download_terms" js="0">Termini di download</word>
   <word key="download_terms_desc" js="0">Il tuo file è pronto per essere scaricato. Prima di scaricare, devi accettare i seguenti termini:</word>
@@ -6702,16 +6904,19 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="browse_categories_d" js="0">Esplora Categorie</word>
   <word key="no_files_in_cat" js="0">Ancora nessun file in questa categoria</word>
   <word key="select_your_files" js="0">Seleziona i tuoi file</word>
+  <word key="add_files_by_url" js="0">Aggiungi file da URL</word>
   <word key="save_and_submit_files" js="0"><![CDATA[Salva &amp; Invia File]]></word>
   <word key="featured_downloads" js="0">Download Esposto</word>
   <word key="next_file" js="0">File successivo</word>
   <word key="prev_file" js="0">File Precedente</word>
   <word key="downloads_category_id" js="0">Categoria</word>
+  <word key="view_this_file" js="0">Vai al file %s</word>
   <word key="file_locked_can_comment" js="0">Questo file è bloccato, ma le tue autorizzazioni permettono di aggiungere nuovi commenti.</word>
   <word key="file_locked_cannot_comment" js="0">Questo file è ora chiuso ad ulteriori commenti.</word>
   <word key="file__save" js="0">Salva</word>
   <word key="downloads_no_file" js="0">File non trovato
 </word>
+  <word key="block_downloads_Overview" js="0">Panoramica Download</word>
   <word key="current_month_bandwidth" js="0">Quantità di banda utilizzata in questo mese *</word>
   <word key="largest_file" js="0">File più grande</word>
   <word key="most_viewed_file" js="0">File più visti</word>
@@ -6720,6 +6925,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="latest_submitter" js="0">Ultimo Inviato</word>
   <word key="top_month" js="0">Mese</word>
   <word key="top_submitters_empty__month" js="0">Nessun voto questo mese.</word>
+  <word key="member__downloads_Downloads" js="0">Download</word>
   <word key="idm_block_submissions" js="0">Permesso di presentare file?</word>
   <word key="idm_block_submissions_desc" js="0">Ogni categoria dispone di autorizzazioni per chi può inviare file all'interno di esso. Se questo è disabilitato, l'utente non sarà in grado di inviare alcun file. Se abilitato, le impostazioni per categoria saranno premiate.</word>
   <word key="downloads_stats" js="0">Visualizza statistiche download</word>
@@ -6740,6 +6946,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__downloads_manage" js="0">Può visualizzare le statistiche di download?</word>
   <word key="r__downloaders_manage" js="0">Può visualizzare i migliori downloader?</word>
   <word key="r__submitters_manage" js="0">Può visualizzare i migliori Presentatori</word>
+  <word key="ipAddresses__downloads_DownloadLog" js="0">Download</word>
+  <word key="block_fileFeed" js="0">Feed File</word>
   <word key="loc_downloads_viewing_file" js="0">Visualizzazione file: %s</word>
   <word key="loc_downloads_viewing_category" js="0">Visualizzazione delle categorie: %s</word>
   <word key="loc_downloads_browsing_categories" js="0">Visualizzazione di categorie di download</word>
@@ -6778,6 +6986,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="file_cost_desc_percent" js="0">La commissione %s%% verrà detratta.</word>
   <word key="file_cost_desc_fee" js="0">La tassa di transazione di %s verrà dedotta.</word>
   <word key="file_renewal_term_val" js="0">Termine di rinnovo: %s</word>
+  <word key="notifications__downloads_Files" js="0">Download</word>
   <word key="notifications__new_file_version" js="0">Un file che sto seguendo viene aggiornato con una nuova versione</word>
   <word key="email_new_file_version_plain" js="0">%s ha caricato una nuova versione di %s,</word>
   <word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> ha caricato una nuova versione di %s,]]></word>
@@ -6792,11 +7001,32 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="removeScreenshot" js="1">Rimuovi questa schermata</word>
   <word key="download_teaser" js="0">Crea un account o accedi per scaricare questo</word>
   <word key="file_free_feed" js="0">Gratuito</word>
+  <word key="__defart_downloads_file_comment" js="0">commento a un file</word>
+  <word key="__defart_downloads_file" js="0">file</word>
   <word key="downloads_file_review_pl_lc" js="0">recensioni dei file</word>
+  <word key="block_recentFiles" js="0">File Recenti</word>
   <word key="file_no_price_for_currency" js="0">Questo file non è attualmente disponibile nella valuta scelta.</word>
   <word key="idm_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
   <word key="file_view_details" js="0">Vedi il file</word>
   <word key="nexus_file_no_longer_available" js="0">Questo file non è più disponibile per il download.</word>
+  <word key="search_contextual_item_downloads_categories" js="0">Questa Categoria</word>
+  <word key="search_contextual_item_downloads_file" js="0">Questo File</word>
+  <word key="downloads_categories" js="0">Categorie Download</word>
+  <word key="downloads_categories_pagetitle" js="0">Categorie Download</word>
+  <word key="__api_downloads_categories" js="0">Categorie</word>
+  <word key="member_restrictions__downloads_Downloads" js="0">Download</word>
+  <word key="content_stats__downloads_Downloads" js="0">Download</word>
+  <word key="modperms__downloads_Files" js="0">Download</word>
+  <word key="downloads_stat_of_total_link" js="0">%s (%d%% del totale) %s</word>
+  <word key="downloadsScreenshotsWatermarkYes" js="1">Si, Ricostruisci</word>
+  <word key="idm_cfield_sidebar" js="0">Nella sidebar</word>
  </app>
- <app key="convert" version="104023"/>
+ <app key="convert" version="104023">
+  <word key="_convert_members" js="0">Membri</word>
+  <word key="_convert_calendar_events" js="0">Eventi Calendario</word>
+  <word key="_convert_downloads_files" js="0">File</word>
+  <word key="_convert_club_members" js="0">Membri Club</word>
+  <word key="_convert_club_downloads_categories" js="0">Club Categorie File</word>
+  <word key="_convert_club_downloads_files" js="0">File Club</word>
+ </app>
 </language>

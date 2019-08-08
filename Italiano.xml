@@ -3573,7 +3573,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="security_learn_more" js="0">Più informazioni</word>
   <word key="security_run_tool" js="0">Attiva</word>
   <word key="disable_functions_title" js="0">Disattiva funzionalità pericolose di PHP</word>
-  <word key="disable_functions_desc" js="0"><![CDATA[Si consiglia di disattivare le seguenti funzioni sul server. Se non gestisci il tuo server, il tuo provider di hosting sarà in grado di aiutarti. <br><br>%s]]></word>
+  <word key="disable_functions_desc" js="0">Alcune funzioni abilitate sul tuo server potrebbero causare seri danni alla tua comunità o al tuo server.</word>
   <word key="display_errors_title" js="0">Disattiva visualizzazione pubblica degli errori PHP</word>
   <word key="display_errors_desc" js="0">Il tuo server è attualmente configurato per visualizzare gli errori nella pagina. Questo non è consigliato nella produzione e solo la registrazione al file deve essere abilitata. Il tuo provider di hosting sarà in grado di assistere con questo.</word>
   <word key="open_basedir_title" js="0">Attiva open_basedir</word>
@@ -4436,7 +4436,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="search_results_title_tag_area" js="0">Contenuti taggati con %s in %s</word>
   <word key="see_results_for" js="0">Guarda i risultati in %s</word>
   <word key="search_members" js="0">Ricerca Membri</word>
-  <word key="search_content" js="0">Ricerca Contenuto</word>
+  <word key="search_content" js="0">Ricerca contenuto</word>
   <word key="q" js="0">Termini di ricerca</word>
   <word key="eitherTermsOrTags" js="0">Tipo di corrispondenza</word>
   <word key="termsortags_or_desc" js="0"><![CDATA[Termini di ricerca <strong>O</strong> tags]]></word>
@@ -4480,6 +4480,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="core_members_pl" js="0">Membri</word>
   <word key="search_by_tags" js="0">Cerca per Tag</word>
   <word key="search_by_author" js="0">Cerca per autore</word>
+  <word key="search_filter_by_number" js="0">Filtra per numero di...</word>
   <word key="all_new_content" js="0">Tutti i nuovi contenuti</word>
   <word key="onlyFollowed" js="0">Seguito</word>
   <word key="onlyFollowed_desc" js="0">Trova solo nuovi contenuti nei contenitori o nei contenuti che seguo</word>
@@ -4771,6 +4772,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="searchTitleTermType" js="1">Ricerca per '{{term}}' in {{type}}</word>
   <word key="searchTitleType" js="1">Ricerca in  in {{type}}</word>
   <word key="searchMembers" js="1">Cerca Membri</word>
+  <word key="searchContent" js="1">Ricerca contenuto</word>
+  <word key="searchRequiresTermTags" js="1">Inserisci un termine da cercare o almeno un tag.</word>
   <word key="emoticonCategories" js="1">Categorie</word>
   <word key="emoticonSearch" js="1">Cerca</word>
   <word key="emoticonOverview" js="1">Panoramica</word>
@@ -5786,6 +5789,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="promote_social_button_repromote" js="0">Promuovi nuovamente</word>
   <word key="promote_meta_promote_media" js="0">Carica nuove immagini</word>
   <word key="promote_manage_link" js="0">Gestisci gli articoli promossi</word>
+  <word key="promote_no_permission" js="0">Non sei autorizzato a promuovere articoli</word>
   <word key="promote_time_sent" js="0">Inviato:</word>
   <word key="promote_photo_count" js="0">{# [1:immagine][?:immagini]}</word>
   <word key="promote_time_failed_resend_soon" js="0">prossimo</word>
@@ -5895,6 +5899,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_last_activity" js="0">Ultima attività</word>
   <word key="ignore_system_on_desc" js="0"><![CDATA[Ignorare un membro nasconde tutti i loro post. Puoi limitare <a href='{internal.app=core&module=members&controller=groups}' target='_blank' rel='noopener'> gruppi </a> e <a href = '{internal.app = core & module = staff e controller = moderatori} 'target =' _ blank 'rel =' noopener '> moderatori </a> dall'essere in grado di essere ignorati nelle loro impostazioni.]]></word>
   <word key="promote_send_now_desc" js="0">Le promozioni vengono inviate in lotti ogni pochi minuti.</word>
+  <word key="no_promote_permission" js="0">Non sei autorizzato a promuovere articoli</word>
   <word key="promote_promoted_on" js="0">Promosso %s</word>
   <word key="block_promoted" js="0">Le nostre scelte</word>
   <word key="promote_submit" js="0">Promuovi</word>
@@ -6201,6 +6206,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="notifications__embed" js="0">Qualcuno pubblica un link al mio contenuto</word>
   <word key="custom_fields_staff_owner" js="0">Mostra allo staff e al proprietario del profilo</word>
   <word key="menu__core_overview_notifications" js="0">Notifiche dell'amministratore</word>
+  <word key="emaillogs_not_enabled" js="0"><![CDATA[Le statistiche delle email non vengono registrate. Per tenere traccia e visualizzare le statistiche delle email inviate, è necessario prima <a href='{internal.app=core&module=settings&controller=email&searchResult=prune_log_emailstats}'>abilitare la registrazione</a> delle statistiche email.]]></word>
   <word key="menu__core_customization_icons" js="0"><![CDATA[Icone & Loghi]]></word>
   <word key="manifest_description" js="0">Descrizione</word>
   <word key="acplogs__icons_and_logos" js="0">Dettagli su icone, loghi e web manifest aggiornati</word>
@@ -6888,8 +6894,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="embed_2_desc" js="0"><![CDATA[Dovrai anche inserire il caricatore nella tua pagina. È sufficiente eseguire questa operazione <strong>una volta per pagina</ strong>, anche se si utilizzano molti blocchi esterni. Dovrebbe essere inserito nel tag <code><head></code> o appena prima del tag <code></body></code>.]]></word>
   <word key="view_this_cmsrecord" js="0">Visualizza questo %s %s</word>
   <word key="sort_record_comments" js="0">Commenti</word>
-  <word key="__api_cms_comments" js="0">Commenti Database</word>
-  <word key="__api_cms_records" js="0">Registrazioni Database</word>
+  <word key="__api_cms_comments" js="0">Commenti database</word>
+  <word key="__api_cms_records" js="0">Registrazioni database</word>
   <word key="__api_cms_reviews" js="0">Revisioni Database</word>
   <word key="cms_download_db" js="1">Scarica database</word>
   <word key="index_as_categories" js="1">Mostra categorie</word>
@@ -7670,7 +7676,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="file_primary_screenshot_desc" js="0">Lo screenshot primario è utilizzato nelle elenchi di categorie.</word>
   <word key="download_now" js="0">Scarica il file</word>
   <word key="x_downloads" js="0">{# [1:download][?:download]}</word>
-  <word key="idm_purchases" js="0">acquisti</word>
+  <word key="idm_purchases" js="0">Acquisti</word>
+  <word key="x_purchases" js="0">{# [1:acquisto][?:acquisti]}</word>
   <word key="num_downloads" js="0">{# [1:download][?:download]}</word>
   <word key="downloads_file_review" js="0">Recensione del file</word>
   <word key="downloads_file_pl" js="0">File</word>
@@ -7796,18 +7803,19 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="download_stats_disclaimer" js="0">* Questa statistica viene fornita dal registro di download che può essere disattivato per categoria o impostato per essere periodicamente cancellato.</word>
   <word key="download_graph_disclaimer" js="0">Questi dati provengono dal registro di download che può essere disattivato per categoria o impostato per essere periodicamente potato.</word>
   <word key="menu__downloads_stats_downloads" js="0">Statistiche Download</word>
-  <word key="r__downloads" js="0">Scarica le Statistiche</word>
+  <word key="r__downloads" js="0">Scarica le statistiche</word>
   <word key="r__downloads_manage" js="0">Può visualizzare le statistiche di download?</word>
   <word key="r__downloaders_manage" js="0">Può visualizzare i migliori downloader?</word>
   <word key="r__submitters_manage" js="0">Può visualizzare i migliori Presentatori</word>
   <word key="ipAddresses__downloads_DownloadLog" js="0">Download</word>
   <word key="block_fileFeed" js="0">Feed File</word>
+  <word key="block_downloadStats" js="0">Statistiche download</word>
   <word key="loc_downloads_viewing_file" js="0">Visualizzazione file: %s</word>
   <word key="loc_downloads_viewing_category" js="0">Visualizzazione delle categorie: %s</word>
   <word key="loc_downloads_browsing_categories" js="0">Visualizzazione di categorie di download</word>
   <word key="loc_downloads_adding_file" js="0">Aggiunta di un file</word>
   <word key="loc_downloads_browsing" js="0">Visualizzazione dei download</word>
-  <word key="acp_search_title_downloads_Downloads" js="0">Categorie Download</word>
+  <word key="acp_search_title_downloads_Downloads" js="0">Categorie download</word>
   <word key="paid_file_settings" js="0">Impostazioni dei File Pagati</word>
   <word key="idm_nexus_on" js="0">Abilita i file a pagamento?</word>
   <word key="idm_nexus_on_desc" js="0"><![CDATA[Se abilitato, gli utenti che hanno l'autorizzazione potranno inviare file che devono essere pagati per scaricare.<br>Puoi controllare quali gruppi possono presentare file pagati dal file <a href='{internal.app=core&module=members&controller=groups}'>Gruppi</a> page.<br>Quando qualcuno acquista un file pagato, i soldi verranno aggiunti al credito dell'account dell'indirizzo del file. Puoi controllare come gli utenti possono ritirare il credito dell'account da <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>Withdrawals</a> page.]]></word>
@@ -7874,6 +7882,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_restrictions__downloads_Downloads" js="0">Download</word>
   <word key="content_stats__downloads_Downloads" js="0">Download</word>
   <word key="modperms__downloads_Files" js="0">Download</word>
+  <word key="enable_purchases" js="0">Abilita acquisti</word>
   <word key="downloads_stat_of_total_link" js="0">%s (%d%% del totale) %s</word>
   <word key="downloadsScreenshotsWatermark" js="1">Ricostruire gli screenshot esistenti?</word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Si, Ricostruisci</word>
@@ -7895,6 +7904,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="_convert_club_members" js="0">Membri Club</word>
   <word key="_convert_club_downloads_categories" js="0">Club Categorie File</word>
   <word key="_convert_club_downloads_files" js="0">File Club</word>
+  <word key="_convert_nexus_purchases" js="0">Acquisti</word>
  </app>
  <app key="calendar" version="104033">
   <word key="frontnavigation_calendar" js="0">Calendario</word>
@@ -8018,8 +8028,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="blog_comments" js="0">{!#[1:commento][?:commenti]}</word>
   <word key="no_entries_yet" js="0">Non ci sono ancora Blog</word>
   <word key="no_entries" js="0">Questo blog ha nessun post</word>
+  <word key="num_contributors_to_this" js="0">{# [1:contributore][?:contributori]} a questo blog</word>
   <word key="about_this_blog" js="0">Informazioni su questo Blog</word>
   <word key="blog_enable_rss" js="0">Abilita RSS Feed</word>
+  <word key="also_contributes" js="0">Contribuisce inoltre a:</word>
+  <word key="contributes_to" js="0">Contribuisce a</word>
   <word key="num_blog_comments" js="0">{# [1:commento][?:commenti]}</word>
   <word key="can_edit_blog_entry_comment" js="0">Può modificare i commenti?</word>
   <word key="can_hide_blog_entry_comment" js="0">Può nascondere i commenti?</word>
@@ -8188,11 +8201,35 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="addImages" js="1">Aggiungi Immagini</word>
  </app>
  <app key="nexus" version="104033">
+  <word key="menu__nexus_payments" js="0">Pagamenti</word>
+  <word key="__indefart_support_request" js="0">una richiesta di supporto</word>
+  <word key="editor__nexus_Purchases" js="0">Acquisti</word>
+  <word key="nexus_bm_filters" js="0">Acquisti</word>
+  <word key="menu__nexus_payments_transactions" js="0">Transizioni</word>
+  <word key="menu__nexus_payments_paymentsettings" js="0">Impostazioni</word>
+  <word key="nexus_split_payments_on" js="0">Consenti pagamenti divisi?</word>
+  <word key="nexus_split_payments" js="0">Importo minimo per pagamenti divisi</word>
+  <word key="menu__nexus_payments_invoices" js="0">Fatture</word>
+  <word key="menu__nexus_payments_shipping" js="0">Spedizioni</word>
   <word key="order_thanks_blurb" js="0">Grazie per il vostro ordine. Riceverai una mail di conferma a breve.</word>
   <word key="order_thanks_blurb_no_email" js="0">Grazie per il vostro ordine.</word>
   <word key="customerTable_email" js="0">Indirizzo email</word>
+  <word key="altcontactTable_purchases" js="0">Acquisti</word>
+  <word key="altcontact_purchases_admin" js="0">Acquisti</word>
+  <word key="void_cancel_purchases" js="0">Annullare tutti gli acquisti?</word>
   <word key="void_add_note" js="0">Aggiungi Nota</word>
   <word key="ps_member" js="0">Proprietario</word>
+  <word key="view_purchases" js="0">Visualizza gli acquisti</word>
+  <word key="menu__nexus_payments_payouts" js="0">Prelievi</word>
+  <word key="r__paymentsettings" js="0">Impostazioni di pagamento</word>
+  <word key="r__paymentsettings_overview" js="0">Può gestire le impostazioni di pagamento?</word>
+  <word key="r__purchases" js="0">Acquisti</word>
+  <word key="r__purchases_view" js="0">Può vedere gli acquisti?</word>
+  <word key="r__purchases_edit" js="0">Può modificare gli acquisti?</word>
+  <word key="r__purchases_transfer" js="0">Può trasferire un acquisto?</word>
+  <word key="r__purchases_cancel" js="0">Può annullare e riattivare gli acquisti?</word>
+  <word key="r__purchases_delete" js="0">Può rimuovere gli acquisti?</word>
+  <word key="r__purchases_manage" js="0">Può vedere il rapporto sulle vendite?</word>
   <word key="thanks_for_your_feedback" js="0">Grazie per il tuo feedback!</word>
   <word key="dpt_email" js="0">Indirizzo Email</word>
   <word key="dpt_desc_placeholder" js="0">Aggiungi una descrizione...</word>
@@ -8214,15 +8251,25 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="p_email_wysiwyg" js="0">Sì - Usa l'editor WYSIWYG</word>
   <word key="p_email_html_template" js="0">Sì - usa HTML con il template normale delle email</word>
   <word key="p_email_html_raw" js="0">Sì - usa HTML senza template</word>
+  <word key="product_change_blurb_existing" js="0">Aggiorna acquisti esistenti</word>
+  <word key="product_change_blurb_new" js="0">Applicare solo ai nuovi acquisti</word>
   <word key="continue_without_purchasing" js="0">No grazie, continua senza acquistare</word>
   <word key="change_address" js="0">Cambia autore</word>
   <word key="altcontact_email" js="0">Indirizzo email</word>
+  <word key="altcontact_purchases" js="0">Acquisti</word>
   <word key="order_add_invoice_notes" js="0">Aggiungi Nota</word>
+  <word key="purchases_title" js="0">Gestisci i tuoi acquisti</word>
+  <word key="purchases_manage_purchase" js="0">Gestisci questo acquisto</word>
+  <word key="billing_agreement_payments" js="0">Storico dei pagamenti</word>
+  <word key="menu__nexus_payments_donations" js="0">Donatori</word>
   <word key="d_desc" js="0">Descrizione</word>
   <word key="thanks_for_your_donation" js="0">Grazie per la tua donazione!</word>
   <word key="epc_description" js="0">Descrizione</word>
   <word key="account_diskspace_use" js="0">Uso dello spazio su disco</word>
+  <word key="purchases" js="0">Acquisti</word>
+  <word key="ref_cond_n" js="0">acquisti</word>
   <word key="reply_by__accountowner" js="0">Titolare dell'account</word>
+  <word key="__api_nexus_purchases" js="0">Acquisti</word>
   <word key="sp_desc" js="0">Descrizione</word>
   <word key="nexus_sub_cancel_type_immediate" js="0">Subito</word>
  </app>

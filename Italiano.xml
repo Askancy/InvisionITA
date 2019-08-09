@@ -71,11 +71,16 @@
   <word key="stream_include_comments_0" js="0">Solo Contenuti</word>
   <word key="stream_classes_type" js="0">Tipo di contenuto</word>
   <word key="stream_classes_type_all" js="0">Qualsiasi Contenuto</word>
+  <word key="stream_classes_type_custom" js="0">Sceglierà quali contenuti includere</word>
+  <word key="stream_tags_type" js="0">Filtri Tag</word>
+  <word key="stream_tags_all" js="0">Non filtrare per tag</word>
+  <word key="stream_tags_custom" js="0">Sceglierò quali tag includere</word>
   <word key="stream_ownership" js="0">Proprietà</word>
   <word key="stream_ownership_all" js="0">Tutto</word>
   <word key="stream_ownership_started" js="0">Contenuto che ho iniziato</word>
   <word key="stream_ownership_postedin" js="0">Contenuto che ho pubblicato</word>
   <word key="stream_ownership_custom" js="0">Contenuto da un membro specifico</word>
+  <word key="stream_custom_members" js="0">Autori</word>
   <word key="stream_read" js="0">Stato di lettura</word>
   <word key="stream_read_all" js="0">Tutto</word>
   <word key="stream_read_unread" js="0">Contenuto non letto</word>
@@ -91,7 +96,8 @@
   <word key="stream_date_type_last_visit" js="0">Dalla mia ultima visita</word>
   <word key="stream_date_type_relative" js="0">Specifico numero di giorni</word>
   <word key="stream_date_type_custom" js="0">Specifico intervallo di giorni</word>
-  <word key="stream_date_relative_days" js="0">Intervallo Date</word>
+  <word key="stream_date_range" js="0">Periodo</word>
+  <word key="stream_date_relative_days" js="0">Periodo</word>
   <word key="stream_date_relative_days_prefix" js="0">Negli ultimi</word>
   <word key="stream_sort_newest" js="0">I più recenti prima</word>
   <word key="stream_sort_oldest" js="0">I meno recenti prima</word>
@@ -141,6 +147,7 @@
   <word key="stream_expanded" js="0">Visualizza i risultati con più dettagli inclusa un'anteprima del contenuto</word>
   <word key="stream_this_is_default" js="0">Questo è il tuo stream predefinito. Fai clic per annullare l'impostazione predefinita.</word>
   <word key="stream_this_isnt_default" js="0">Imposta come stream predefinito</word>
+  <word key="stream_default_desc" js="0">L'impostazione predefinita di uno stream inserisce un collegamento a destra della navigazione breadcrumb superiore. Gli utenti possono ignorare questa scelta.</word>
   <word key="editor_attach_drag" js="0">Trascinare i file qui per allegarli, o</word>
   <word key="editor_attach_choose_drag" js="0">scegli i file...</word>
   <word key="editor_attach_choose_nodrag" js="0">Clicca per scegliere i file</word>
@@ -2107,6 +2114,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="cannot_rep_user" js="0">Non sei autorizzato a dare reputazione a questo utente.</word>
   <word key="cannot_view_reputation" js="0">Non sei autorizzato a visualizzare la reputazione di questo utente</word>
   <word key="tags_enabled" js="0">Attivare i Tag?</word>
+  <word key="tags_enabled_desc" js="0"><![CDATA[Può controllare quali membro possono utilizzare i tag da <a href='{internal.app=core&module=members&controller=groups}'>Impostazioni di gruppo</a>.]]></word>
   <word key="tags_can_prefix" js="0">Attivare Prefissi?</word>
   <word key="tags_can_prefix_desc" js="0"><![CDATA[I prefissi sono tag speciali che vengono visualizzati davanti al titolo nell'elenco dei contenuti principali (vengono visualizzati come normali tag nei risultati di ricerca e negli stream). <br> È possibile controllare quali membri possono utilizzare prefissi da <a href = '{internal. app = core & module = membri e controller = gruppi} '> Impostazioni gruppo </a>.]]></word>
   <word key="tags_open_system" js="0">Modalità di Tag</word>
@@ -2793,7 +2801,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="configure_google_analytics" js="0">Configura Google Analytics</word>
   <word key="spamprevention_flagging" js="0">Contrassegnare come spammer</word>
   <word key="spm_option" js="0">Azione da eseguire quando l'utente è contrassegnato</word>
-  <word key="spm_option_desc" js="0"><![CDATA[spm_option_desc Se un bot spammer riesce a registrarsi sul tuo sito, lo strumento <em> Contrassegna come Spammer </ em> (disponibile dai profili dei membri) consente allo staff di intraprendere l'azione appropriata. Nascondere ed eliminare il contenuto non viene fatto immediatamente ma verrà elaborato in lotti. <br> Se in seguito rimuovi il flag, le azioni non vengono annullate.]]></word>
+  <word key="spm_option_desc" js="0"><![CDATA[Se un bot spammer riesce a registrarsi sul tuo sito, lo strumento <em>Contrassegna come Spammer</em> (disponibile dai profili dei membri) consente allo staff di intraprendere l'azione appropriata. Nascondere ed eliminare il contenuto non viene fatto immediatamente ma verrà elaborato in lotti. <br> Se in seguito rimuovi il flag, le azioni non vengono annullate.]]></word>
   <word key="spm_option_disable" js="0">Limita l'utente nell'inviare altri contenuti</word>
   <word key="spm_option_unapprove" js="0">Nascondere i contenuti già inviati</word>
   <word key="spm_option_delete" js="0">Eliminare i contenuti già inviati</word>
@@ -2825,7 +2833,9 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="warn_reasons" js="0">Motivo</word>
   <word key="wr_name" js="0">Nome</word>
   <word key="wr_points" js="0">Punti</word>
+  <word key="wr_points_desc" js="0">Utilizzare i punti per creare un'azione di avvertimento con penalità predefinite quando un utente ha ricevuto un certo numero di punti.</word>
   <word key="wr_points_override" js="0">I moderatori possono ignorare il numero di punti?</word>
+  <word key="wr_remove" js="0">Rimuovi automaticamente i punti</word>
   <word key="wr_remove_override" js="0">I moderatori possono ignorare la rimozione dei punti?</word>
   <word key="warn_actions" js="0">Azioni</word>
   <word key="warn_action" js="0">Azione</word>
@@ -2835,8 +2845,12 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="wa_override" js="0">I moderatori possono ignorare le impostazioni di cui sopra?</word>
   <word key="warning_settings" js="0">Impostazioni Avvertimento</word>
   <word key="warn_on" js="0">Attivare Sistema di Avvertimento?</word>
+  <word key="warn_protected" js="0">Gruppi che non possono ricevere avvertimenti</word>
   <word key="warn_show_own" js="0">Gli utenti possono vedere i propri punti e le motivazioni?</word>
+  <word key="warnings_acknowledge" js="0">Gli utenti devono riconoscere gli avvertimenti emessi prima di poter pubblicare nuovamente?</word>
   <word key="notification__warning_mods" js="0">%s ha ricevuto un avviso di %s</word>
+  <word key="warn_reasons_blurb" js="0"><![CDATA[Si seleziona un <strong>motivo</strong>  quando si avverte un membro. Ogni motivo ha un <strong>numero di punti di avvertimento</strong>  che portano ad <strong>azioni</strong> .]]></word>
+  <word key="warn_actions_blurb" js="0"><![CDATA[Le <strong>azioni</strong> sono penalità predefinite assegnate ai membri quando raggiungono un certo numero di <strong>punti di avvertimento</strong>.]]></word>
   <word key="warn_revoked" js="0">Avvertimento Revocato</word>
   <word key="unacknowledged_warning_cannot_post" js="0">Hai ricevuto un avviso. Prima di poter postare di nuovo, devi confermare l'avviso.</word>
   <word key="acknowledge" js="0">Riconosco questo avvertimento</word>
@@ -3333,6 +3347,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="email_content" js="0">Messaggio</word>
   <word key="send" js="0">Invia</word>
   <word key="email_sent" js="0">L'email è stata inviata</word>
+  <word key="share_autoshare" js="0">Gli utenti possono condividere immediatamente quando pubblicano?</word>
   <word key="auto_share_facebook" js="0"><![CDATA[<i class='fa fa-facebook-square'></i> Condividi su Facebook]]></word>
   <word key="auto_share_twitter" js="0"><![CDATA[<i class='fa fa-twitter-square'></i> Condividi su Twitter]]></word>
   <word key="share_this_comment" js="0">Condividi questo commento</word>
@@ -3353,9 +3368,9 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="url_blacklist" js="0">Consentire qualsiasi collegamento oltre ai collegamenti specificati</word>
   <word key="url_whitelist" js="0">Consenti solo i collegamenti specificati</word>
   <word key="ipb_url_whitelist" js="0">Collegamenti consentiti</word>
-  <word key="ipb_url_whitelist_desc" js="0">Usa * as a wildcard. es. 'http://*.example.com/*'</word>
+  <word key="ipb_url_whitelist_desc" js="0">Usa * come carattere jolly. es. 'http://*.example.com/*'</word>
   <word key="ipb_url_blacklist" js="0">Collegamenti non consentiti</word>
-  <word key="ipb_url_blacklist_desc" js="0">Usa * as a wildcard. es. 'http://*.example.com/*'</word>
+  <word key="ipb_url_blacklist_desc" js="0">Usa * come carattere jolly. es. 'http://*.example.com/*'</word>
   <word key="links_external" js="0">Forza l'invio link per aprire in nuove finestre?</word>
   <word key="links_external_desc" js="0">Impostando questa opzione su Sì, forzare tutti i link pubblicati, ad altri siti web, per aprire in una nuova finestra.</word>
   <word key="posts_add_nofollow" js="0">Istruire i motori di ricerca a non seguire i link pubblicati?</word>
@@ -3369,8 +3384,11 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="attach_allowed_types_none" js="0">Nessuno</word>
   <word key="attach_allowed_types_desc" js="0"><![CDATA[È possibile configurare quali gruppi possono utilizzare allegati e i loro limiti di archiviazione nelle <a href='{internal.app=core&module=members&controller=groups&searchResult=g_attach}'>impostazioni gruppo</a>.]]></word>
   <word key="attach_allowed_extensions" js="0">Estensioni dei file consentiti</word>
+  <word key="attach_allowed_extensions_desc" js="0">Se fornito, saranno consentiti solo i file che hanno un nome che termina con una delle estensioni specificate.</word>
   <word key="attachment_resample_size" js="0">Dimensioni massima delle immagini da salvare</word>
+  <word key="attachment_resample_size_desc" js="0">Se viene caricata un'immagine più grande di queste dimensioni, verrà ridimensionata a non più grande delle dimensioni e l'immagine originale verrà scartata. Il ridimensionamento delle immagini riduce la loro qualità, pertanto è preferibile lasciarlo illimitato a meno che la comunità non utilizzi molte immagini e desideri ridurre l'utilizzo dello spazio su disco.</word>
   <word key="attachment_image_size" js="0">Dimensioni massima immagine</word>
+  <word key="attachment_image_size_desc" js="0"><![CDATA[Se viene caricata un'immagine più grande di queste dimensioni, verrà creata una miniatura non più grande delle dimensioni specificate che è ciò che verrà visualizzato. Quando l'utente fa clic su questa miniatura, viene visualizzata l'immagine a dimensione intera. Di solito è meglio mantenerlo abbastanza grande in modo che le immagini appaiano attraenti a meno che la tua comunità non usi molte immagini e desideri ridurre l'uso della larghezza di banda. Le impostazioni si applicano solo alle nuove immagini, a meno che non si <a data-confirm href='{internal.app=core&module=settings&controller=posting&do=rebuildThumbnails}'>ricostruiscano le immagini esistenti</a>.]]></word>
   <word key="max_video_width" js="0">Larghezza massima incorporata del contenuto</word>
   <word key="max_video_width_desc" js="0">Questa impostazione limita le dimensioni dei contenuti (ad esempio i video) dai collegamenti incorporati. Il contenuto non sarà mai più ampio di quello che il browser dell'utente può visualizzare e la modifica di questa impostazione non si applica al contenuto esistente.</word>
   <word key="acronym_expansion" js="0">Acronimo di espansione</word>
@@ -4343,6 +4361,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="widget_feed_use_perms_desc" js="0">Normalmente questo dovrebbe essere lasciato abilitato, ma potresti voler disabilitare se stai mostrando deliberatamente contenuti che gli utenti non possono accedere, ad esempio come incentivo per l'aggiornamento del loro account.</word>
   <word key="widget_feed_status" js="0">Filtri</word>
   <word key="mod_confirm_either" js="0">O</word>
+  <word key="widget_feed_author" js="0">Autori</word>
   <word key="widget_feed_author_desc" js="0">Se fornito, verrà incluso solo il contenuto dei membri specificati.</word>
   <word key="widget_feed_min_comments" js="0">Commenti minimi</word>
   <word key="widget_feed_sort_on" js="0">Ordina per</word>
@@ -5046,6 +5065,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="moderators_member" js="0">Membri</word>
   <word key="mass_member_update" js="0">Aggiornamento di tutti i membri (campi: %s)</word>
   <word key="recounting_votes" js="0">Riconoscere i voti dei sondaggi</word>
+  <word key="share_autoshare_Facebook" js="0">Gli utenti possono condividere immediatamente quando pubblicano?</word>
+  <word key="share_autoshare_Facebook_disabled" js="0"><![CDATA[Per abilitare questa opzione, devi <a href='{internal.app=core&module=settings&controller=login}'configurare l'accesso a Twitter</a>.]]></word>
+  <word key="share_autoshare_Twitter" js="0">Gli utenti possono condividere immediatamente quando pubblicano?</word>
+  <word key="share_autoshare_Twitter_disabled" js="0"><![CDATA[Per abilitare questa opzione, devi <a href='{internal.app=core&module=settings&controller=login}'configurare l'accesso a Twitter</a>.]]></word>
   <word key="editor_embeds" js="0">Inserisci automaticamente i collegamenti?</word>
   <word key="editor_embeds_desc" js="0">Alcuni contenuti possono essere incorporati automaticamente. Ad esempio, se un utente inserisce un link a un video su YouTube o Vimeo, il video può essere incorporato nel post. La modifica di questa impostazione non si applica al contenuto esistente. Sono supportati i collegamenti dai seguenti siti: Humor College, Facebook, Flickr, Gfycat, Google+, Hulu, Instagram, SoundCloud, Spotify, Ted, Twitter, Vimeo, Vine, YouTube  e collegamenti interni ai contenuti all'interno della comunità.</word>
   <word key="plugin_hook_filename" js="0">Nome del file</word>
@@ -5101,6 +5124,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="stream_unread_links_unread" js="0">Portami al primo commento non letto</word>
   <word key="stream_unread_links_normal_inline" js="0">I collegamenti agli articoli non letti mi portano in cima alla pagina</word>
   <word key="stream_unread_links_unread_inline" js="0">I collegamenti agli articoli non letti mi portano al primo commento non letto</word>
+  <word key="stream_unread_links_desc" js="0">Quando si visualizza un flusso di attività, facendo clic sul collegamento di un elemento è possibile portare l'utente al primo commento non letto di quell'elemento.</word>
   <word key="stream_results_as_condensed" js="0">Condensato</word>
   <word key="stream_results_as_expanded" js="0">Espanso</word>
   <word key="editor_no_media" js="0">Non hai alcun allegato esistente.</word>
@@ -5366,6 +5390,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="analytics_provider_none" js="0">Nessuno</word>
   <word key="analytics_provider_custom" js="0">Altro</word>
   <word key="analytics_none" js="0">Nessuno</word>
+  <word key="wr_notes" js="0">Nota predefinita per il membro</word>
   <word key="wr_notes_desc" js="0">I moderatori possono regolare le note quando avvisano il membro
 </word>
   <word key="member_photo_upload_no_animated" js="0">Non ti è consentito caricare immagini animate</word>
@@ -5386,10 +5411,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="guest_terms_close" js="0">accetto</word>
   <word key="url_filter_action" js="0">Azione da intraprendere quando un link disapprovato viene pubblicato</word>
   <word key="url_filter_block" js="0">Blocca</word>
+  <word key="url_filter_block_desc" js="0">Se viene pubblicato un collegamento non consentito, il collegamento verrà visualizzato come testo.</word>
   <word key="url_filter_moderate" js="0">Modera</word>
+  <word key="url_filter_moderate_desc" js="0">Se viene pubblicato un link non consentito, il contenuto verrà conservato per l'approvazione del moderatore.</word>
   <word key="url_filter_any_action" js="0">Se un link viene pubblicato</word>
   <word key="url_filter_any_allow_desc" js="0">Qualunque link può essere pubblicato.</word>
   <word key="url_filter_any_moderate" js="0">Modera</word>
+  <word key="url_filter_any_moderate_desc" js="0">Se viene pubblicato un collegamento, il contenuto verrà conservato per l'approvazione del moderatore.</word>
   <word key="country-FX" js="0">Francia Metropolitana</word>
   <word key="update_report_status_content" js="0"><![CDATA[<strong>Aggiornamenti di stato</strong> del rapporto su <strong>%s</strong>]]></word>
   <word key="modlog__action_update_report_status" js="0"><![CDATA[Aggiornato lo stato di un <a href='%s'>segnalato</a>]]></word>
@@ -5420,6 +5448,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="connection_check_fail" js="0">Collegamenti esterni non funzionanti</word>
   <word key="help_me_fix_this" js="0">Aggiustalo</word>
   <word key="upgrade_check_patches" js="0">Stai utilizzando la versione più recente, ma è disponibile un aggiornamento facoltativo per risolvere i seguenti problemi:</word>
+  <word key="support_third_party_plugins" js="0">{# [1:plugin disabilitato][?:plugin disabilitati]}</word>
   <word key="recovery_mode" js="0">Modalità di recupero</word>
   <word key="recovery_mode_disabled" js="0">La modalità di ripristino è attualmente disattivata</word>
   <word key="recovery_mode_remove_constant" js="0"><![CDATA[Prima di poter utilizzare il Pannello di controllo Amministrazione, devi modificare 'constants.php' e rimuovere la riga seguente:<br><pre>define( 'RECOVERY_MODE', TRUE );</pre>]]></word>
@@ -5634,10 +5663,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="stream_filter_clubs" js="0">Filtri dei Club</word>
   <word key="stream_club_select" js="0">Filtro Club</word>
   <word key="stream_club_select_all" js="0">Qualsiasi Contenuto</word>
+  <word key="stream_club_select_select" js="0">Sceglierò quali club includere</word>
   <word key="all_activity_clubs" js="0">Quando un membro crea un club</word>
   <word key="activity_member_reacted" js="0"><![CDATA[ <img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s">  %s ha reagito a %s: %s]]></word>
   <word key="activity_club" js="0">%s ha creato un club. %s</word>
   <word key="mass_manage_content" js="0">Sposta / Elimina Contenuto</word>
+  <word key="nothing_to_show" js="0">Niente da mostrare</word>
   <word key="poll_status_opened_no_date" js="0">Sondaggio aperto, la data di chiusura automatica è stata rimossa</word>
   <word key="poll_close_date" js="0">Data di chiusura del sondaggio</word>
   <word key="poll_specify_close_time" js="0">Chiudi automaticamente il sondaggio ad una data specifica?</word>
@@ -5978,6 +6009,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="allow_forgot_password_normal_desc" js="0"><![CDATA[All'utente verrà inviata un'email con un link per reimpostare la propria password. Ove abilitato, la nuova password verrà sincronizzata con ciascun gestore di accesso. <br> Se l'utente fornisce un indirizzo email che non è stato utilizzato per accedere con prima, ma è in uso in un database esterno, verrà reindirizzato al Hai dimenticato l'URL della password nelle impostazioni di quel metodo.]]></word>
   <word key="allow_forgot_password_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_forgot_password_disabled" js="0">No</word>
+  <word key="login_handler_show_in_ucp_disabled" js="0">Mai</word>
   <word key="oauth_wordpress_app_settings" js="0">Impostazioni applicazione</word>
   <word key="members_filtered_reserved" js="0">Riservato</word>
   <word key="members_last_activity" js="0">Ultima attività</word>
@@ -6031,7 +6063,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="whitelist_type" js="0">Tipo</word>
   <word key="whitelist_ip_content" js="0">Indirizzo IP</word>
   <word key="whitelist_ip_content_desc" js="0">È possibile utilizzare il carattere asterisco (*) come carattere jolly</word>
+  <word key="whitelist_domain_content_desc" js="0">È possibile utilizzare il carattere asterisco (*) come carattere jolly</word>
   <word key="spam_whitelist_ip_select" js="0">Indirizzo IP</word>
+  <word key="rebuild_sitemap_initialized" js="0">Attività in background inizializzata</word>
+  <word key="status_updates_disabled" js="0">Disattivato</word>
   <word key="acprestrictions_name" js="0">Amministratore</word>
   <word key="deleted_group" js="0">Gruppo Eliminato</word>
   <word key="diagnostics_reporting_usage" js="0">Dati di utilizzo</word>
@@ -6170,6 +6205,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="history_name_changed_api" js="0"><![CDATA[Il nome visualizzato è stato cambiato in <a>%s</a> (precedentemente <a>%s</a>) dall'API REST.]]></word>
   <word key="history_name_changed_profilesync" js="0"><![CDATA[Il nome visualizzato è stato modificato in <a>%s</a> (precedentemente <a>%s</a>) per la sincronizzazione con %s.]]></word>
   <word key="history_social_sync_changed_photo" js="0">Sincronizzazione foto del profilo con %s</word>
+  <word key="history_social_sync_disabled" js="0">disattivato</word>
   <word key="history_account_register" js="0">Utente registrato. %s</word>
   <word key="history_account_register_checkout" js="0">Utente registrato attraverso il checkout. %s</word>
   <word key="history_account_email_validated" js="0">Indirizzo Email convalidato.</word>
@@ -6212,7 +6248,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="acplogs__icons_and_logos" js="0">Dettagli su icone, loghi e web manifest aggiornati</word>
   <word key="enhancements__core_Giphy_desc" js="0">Giphy consente agli utenti di inserire GIF animate direttamente nei loro contenuti.</word>
   <word key="filestorage__core_Icons" js="0"><![CDATA[Icone & Loghi]]></word>
+  <word key="post_before_registering_off" js="0">Disattivato</word>
   <word key="max_internalembed_width" js="0">Larghezza massimo di un contenuto incorporato (embedded)</word>
+  <word key="max_internalembed_width_desc" js="0">Questa impostazione limita la dimensione del contenuto (come discussioni, album e prodotti) dai collegamenti incorporati. Il contenuto non sarà mai più ampio di quanto il browser dell'utente possa visualizzare.</word>
   <word key="unsubscribe_not_needed" js="0">Se non intraprendi alcuna azione, elimineremo il tuo indirizzo email e non ti ricontatteremo. Non è necessario annullare l'iscrizione.</word>
   <word key="everything" js="0">qualsiasi</word>
   <word key="announce_type" js="0">Tipo</word>
@@ -6220,7 +6258,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="announce_type_content" js="0">Contenuto</word>
   <word key="announce_type_url" js="0">Link all'URL</word>
   <word key="upgrade_more_information" js="0">Più informazioni</word>
+  <word key="remote_image_proxy_none" js="0">Disattivato</word>
   <word key="remote_image_proxy_all" js="0">Tutte le immagini</word>
+  <word key="remote_image_proxy_insecure" js="0">Immagini non sicure (consigliato)</word>
+  <word key="remote_image_proxy_desc_secure" js="0">Consenti di pubblicare le immagini che un membro pubblica da un URL tramite il tuo server web.</word>
   <word key="remote_image_proxy_secure_info" js="0">Ciò impedirà ai browser di segnalare che alcuni contenuti della pagina non sono sicuri.</word>
   <word key="__api_core_clubs" js="0">Club</word>
   <word key="reorder_club_menu" js="0">Riordina Menu</word>
@@ -6245,6 +6286,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="_allow_club_moderators" js="0">Consenti moderatori nei club</word>
   <word key="acp_notification_dismiss_recur" js="0">Nascondi questa notifica</word>
   <word key="acp_notification_NewRegComplete_title" js="0">Nuove registrazioni completate</word>
+  <word key="__ipbmafia__nulling_null_alert" js="0">
+</word>
  </app>
  <app key="cms" version="104033">
   <word key="menutab__cms" js="0">Pagine</word>
@@ -7778,6 +7821,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="largest_file" js="0">File più grande</word>
   <word key="most_viewed_file" js="0">File più visti</word>
   <word key="most_downloaded_file" js="0">File più scaricato</word>
+  <word key="total_authors" js="0">Autori</word>
   <word key="latest_file" js="0">Ultimo file</word>
   <word key="latest_submitter" js="0">Ultimo Inviato</word>
   <word key="top_month" js="0">Mese</word>
@@ -7888,6 +7932,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Si, Ricostruisci</word>
   <word key="idm_cfield_sidebar" js="0">Nella sidebar</word>
   <word key="cversion_numbers" js="0">Numeri di versione</word>
+  <word key="version_numbers_disabled" js="0">Disabilitato</word>
  </app>
  <app key="convert" version="104033">
   <word key="edit_conversion" js="0">Modifica Conversione</word>
@@ -7923,8 +7968,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="calendar_rss_feed_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
   <word key="calendars" js="0">Calendari</word>
   <word key="calendars_sg" js="0">Calendario</word>
+  <word key="calperm_perm__read" js="0">Mostra eventi</word>
   <word key="calperm_perm__add" js="0">Aggiungi eventi</word>
   <word key="calendar_calendars" js="0">Calendari</word>
+  <word key="can_edit_calendar_event" js="0">Può modificare gli eventi?</word>
   <word key="can_edit_calendar_event_comment" js="0">Può modificare i commenti?</word>
   <word key="can_hide_calendar_event_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_unhide_calendar_event_comment" js="0">Può rendere visibile i commenti?</word>
@@ -7938,6 +7985,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="no_events_month" js="0">Non ci sono eventi programmati per questo mese</word>
   <word key="birthdays_today" js="0">{# [1:compleanno][?:compleanni]} oggi</word>
   <word key="birthdays_count" js="0">{# [1:compleanno][?:compleanni]}</word>
+  <word key="calendar_event_pl" js="0">Eventi</word>
   <word key="event_comment_count" js="0">{# [1:Commento][?:Commenti]}</word>
   <word key="submit_event" js="0">Pubblica Evento</word>
   <word key="event_title" js="0">Titolo</word>

@@ -4646,7 +4646,15 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="image_proxy_cache_period_desc" js="0">Una copia dell'immagine remota verrà scaricata sul server e memorizzata per il periodo di tempo specificato. Dopo questa volta, l'immagine memorizzata viene eliminata e verrà scaricata nuovamente se viene visualizzata di nuovo.</word>
   <word key="rss_import_showlink_default" js="0">Leggi l'articolo completo</word>
   <word key="api_id" js="0">Chiavi API</word>
+  <word key="api_name" js="0">Nome di riferimento</word>
+  <word key="api_name_desc" js="0">Questo è solo per semplificare l'identificazione.</word>
+  <word key="api_permissions_endpoint" js="0">Autorizzazioni endpoint</word>
+  <word key="api_permissions_endpoint_desc" js="0">Gli endpoint possono essere abilitati/disabilitati individualmente per questa chiave API. Se lo desideri, puoi anche registrare ogni richiesta su un endpoint specifico.	</word>
   <word key="api_permissions_access" js="0">Accesso</word>
+  <word key="api_enable_ip_restriction" js="0">Limitare agli indirizzi IP?</word>
+  <word key="api_enable_ip_restriction_off" js="0">No, consenti a qualsiasi indirizzo IP di effettuare chiamate API utilizzando questa chiave.</word>
+  <word key="api_enable_ip_restriction_on" js="0">Sì, specificherò quali indirizzi IP possono effettuare chiamate API usando questa chiave.</word>
+  <word key="api_allowed_ips" js="0">Indirizzi IP consentiti</word>
   <word key="api_allowed_ips_err" js="0">%s non è un indirizzo IP valido.</word>
   <word key="api_array_objects" js="0">oggetti</word>
   <word key="api_log_date" js="0">Data/Ora</word>
@@ -5009,6 +5017,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="messageFlashSingle" js="1">Hai un nuovo messaggio personale</word>
   <word key="messageFlashMultiple" js="1">Hai {# [1:nuovo messaggio personale][?:nuovi messaggi personali]}</word>
   <word key="approvalQueueNoPerm" js="1">Non possiedi i permessi per effettuare azioni su questo contenuto.</word>
+  <word key="apiEndpoints_none" js="1">Nessun endpoint accessibile</word>
   <word key="__app_core" js="0">Sistema</word>
   <word key="member_reset_recount_title" js="0"><![CDATA[Reset & Ricalcola]]></word>
   <word key="pf_change_fieldtype" js="0">Cambia tipo di campo	</word>
@@ -5109,6 +5118,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="streamFilter_stream_date_type_start" js="1">{{start}} in poi</word>
   <word key="streamFilter_stream_date_type_range" js="1">{{inizio}} a {{fine}}</word>
   <word key="streamFilter_stream_classes_all" js="1"><![CDATA[	<em>Qualsiasi contenuto</em>]]></word>
+  <word key="toggleFiltersHidden" js="1"><![CDATA[Mostra i filtri <i class = 'fa fa-caret-down'> </i>]]></word>
+  <word key="toggleFiltersShown" js="1"><![CDATA[Mostra i filtri <i class = 'fa fa-caret-down'> </i>]]></word>
   <word key="activity_stream_rss" js="0">Abilita Feed RSS</word>
   <word key="ip_override_warn" js="0"><![CDATA[Questa impostazione è in corso di override per le sessioni di AdminCP perché il <code>BYPASS_ACP_IP_CHECK</code> La costante è abilitata nel file constants.php. <a href='{external.disable_ip_check}' target='_blank'>Maggiori informazioni</a>]]></word>
   <word key="ipAddresses__core_Votes" js="0">Voti del sondaggio</word>
@@ -5280,6 +5291,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="report_no_title_available" js="0">Titolo del rapporto non disponibile</word>
   <word key="announce_permissions" js="0">Chi può vedere questo annuncio</word>
   <word key="api_key_is_url" js="0">Autenticazione URL</word>
+  <word key="api_enable_ip_restriction__warning" js="0">Il tuo server non supporta le intestazioni di autenticazione. Poiché dovrai passare la chiave API nell'URL, ti consigliamo di impostare la limitazione dell'indirizzo IP.</word>
   <word key="menu__core_settings_contactus" js="0">Contattaci</word>
   <word key="r__contactus" js="0">Contattaci</word>
   <word key="r__contactus_manage" js="0">Può gestire le impostazioni di contatto</word>
@@ -5465,6 +5477,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="help_me_fix_this" js="0">Aggiustalo</word>
   <word key="upgrade_check_patches" js="0">Stai utilizzando la versione più recente, ma è disponibile un aggiornamento facoltativo per risolvere i seguenti problemi:</word>
   <word key="support_third_party_plugins" js="0">{# [1:plugin disabilitato][?:plugin disabilitati]}</word>
+  <word key="support_third_party_no_ads" js="0">Nessuna pubblicità</word>
+  <word key="support_third_party_ads_link" js="0">Vai agli Annunci</word>
+  <word key="support_third_party_ads_enable" js="0">Riattiva tutti gli annunci</word>
   <word key="recovery_mode" js="0">Modalità di recupero</word>
   <word key="recovery_mode_disabled" js="0">La modalità di ripristino è attualmente disattivata</word>
   <word key="recovery_mode_remove_constant" js="0"><![CDATA[Prima di poter utilizzare il Pannello di controllo Amministrazione, devi modificare 'constants.php' e rimuovere la riga seguente:<br><pre>define( 'RECOVERY_MODE', TRUE );</pre>]]></word>
@@ -5692,6 +5707,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="go_to_this_comment" js="0">Vai a questo %s</word>
   <word key="add_message" js="0">Aggiungi Messaggio</word>
   <word key="message_type_warning" js="0">Avvertimento</word>
+  <word key="message_type_error" js="0">Importante</word>
   <word key="node_mass_move_delete_if" js="0">Per contenuti che soddisfano tutte le seguenti condizioni ...</word>
   <word key="node_mass_move_any_time" js="0">Qualsiasi momento</word>
   <word key="node_move_date" js="0">È stato pubblicato su o prima</word>
@@ -5961,6 +5977,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="promote_submit" js="0">Promuovi</word>
   <word key="history_name_changed" js="0"><![CDATA[Il nome visualizzato è stato cambiato in <a>%s</a> (precedentemente <a>%s</a>).]]></word>
   <word key="history_deleted_group" js="0">gruppo rimosso</word>
+  <word key="log_type" js="0">Azione</word>
   <word key="log_ip_address" js="0">Indirizzo IP</word>
   <word key="view_all" js="0">Visualizza tutto</word>
   <word key="log_type_title_display_name" js="0">Visualizza modifiche al nome</word>
@@ -6002,6 +6019,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="history_terms_accepted_privacy" js="0">Accettato l'informativa sulla privacy</word>
   <word key="history_terms_accepted_terms" js="0">Accettato i termini e le condizioni</word>
   <word key="cookies_message" js="0"><![CDATA[Abbiamo inserito dei <a href='%s'>cookies</a> nel tuo dispositivo per aiutarti a migliorare la tua esperienza su questo sito. Puoi <a href='%s'>modificare le impostazioni dei cookie,</a>  altrimenti puoi accettarli cliccando su continua.]]></word>
+  <word key="nexus_package_item_pl" js="0">Prodotti</word>
   <word key="apply_filters" js="0">Applica Filtri</word>
   <word key="stream_read_unread_desc" js="0">I flussi di contenuti non letti sono visualizzabili solo con &quot;Solo contenuti&quot;</word>
   <word key="editor_uploaded_videos" js="0">Video Caricati</word>
@@ -6203,7 +6221,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="__api_core_search" js="0">Cerca</word>
   <word key="__api_core_me" js="0">Utente autorizzato</word>
   <word key="oauth_basic_settings" js="0">Impostazioni</word>
+  <word key="client_type_invision" js="0">Un altra Invision Community</word>
   <word key="client_type_public_desc" js="0">Un'app basata su browser scritta in JavaScript o un'app mobile / nativa che verrà installata su un dispositivo a cui un utente finale può accedere. Non verrà emesso alcun segreto cliente.</word>
+  <word key="client_grant_type_authorization_code" js="0">Codice di autorizzazione</word>
+  <word key="client_grant_type_implicit" js="0">Implicito</word>
   <word key="oauth_default_scope_email" js="0">Vedi il tuo indirizzo email</word>
   <word key="oauth_auth_scope_desc" js="0">Descrizione</word>
   <word key="oauth_app_revoke" js="0">Rimuovi</word>
@@ -6216,6 +6237,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="oauth_brute_force_ip_address" js="0">Indirizzo IP</word>
   <word key="oauth_brute_force_fails" js="0">Autenticazioni Fallite</word>
   <word key="oauth_brute_force_ban" js="0">Ban Indirizzo IP</word>
+  <word key="rest_and_oauth_blurb" js="0"><![CDATA[Le REST API offrono agli sviluppatori un modo per utilizzare e creare dati per applicazioni e siti Web di terze parti. È possibile accedere all'API utilizzando OAuth 2.0 o con una chiave API.  <a href='{external.restapi}' target='_blank' rel='noopener'> Ulteriori informazioni <i class = 'fa fa-external-link'> </i> </a>.]]></word>
   <word key="api_keys_blurb" js="0">Le API Key forniscono un'alternativa più semplice a OAuth per l'accesso all'API REST senza essere associato a un particolare utente.</word>
   <word key="promote_facebook_auth_choose" js="0">Usa la app di Facebook</word>
   <word key="promote_facebook_done" js="0">Grazie!</word>
@@ -6289,11 +6311,15 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="custom_fields_staff_owner" js="0">Mostra allo staff e al proprietario del profilo</word>
   <word key="menu__core_overview_notifications" js="0">Notifiche dell'amministratore</word>
   <word key="emaillogs_not_enabled" js="0"><![CDATA[Le statistiche delle email non vengono registrate. Per tenere traccia e visualizzare le statistiche delle email inviate, è necessario prima <a href='{internal.app=core&module=settings&controller=email&searchResult=prune_log_emailstats}'>abilitare la registrazione</a> delle statistiche email.]]></word>
+  <word key="license_error" js="0">Chiave di licenza non valida</word>
+  <word key="license_error_subtitle" js="0">Si è verificato un problema con la chiave di licenza.</word>
+  <word key="license_expired" js="0">Chiave di licenza scaduta</word>
   <word key="menu__core_customization_icons" js="0"><![CDATA[Icone & Loghi]]></word>
   <word key="manifest_description" js="0">Descrizione</word>
   <word key="acplogs__icons_and_logos" js="0">Dettagli su icone, loghi e web manifest aggiornati</word>
   <word key="enhancements__core_Giphy_desc" js="0">Giphy consente agli utenti di inserire GIF animate direttamente nei loro contenuti.</word>
   <word key="filestorage__core_Icons" js="0"><![CDATA[Icone & Loghi]]></word>
+  <word key="advertisements_site" js="0">Pubblicità sul sito web</word>
   <word key="profilesync_name_admin_error" js="0">Errore sincronizzazione nome visualizzato: %s</word>
   <word key="post_before_registering_off" js="0">Disattivato</word>
   <word key="max_internalembed_width" js="0">Larghezza massimo di un contenuto incorporato (embedded)</word>
@@ -6326,6 +6352,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="s3-RequestTimeTooSkewed_admin" js="0"><![CDATA[Il server S3 ha segnalato che il tempo di richiesta era troppo lungo, il che potrebbe indicare che l'ora del server è impostato in modo errato. Eseguito <a href='{internal.admin.app=core&module=support&controller=support}'> lo strumento di supporto </a> per ulteriori informazioni.]]></word>
   <word key="emailstats__email_address_changed" js="0">Cambia Indirizzo email</word>
   <word key="emailstats__email_change" js="0">Convalida modifica indirizzo email</word>
+  <word key="emailstats__acp_notification_License" js="0">Informazioni sulla chiave di licenza</word>
   <word key="attachmentDownloads" js="1">{# [1:download][?:download]}</word>
   <word key="pbr_confirm_text" js="1">Questo rimuoverà immediatamente la tua richiesta e il tuo indirizzo email.</word>
   <word key="pbr_confirm_ok" js="1">Sì, rimuovi ora</word>
@@ -7616,6 +7643,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="forums_fluid_pinned" js="0">Privilegia le discussioni contrassegnate</word>
   <word key="forums_fluid_pinned_desc" js="0">Mostra le discussioni evidenziate dai forum selezionati in cima alla lista delle discussioni quando la modalità fluida è abilitata</word>
   <word key="forums_default_view_choose_error" js="0">Devi selezionare almeno due visuali che i membri possono scegliere</word>
+  <word key="ad_fluid_index_view" js="0">Elenco degli argomenti della vista fluida, tra le righe degli argomenti</word>
   <word key="ad_fluid_index_view_number" js="0">Mostra questo avviso dopo ogni</word>
   <word key="ad_fluid_index_view_repeat" js="0">Ripetuto</word>
   <word key="ad_fluid_index_view_repeat_suffix" js="0">volte</word>
@@ -8147,6 +8175,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="blog_name_group" js="0">Nome</word>
   <word key="blog_desc" js="0">Descrizione</word>
   <word key="blog_desc_group" js="0">Descrizione</word>
+  <word key="blog_type" js="0">Tipo</word>
   <word key="blog_type_normal" js="0">Autore singolo</word>
   <word key="blog_type_group" js="0">Grouppo</word>
   <word key="blog_member_id" js="0">Autore</word>
@@ -8361,12 +8390,27 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__nexus_payments" js="0">Pagamenti</word>
   <word key="__indefart_support_request" js="0">una richiesta di supporto</word>
   <word key="__defart_support_request" js="0">richiesta di supporto</word>
+  <word key="editor__nexus_Store" js="0">Negozio Prodotti</word>
   <word key="editor__nexus_Support" js="0">Richieste di supporto</word>
   <word key="editor__nexus_Purchases" js="0">Acquisti</word>
+  <word key="filestorage__nexus_Products" js="0">Immagini del prodotto</word>
+  <word key="filestorage__nexus_Ads" js="0">Annunci caricati dal cliente</word>
   <word key="ipAddresses__nexus_Support" js="0">Richieste di supporto</word>
   <word key="nexus_bm_filters" js="0">Acquisti</word>
+  <word key="nexus_bm_filters_packages" js="0">Il membro ha acquistato uno di questi prodotti</word>
+  <word key="nexus_bm_filters_packages_none" js="0">Non filtrare in base agli acquisti</word>
+  <word key="nexus_bm_filters_subscription_none" js="0">Non filtrare in base all'abbonamento</word>
+  <word key="nexus_bm_filters_type_active" js="0">Attivo</word>
+  <word key="nexus_bm_filters_pkg_expired" js="0">Scaduto</word>
+  <word key="nexus_bm_filters_type_expired" js="0">Scaduto</word>
+  <word key="nexus_bm_filters_type_canceled" js="0">Annullato</word>
+  <word key="nexus_bm_filters_pkg_expired_days" js="0">Di più</word>
+  <word key="nexus_bm_filters_pkg_expired_days_suffix" js="0">giorni fa</word>
   <word key="nexus_bm_filters_total_spend" js="0">Spesa totale</word>
   <word key="paypal_payer_status" js="0">Stato account PayPal: %s</word>
+  <word key="braintree_type_header" js="0">Metodo di pagamento</word>
+  <word key="braintree_type_card" js="0">Carta</word>
+  <word key="braintree_dispute_reason_product_not_received" js="0">Il cliente afferma di non aver ricevuto i prodotti o i servizi acquistati.</word>
   <word key="menu__nexus_payments_transactions" js="0">Transizioni</word>
   <word key="t_status" js="0">Stato</word>
   <word key="tstatus_dspd" js="0">Contestate</word>
@@ -8378,6 +8422,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__nexus_payments_paymentsettings" js="0">Impostazioni</word>
   <word key="nexus_split_payments_on" js="0">Consenti pagamenti divisi?</word>
   <word key="nexus_split_payments" js="0">Importo minimo per pagamenti divisi</word>
+  <word key="nexus_require_billing_package" js="0">Acquisto di prodotti non fisici</word>
   <word key="nexus_revw_sa" js="0">Azioni predefinite per richieste di supporto</word>
   <word key="do_not_suggest_stock_action" js="0">Non selezionare automaticamente le azioni predefinite</word>
   <word key="menu__nexus_payments_invoices" js="0">Fatture</word>
@@ -8399,14 +8444,20 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="invoice_status_expd" js="0">Scaduto</word>
   <word key="invoice_status_canc" js="0">Annullato</word>
   <word key="item_name" js="0">Nome</word>
+  <word key="item_physical" js="0">Fisico?</word>
+  <word key="item_weight" js="0">Peso</word>
+  <word key="invoice_products" js="0">Prodotti</word>
   <word key="ba_started" js="0">Data creazione</word>
   <word key="tax_settings" js="0">Impostazioni</word>
+  <word key="do_not_tax" js="0">Non tassare</word>
   <word key="s_type_q" js="0">Numero di articoli da spedire</word>
   <word key="total_items_shipped" js="0">{# [1:oggetto][?:oggetti]} totale in questa spedizione</word>
   <word key="menu__nexus_payments_shipping" js="0">Spedizioni</word>
   <word key="o_status" js="0">Stato</word>
   <word key="track" js="0">Traccia</word>
+  <word key="w_rate_min" js="0">Peso tra:</word>
   <word key="testgateway_status" js="0">Stato</word>
+  <word key="card_types" js="0">Noi accettiamo %s</word>
   <word key="total" js="0">Totale</word>
   <word key="cm_first_name" js="0">Nome</word>
   <word key="cm_last_name" js="0">Cognome</word>
@@ -8433,7 +8484,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="history_transaction_status_fail" js="0">rifiutato</word>
   <word key="history_transaction_status_dspd" js="0">contestato</word>
   <word key="ps_member" js="0">Proprietario</word>
+  <word key="cancel_type_cancel" js="0">Annulla</word>
   <word key="view_purchases" js="0">Visualizza gli acquisti</word>
+  <word key="license_key" js="0">Chiave di licenza</word>
   <word key="menu__nexus_payments_payouts" js="0">Prelievi</word>
   <word key="po_status" js="0">Stato</word>
   <word key="postatus_pend" js="0">in attesa di</word>
@@ -8488,6 +8541,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="departments_blurb" js="0">I dipartimenti servono per organizzare le richieste di supporto, ad esempio potresti avere un dipartimento per le domande di vendita e un altro per il supporto tecnico.</word>
   <word key="dpt_name" js="0">Nome</word>
   <word key="dpt_open" js="0">Consenti invii?</word>
+  <word key="dpt_packages" js="0">Prodotti associati</word>
   <word key="dpt_email" js="0">Indirizzo Email</word>
   <word key="dpt_email_desc" js="0"><![CDATA[Se hai impostato <a href='{internal.app=nexus&module=support&controller=settings&tab=incomingemail}'>l'e-mail in entrata</a>, le e-mail ricevute da questo indirizzo verranno inviate a questo dipartimento. Quando un membro dello staff risponde, l'e-mail verrà inviata da questo indirizzo.]]></word>
   <word key="dpt_desc_placeholder" js="0">Aggiungi una descrizione...</word>
@@ -8529,6 +8583,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="custom_support_fields_blurb" js="0">È possibile creare campi personalizzati da mostrare nella richiesta di supporto per chiedere ai clienti ulteriori informazioni.</word>
   <word key="sf_departments" js="0">Dipartimenti</word>
   <word key="sf_departments_desc" js="0">Ai clienti verrà richiesto di compilare questo campo durante la creazione di una richiesta di supporto nei dipartimenti selezionati.</word>
+  <word key="incoming_email_filters" js="0">Filtri</word>
   <word key="nexus_support_satisfaction_desc" js="0">Consenti al cliente di valutare le risposte dello staff e lasciare appunti.</word>
   <word key="members_support_requests" js="0">%s's richieste di supporto</word>
   <word key="r_severity" js="0">Gravità</word>
@@ -8603,23 +8658,52 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__nexus_support_volume" js="0">Nuova richiesta di supporto</word>
   <word key="support_requests_created" js="0">Richiesta di supporto creata.</word>
   <word key="latest_feedback" js="0">Feedback più recenti</word>
+  <word key="menu__nexus_store_packages" js="0">Prodotti</word>
+  <word key="product_groups_add_child" js="0">Crea prodotto in questo gruppo</word>
   <word key="pg_desc" js="0">Descrizione</word>
   <word key="pg_desc_placeholder" js="0">Click per aggiungere una descrizione.</word>
+  <word key="pg_filters" js="0">Filtri del prodotto</word>
+  <word key="package_settings" js="0">Impostazioni del prodotto</word>
+  <word key="p_type_Product" js="0">Prodotto normale</word>
+  <word key="p_type_Product_desc" js="0">Vendi prodotti fisici (articoli che spedisci al cliente) o altri beni immateriali (ad esempio licenze software o piani di abbonamento premium).</word>
+  <word key="p_renew_options" js="0">Opzioni di rinnovo</word>
+  <word key="add_to_purchase_price" js="0">Aggiungi al prezzo di acquisto</word>
   <word key="p_desc" js="0">Descrizione</word>
   <word key="p_desc_placeholder" js="0">Aggiungi una descrizione...</word>
+  <word key="p_reg" js="0">Mostrare nel modulo di registrazione?</word>
   <word key="p_associate_none" js="0">Non associare gli acquisti di questo prodotto ad altri acquisti</word>
   <word key="p_email_wysiwyg" js="0">Sì - Usa l'editor WYSIWYG</word>
   <word key="p_email_html_template" js="0">Sì - usa HTML con il template normale delle email</word>
   <word key="p_email_html_raw" js="0">Sì - usa HTML senza template</word>
+  <word key="p_physical" js="0">Fisico?</word>
+  <word key="p_weight" js="0">Peso</word>
+  <word key="lkey_none" js="0">Non generare una chiave di licenza</word>
+  <word key="package_purchase_price" js="0">Prezzo d'acquisto</word>
+  <word key="package_discounts" js="0">Sconti</word>
+  <word key="p_usergroup_discounts" js="0">Sconti per gruppi utente</word>
+  <word key="p_support_severity" js="0">Gravità supporto</word>
   <word key="mailsub__nexus_purchaseNotify" js="0"><![CDATA[Acquista {$purchase->name|raw}]]></word>
+  <word key="p_show" js="0">Mostrare gli acquisti nell'area clienti e nell'Admin CP?</word>
+  <word key="p_type_Hosting_desc" js="0"><![CDATA[Vendi spazio web nei tuoi <a href='{internal.app=nexus&module=hosting&controller=servers}'>server</a>.]]></word>
   <word key="product_change_blurb_existing" js="0">Aggiorna acquisti esistenti</word>
   <word key="product_change_blurb_new" js="0">Applicare solo ai nuovi acquisti</word>
   <word key="remove_renewal_no_expire_leave" js="0">Nessun costo di rinnovo. Non modificare lo stato.</word>
+  <word key="p_set_discounts" js="0">Imposta sconti</word>
+  <word key="pg_filters_header" js="0">Filtri</word>
+  <word key="pg_price_filters" js="0">Filtri di prezzo</word>
+  <word key="cf_packages" js="0">Prodotti</word>
   <word key="gift_voucher_sender" js="0">Il tuo nome</word>
+  <word key="weight" js="0">Peso</word>
+  <word key="featured_products" js="0">prodotti sponsorizzati</word>
+  <word key="new_products" js="0">Nuovi Prodotti</word>
   <word key="all_categories" js="0">Tutte le categorie</word>
   <word key="continue_without_purchasing" js="0">No grazie, continua senza acquistare</word>
   <word key="change_address" js="0">Cambia autore</word>
+  <word key="store_clear_filters" js="0">Rimuovi filtri</word>
+  <word key="in_stock_only" js="0">Mostra solo prodotti in stock</word>
   <word key="menu__nexus_store_settings" js="0">Impostazioni</word>
+  <word key="nexus_store_new" js="0">Nuovi Prodotti</word>
+  <word key="nexus_store_popular" js="0">Prodotti popolari</word>
   <word key="recent_support_requests" js="0">Richieste di supporto recenti</word>
   <word key="edit_address_title" js="0">Modifica indirizzo</word>
   <word key="address_add_title" js="0">Aggiungi un nuovo indirizzo alla tua rubrica</word>
@@ -8633,29 +8717,56 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="purchases_title" js="0">Gestisci i tuoi acquisti</word>
   <word key="purchases_manage_purchase" js="0">Gestisci questo acquisto</word>
   <word key="billing_agreement_payments" js="0">Storico dei pagamenti</word>
+  <word key="coupon_products" js="0">Prodotti</word>
+  <word key="c_products" js="0">Prodotti</word>
+  <word key="c_products_desc" js="0">Il coupon potrà essere utilizzato solo se il membro acquista uno dei prodotti specificati.</word>
+  <word key="c_limit_discount_yes" js="0">Solo i prodotti selezionati</word>
   <word key="menu__nexus_payments_donations" js="0">Donatori</word>
   <word key="d_name" js="0">Nome</word>
   <word key="d_desc" js="0">Descrizione</word>
   <word key="thanks_for_your_donation" js="0">Grazie per la tua donazione!</word>
+  <word key="easypost_package" js="0">Tipo</word>
+  <word key="easypost_package_weight" js="0">Peso</word>
   <word key="epc_description" js="0">Descrizione</word>
+  <word key="easypost_test_method_1" js="0">Scegli i prodotti da spedire</word>
+  <word key="easypost_test_products" js="0">Prodotti</word>
   <word key="menu__nexus_hosting_settings" js="0">Impostazioni</word>
   <word key="account_diskspace_use" js="0">Uso dello spazio su disco</word>
+  <word key="p_type_Ad" js="0">Annuncio pubblicitario</word>
+  <word key="p_type_Ad_desc" js="0"><![CDATA[Vendi spazi pubblicitari sul tuo sito che mostrino insieme ai tuoi <a href='{internal.app=core&module=promotion&controller=advertisements}'>annunci pubblicitari</a>.]]></word>
+  <word key="p_locations" js="0">Mostra l'annuncio</word>
+  <word key="advertisement" js="0">Annuncio pubblicitario</word>
+  <word key="advertisement_url" js="0">URL di destinazione</word>
+  <word key="advertisement_image" js="0">Immagine</word>
+  <word key="advertisement_image_max_wh" js="0">L'immagine deve essere inferiore di %s×%spx. Le immagini più grandi verranno ridimensionate.</word>
+  <word key="advertisement_image_max_w" js="0">L'immagine deve avere una larghezza inferiore di %spx. Le immagini più grandi verranno ridimensionate.</word>
+  <word key="advertisement_image_max_h" js="0">L'immagine deve essere inferiore di %spx in altezza. Le immagini più grandi verranno ridimensionate.</word>
+  <word key="advertisement_pending_approval" js="0">L'annuncio è attualmente in attesa di approvazione.</word>
+  <word key="advertisement_active" js="0">L'annuncio è attivo e verrà visualizzato in circolazione.</word>
+  <word key="advertisement_expired" js="0">L'annuncio è scaduto e non verrà più visualizzato.</word>
+  <word key="view_advertisements" js="0">Visualizza annunci</word>
   <word key="purchases" js="0">Acquisti</word>
   <word key="nexus_report_count" js="0">Numero totale di vendite</word>
   <word key="nexus_report_income_totals" js="0">Reddito totale</word>
   <word key="total_amount_spent" js="0">Importo totale speso</word>
   <word key="ref_cond_n" js="0">acquisti</word>
   <word key="open_support_requests" js="0">Richieste di supporto</word>
+  <word key="pending_advertisements" js="0">Annunci in sospeso</word>
   <word key="email_item_total" js="0">Totale</word>
   <word key="email_order_total" js="0">Totale ordine</word>
   <word key="reply_by__accountowner" js="0">Titolare dell'account</word>
+  <word key="block_latestProducts" js="0">Ultimi Prodotti</word>
   <word key="__api_nexus_purchases" js="0">Acquisti</word>
   <word key="__api_nexus_supportrequests" js="0">Richieste di supporto</word>
+  <word key="__api_nexus_lkey" js="0">Chiavi di licenza</word>
   <word key="support_request_pl" js="0">Richieste di supporto</word>
   <word key="support_request_pl_lc" js="0">richieste di supporto</word>
   <word key="log_type_title_address" js="0">Cambia indirizzi</word>
   <word key="log_type_title_custom" js="0">Altro</word>
+  <word key="sp_renews" js="0">Rinnovare?</word>
   <word key="sp_desc" js="0">Descrizione</word>
+  <word key="nexus_bm_filters_subscription_pkgs" js="0">Il membro ha acquistato un abbonamento</word>
+  <word key="nexus_bm_filters_type_expired_date" js="0">Scaduto</word>
   <word key="nexus_sub_member_id" js="0">Nome visualizzato</word>
   <word key="nexus_cm_last_name" js="0">Cognome</word>
   <word key="nexus_cm_first_name" js="0">Nome</word>

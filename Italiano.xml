@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Italiano" rtl="0">
- <app key="core" version="104033">
+ <app key="core" version="104038">
   <word key="__indefart_personal_conversation" js="0">una conversazione privata</word>
   <word key="__indefart_personal_conversation_message" js="0">un messaggio in una conversazione privata</word>
   <word key="__indefart_report" js="0">una segnalazione</word>
@@ -140,6 +140,7 @@
   <word key="stream_blurb_date_before" js="0">pubblicato prima %s</word>
   <word key="stream_copy_feed" js="0">Aggiungi ai miei flussi</word>
   <word key="stream_edit_filters" js="0">Modifica le impostazioni stream</word>
+  <word key="stream_rename" js="0">Rinomina</word>
   <word key="stream_no_results" js="0">Nessun nuovo contenuto da mostrare.</word>
   <word key="stream_sorting" js="0">Ordinamento</word>
   <word key="stream_copy_desc" js="0">Aggiungilo ai tuoi flussi per un facile accesso in futuro o per modificarne i filtri.</word>
@@ -1956,6 +1957,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="emailerrorlogs_mlog_content" js="0">Testo Email</word>
   <word key="view_email_error_body" js="0">Visualizza testo email</word>
   <word key="resend_email_error" js="0">Reinvia email</word>
+  <word key="view_full_smtp_log" js="0">Visualizza registro completo →</word>
   <word key="prune_emailerrorlogs" js="0">Pulisci logs</word>
   <word key="prune_log_email_error" js="0">Pulisci gli error logs dell'email</word>
   <word key="acplogs" js="0">Logs Amministratori</word>
@@ -2794,7 +2796,9 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="googlemaps_desc" js="0">Utilizzare Google Maps per la visualizzazione i dati sulla mappa, ad esempio durante la ricerca di un indirizzo IP.</word>
   <word key="googleplacesautocomplete" js="0">Attivare l'integrazione di autocompletamento con Google Places?</word>
   <word key="googleplacesautocomplete_desc" js="0">Consentirà la funzionalità di autocompletamento nei campi in cui è richiesto un indirizzo.</word>
+  <word key="acplog__enhancements_enable" js="0">Abilitato miglioramento della community: %s</word>
   <word key="acplog__enhancements_disable" js="0">Miglioramento della comunità disattivato: %s</word>
+  <word key="acplog__enhancements_edited" js="0">Modificato miglioramento della community: %s</word>
   <word key="enhancements__core_GoogleAnalytics_desc" js="0">Google Analytics permette di monitorare l'attività del sito, al fine di raccogliere dati analitici utili sul tuo sito.</word>
   <word key="signup_googleanalytics" js="0">Registrati per avere un account Google Analytics</word>
   <word key="ipbseo_ga_enabled" js="0">Attiva Google Analytics Tracking</word>
@@ -2861,6 +2865,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="warn_reason_message" js="0">Motivo:</word>
   <word key="warn_points_message" js="0">Punti:</word>
   <word key="must_acknowledge_msg" js="0"><![CDATA[Per continuare la pubblicazione, devi <strong>accettare</strong> questo avviso. Restrizioni aggiuntive possono comunque rimanere in vigore.]]></word>
+  <word key="warning_system_disabled" js="0">Il sistema di avverimento è attualmente disabilitato</word>
   <word key="warned_by" js="0">Avvertito da %s, </word>
   <word key="warning_expires" js="0">Scade il %s</word>
   <word key="membersettings_registration_title" js="0">Impostazioni di registrazione</word>
@@ -2971,6 +2976,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="emoticons_delete_set_confirm" js="0">Questo eliminerà l'insieme e tutti gli emoticon all'interno di esso.</word>
   <word key="emoticons_add_choosegroup" js="0">Gruppo dove inserire le emoticon</word>
   <word key="emoticon_group_name_error" js="0">È necessario specificare il nome del gruppo.</word>
+  <word key="acplog__emoticon_group_created" js="0">Aggiunto emoji personalizzate al gruppo: %s</word>
   <word key="acplog__emoticons_added" js="0">Emoticon Aggiunte</word>
   <word key="acplog__emoticons_edited" js="0">Emoticon modificate</word>
   <word key="acplog__emoticon_deleted" js="0">Rimossa una emoji customizzata</word>
@@ -3219,6 +3225,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="_ad_custom__desc" js="0"><![CDATA[<a href='{external.ad-custom-location}' target='_blank'>Come utilizzare le posizioni personalizzate</a>.]]></word>
   <word key="ad_promo_title" js="0">Ottenere migliori potenzialità dalla pubblicità</word>
   <word key="ad_promo_msg" js="0">Aggiungi il Commerce di IPS Comunità Suite per ottenere funzionalità aggiuntive dalla pubblicità, tra cui la possibilità di vendere spazi pubblicitari direttamente ai vostri utenti attraverso un sistema self-service.</word>
+  <word key="ad_nostatus_change" js="0">È stata raggiunta la data di fine dell'annuncio, il numero massimo di clic o il numero massimo di impressioni.</word>
   <word key="google_adsense_blurb" js="0">Se stai usando Google Adsense, ci sono particolari regole su dove puoi fare pubblicità.</word>
   <word key="google_adsense_login_header" js="0">Pagine disponibili solo per utenti registrati</word>
   <word key="google_adsense_login_blurb" js="0">Se inserisci annunci in una pagina disponibile solo per gli utenti registrati, devi fornire a Google un nome utente e una password che puoi utilizzare per visualizzare gli annunci.</word>
@@ -4016,6 +4023,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="warning_go_to_content" js="0">Vai al contenuto originale</word>
   <word key="warning_revoke_undo" js="0"><![CDATA[Annulla & Elimina]]></word>
   <word key="mod_queue_message" js="0">Il tuo messaggio dovrà essere approvato da un moderatore</word>
+  <word key="view_warning_details" js="0">Visualizza i dettagli dell'avvertimento</word>
   <word key="view_warning_details_title" js="0">Vedi ulteriori informazioni su questo avviso</word>
   <word key="warning_details" js="0">Dettagli Avvertimento</word>
   <word key="assigned_point_levels" js="0">Punti livello assegnati</word>
@@ -4287,6 +4295,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="announce_mark_inactive" js="0">Rendere inattiva</word>
   <word key="announce_active_status" js="0">Attivo</word>
   <word key="announce_actions" js="0">Azioni annuncio</word>
+  <word key="view_announcement" js="0">Visualizza annuncio</word>
   <word key="announce_delete" js="0">Rimuovi questo annuncio</word>
   <word key="announcement_not_active" js="0">Questo annuncio non è più attivo</word>
   <word key="announcement_missing" js="0">Non siamo riusciti a trovare l'annuncio che stavi cercando di visualizzare.</word>
@@ -4348,6 +4357,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="sort_views" js="0">Più Visitato</word>
   <word key="sort_title" js="0">Titolo</word>
   <word key="sort_author_name" js="0">Autore</word>
+  <word key="sort_last_comment_name" js="0">Autore ultimo commento</word>
   <word key="sort_date" js="0">Data Inizio</word>
   <word key="sort_relevancy" js="0">Rilevanza</word>
   <word key="sort_mname" js="0">Nome</word>
@@ -4363,6 +4373,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="widget_feed_title_desc" js="0">Questo è ciò che viene visualizzare nell'intestazione del blocco.</word>
   <word key="widget_feed_use_perms_desc" js="0">Normalmente questo dovrebbe essere lasciato abilitato, ma potresti voler disabilitare se stai mostrando deliberatamente contenuti che gli utenti non possono accedere, ad esempio come incentivo per l'aggiornamento del loro account.</word>
   <word key="widget_feed_status" js="0">Filtri</word>
+  <word key="widget_feed_status_locked" js="0">Stati</word>
   <word key="mod_confirm_either" js="0">O</word>
   <word key="widget_feed_author" js="0">Autori</word>
   <word key="widget_feed_author_desc" js="0">Se fornito, verrà incluso solo il contenuto dei membri specificati.</word>
@@ -4371,6 +4382,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="widget_feed_comment_date" js="0">Pubblicato</word>
   <word key="widget_feed_tags" js="0">Con tag</word>
   <word key="widget_feed_tags_desc" js="0">Quando aggiungi più tag qui, se uno dei tag corrisponde, l'elemento di contenuto verrà visualizzato.</word>
+  <word key="widget_feed_item_author" js="0">%s autore</word>
   <word key="widget_feed_restrict_days" js="0">Dall'ultimo</word>
   <word key="widget_feed_restrict_days_suffix" js="0">giorni</word>
   <word key="mod_confirm_visible" js="0">Visibile</word>
@@ -4630,12 +4642,23 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="ago" js="0">fa</word>
   <word key="block_members" js="0">Membri</word>
   <word key="block_members_desc" js="0">Mostra elenchi di membri come chi è online, compleanni di oggi e altro ancora.</word>
+  <word key="widget_member_title" js="0">Titolo</word>
+  <word key="widget_member_title_default" js="0">Membri</word>
+  <word key="widget_member_groups" js="0">Gruppi</word>
   <word key="widget_member_rep" js="0">Reputazione minima</word>
   <word key="widget_member_born_today" js="0">Nato oggi</word>
   <word key="widget_member_born_month" js="0">Nati in questo mese</word>
   <word key="widget_member_has_album" js="0">Possiede un album nella galleria</word>
+  <word key="widget__sort_name" js="0">Nome</word>
+  <word key="widget__sort_joined" js="0">Iscritto</word>
+  <word key="widget__sort_activity" js="0">Ultima attività</word>
   <word key="widget__sort_visit" js="0">Ultima visita</word>
+  <word key="widget__sort_last_post" js="0">Ultimo messaggio</word>
+  <word key="widget__sort_age" js="0">Età</word>
   <word key="widget__sort_points" js="0">Reputazione</word>
+  <word key="widget__sort_random" js="0">Casuale</word>
+  <word key="widget__display_csv_desc" js="0">Lista compatta: (e.g.: John, Bob, Sue)</word>
+  <word key="widget_members_no_results" js="0">Non ci sono membri da mostrare</word>
   <word key="widget_member_joined_date" js="0">Registrato: %s </word>
   <word key="widget_member_last_active_date" js="0">Ultima attività: %s</word>
   <word key="remote_images" js="0">Immagini remote</word>
@@ -4763,6 +4786,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="previewBtnCancel" js="1">Torna indietro e modifica</word>
   <word key="filesStillUploading" js="1">Uno o più allegati sono in caricamento.</word>
   <word key="filesStillUploadingDesc" js="1">Si prega di attendere che completino prima di inviare questo modulo.</word>
+  <word key="yourUploadsFinished" js="1">{!# [1:Caricamento finito][?:Caricamenti finiti]}</word>
   <word key="attachQueued" js="1">In coda</word>
   <word key="attachUploading" js="1">Caricamento...</word>
   <word key="attachDone" js="1">Fine</word>
@@ -5121,6 +5145,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="toggleFiltersHidden" js="1"><![CDATA[Mostra i filtri <i class = 'fa fa-caret-down'> </i>]]></word>
   <word key="toggleFiltersShown" js="1"><![CDATA[Mostra i filtri <i class = 'fa fa-caret-down'> </i>]]></word>
   <word key="activity_stream_rss" js="0">Abilita Feed RSS</word>
+  <word key="view_privacy_policy" js="0">Visualizza la nostra politica sulla privacy</word>
   <word key="ip_override_warn" js="0"><![CDATA[Questa impostazione è in corso di override per le sessioni di AdminCP perché il <code>BYPASS_ACP_IP_CHECK</code> La costante è abilitata nel file constants.php. <a href='{external.disable_ip_check}' target='_blank'>Maggiori informazioni</a>]]></word>
   <word key="ipAddresses__core_Votes" js="0">Voti del sondaggio</word>
   <word key="poll_member_id" js="0">Membro</word>
@@ -5152,11 +5177,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="device_desktop_preview" js="0">Visualizza a dimensioni del desktop approssimative</word>
   <word key="device_tablet_preview" js="0">Visualizza a dimensioni del tablet approssimative</word>
   <word key="device_phone_preview" js="0">Visualizza a dimensioni del telefono approssimative</word>
-  <word key="_date_day_and_month" js="0">{0#} {!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]}</word>
+  <word key="_date_day_and_month" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}</word>
   <word key="_date_this_year_short" js="0">{!1#[1:Gen][2:Feb][3:Mar][4:Apr][5:Mag][6:Giu][7:Lug][8:Ago][9:Set][10:Ott][11:Nov][12:Dic]} {0#}</word>
   <word key="_date_this_year_long" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}</word>
-  <word key="_date_last_year_short" js="0">{0#} {!1#[1:Gen][2:Feb][3:Mar][4:Apr][5:Mag][6:Giu][7:Lug][8:Ago][9:Set][10:Ott][11:Nov][12:Dic]} %s </word>
-  <word key="_date_last_year_long" js="0">{0#} {!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} %s</word>
+  <word key="_date_last_year_short" js="0">{!1#[1:Gen][2:Feb][3:Mar][4:Apr][5:Mag][6:Giu][7:Lug][8:Ago][9:Set][10:Ott][11:Nov][12:Dic]} {0#}, %s </word>
+  <word key="_date_last_year_long" js="0">{!1#[1:Gennaio][2:Febbraio][3:Marzo][4:Aprile][5:Maggio][6:Giugno][7:Luglio][8:Agosto][9:Settembre][10:Ottobre][11:Novembre][12:Dicembre]} {0#}, %s</word>
   <word key="form_multibyte_unicode_admin" js="0"><![CDATA[Il valore immesso include un carattere che non è consentito, ad esempio un Emoji. Per abilitare il supporto di tali caratteri, <a href='{internal.admin.app=core&module=support&controller=utf8mb4&_new=1}' target='_blank'>abilita utf8mb4</a>.]]></word>
   <word key="modlog__action_merge_comments" js="0"><![CDATA[Contenuto fuso in %s <a href='%s'>#%s</a>]]></word>
   <word key="modlog__item_edit" js="0"><![CDATA[Modificato %s: <a href='%s'>%s</a>]]></word>
@@ -5165,6 +5190,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="log_time" js="0">Data/Ora</word>
   <word key="log_category" js="0">Tipo</word>
   <word key="log_message" js="0">Messaggio</word>
+  <word key="acplog__log_delete" js="0">Eliminato il file log: %s da %s</word>
   <word key="log_view_file_logs" js="0">Mostra i File Log</word>
   <word key="log_view_file_logs_info" js="0"><![CDATA[Se un registro deve essere scritto e la registrazione al database non riesce, il registro viene scritto invece sul disco. Ad esempio, questo potrebbe verificarsi se il database è completamente inaccessibile. I registri sono attualmente in fase di scrittura nel <code>%s</code> cartella <a class='ipsType_small' href='{external.log_directory}' target='_blank'>(change)</a>.]]></word>
   <word key="log_file_could_not_delete" js="0">Impossibile eliminare il file</word>
@@ -5302,6 +5328,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="MFA_core_EmailChange" js="0">Modifica dell'indirizzo di posta elettronica</word>
   <word key="MFA_core_PasswordChange" js="0">Modifica della password</word>
   <word key="MFA_core_SecurityQuestions" js="0">Aggiornamento dell'installazione di autenticazione a due fattori</word>
+  <word key="security_question_title" js="0">Domanda</word>
   <word key="member__core_SecurityAnswers" js="0">Autenticazione due fattori</word>
   <word key="r__member_security_answers" js="0">Può visualizzare e modificare le risposte dei membri alle domande sulla sicurezza?</word>
   <word key="security_questions_auth_blurb" js="0">Per proteggere la sicurezza del tuo account, rispondi alla seguente domanda di sicurezza.</word>
@@ -5318,6 +5345,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__core_discovery_rss" js="0">Feed RSS</word>
   <word key="r__rss_export_manage" js="0">Può gestire i feed RSS?</word>
   <word key="rss_settings" js="0">Impostazioni</word>
+  <word key="rss_name" js="0">Titolo</word>
   <word key="rss_desc" js="0">Descrizione</word>
   <word key="rss_count" js="0">Numeri di elementi</word>
   <word key="rss_members" js="0">Contenuto pubblicato da</word>
@@ -5729,7 +5757,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="device_table_member_id" js="0">Membro</word>
   <word key="device_table_login_key" js="0">Accesso automatico</word>
   <word key="device_automatic_login" js="0">Accesso automatico abilitato</word>
+  <word key="device_last_locations" js="0">Ultima posizione utilizzata</word>
   <word key="device_last_logins" js="0">Ultimi accessi</word>
+  <word key="secure_account_login_title" js="0">Metodi di accesso</word>
   <word key="secure_account_login_info" js="0">Sei in grado di accedere con i seguenti metodi. Se hai notato un accesso che non riconosci da uno di questi, dovresti cambiare la password su quel sito.</word>
   <word key="disable_automatic_login" js="0">Disabilita accesso automatico</word>
   <word key="follow_sec_recommend" js="0">Seguendo le raccomandazioni di seguito contribuirà a migliorare la sicurezza della vostra comunità.</word>
@@ -5755,6 +5785,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
 </word>
   <word key="see_who_reacted" js="0">Guarda chi ha reagito</word>
   <word key="reactions" js="0">Reazioni</word>
+  <word key="reaction_title" js="0">Titolo</word>
   <word key="reaction_value" js="0">Reputazione</word>
   <word key="reaction_remove" js="0">Rimuovi la tua reazioni</word>
   <word key="see_who_reacted_x" js="0">Vedi chi ha reagito &quot;%s&quot;</word>
@@ -5764,6 +5795,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__reactions" js="0">Reazioni</word>
   <word key="r__reactions_manage" js="0">Può gestire le reazioni</word>
   <word key="pf_allow_attachments" js="0">Consenti allegati?</word>
+  <word key="site_social_profiles" js="0">Profili Social</word>
   <word key="menu__core_members_promotions" js="0">Promozione Gruppi</word>
   <word key="r__membervisits" js="0">Statistiche Visite dei Membri</word>
   <word key="r__onlineusers" js="0">Statistiche Utenti Online</word>
@@ -5776,6 +5808,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_activity_info" js="0">Il numero totale di membri che hanno inviato nuovi contenuti, seguito qualcosa o reagito a qualcosa sulla comunità nel periodo di tempo specificato.</word>
   <word key="visit_date" js="0">Trova membri la cui ultima visita è stata</word>
   <word key="member_visits_results" js="0">{# [1:membro][?:membri]} nell'ultima attività tra %s e %s</word>
+  <word key="visits_name" js="0">Membro</word>
   <word key="visits_last_visit" js="0">Ultima visita</word>
   <word key="r__member_history" js="0">Può visualizzare la cronologia dei membri</word>
   <word key="generic_gp_filters" js="0">Filtri</word>
@@ -5809,6 +5842,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="block_guestsignup_message" js="0">Massaggio</word>
   <word key="guest_signup_admin_message" js="0">Questo blocco è mostrato solo agli ospiti.</word>
   <word key="dynamic_chart_timezone_info" js="0">I risultati sono mostrati nel fuso orario del server.</word>
+  <word key="dynamic_chart_timezone_title" js="0">Informazioni Timezone</word>
+  <word key="minimum_chart_date" js="0">La data di inizio per il grafico è troppo presto. La prima data disponibile è %s.</word>
   <word key="stats_include_hidden_content" js="0">Il conteggio qui include i contenuti nascosti e quelli visibili.</word>
   <word key="acp_search_title_core_Clubs" js="0">Club</word>
   <word key="recommended_replies" js="0">Commenti Raccomandati</word>
@@ -5822,6 +5857,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="authy_setup_protection_1" js="0">L'Utente ha</word>
   <word key="authy_method" js="0">Metodi di autenticazione</word>
   <word key="authy_alt_method" js="0">Metodo di autenticazione alternativo</word>
+  <word key="mfa_sms_title" js="0">Messaggi SMS</word>
   <word key="authy_setup_alternative" js="0">Non hai uno smartphone?</word>
   <word key="leaderboard_show_more" js="0">Mostra altri</word>
   <word key="repuation_points" js="0">Punti Reputazione</word>
@@ -5900,8 +5936,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_date_joined_invite" js="0">Invitato</word>
   <word key="club_leaders_and_moderators" js="0">Leader e Moderatori</word>
   <word key="club_owner" js="0">Proprietario</word>
+  <word key="club_requests" js="0">Richiesta in attesa</word>
   <word key="club_make_moderator_confirm" js="0">I moderatori possono moderare il contenuto ma non possono gestire i membri del gruppo.</word>
   <word key="notifications__club_response" js="0">Un leader risponde alla mia richiesta di entrare in un club</word>
+  <word key="club_request_pending" js="0">Richiesta in attesa</word>
   <word key="club_edit_settings" js="0">Modifica Impostazioni Club</word>
   <word key="club_create_node" js="0">Aggiungi funzioni al club</word>
   <word key="club_node_name" js="0">Nome</word>
@@ -5961,7 +5999,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_filter_type" js="0">Tipo di Club</word>
   <word key="club_member" js="0">Sei un membro di questo club</word>
   <word key="clubs_recent_activity" js="0">Attività recente nei miei Club</word>
+  <word key="club_requested_title" js="0">Richiesta in attesa</word>
   <word key="club_denied_title" js="0">Richiesta Negata</word>
+  <word key="club_banned_title" js="0">Rimosso dal Club</word>
+  <word key="club_closed_title" js="0">Club chiuso</word>
   <word key="clubs_no_recent_activity" js="0">Quando sei membro di uno o più club, la loro attività recente sarà mostrata qui.</word>
   <word key="club_joined" js="0">Iscritto %s</word>
   <word key="clubs_require_approval" js="0">I nuovi club devono essere approvati?</word>
@@ -5984,7 +6025,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="log_type_title_warning" js="0"><![CDATA[Avvertimenti & Restrizioni]]></word>
   <word key="complete_profile_cover_photo" js="0">Foto Copertina</word>
   <word key="complete_profile_birthday" js="0">Compleanno</word>
+  <word key="profile_step_title" js="0">Titolo</word>
   <word key="complete_profile_app__core_Core" js="0">Sistema</word>
+  <word key="profile_acp_table_word_custom" js="0">Titolo</word>
   <word key="profile_generic" js="0">Informazioni di base sul profilo</word>
   <word key="profile_profile_fields" js="0">Altre informazioni sul profilo</word>
   <word key="supportAcpAccountDisableNo" js="1">No grazie</word>
@@ -6006,9 +6049,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="imageProxyRebuild" js="1">Ricostruire i contenuti esistenti?</word>
   <word key="whats_new_link" js="0">Cosa c'è di nuovo</word>
   <word key="members_validating_cancelled" js="0">Questo membro ha cancellato la sua registrazione</word>
+  <word key="notifications_user_count_like" js="0">{!# [1:qualcuno][?:# persone]}</word>
+  <word key="notifications_user_count_react" js="0">{!# [1:qualcuno][?:# persone]}</word>
   <word key="mailsub__core_notification_new_react" js="0"><![CDATA[Qualcuno ha reagito a {$comment->indefiniteArticle( $email->language )}]]></word>
   <word key="email_new_reacted" js="0">%s ha reagito a: %s</word>
   <word key="allow_poll_creation_after" js="0">Consentire l'aggiunta di un sondaggio dopo che un elemento è stato creato?</word>
+  <word key="acplog__log_delete_file" js="0">Eliminato il file log: %s</word>
   <word key="ads_force_sidebar" js="0">Forza visualizzazione sidebar</word>
   <word key="core_statuses_status_pl" js="0">Aggiornamento di Stato</word>
   <word key="whatsNew" js="1">Novità in Invision Community</word>
@@ -6035,6 +6081,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="acp_designersmode_on_title" js="0">Designers' Mode</word>
   <word key="acp_designersmode_on_blurb" js="0">Designers' Mode abilitata. Questa modalità permette ai designer di creare ed editare temi per la Community di Invision in un ambiente di sviluppo dedicato.</word>
   <word key="acp_not_production_tho" js="0"><![CDATA[<strong>Non si dovrebbe mai abilitare questa modalità su un sito di produzione.</strong>]]></word>
+  <word key="download_upgrade_initial_theme_conflicts_title" js="0">{!#[1:Tema incompatibile][?:Temi incompatibili]}</word>
   <word key="database_table_reporting_none" js="0">Escludi</word>
   <word key="login_method_name" js="0">Nome</word>
   <word key="ldap_name_field" js="0">Campo nome visualizzato</word>
@@ -6058,11 +6105,14 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="allow_forgot_password_disabled" js="0">No</word>
   <word key="login_handler_show_in_ucp_disabled" js="0">Mai</word>
   <word key="oauth_wordpress_app_settings" js="0">Impostazioni applicazione</word>
+  <word key="oauth_wordpress_app_name" js="0">Nome App Personalizzato</word>
+  <word key="oauth_wordpress_map_name" js="0">Nome</word>
   <word key="members_filtered_reserved" js="0">Riservato</word>
   <word key="members_last_activity" js="0">Ultima attività</word>
   <word key="members_allow_admin_emails" js="0">Consenti email collettive?</word>
   <word key="allow_admin_emails_any" js="0">Sia sì che no</word>
   <word key="member_photo_delete" js="0">Rimuovi Foto</word>
+  <word key="memberACPProfileTitle_core_Main" js="0">Vista membro</word>
   <word key="edit_cover_photo" js="0">Modifica Foto Copertina</word>
   <word key="edit_profile_photo" js="0">Modifica Foto del Profilo</word>
   <word key="edit_member_account" js="0">Modifica Preferenze</word>
@@ -6080,6 +6130,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="edit_club" js="0">Modifica Club</word>
   <word key="edit_password" js="0">Modifica Password</word>
   <word key="active_account_integrations" js="0">Integrazioni Account Attivi</word>
+  <word key="devices_and_locations" js="0"><![CDATA[Dispositivo & Luogo]]></word>
   <word key="devices_and_ips" js="0"><![CDATA[Dispositivi & Indirizzi IP]]></word>
   <word key="view_all_ip_addresses" js="0">Visualizza tutti gli indirizzi IP</word>
   <word key="member_ip_locations" js="0">Località</word>
@@ -6118,8 +6169,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="whitelist_type" js="0">Tipo</word>
   <word key="whitelist_ip_content" js="0">Indirizzo IP</word>
   <word key="whitelist_ip_content_desc" js="0">È possibile utilizzare il carattere asterisco (*) come carattere jolly</word>
+  <word key="whitelist_domain_content" js="0">Dominio Email</word>
   <word key="whitelist_domain_content_desc" js="0">È possibile utilizzare il carattere asterisco (*) come carattere jolly</word>
+  <word key="whitelist_date" js="0">Data aggiunta</word>
   <word key="spam_whitelist_ip_select" js="0">Indirizzo IP</word>
+  <word key="whitelist_content" js="0">Contenuto</word>
   <word key="rebuild_sitemap_initialized" js="0">Attività in background inizializzata</word>
   <word key="status_updates_disabled" js="0">Disattivato</word>
   <word key="acprestrictions_name" js="0">Amministratore</word>
@@ -6136,6 +6190,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="menu__core_activitystats_tags" js="0">Uso dei Tag</word>
   <word key="menu__core_stats_membersactivity" js="0">Attività dei membri</word>
   <word key="visits_email" js="0">Indirizzo email</word>
+  <word key="visits_group_name" js="0">Gruppo</word>
   <word key="visits_ip_address" js="0">Indirizzo IP</word>
   <word key="activity_date" js="0">Trova membri il cui ultimo elemento di contenuto, commento o invio di revisione è stato</word>
   <word key="member_activity_results" js="0">{# [1:utente][?:utenti]} ultima pubblicazione tra %s e %s</word>
@@ -6156,6 +6211,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="reactstatsm_rep_date" js="0">Ultima reazione</word>
   <word key="reactstatsm_member_id" js="0">Reazioni date da</word>
   <word key="reactstatsm_rating" js="0">Reputazione</word>
+  <word key="social_links_in_email_desc" js="0"><![CDATA[I <a href='{internal.app=core&module=settings&controller=general}'>Profili Social</a> verranno mostrati nel piè di pagina delle e-mail del sito.]]></word>
   <word key="license_renewal_soon" js="0">La licenza scade {! # [0: Oggi] [1: Domani] [?: in # giorni]}	</word>
   <word key="enhancements__core_Mapbox_desc" js="0">Mapbox fornisce mappe per migliorare la visualizzazione dei dati sulla posizione, ad esempio negli strumenti di ricerca dell'indirizzo IP.</word>
   <word key="mapbox_api_key" js="0">Chiave API</word>
@@ -6188,6 +6244,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="automoderation_already_reported_delete" js="0">Rimuovi la tua segnalazione</word>
   <word key="automoderation_report_again_mins_suffix" js="0">minuti</word>
   <word key="automoderation_deleted" js="0">Segnalazione cancellata</word>
+  <word key="automaticmod_types_title" js="0">Tipo Titolo</word>
   <word key="automaticmod_types" js="0">Tipo di segnalazione</word>
   <word key="profilesync_email_admin" js="0">Sincronizza indirizzo email</word>
   <word key="profilesync_name_admin" js="0">Sincronizza nome visualizzato</word>
@@ -6195,6 +6252,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="attach_allowed_types_media" js="0"><![CDATA[Solo Immagini & Video]]></word>
   <word key="performance_settings" js="0">Performance</word>
   <word key="close_warning" js="0">Disattiva questo avviso per una settimana</word>
+  <word key="facebook_https_warning_title2" js="0">Facebook Login non funziona</word>
   <word key="notifications__automatic_moderation" js="0">Il contenuto è automaticamente moderato</word>
   <word key="online_now_anon" js="0">%s è online in modo anonimo</word>
   <word key="replog_reactions_given" js="0">Reazioni date</word>
@@ -6221,12 +6279,15 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="__api_core_search" js="0">Cerca</word>
   <word key="__api_core_me" js="0">Utente autorizzato</word>
   <word key="oauth_basic_settings" js="0">Impostazioni</word>
+  <word key="oauth_client_name" js="0">Nome</word>
   <word key="client_type_invision" js="0">Un altra Invision Community</word>
   <word key="client_type_public_desc" js="0">Un'app basata su browser scritta in JavaScript o un'app mobile / nativa che verrà installata su un dispositivo a cui un utente finale può accedere. Non verrà emesso alcun segreto cliente.</word>
   <word key="client_grant_type_authorization_code" js="0">Codice di autorizzazione</word>
   <word key="client_grant_type_implicit" js="0">Implicito</word>
+  <word key="oauth_scope_name" js="0">Nome e Descrizione</word>
   <word key="oauth_default_scope_email" js="0">Vedi il tuo indirizzo email</word>
   <word key="oauth_auth_scope_desc" js="0">Descrizione</word>
+  <word key="oauth_authorize_title" js="0">Accedi come %s</word>
   <word key="oauth_app_revoke" js="0">Rimuovi</word>
   <word key="oauth_authorization_status" js="0">Stato</word>
   <word key="oauth_status_active" js="0">Attivo</word>
@@ -6251,6 +6312,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_nodes_in_apps_desc" js="0">Le aree di contenuto sono i forum, le categorie, ecc. create dai Proprietari dei Club nei loro Club. Risultati di ricerca, flussi di attività e widget che hanno i loro filtri di controllo non sono influenzati da questa impostazione.</word>
   <word key="menu__core_clubs_fields" js="0">Campi Extra</word>
   <word key="club_expired_title" js="0">Iscrizione Scaduta</word>
+  <word key="club_awaiting_payment_title" js="0">Richiesta accettata</word>
   <word key="clubs_delete_this_container" js="0">Elimina questo %s</word>
   <word key="club_view_grid" js="0">Griglia: Mostra i club come carte in una griglia</word>
   <word key="club_view_list" js="0">Elenco: Visualizza i club in un elenco</word>
@@ -6258,6 +6320,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_moderation" js="0">Permessi</word>
   <word key="clubs_default_view" js="0">Visualizzazione predefinita</word>
   <word key="clubs_allow_view_change" js="0">Permettere agli utenti di cambiare la visuale?</word>
+  <word key="clubs_paid_gateways" js="0">Modalità di pagamento</word>
   <word key="log_type_title_photo" js="0">Modifiche alle foto del profilo</word>
   <word key="history_new_photo_gallery" js="0">Nuova foto profilo impostata da %s%s.</word>
   <word key="history_new_photo_gallery_link" js="0">immagine galleria</word>
@@ -6297,6 +6360,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="emoji-vhs" js="1">Videocassetta</word>
   <word key="emoji-date" js="1">Calendario</word>
   <word key="emoji-u6708" js="1">Segno giapponese che significa &quot;importo mensile&quot;</word>
+  <word key="emoji-u5272" js="1">Segno giapponese che significa &quot;sconto&quot;</word>
   <word key="emoji-birthday" js="1">Torta di compleanno</word>
   <word key="post_before_register_subtext" js="0"><![CDATA[grazie per la sua iscrizione! Prima che i tuoi contenuti possano essere visualizzati da altri membri, dobbiamo creare un account per te. <br> Ti invieremo un promemoria al tuo indirizzo e-mail tra qualche giorno se vorrai farlo in seguito.]]></word>
   <word key="guest_email" js="0">Il tuo indirizzo di posta elettronica</word>
@@ -6339,14 +6403,18 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="remote_image_proxy_secure_info" js="0">Ciò impedirà ai browser di segnalare che alcuni contenuti della pagina non sono sicuri.</word>
   <word key="__api_core_clubs" js="0">Club</word>
   <word key="reorder_club_menu" js="0">Riordina Menu</word>
+  <word key="profile_step_title_crop" js="0">Taglia foto</word>
   <word key="acp_notifications" js="0">Notifiche dell'amministratore</word>
   <word key="acp_notification_dismiss_perm" js="0">Nascondi questa notifica</word>
   <word key="acp_notification_dismiss_temp" js="0">Nascondi questa notifica fino a domani</word>
+  <word key="acp_notifications_email_never" js="0">No</word>
   <word key="acp_notifications_email_yes" js="0">Si</word>
+  <word key="acp_notifications_email_configure" js="0">Configura</word>
   <word key="acp_notification_ConfigurationError" js="0">È stato rilevato un problema di configurazione</word>
   <word key="acp_notification_ConfigurationError_email" js="0">È stato rilevato un problema di configurazione nella tua comunità che richiede la tua attenzione.</word>
   <word key="new_version_email_whatsnew" js="0">Ecco cosa c'è di nuovo in questa versione:</word>
   <word key="acp_notification_NewRegComplete" js="0">Un nuovo membro ha completato la registrazione</word>
+  <word key="user_flagged_as_spammer_subtitle" js="0">%s da %s.</word>
   <word key="acp_notification_group_important" js="0">Aggiornamenti Invision Community</word>
   <word key="acp_notification_group_system" js="0">Informazione Sistema</word>
   <word key="s3-RequestTimeTooSkewed_admin" js="0"><![CDATA[Il server S3 ha segnalato che il tempo di richiesta era troppo lungo, il che potrebbe indicare che l'ora del server è impostato in modo errato. Eseguito <a href='{internal.admin.app=core&module=support&controller=support}'> lo strumento di supporto </a> per ulteriori informazioni.]]></word>
@@ -6362,10 +6430,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="_allow_club_moderators" js="0">Consenti moderatori nei club</word>
   <word key="acp_notification_dismiss_recur" js="0">Nascondi questa notifica</word>
   <word key="acp_notification_NewRegComplete_title" js="0">Nuove registrazioni completate</word>
+  <word key="acp_notification_NewRegComplete_more" js="0">{# [1:Altro][?:Altri]} →</word>
   <word key="__ipbmafia__nulling_null_alert" js="0">
 </word>
+  <word key="widget_feed_status_published" js="0">Pubblico</word>
  </app>
- <app key="cms" version="104033">
+ <app key="cms" version="104038">
   <word key="menutab__cms" js="0">Pagine</word>
   <word key="__indefart_content_db_lang_sl" js="0">un %s</word>
   <word key="__indefart_content_record_comments_title" js="0">un commento</word>
@@ -6994,6 +7064,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="block_rss_import_number" js="0">Numero di articoli da mostrare</word>
   <word key="block_rss_import_cache" js="0">Cache per</word>
   <word key="block_rss_import_cache_suffix" js="0">minuti</word>
+  <word key="widget_feed_container_cms" js="0">Categorie</word>
   <word key="loc_cms_viewing_page" js="0">Sta guardando %s</word>
   <word key="loc_cms_viewing_db_cat" js="0">Sta guardando %s categoria %s</word>
   <word key="loc_cms_viewing_db_record" js="0">Sta guardando %s nella categoria %s: %s</word>
@@ -7095,7 +7166,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="comments_meta_message" js="0">Messaggio</word>
   <word key="comments_meta_color" js="0">Colore messaggio</word>
  </app>
- <app key="forums" version="104033">
+ <app key="forums" version="104038">
   <word key="frontnavigation_forums" js="0">Forum</word>
   <word key="__indefart_post" js="0">un messaggio nella discussione</word>
   <word key="__indefart_topic" js="0">un topic</word>
@@ -7670,7 +7741,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="remove_your_vote" js="0">Rimuovi il tuo voto</word>
   <word key="js_remove_your_vote" js="1">Rimuovi il tuo voto</word>
  </app>
- <app key="downloads" version="104033">
+ <app key="downloads" version="104038">
   <word key="__indefart_downloads_file_comment" js="0">un commento sul file</word>
   <word key="__indefart_downloads_file" js="0">un file</word>
   <word key="__indefart_downloads_file_review" js="0">una recensione sul file</word>
@@ -7686,6 +7757,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="modlog__action_deletebackup" js="0"><![CDATA[Eliminato una versione precedente per un file: <a href='%s'>%s</a>]]></word>
   <word key="editor__downloads_Categories" js="0">Categorie di download</word>
   <word key="menu__downloads_downloads_categories" js="0">Categorie</word>
+  <word key="subcategories" js="0">Sottocategorie</word>
   <word key="cname" js="0">Nome</word>
   <word key="ctypes" js="0">Estensioni file consentite</word>
   <word key="cparent" js="0">Categoria Genitore</word>
@@ -7765,11 +7837,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="min_posts" js="0">Messaggi richiesti per il download</word>
   <word key="download_min_posts" js="0">Puoi scaricare i file solo dopo aver fatto {# [1:post][?:posts]}.</word>
   <word key="daily_bw" js="0">L'utilizzo massimo della quantità di banda al giorno</word>
+  <word key="weekly_bw" js="0">Larghezza di Banda massima alla settimana</word>
   <word key="monthly_bw" js="0">Utilizzo massimo della larghezza di banda al mese</word>
   <word key="kb_per_day" js="0">kB/giorno</word>
   <word key="kb_per_week" js="0">kB/settimana</word>
   <word key="kb_per_month" js="0">kB/mese</word>
   <word key="daily_dl" js="0">Numero massimo di download al giorno</word>
+  <word key="weekly_dl" js="0">Download massimi per settimana</word>
   <word key="monthly_dl" js="0">Massimo download al mese</word>
   <word key="downloads_requires_log" js="0">Queste impostazioni dipendono dal log di download che può essere disattivato per categoria e cancellato periodicamente. Se si utilizza queste impostazioni, si consiglia di lasciare il log acceso e impostare di non cancellare in caso contrario si può verificare un comportamento imprevisto.</word>
   <word key="file_management" js="0">Gestione dei file</word>
@@ -7785,6 +7859,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="idm_bulk_submit" js="0">Può presentare più file contemporaneamente?</word>
   <word key="submit_a_file" js="0">Invia un File</word>
   <word key="submit_first_file" js="0">Invia il primo file</word>
+  <word key="write_review" js="0">Scrivi una recensione</word>
   <word key="file_auto_follow_suffix" js="0">Informatemi quando gli altri commenti sono inviati</word>
   <word key="upload_files" js="0">Carica i tuoi file</word>
   <word key="dl_get_support" js="0">Otteni Supporto</word>
@@ -7797,6 +7872,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="file_version" js="0">Numero versione</word>
   <word key="file_changelog" js="0">Cosa c'è di nuovo</word>
   <word key="new_version_details" js="0">Dettagli della nuova versione</word>
+  <word key="with_version" js="0">Con versione %s:</word>
   <word key="file_desc" js="0">Informazioni su questo file</word>
   <word key="file_primary_screenshot" js="0">Screenshot primario</word>
   <word key="file_primary_screenshot_desc" js="0">Lo screenshot primario è utilizzato nelle elenchi di categorie.</word>
@@ -7805,6 +7881,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="idm_purchases" js="0">Acquisti</word>
   <word key="x_purchases" js="0">{# [1:acquisto][?:acquisti]}</word>
   <word key="num_downloads" js="0">{# [1:download][?:download]}</word>
+  <word key="files_no_number" js="0">{!# [1:file][?:file]}</word>
   <word key="downloads_file_review" js="0">Recensione del file</word>
   <word key="downloads_file_pl" js="0">File</word>
   <word key="downloads_file_pl_lc" js="0">file</word>
@@ -7826,6 +7903,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="see_changelog" js="0">Vedi changelog</word>
   <word key="see_changelog_for" js="0">Vedi changelog per la versione %s</word>
   <word key="see_changelog_title" js="0">Vedi la cronologia delle versioni per questo file</word>
+  <word key="view_downloader_list" js="0">Visualizza l'elenco dei downloader</word>
   <word key="who_downloaded" js="0">Chi ha scaricato questo file?</word>
   <word key="download_your_files" js="0">Scarica i tuoi files</word>
   <word key="download_terms" js="0">Termini di download</word>
@@ -7842,6 +7920,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="restore" js="0">Ripristina</word>
   <word key="hide_from_members" js="0">Nascondi dai membri</word>
   <word key="idm_rss_title" js="0">Ultimi file</word>
+  <word key="wait_x_seconds_noscript" js="0">Attendì {# [1:secondo][?:secondi]} prima di fare click su Download</word>
   <word key="download_begins_in" js="0">Download inizia tra </word>
   <word key="file_actions" js="0">Azioni File</word>
   <word key="max_simultaneous_downloads" js="0">Puoi scaricare solo {# [1:file][?:files]} al momento. Attendi che {!# [1:il tuo altro download][?:i tuoi altri download]} abbiano finito, quindi riprova.</word>
@@ -7941,13 +8020,14 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__submitters_manage" js="0">Può visualizzare i migliori Presentatori</word>
   <word key="ipAddresses__downloads_DownloadLog" js="0">Download</word>
   <word key="block_fileFeed" js="0">Feed File</word>
+  <word key="widget_feed_container_downloads_file" js="0">Categorie</word>
   <word key="block_downloadStats" js="0">Statistiche download</word>
   <word key="loc_downloads_viewing_file" js="0">Visualizzazione file: %s</word>
   <word key="loc_downloads_viewing_category" js="0">Visualizzazione delle categorie: %s</word>
   <word key="loc_downloads_browsing_categories" js="0">Visualizzazione di categorie di download</word>
   <word key="loc_downloads_adding_file" js="0">Aggiunta di un file</word>
   <word key="loc_downloads_browsing" js="0">Visualizzazione dei download</word>
-  <word key="acp_search_title_downloads_Downloads" js="0">Categorie download</word>
+  <word key="acp_search_title_downloads_Downloads" js="0">Categorie Download</word>
   <word key="paid_file_settings" js="0">Impostazioni dei File Pagati</word>
   <word key="idm_nexus_on" js="0">Abilita i file a pagamento?</word>
   <word key="idm_nexus_on_desc" js="0"><![CDATA[Se abilitato, gli utenti che hanno l'autorizzazione potranno inviare file che devono essere pagati per scaricare.<br>Puoi controllare quali gruppi possono presentare file pagati dal file <a href='{internal.app=core&module=members&controller=groups}'>Gruppi</a> page.<br>Quando qualcuno acquista un file pagato, i soldi verranno aggiunti al credito dell'account dell'indirizzo del file. Puoi controllare come gli utenti possono ritirare il credito dell'account da <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>Withdrawals</a> page.]]></word>
@@ -8013,6 +8093,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="downloads_categories_pagetitle" js="0">Categorie Download</word>
   <word key="__api_downloads_categories" js="0">Categorie</word>
   <word key="idm_show_newest" js="0">Mostra il box &quot;Cosa c'è di nuovo&quot;</word>
+  <word key="idm_newest_categories" js="0">Categorie</word>
+  <word key="idm_highest_rated_categories" js="0">Categorie</word>
+  <word key="idm_show_most_downloaded_categories" js="0">Categorie</word>
   <word key="member_restrictions__downloads_Downloads" js="0">Download</word>
   <word key="content_stats__downloads_Downloads" js="0">Download</word>
   <word key="modperms__downloads_Files" js="0">Download</word>
@@ -8024,7 +8107,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="cversion_numbers" js="0">Numeri di versione</word>
   <word key="version_numbers_disabled" js="0">Disabilitato</word>
  </app>
- <app key="convert" version="104033">
+ <app key="convert" version="104038">
   <word key="edit_conversion" js="0">Modifica Conversione</word>
   <word key="classname" js="0">Nome classe</word>
   <word key="_convert_settings" js="0">Impostazioni</word>
@@ -8040,17 +8123,22 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="_convert_calendar_calendars" js="0">Calendari</word>
   <word key="_convert_calendar_events" js="0">Eventi Calendario</word>
   <word key="_convert_calendar_comments" js="0">Commenti evento del Calendario</word>
+  <word key="_convert_gallery_categories" js="0">Categorie Gallery</word>
   <word key="convert_downloads_comments" js="0">Converti commenti file</word>
+  <word key="_convert_downloads_categories" js="0">Categorie File</word>
   <word key="_convert_downloads_files" js="0">File</word>
   <word key="_convert_downloads_comments" js="0">Commenti file</word>
+  <word key="_convert_cms_database_categories" js="0">Categorie Database</word>
   <word key="convert_club_downloads_comments" js="0">Converti commenti file del Club</word>
   <word key="_convert_club_members" js="0">Membri Club</word>
   <word key="_convert_club_downloads_categories" js="0">Club Categorie File</word>
   <word key="_convert_club_downloads_files" js="0">File Club</word>
   <word key="_convert_club_downloads_comments" js="0">Commenti file del club</word>
+  <word key="_convert_club_gallery_categories" js="0">Categorie Gallery Club</word>
+  <word key="_convert_nexus_invoices" js="0">Fatture</word>
   <word key="_convert_nexus_purchases" js="0">Acquisti</word>
  </app>
- <app key="calendar" version="104033">
+ <app key="calendar" version="104038">
   <word key="frontnavigation_calendar" js="0">Calendario</word>
   <word key="menu__calendar_calendars" js="0">Calendario</word>
   <word key="menu__calendar_calendars_calendars" js="0">Calendari</word>
@@ -8079,6 +8167,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="can_hide_calendar_event_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_unhide_calendar_event_comment" js="0">Può rendere visibile i commenti?</word>
   <word key="can_view_hidden_calendar_event_comment" js="0">Può nascondere i commenti?</word>
+  <word key="ical_title" js="0">Feed iCalendar importati</word>
+  <word key="ical_feed_title" js="0">Titolo</word>
   <word key="feed_title" js="0">Nome</word>
   <word key="all_calendars" js="0">Tutti i Calendari</word>
   <word key="create_event" js="0">Crea Evento</word>
@@ -8094,6 +8184,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="calendar_event_comment_pl_lc" js="0">commenti evento</word>
   <word key="event_comment_count" js="0">{# [1:Commento][?:Commenti]}</word>
   <word key="submit_event" js="0">Pubblica Evento</word>
+  <word key="with_calendar" js="0">Con '%s'</word>
+  <word key="with_all_calendars" js="0">Con tutti i calendari</word>
   <word key="event_title" js="0">Titolo</word>
   <word key="event_content" js="0">Descrizione</word>
   <word key="event_rsvp" js="0">Richiesta RSVP</word>
@@ -8131,11 +8223,16 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="you_were_going" js="0">Parteciperai all'evento</word>
   <word key="you_werent_going" js="0">Non parteciperai</word>
   <word key="rsvp_change" js="0">Cambia RSVP</word>
+  <word key="invalid_start_date" js="0">La data di inizio fornita non è valida</word>
+  <word key="invalid_end_date" js="0">La data di fine fornita non è valida</word>
+  <word key="calendar_delete_title" js="0">Elimina questo evento</word>
   <word key="download_ical" js="0">Scarica Evento</word>
+  <word key="download_ical_title" js="0">Scarica questo evento come file iCal</word>
   <word key="event_details" js="0">Dettagli Evento</word>
   <word key="event__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="report_event" js="0">Riporta Evento</word>
   <word key="calendar_edit_details" js="0">Modifica Dettagli</word>
+  <word key="calendar_edit_details_title" js="0">Modifica i dettagli di questo evento</word>
   <word key="manage_event" js="0">Gestisci Evento</word>
   <word key="rsvp_leave_event" js="0">Lascia evento</word>
   <word key="rsvp_attendees_past" js="0">Partecipanti</word>
@@ -8156,14 +8253,25 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="event_move_title" js="0">Sposta questo evento</word>
   <word key="lock_title_event" js="0">Chiudi questo evento</word>
   <word key="approve_title_event" js="0">Approva questo evento</word>
+  <word key="view_this_event" js="0">Visualizza l'evento %s</word>
   <word key="announce_calendars" js="0">Calendari</word>
   <word key="__api_calendar_events" js="0">Eventi</word>
   <word key="__api_calendar_comments" js="0">Commenti</word>
   <word key="__api_calendar_calendars" js="0">Calendari</word>
   <word key="venue_description" js="0">Descrizione</word>
+  <word key="x_daily" js="1">{# [1:giorno][?:giorni]}	</word>
+  <word key="x_weekly" js="1">{# [1:settimana][?:settimane]}</word>
+  <word key="x_monthly" js="1">{# [1:mese][?:mesi]}</word>
+  <word key="x_yearly" js="1">{# [1:anno][?:anni]}</word>
   <word key="every_x" js="1">Ogni {{period}}</word>
+  <word key="TU" js="1">Martedì</word>
+  <word key="WE" js="1">Mercoledì</word>
+  <word key="TH" js="1">Giovedì</word>
+  <word key="FR" js="1">Venerdì</word>
+  <word key="SA" js="1">Sabato</word>
+  <word key="SU" js="1">Domenica</word>
  </app>
- <app key="blog" version="104033">
+ <app key="blog" version="104038">
   <word key="menu__blog_blogs_settings" js="0">Impostazioni</word>
   <word key="acplogs__blog_settings" js="0">Impostazioni blog aggiornate</word>
   <word key="blog_allow_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
@@ -8187,6 +8295,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="blog_entry_mainTab" js="0">Post</word>
   <word key="blog_entry_pollTab" js="0">Sondaggio</word>
   <word key="create_blog_entry" js="0">Crea nuovo Post sul Blog</word>
+  <word key="view_this_entry" js="0">Visualizza la voce %s</word>
   <word key="blog_entry__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="blog_comments" js="0">{!#[1:commento][?:commenti]}</word>
   <word key="no_entries_yet" js="0">Non ci sono ancora Blog</word>
@@ -8194,6 +8303,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="num_contributors_to_this" js="0">{# [1:contributore][?:contributori]} a questo blog</word>
   <word key="about_this_blog" js="0">Informazioni su questo Blog</word>
   <word key="blog_enable_rss" js="0">Abilita RSS Feed</word>
+  <word key="view_this_blog" js="0">Visualizza questo log</word>
   <word key="also_contributes" js="0">Contribuisce inoltre a:</word>
   <word key="contributes_to" js="0">Contribuisce a</word>
   <word key="num_blog_comments" js="0">{# [1:commento][?:commenti]}</word>
@@ -8205,10 +8315,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="__api_blog_comments" js="0">Commenti</word>
   <word key="blog_sidebar_title" js="0">Informazioni Blog</word>
  </app>
- <app key="gallery" version="104033">
+ <app key="gallery" version="104038">
   <word key="menu__gallery_gallery_categories" js="0">Categorie</word>
   <word key="menu__gallery_stats_diskspace" js="0">Migliori Caricatori</word>
   <word key="menu__gallery_gallery_settings" js="0">Impostazioni</word>
+  <word key="acp_search_title_gallery_Categories" js="0">Categorie Gallery</word>
   <word key="gallery_images" js="0">Immagini</word>
   <word key="total_images" js="0">Immagini totali</word>
   <word key="total_disk_spaceg" js="0">Spazio su disco utilizzato in totale</word>
@@ -8323,9 +8434,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="set_image_as" js="0">Imposta come</word>
   <word key="new_images" js="0">Nuove Immagini</word>
   <word key="new_image_comments_notification" js="0">Inviami commenti su queste immagini</word>
+  <word key="images_no_number" js="0">{!# [1:immagine][?:immagini]}</word>
   <word key="gallery_rss_title" js="0">Ultima Immagine</word>
   <word key="gallery_rss_title_container" js="0">Ultima Immagine: %s</word>
   <word key="no_images_in_cat" js="0">Non ci sono ancora immagini in questa categoria</word>
+  <word key="view_this_image" js="0">Visualizza l'immagine %s</word>
+  <word key="view_this_video" js="0">Visualizza il video %s</word>
+  <word key="view_this_album" js="0">Visualizza l'album %s</word>
   <word key="album_latest_images" js="0">Ultima Immagine</word>
   <word key="rotate_image" js="0">Routa</word>
   <word key="rotate_left" js="0">Routa a Sinistra</word>
@@ -8337,8 +8452,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="cover_album" js="0">Imposta foto come Cover dell'Album</word>
   <word key="change_author" js="0">Cambia autore</word>
   <word key="view_photo_info" js="0">Visualizza le informazioni EXIF della foto</word>
+  <word key="viewfilter_thumbnails" js="0">Miniature</word>
+  <word key="viewfilter_large" js="0">Immagini di grandi dimensioni</word>
   <word key="set_gallery_image_photo" js="0">Imposta come mia foto del profilo</word>
   <word key="view_fullsize_image" js="0">Mostra Immagine a Schermo Intero</word>
+  <word key="sort_album_name" js="0">Nome Album</word>
   <word key="gallery_move_title" js="0">Sposta questa immagine</word>
   <word key="lock_title_image" js="0">Chiudi questa immagine</word>
   <word key="approve_title_image" js="0">Approva questa immagine</word>
@@ -8351,26 +8469,38 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="cat_comment_count" js="0">{# [1:commento][?:commenti]}</word>
   <word key="image_comment_count" js="0">{# [1:commento][?:commenti]}</word>
   <word key="add_image_note" js="0">Aggiungi Nota</word>
+  <word key="view_in_lightbox" js="0">Visualizza in lightbox</word>
+  <word key="view_entire_album" js="0">Visualizza l'intero album %s</word>
+  <word key="events_in_album" js="0">{!# [1:Evento][?:Eventi]} in questo album</word>
+  <word key="view_as_thumbnails" js="0">Mostra come miniature</word>
+  <word key="view_as_list" js="0">Mostra come elenco</word>
   <word key="gallery_edit_details" js="0">Modifica i dettagli</word>
+  <word key="widget_feed_container_gallery_image" js="0">Categorie</word>
   <word key="block_galleryStats" js="0">Statistiche Galleria</word>
   <word key="block_recentComments" js="0">Commenti Recente</word>
   <word key="total_images_front_h" js="0">{!#[1:Immagine][?:Immagini]}</word>
   <word key="total_images_front_v" js="0">{!#[?:Immagini]}</word>
   <word key="stats_total_comments_v" js="0">{!#[1:Commento][?:Commenti]}</word>
   <word key="stats_total_comments_h" js="0">{!#[?:Commenti]}</word>
+  <word key="total_albums_h" js="0">{!#[1:Album][?:Album]}</word>
+  <word key="total_albums_v" js="0">{!#[?:Album]}</word>
   <word key="latest_image" js="0">Ultima Immagine</word>
+  <word key="widget_feed_container_gallery_album" js="0">Categoria</word>
   <word key="use_plain_editor" js="0">Usa plain editor</word>
   <word key="use_rte_editor" js="0">Usa rich text editor</word>
   <word key="album_create_owner" js="0">Proprietà</word>
+  <word key="with_all_images" js="0">Con tutte le immagini</word>
   <word key="set_copyright" js="0">Imposta Copyright...</word>
   <word key="set_copyright_all" js="0">Imposta il copyright su tutti i file</word>
   <word key="set_credit_all" js="0">Imposta credit su tutte</word>
+  <word key="x_more_images_album" js="0">Puoi aggiungere {# [1:immagine][?:immagini]} a questo album</word>
   <word key="saving_images_desc" js="0">Le tue immagini stanno per essere archiviate, attendi...</word>
   <word key="adding_to_category_x" js="0"><![CDATA[Immagini aggiunte in <strong>%s</strong>]]></word>
   <word key="add_copyright_image" js="0">Aggiungi un copyright per questa immagine</word>
   <word key="add_credit_image" js="0">Aggiungi credit per questa immagine</word>
   <word key="set_copyright_desc" js="0">Imposta il copyright per ogni immagine che stai caricando tranne quelle per le quali aggiungi individualmente un copyright.</word>
   <word key="credit_desc" js="0">Imposta il credit per ogni immagine che stai caricando tranne quelle per cui aggiungi individualmente un credit.</word>
+  <word key="exif_title" js="0">Dati EXIF completi</word>
   <word key="IFD0.ImageDescription" js="0">Descrizione Immagine</word>
   <word key="EXIF.Contrast_map_0" js="0">Normale</word>
   <word key="EXIF.Saturation_map_0" js="0">Normale</word>
@@ -8386,10 +8516,16 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="uploader_add_images" js="1">Aggiungi Immagini</word>
   <word key="addImages" js="1">Aggiungi Immagini</word>
  </app>
- <app key="nexus" version="104033">
+ <app key="nexus" version="104038">
   <word key="menu__nexus_payments" js="0">Pagamenti</word>
+  <word key="renew_title" js="0">Rinnovo: %s</word>
+  <word key="renew_days" js="0">{!#[1:giorno][?:# giorni]}</word>
+  <word key="renew_months" js="0">{!#[1:mese][?:# mesi]}</word>
+  <word key="renew_years" js="0">{!#[1:anno][?:# anni]}</word>
   <word key="__indefart_support_request" js="0">una richiesta di supporto</word>
+  <word key="__indefart_product" js="0">un prodotto</word>
   <word key="__defart_support_request" js="0">richiesta di supporto</word>
+  <word key="__defart_product" js="0">prodotto</word>
   <word key="editor__nexus_Store" js="0">Negozio Prodotti</word>
   <word key="editor__nexus_Support" js="0">Richieste di supporto</word>
   <word key="editor__nexus_Purchases" js="0">Acquisti</word>
@@ -8407,19 +8543,36 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="nexus_bm_filters_pkg_expired_days" js="0">Di più</word>
   <word key="nexus_bm_filters_pkg_expired_days_suffix" js="0">giorni fa</word>
   <word key="nexus_bm_filters_total_spend" js="0">Spesa totale</word>
+  <word key="menu__nexus_stock_gateways" js="0">Modalità di pagamento</word>
+  <word key="payment_methods" js="0">Modalità di pagamento</word>
+  <word key="paymethod_name" js="0">Nome</word>
   <word key="paypal_payer_status" js="0">Stato account PayPal: %s</word>
+  <word key="stripe_type_desc" js="0">Per consentire agli utenti di scegliere di impostare più metodi di pagamento Stripe.</word>
   <word key="braintree_type_header" js="0">Metodo di pagamento</word>
   <word key="braintree_type_card" js="0">Carta</word>
   <word key="braintree_dispute_reason_product_not_received" js="0">Il cliente afferma di non aver ricevuto i prodotti o i servizi acquistati.</word>
   <word key="menu__nexus_payments_transactions" js="0">Transizioni</word>
   <word key="t_status" js="0">Stato</word>
+  <word key="t_invoice" js="0">Fattura</word>
+  <word key="tstatus_pend" js="0">In attesa</word>
   <word key="tstatus_dspd" js="0">Contestate</word>
   <word key="tstatus_dspd_set" js="0">Contestate</word>
+  <word key="transaction_refund_title" js="0">Rimborso (%s)</word>
+  <word key="refund_invoice_status" js="0">Imposta stato fattura</word>
+  <word key="refund_invoice_paid" js="0">Pagato</word>
+  <word key="refund_invoice_pending" js="0">In Attesa</word>
+  <word key="refund_invoice_expired" js="0">Scaduto</word>
+  <word key="refund_invoice_canceled" js="0">Annullato</word>
+  <word key="transaction_invoice" js="0">Data fattura</word>
   <word key="transaction_customer_since" js="0">Cliente dal %s</word>
   <word key="transaction_customer_since_header" js="0">Cliente Dal</word>
   <word key="transaction_spent" js="0">Speso %s</word>
   <word key="transaction_spent_header" js="0">Totale Speso</word>
   <word key="menu__nexus_payments_paymentsettings" js="0">Impostazioni</word>
+  <word key="currencies" js="0">Valute</word>
+  <word key="currency_code" js="0">Codice valuta</word>
+  <word key="currency_code_invalid" js="0">%s non è un codice valuta standard.</word>
+  <word key="acplogs__currencies" js="0">Valute aggiornate</word>
   <word key="nexus_split_payments_on" js="0">Consenti pagamenti divisi?</word>
   <word key="nexus_split_payments" js="0">Importo minimo per pagamenti divisi</word>
   <word key="nexus_require_billing_package" js="0">Acquisto di prodotti non fisici</word>
@@ -8427,73 +8580,179 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="do_not_suggest_stock_action" js="0">Non selezionare automaticamente le azioni predefinite</word>
   <word key="menu__nexus_payments_invoices" js="0">Fatture</word>
   <word key="i_status" js="0">Stato</word>
+  <word key="i_title" js="0">Titolo</word>
   <word key="i_total" js="0">Totale</word>
+  <word key="invoice" js="0">Fattura</word>
+  <word key="invoice_view" js="0">Mostra fattura</word>
   <word key="istatus_paid" js="0">Pagato</word>
   <word key="istatus_paid_desc" js="0">Pagato</word>
-  <word key="istatus_pend" js="0">in attesa di</word>
+  <word key="istatus_pend" js="0">In attesa</word>
   <word key="istatus_expd" js="0">Scaduto</word>
   <word key="istatus_expd_desc" js="0">La fattura non è stata pagata entro il termine consentito ed è scaduta. Il cliente non può pagare a meno che non la riemetta.</word>
   <word key="istatus_canc" js="0">Annullato</word>
   <word key="istatus_canc_desc" js="0">Annullato</word>
+  <word key="invoice_date" js="0">Data fattura</word>
+  <word key="invoice_paiddate" js="0">Data Pagamento</word>
+  <word key="invoice_unit_price" js="0">Prezzo unitario</word>
+  <word key="invoice_quantity" js="0">Quantità</word>
+  <word key="invoice_line_price" js="0">Linea prezzo</word>
+  <word key="invoice_transactions" js="0">Operazioni correlate</word>
+  <word key="no_related_transactions" js="0">Nessuna operazione correlata</word>
+  <word key="no_invoice_notes" js="0">Nessuna nota per questa fattura</word>
+  <word key="invoice_notes" js="0">Note</word>
+  <word key="invoice_mark_paid" js="0">Segna come pagato</word>
+  <word key="invoice_mark_unpaid" js="0">Cancella / Rimborso</word>
+  <word key="view_transaction_details" js="0">Visualizza i dettagli della transazione</word>
   <word key="invoice_status_zero" js="0">Contrassegnato come pagato automaticamente perché il totale è zero.</word>
+  <word key="invoice_reissue" js="0">Riemettere</word>
+  <word key="invoice_reissue_confirm" js="0">La riemissione di una fattura cambierà la data della fattura a oggi.</word>
+  <word key="invoice_reissue_yes" js="0"><![CDATA[Riemettere & Spedisci Email]]></word>
+  <word key="invoice_reissue_no" js="0">Riemettere</word>
+  <word key="invoice_delete_warning" js="0">L'eliminazione di una fattura eliminerà solo il record. Potresti voler annullare prima la fattura se non l'hai già fatto.</word>
+  <word key="generate_invoice" js="0">Crea fattura</word>
+  <word key="invoice_generate_addresses" js="0">Indirizzi</word>
   <word key="invoice_generate_settings" js="0">Impostazioni</word>
+  <word key="invoice_add_item" js="0">Aggiungi</word>
   <word key="invoice_title" js="0">Titolo</word>
   <word key="invoice_status" js="0">Stato</word>
   <word key="invoice_status_paid" js="0">Pagato</word>
-  <word key="invoice_status_pend" js="0">in attesa di</word>
+  <word key="invoice_status_pend" js="0">In attesa</word>
   <word key="invoice_status_expd" js="0">Scaduto</word>
   <word key="invoice_status_canc" js="0">Annullato</word>
   <word key="item_name" js="0">Nome</word>
+  <word key="item_tax_rate" js="0">Aliquota fiscale</word>
   <word key="item_physical" js="0">Fisico?</word>
   <word key="item_weight" js="0">Peso</word>
+  <word key="item_shipmethods" js="0">Metodi di spedizione disponibili</word>
+  <word key="item_paymethods" js="0">Modalità di pagamento disponibile</word>
   <word key="invoice_products" js="0">Prodotti</word>
+  <word key="invoice_settings" js="0">Impostazioni fattura</word>
   <word key="ba_started" js="0">Data creazione</word>
+  <word key="billing_agreement_transactions" js="0">Operazioni correlate</word>
+  <word key="primary_billing" js="0">Indirizzo di fatturazione principale?</word>
+  <word key="primary_address" js="0">Indirizzo di fatturazione principale</word>
+  <word key="no_primary_address" js="0">Nessun Indirizzo di fatturazione principale</word>
+  <word key="tax_rates" js="0">Aliquota fiscale</word>
   <word key="tax_settings" js="0">Impostazioni</word>
+  <word key="tax_name" js="0">Nome</word>
   <word key="do_not_tax" js="0">Non tassare</word>
+  <word key="shipping_rates" js="0">Tariffe di spedizione</word>
+  <word key="all_locations" js="0">Tutte le location</word>
+  <word key="shiprate_name" js="0">Nome</word>
+  <word key="s_locations_desc" js="0"><![CDATA[Questa tariffa di spedizione sarà disponibile solo se <strong>l'indirizzo di spedizione</strong> si trova in una delle località selezionate.]]></word>
+  <word key="s_tax" js="0">Aliquota fiscale</word>
+  <word key="s_type" js="0">Criteri</word>
+  <word key="s_type_w" js="0">Peso degli articoli da spedire</word>
+  <word key="s_type_t" js="0">Fattura parziale del totale</word>
+  <word key="s_type_t_desc" js="0">Al lordo delle imposte e di eventuali sconti sui coupon.</word>
   <word key="s_type_q" js="0">Numero di articoli da spedire</word>
+  <word key="s_rate_price" js="0">Prezzo di spedizione</word>
+  <word key="s_any_value" js="0">qualsiasi valore</word>
+  <word key="shiprate_delivery_estimate" js="0">Stima della consegna</word>
+  <word key="shiprate_delivery_estimate_desc" js="0">Verrà visualizzato al cliente nella schermata di pagamento.</word>
   <word key="total_items_shipped" js="0">{# [1:oggetto][?:oggetti]} totale in questa spedizione</word>
   <word key="menu__nexus_payments_shipping" js="0">Spedizioni</word>
+  <word key="sstatus_pend" js="0">In attesa</word>
   <word key="o_status" js="0">Stato</word>
+  <word key="o_method" js="0">Metodo di spedizione</word>
+  <word key="o_invoice" js="0">Fattura</word>
+  <word key="o_date" js="0">Data Ordine</word>
   <word key="track" js="0">Traccia</word>
+  <word key="t_rate_min" js="0">Totale parziale fattura tra:</word>
+  <word key="t_rate_max" js="0">e:</word>
+  <word key="t_rate_price" js="0">Prezzo di spedizione</word>
   <word key="w_rate_min" js="0">Peso tra:</word>
+  <word key="w_rate_max" js="0">e:</word>
+  <word key="w_rate_price" js="0">Prezzo di spedizioine</word>
+  <word key="q_rate_min" js="0">Numero di articoli tra:</word>
+  <word key="q_rate_max" js="0">e:</word>
+  <word key="q_rate_price" js="0">Prezzo di spedizione</word>
+  <word key="err_no_easypost" js="0">EasyPost non è stato in grado di fornire alcuna tariffa per questo prodotto. Ciò può accadere se l'indirizzo di spedizione del prodotto è uno a cui i corrieri non possono spedire. Contatta EasyPost per ulteriori informazioni o scegli un metodo di spedizione alternativo.</word>
+  <word key="err_err_easypost" js="0">Si è verificato un errore durante il contatto con EasyPost. Contatta l'assistenza tecnica per ulteriori informazioni o scegli un metodo di spedizione alternativo.</word>
+  <word key="maxmind_gateways" js="0">Modalità di pagamento</word>
   <word key="testgateway_status" js="0">Stato</word>
   <word key="card_types" js="0">Noi accettiamo %s</word>
+  <word key="do_you_have_coupon" js="0">Hai un codice coupon?</word>
+  <word key="apply_coupon" js="0">Applica Coupon</word>
   <word key="total" js="0">Totale</word>
   <word key="cm_first_name" js="0">Nome</word>
   <word key="cm_last_name" js="0">Cognome</word>
   <word key="total_to_pay" js="0">Totale da pagare</word>
+  <word key="account_credit_with_amount" js="0">Credito Account (%s)</word>
+  <word key="account_information" js="0">Informazioni Account</word>
+  <word key="coupon_code_invalid" js="0">Questo codice coupon non è valido.</word>
+  <word key="coupon_exceeded_member_uses" js="0">Hai già utilizzato questo codice coupon per il numero massimo di volte consentito.</word>
   <word key="order_thanks_blurb" js="0">Grazie per il vostro ordine. Riceverai una mail di conferma a breve.</word>
   <word key="order_thanks_blurb_no_email" js="0">Grazie per il vostro ordine.</word>
+  <word key="transaction_title_success" js="0">Completato</word>
+  <word key="transaction_title_hold" js="0">In attesa di approvazione</word>
+  <word key="transaction_title_waiting" js="0">In attesa di azioni</word>
+  <word key="split_payment_title" js="0">Paga questo ordine utilizzando più metodi di pagamento</word>
   <word key="f_name" js="0">Nome</word>
   <word key="f_blurb_customer_spend" js="0">Il cliente ha precedentemente speso  %s %s</word>
   <word key="customerTable_cm_first_name" js="0">Nome</word>
   <word key="customerTable_cm_last_name" js="0">Cognome</word>
   <word key="customerTable_email" js="0">Indirizzo email</word>
+  <word key="customerTable_address" js="0">Indirizzo di fatturazione principale</word>
   <word key="customerTable_name" js="0">Nome visualizzato</word>
   <word key="altcontactTable_purchases" js="0">Acquisti</word>
   <word key="altcontact_purchases_admin" js="0">Acquisti</word>
   <word key="total_spent_currency" js="0">Totale speso (%s)</word>
+  <word key="average_spend_currency" js="0">Med. Spesa Mensile (%s)</word>
+  <word key="average_time_to_pay" js="0">Med. Tempo per pagare</word>
+  <word key="average_monthly_support_requests" js="0">Med. Richieste mensili</word>
   <word key="void_cancel_purchases" js="0">Annullare tutti gli acquisti?</word>
   <word key="void_resolve_support" js="0">Risolvi tutte le richieste di supporto?</word>
   <word key="void_add_note" js="0">Aggiungi Nota</word>
+  <word key="add_invoice" js="0">Aggiungi Fattura</word>
   <word key="customer_since" js="0">Cliente dal %s</word>
+  <word key="see_all_support" js="0">vedi {!# [?:tutte le richieste][1:una richiesta]}</word>
   <word key="no_support_requests" js="0">Non ci sono richieste di supporto da visualizzare.</word>
+  <word key="memberACPProfileTitle_nexus_Main" js="0">Vista cliente</word>
+  <word key="f_purchase_show" js="0">Mostrare quando effettui un acquisto?</word>
+  <word key="f_purchase_require" js="0">Richiesto quando si effettua un acquisto?</word>
+  <word key="history_invoice_resend" js="0">%s riemesso%s. %s</word>
+  <word key="history_invoice_expired" js="0">%s scaduto.</word>
   <word key="history_transaction_status_okay" js="0">approvato</word>
   <word key="history_transaction_status_pend" js="0">In attesa del pagamento</word>
   <word key="history_transaction_status_wait" js="0">In attesa del pagamento</word>
   <word key="history_transaction_status_fail" js="0">rifiutato</word>
   <word key="history_transaction_status_dspd" js="0">contestato</word>
   <word key="ps_member" js="0">Proprietario</word>
+  <word key="generate_renewal_invoice" js="0">Genera rinnovo fattura</word>
   <word key="cancel_type_cancel" js="0">Annulla</word>
+  <word key="view_original_invoice" js="0">Visualizza la fattura originale</word>
+  <word key="grouperr_currencies_dont_match" js="0">Il termine di rinnovo principale utilizza una valuta diversa rispetto al termine di rinnovo di questo acquisto.</word>
   <word key="view_purchases" js="0">Visualizza gli acquisti</word>
   <word key="license_key" js="0">Chiave di licenza</word>
   <word key="menu__nexus_payments_payouts" js="0">Prelievi</word>
+  <word key="commission_settings" js="0">Impostazioni della Commissione</word>
+  <word key="nexus_no_commission" js="0">Gruppi che non ricevono le commissioni</word>
+  <word key="nexus_payout" js="0">Metodi disponibili per il prelievo</word>
+  <word key="withdrawal_methods" js="0">Metodi di prelievo</word>
+  <word key="nexus_payout_min" js="0">Importo minimo per il prelievo</word>
+  <word key="nexus_payout_maximum" js="0">Importo massimo per il prelievo</word>
+  <word key="max_withdrawl_exceeded" js="0">Hai superato l'importo massimo del prelievo per questa valuta</word>
+  <word key="nexus_payout_approve" js="0">I prelievi devono essere approvati?</word>
   <word key="po_status" js="0">Stato</word>
-  <word key="postatus_pend" js="0">in attesa di</word>
+  <word key="postatus_pend" js="0">in attesa</word>
   <word key="postatus_canc" js="0">Annullato</word>
+  <word key="allow_topups" js="0">Consentire ai membri di aggiungere del credito al proprio account?</word>
+  <word key="nexus_min_topup" js="0">Saldo minimo</word>
+  <word key="nexus_max_credit" js="0">Saldo massimo</word>
+  <word key="r__invoices" js="0">Fatture</word>
+  <word key="r__invoices_manage" js="0">Può visualizzare le fatture?</word>
+  <word key="r__invoices_add" js="0">Può creare/modificare le fatture?</word>
   <word key="r__invoices_edit" js="0">Può cambiare lo stato delle fatture?</word>
+  <word key="r__invoices_resend" js="0">Può rimettere le fatture?</word>
+  <word key="r__invoices_delete" js="0">Può eliminare le fatture?</word>
+  <word key="r__invoices_settings" js="0">Può gestire le impostazioni delle fatture?</word>
+  <word key="r__shipmethods_manage" js="0">Può gestire i metodi di spedizione?</word>
   <word key="r__paymentsettings" js="0">Impostazioni di pagamento</word>
   <word key="r__paymentsettings_overview" js="0">Può gestire le impostazioni di pagamento?</word>
+  <word key="r__gateways_manage" js="0">Può gestire le modalità di pagamento?</word>
+  <word key="r__tax_manage" js="0">Può gestire le Aliquote fiscali?</word>
+  <word key="r__currencies_manage" js="0">Può gestire le valute?</word>
   <word key="r__purchases" js="0">Acquisti</word>
   <word key="r__purchases_view" js="0">Può vedere gli acquisti?</word>
   <word key="r__purchases_edit" js="0">Può modificare gli acquisti?</word>
@@ -8514,8 +8773,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__requests_reply_delete" js="0">Può eliminare le risposte?</word>
   <word key="r__requests_block_sev" js="0">Può revocare/ripristinare il permesso dei membri per impostare i livelli di gravità?</word>
   <word key="r__purchases_manage" js="0">Può vedere il rapporto sulle vendite?</word>
+  <word key="task__expireInvoices" js="0">Fatture scadute che non sono state pagate.</word>
   <word key="task__supportAutoresolve" js="0">Contrassegna le vecchie richieste di supporto come risolte.</word>
   <word key="my_support_requests" js="0">Miei richieste di supporto</word>
+  <word key="support_title" js="0">Titolo</word>
   <word key="support__comment_placeholder" js="0">Rispondi a questa richiesta...</word>
   <word key="support_submit_comment" js="0">Invia Risposta</word>
   <word key="support__note_placeholder" js="0">Aggiungi nota...</word>
@@ -8525,6 +8786,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="responses_asc" js="0">Prima i più vecchi</word>
   <word key="responses_desc" js="0">Prima i più nuovi</word>
   <word key="support_info_requests" js="0">Storico richiesta</word>
+  <word key="support_info_invoices" js="0">Fatture</word>
   <word key="change_severity" js="0">Cambia Gravità</word>
   <word key="support_you_replied" js="0">Hai risposta questo richiesta %s</word>
   <word key="your_support_requests" js="0">Le tue richieste di supporto</word>
@@ -8533,6 +8795,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="no_support_departments" js="0"><![CDATA[Prima di poter aggiungere un ticket, è necessario <a href='{internal.admin.app=nexus&module=support&controller=settings}'>creare almeno un dipartimento nell'AdminCP</a>.]]></word>
   <word key="support_stream_open" js="0">Aperti</word>
   <word key="support_stream_assigned" js="0">Assegnato a me</word>
+  <word key="support_stream_other" js="0">Nuovo Filtro</word>
   <word key="motivate_title" js="0">Lavoro fantastico!</word>
   <word key="motivate_desc" js="0">Non ci sono richieste da visualizzare per questo filtro!</word>
   <word key="menu__nexus_support_settings" js="0">Impostazioni</word>
@@ -8558,6 +8821,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="respond_to_ticket" js="0">Rispondi a questa richiesta di supporto</word>
   <word key="severities" js="0">Gravità</word>
   <word key="severities_desc" js="0">Le richieste di supporto per impostazione predefinita vengono ordinate prima in base alla gravità, quindi per il periodo di tempo in cui sono state aperte. È possibile consentire ai clienti di impostare la gravità delle richieste di supporto in modo che i problemi critici arrivino direttamente in cima all'elenco.</word>
+  <word key="sev_name" js="0">Nome</word>
   <word key="sev_public" js="0">L'utente può impostare la gravità?</word>
   <word key="sev_departments" js="0">Nei dispartimenti</word>
   <word key="sev_color_desc" js="0">Il badge con questo colore verrà mostrato accanto alla richiesta di supporto nell'Admin CP.</word>
@@ -8585,7 +8849,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="sf_departments_desc" js="0">Ai clienti verrà richiesto di compilare questo campo durante la creazione di una richiesta di supporto nei dipartimenti selezionati.</word>
   <word key="incoming_email_filters" js="0">Filtri</word>
   <word key="nexus_support_satisfaction_desc" js="0">Consenti al cliente di valutare le risposte dello staff e lasciare appunti.</word>
+  <word key="pop3_user" js="0">Username</word>
   <word key="members_support_requests" js="0">%s's richieste di supporto</word>
+  <word key="r_title" js="0">Titolo</word>
   <word key="r_severity" js="0">Gravità</word>
   <word key="sev_position" js="0">Gravità</word>
   <word key="r_email" js="0">Dall'indirizzo e-mail</word>
@@ -8598,7 +8864,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="unassigned" js="0">Non assegnato</word>
   <word key="tracking_notify" js="0">Traccia e notificami le risposte</word>
   <word key="viewed_by" js="0">Visto da</word>
+  <word key="view_last" js="0">Ultima visualizzazione</word>
   <word key="view_reply" js="0">Riposto</word>
+  <word key="view_reply_none" js="0">Nessuna risposta.</word>
   <word key="cm_no_sev_off" js="0">%s can set severities</word>
   <word key="cm_no_sev_on" js="0">%s impossibile impostare le gravità</word>
   <word key="associate_purchase" js="0">Acquisto associato</word>
@@ -8640,7 +8908,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="request_owner_member" js="0">Membro</word>
   <word key="request_owner_email" js="0">Indirizzo Email</word>
   <word key="request_owner_req" js="0">Devi fornire un membro o un indirizzo email.</word>
+  <word key="your_message" js="0">Il tuo messaggio</word>
   <word key="support_email_customer" js="0">Invia email al proprietario?</word>
+  <word key="view_support_request" js="0">Visualizza richiesta di supporto</word>
   <word key="staffnotify_note_warning" js="0">Se rispondi a questa email, sarà pubblicata e inviata come risposta al cliente.</word>
   <word key="manage_notification_settings" js="0">Gestisci Impostazioni notifiche</word>
   <word key="you_have_assigned_support_requests" js="0">Questo per ricordarti che ti sono state assegnate le seguenti richieste di supporto:</word>
@@ -8652,7 +8922,16 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="staff_name" js="0">Membro dello Staff</word>
   <word key="last_24_hours" js="0">Ultime 24 ore</word>
   <word key="staff_reply_count" js="0">Risposte</word>
+  <word key="view_report" js="0">Visualizza rapporto</word>
   <word key="times_are_your_timezone" js="0">I tempi sono indicati nel tuo fuso orario</word>
+  <word key="weekly" js="0">Settimanale</word>
+  <word key="weekday_0" js="0">Domenica</word>
+  <word key="weekday_1" js="0">Lunedì</word>
+  <word key="weekday_2" js="0">Martedì</word>
+  <word key="weekday_3" js="0">Mercoledì</word>
+  <word key="weekday_4" js="0">Giovedì</word>
+  <word key="weekday_5" js="0">Venerdì</word>
+  <word key="weekday_6" js="0">Sabato</word>
   <word key="latest_replies" js="0">Ultime risposte</word>
   <word key="staff_replies" js="0">Risposte Staff</word>
   <word key="menu__nexus_support_volume" js="0">Nuova richiesta di supporto</word>
@@ -8660,12 +8939,14 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="latest_feedback" js="0">Feedback più recenti</word>
   <word key="menu__nexus_store_packages" js="0">Prodotti</word>
   <word key="product_groups_add_child" js="0">Crea prodotto in questo gruppo</word>
+  <word key="pg_name" js="0">Nome</word>
   <word key="pg_desc" js="0">Descrizione</word>
   <word key="pg_desc_placeholder" js="0">Click per aggiungere una descrizione.</word>
   <word key="pg_filters" js="0">Filtri del prodotto</word>
   <word key="package_settings" js="0">Impostazioni del prodotto</word>
   <word key="p_type_Product" js="0">Prodotto normale</word>
   <word key="p_type_Product_desc" js="0">Vendi prodotti fisici (articoli che spedisci al cliente) o altri beni immateriali (ad esempio licenze software o piani di abbonamento premium).</word>
+  <word key="p_name" js="0">Nome</word>
   <word key="p_renew_options" js="0">Opzioni di rinnovo</word>
   <word key="add_to_purchase_price" js="0">Aggiungi al prezzo di acquisto</word>
   <word key="p_desc" js="0">Descrizione</word>
@@ -8677,61 +8958,127 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="p_email_html_raw" js="0">Sì - usa HTML senza template</word>
   <word key="p_physical" js="0">Fisico?</word>
   <word key="p_weight" js="0">Peso</word>
+  <word key="p_shipping" js="0">Metodi di spedizione disponibili</word>
   <word key="lkey_none" js="0">Non generare una chiave di licenza</word>
   <word key="package_purchase_price" js="0">Prezzo d'acquisto</word>
   <word key="package_discounts" js="0">Sconti</word>
   <word key="p_usergroup_discounts" js="0">Sconti per gruppi utente</word>
+  <word key="discount_customer_in_group" js="0">Il cliente è nel gruppo</word>
+  <word key="discount_after_purchasing" js="0">Dopo l'acquisto</word>
+  <word key="discount_this_product" js="0">questo prodotto</word>
+  <word key="discount_different_product" js="0">	un prodotto diverso</word>
+  <word key="discount_if" js="0">SE</word>
+  <word key="discount_of" js="0">DI</word>
+  <word key="discount_then" js="0">POI</word>
   <word key="p_support_severity" js="0">Gravità supporto</word>
   <word key="mailsub__nexus_purchaseNotify" js="0"><![CDATA[Acquista {$purchase->name|raw}]]></word>
+  <word key="p_methods" js="0">Modalità di pagamento</word>
   <word key="p_show" js="0">Mostrare gli acquisti nell'area clienti e nell'Admin CP?</word>
   <word key="p_type_Hosting_desc" js="0"><![CDATA[Vendi spazio web nei tuoi <a href='{internal.app=nexus&module=hosting&controller=servers}'>server</a>.]]></word>
   <word key="product_change_blurb_existing" js="0">Aggiorna acquisti esistenti</word>
   <word key="product_change_blurb_new" js="0">Applicare solo ai nuovi acquisti</word>
   <word key="remove_renewal_no_expire_leave" js="0">Nessun costo di rinnovo. Non modificare lo stato.</word>
   <word key="p_set_discounts" js="0">Imposta sconti</word>
+  <word key="pfilter_basic_settings" js="0">Nome Filtri</word>
+  <word key="pfilter_public_name" js="0">Nome Pubblico</word>
   <word key="pg_filters_header" js="0">Filtri</word>
   <word key="pg_price_filters" js="0">Filtri di prezzo</word>
   <word key="cf_packages" js="0">Prodotti</word>
   <word key="gift_voucher_sender" js="0">Il tuo nome</word>
+  <word key="x_in_stock" js="0">{# [?:disponibili]}</word>
+  <word key="on_invoice" js="0">In fattura</word>
+  <word key="view_products_grid" js="0">Vista a griglia</word>
+  <word key="view_products_list" js="0">Vista a elenco</word>
   <word key="weight" js="0">Peso</word>
   <word key="featured_products" js="0">prodotti sponsorizzati</word>
   <word key="new_products" js="0">Nuovi Prodotti</word>
   <word key="all_categories" js="0">Tutte le categorie</word>
   <word key="continue_without_purchasing" js="0">No grazie, continua senza acquistare</word>
+  <word key="your_cart" js="0">Il tuo carrello</word>
+  <word key="products_sort_name" js="0">Nome</word>
   <word key="change_address" js="0">Cambia autore</word>
   <word key="store_clear_filters" js="0">Rimuovi filtri</word>
   <word key="in_stock_only" js="0">Mostra solo prodotti in stock</word>
   <word key="menu__nexus_store_settings" js="0">Impostazioni</word>
   <word key="nexus_store_new" js="0">Nuovi Prodotti</word>
   <word key="nexus_store_popular" js="0">Prodotti popolari</word>
+  <word key="client_invoices" js="0">ORdini</word>
+  <word key="x_items" js="0">{# [1:element][?:elementi]}</word>
+  <word key="write_package_review" js="0">Scrivi una recensione</word>
   <word key="recent_support_requests" js="0">Richieste di supporto recenti</word>
+  <word key="client_cards" js="0">Modalità di pagamento</word>
+  <word key="withdraw_method" js="0">Metodo di prelievo</word>
+  <word key="withdraw__Manual" js="0">Altro</word>
+  <word key="withdraw__PayPal" js="0">PayPal</word>
+  <word key="withdraw__Stripe" js="0">Conto bancario</word>
+  <word key="withdraw_amount" js="0">Importo da prelevare</word>
+  <word key="withdraw_credit" js="0">Prelievo</word>
   <word key="edit_address_title" js="0">Modifica indirizzo</word>
+  <word key="delete_address_title" js="0">Rimuovi indirizzo</word>
+  <word key="address_default_billing" js="0">Indirizzo di fatturazione principale</word>
   <word key="address_add_title" js="0">Aggiungi un nuovo indirizzo alla tua rubrica</word>
   <word key="altcontact_add_title" js="0">Aggiungi un nuovo contatto alternativo al tuo account</word>
   <word key="altcontact_email" js="0">Indirizzo email</word>
   <word key="altcontact_purchases" js="0">Acquisti</word>
   <word key="cards_add_title" js="0">Aggiungi una nuova carta di pagamento</word>
+  <word key="credit_title" js="0">Credito Account</word>
+  <word key="credit_add_title" js="0">Aggiungi credito al tuo account</word>
+  <word key="credit_withdraw_pending" js="0">Questo prelievo è in attesa</word>
+  <word key="orders_title" js="0">I tuoi ordini</word>
+  <word key="orders_cancel" js="0">Annulla fattura</word>
+  <word key="orders_cancel_title" js="0">Annulla questa fattura ora</word>
+  <word key="order_title" js="0">Ordine</word>
+  <word key="order_invoice_print" js="0">Stampa fattura</word>
   <word key="order_add_invoice_notes" js="0">Aggiungi Nota</word>
   <word key="order_order_total" js="0">Totale ordine</word>
+  <word key="order_invoice_expired" js="0">Questa fattura è scaduta.</word>
+  <word key="order_invoice_cancelled" js="0">Questa fattura è stata annullata.</word>
+  <word key="order_invoice_paid" js="0">Grazie per il pagamento.</word>
+  <word key="order_cancel_invoice" js="0">Cancella questa fattura</word>
   <word key="purchase_status" js="0">Stato</word>
   <word key="purchases_title" js="0">Gestisci i tuoi acquisti</word>
   <word key="purchases_manage_purchase" js="0">Gestisci questo acquisto</word>
   <word key="billing_agreement_payments" js="0">Storico dei pagamenti</word>
+  <word key="coupon" js="0">Coupon</word>
+  <word key="coupon_basic_settings" js="0">Impostazioni Coupon</word>
   <word key="coupon_products" js="0">Prodotti</word>
+  <word key="c_unit_v" js="0">Prendi un importo specifico dal totale parziale.</word>
+  <word key="c_unit_p" js="0">Ridurre il totale parziale di una percentuale.</word>
+  <word key="c_unit_desc" js="0">I coupon vengono applicati al lordo delle imposte e delle spese di spedizione.</word>
+  <word key="c_discount_p" js="0">Sconto</word>
+  <word key="c_discount_v" js="0">Sconto</word>
   <word key="c_products" js="0">Prodotti</word>
   <word key="c_products_desc" js="0">Il coupon potrà essere utilizzato solo se il membro acquista uno dei prodotti specificati.</word>
   <word key="c_limit_discount_yes" js="0">Solo i prodotti selezionati</word>
+  <word key="c_groups" js="0">Gruppi che possono utilizzare questo coupon</word>
+  <word key="c_uses" js="0">Numero di volte in cui questo coupon può essere utilizzato</word>
+  <word key="c_member_uses" js="0">Numero di volte in cui questo coupon può essere utilizzato da un singolo membro</word>
+  <word key="c_start" js="0">Data di inizio</word>
+  <word key="c_end" js="0">Data di fine</word>
+  <word key="no_end_date" js="0">Nessuna data di fine</word>
+  <word key="c_combine" js="0">Può essere utilizzato insieme ad altri coupon?</word>
   <word key="menu__nexus_payments_donations" js="0">Donatori</word>
   <word key="d_name" js="0">Nome</word>
   <word key="d_desc" js="0">Descrizione</word>
   <word key="thanks_for_your_donation" js="0">Grazie per la tua donazione!</word>
+  <word key="dl_invoice" js="0">Fattura</word>
   <word key="easypost_package" js="0">Tipo</word>
   <word key="easypost_package_weight" js="0">Peso</word>
+  <word key="easypost_rates_desc" js="0">Consegna Stimata: %d giorni.</word>
   <word key="epc_description" js="0">Descrizione</word>
+  <word key="easypost_tax" js="0">Aliquota fiscale per le spese di spedizione</word>
+  <word key="easypost_delivery_adjustment" js="0">Rettifica del stima di consegna</word>
   <word key="easypost_test_method_1" js="0">Scegli i prodotti da spedire</word>
   <word key="easypost_test_products" js="0">Prodotti</word>
+  <word key="view_accounts" js="0">Visualizza account</word>
   <word key="menu__nexus_hosting_settings" js="0">Impostazioni</word>
+  <word key="nexus_domain_tax" js="0">Aliquota fiscale per domini</word>
+  <word key="account_server" js="0">Server</word>
+  <word key="account_username" js="0">Username</word>
+  <word key="account_password" js="0">Password</word>
+  <word key="account_domain" js="0">Dominio</word>
   <word key="account_diskspace_use" js="0">Uso dello spazio su disco</word>
+  <word key="account_ftp" js="0">FTP</word>
   <word key="p_type_Ad" js="0">Annuncio pubblicitario</word>
   <word key="p_type_Ad_desc" js="0"><![CDATA[Vendi spazi pubblicitari sul tuo sito che mostrino insieme ai tuoi <a href='{internal.app=core&module=promotion&controller=advertisements}'>annunci pubblicitari</a>.]]></word>
   <word key="p_locations" js="0">Mostra l'annuncio</word>
@@ -8749,20 +9096,37 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="nexus_report_count" js="0">Numero totale di vendite</word>
   <word key="nexus_report_income_totals" js="0">Reddito totale</word>
   <word key="total_amount_spent" js="0">Importo totale speso</word>
+  <word key="cm_ref_on" js="0">Abilitare i Referral?</word>
+  <word key="cm_ref_on_desc" js="0">Se abilitato, gli utenti saranno in grado di ottenere un link di referral e guadagnare commissioni sulle vendite effettuate dai clienti a cui fanno riferimento.</word>
+  <word key="nexus_com_rules" js="0">Consentire agli utenti di vedere le regole della commissione?</word>
+  <word key="nexus_com_rules_desc" js="0">Se le tue regole sono complicate, potrebbe essere più semplice disabilitarlo e specificare il tuo testo da visualizzare.</word>
+  <word key="nexus_com_rules_alt" js="0">Dettagli commissione</word>
+  <word key="nexus_com_rules_alt_desc" js="0">Questo viene mostrato nella pagina dei referral e può essere usato per spiegare quanta commissione può essere guadagnata.</word>
   <word key="ref_cond_n" js="0">acquisti</word>
   <word key="open_support_requests" js="0">Richieste di supporto</word>
   <word key="pending_advertisements" js="0">Annunci in sospeso</word>
+  <word key="email_shipping_method" js="0">Metodo di spedizione</word>
   <word key="email_item_total" js="0">Totale</word>
   <word key="email_order_total" js="0">Totale ordine</word>
   <word key="reply_by__accountowner" js="0">Titolare dell'account</word>
+  <word key="emailtpl_newInvoice" js="0">Nuova fattura</word>
   <word key="block_latestProducts" js="0">Ultimi Prodotti</word>
+  <word key="widget_group" js="0">Categoria</word>
+  <word key="__api_nexus_invoices" js="0">Fatture</word>
+  <word key="__api_nexus_withdrawals" js="0">prelievi</word>
   <word key="__api_nexus_purchases" js="0">Acquisti</word>
+  <word key="__api_nexus_shipments" js="0">Spedizioni	
+</word>
   <word key="__api_nexus_supportrequests" js="0">Richieste di supporto</word>
+  <word key="__api_nexus_supportreplies" js="0">Risposte di supporto	
+</word>
   <word key="__api_nexus_lkey" js="0">Chiavi di licenza</word>
   <word key="support_request_pl" js="0">Richieste di supporto</word>
   <word key="support_request_pl_lc" js="0">richieste di supporto</word>
   <word key="log_type_title_address" js="0">Cambia indirizzi</word>
   <word key="log_type_title_custom" js="0">Altro</word>
+  <word key="sp_name" js="0">Nome</word>
+  <word key="sp_gateways" js="0">Modalità di pagamento</word>
   <word key="sp_renews" js="0">Rinnovare?</word>
   <word key="sp_desc" js="0">Descrizione</word>
   <word key="nexus_bm_filters_subscription_pkgs" js="0">Il membro ha acquistato un abbonamento</word>

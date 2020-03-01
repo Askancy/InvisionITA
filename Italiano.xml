@@ -2938,6 +2938,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="can_manage_sidebar" js="0">Può gestire la sidebar?</word>
   <word key="add_moderator" js="0">Aggiungi Moderatore</word>
   <word key="can_future_publish_content" js="0">Può programmare una futura data di pubblicazione?</word>
+  <word key="check_all" js="0">Seleziona tutto</word>
+  <word key="uncheck_all" js="0">Deseleziona tutto</word>
   <word key="editor_toolbars" js="0">Toolbar</word>
   <word key="editor_toolbar_desc" js="0">Trascina e rilascia i pulsanti per riordinare o trascina nella sezione sotto per rimuovere. Fai clic su un pulsante per modificare i suoi permessi.</word>
   <word key="editor_unused" js="0">Pulsanti non nell'editor</word>
@@ -2994,8 +2996,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="emoticons_add_choosegroup" js="0">Gruppo dove inserire le emoticon</word>
   <word key="emoticon_group_name_error" js="0">È necessario specificare il nome del gruppo.</word>
   <word key="acplog__emoticon_group_created" js="0">Aggiunto emoji personalizzate al gruppo: %s</word>
-  <word key="acplog__emoticons_added" js="0">Emoticon Aggiunte</word>
-  <word key="acplog__emoticons_edited" js="0">Emoticon modificate</word>
+  <word key="acplog__emoticons_added" js="0">Aggiunte emoji personalizzate</word>
+  <word key="acplog__emoticons_edited" js="0">Modificato emoji personalizzate</word>
   <word key="acplog__emoticon_deleted" js="0">Rimossa una emoji customizzata</word>
   <word key="storage_settings" js="0">Impostazioni Storage</word>
   <word key="image_settings" js="0">Impostazioni Immagini</word>
@@ -4246,7 +4248,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="whos_online_users_empty" js="0">Non ci sono utenti registrati online</word>
   <word key="block_stats" js="0">Statistiche Utenti</word>
   <word key="block_stats_desc" js="0">Mostra statistiche globali del sito</word>
-  <word key="stats_total_members" js="0">Utenti totali</word>
+  <word key="stats_total_members" js="0">Utenti in totale</word>
   <word key="stats_newest_member" js="0">Nuovo iscritto</word>
   <word key="stats_most_online" js="0">Record utenti online</word>
   <word key="block_relatedContent" js="0">Contenuti simili</word>
@@ -5184,6 +5186,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="ipAddresses__core_Votes" js="0">Voti del sondaggio</word>
   <word key="poll_member_id" js="0">Membro</word>
   <word key="poll_poll" js="0">Sondaggio</word>
+  <word key="can_unban" js="0">Può rimuovere il ban ai membri?</word>
   <word key="last_six_months" js="0">Ultimi 6 mesi</word>
   <word key="last_year" js="0">Ultimo anno</word>
   <word key="member_export_security" js="0">Questa esportazione include righe potenzialmente pericolose. Continuare solo se siete sicuri che i dati non siano dannosi.</word>
@@ -5344,6 +5347,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="auto_follow_replied_to" js="0">I membri seguono automaticamente il contenuto quando commentano?</word>
   <word key="auto_follow_replied_to_desc" js="0">Include risposte e commenti. I membri possono regolarlo autonomamente nelle impostazioni di notifica o per ogni singolo elemento.</word>
   <word key="auto_follow_preferences" js="0">Seguito automatico</word>
+  <word key="can_remove_followers" js="0">Può rimuovere i followers?</word>
   <word key="ftp_bypass_validation" js="0">Seleziona questa casella per salvare questi dati senza convalidare</word>
   <word key="file_config_is_the_same_as_existing" js="0">Questa configurazione non può essere salvata. Esiste una configurazione di archiviazione di file esistente con gli stessi dettagli.</word>
   <word key="dashboard_datastore_broken" js="0">Memorizzazione dati non funzionante</word>
@@ -5494,6 +5498,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="emailtpl_password_changed" js="0">Password cambiata</word>
   <word key="emailtpl_forgotSecurityAnswers" js="0">Hai dimenticato le risposte sulla sicurezza</word>
   <word key="emailtpl_email_address_changed" js="0">L'indirizzo email è stato modificato</word>
+  <word key="acplog__analytics_edited" js="0">Modificato l'impostazioni analytics</word>
   <word key="ipbseo_ga_provider" js="0">Provider di analisi</word>
   <word key="ipbseo_ga_paginatecode" js="0">Codice personalizzato da eseguire durante la paginazione</word>
   <word key="ipbseo_ga_paginatecode_desc" js="0">Per impostazione predefinita, la maggior parte dei provider analytics non registra una visualizzazione pagina quando IPS4 carica dinamicamente nuovi contenuti nella pagina corrente. Se si desidera attivare manualmente una visualizzazione pagina quando ciò accade, è possibile specificare il codice Javascript.</word>
@@ -5764,6 +5769,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="email_account_locked_safely_ignore" js="0">Se sei tu, potrai tranquillamente ignorare questa email e potrai accedere nuovamente a %s.</word>
   <word key="email_account_locked_no_unlock" js="0">Se tu fossi un amministratore, dovrai sbloccare il tuo account prima di poter accedere nuovamente.</word>
   <word key="pf_content_desc" js="0">Una volta definito l'ordine di questi valori non può essere modificato senza influenzare i valori esistenti.</word>
+  <word key="can_moderator_be_ignored" js="0">Può essere ignorato?</word>
   <word key="search_contextual_item_categories" js="0">Questa Categoria</word>
   <word key="recommendations_check_ok" js="0">Nessun cambiamento consigliato è stato rilevato</word>
   <word key="recommendations_check_fail" js="0">Ci sono alcune modifiche che consigliamo di non essere richieste</word>
@@ -6024,6 +6030,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="create_club" js="0">Inizia un Club</word>
   <word key="club_name" js="0">Nome</word>
   <word key="club_type" js="0">Privacy</word>
+  <word key="can_access_all_clubs" js="0">Ha i privilegi di leader in tutti i club?</word>
   <word key="my_clubs" js="0">Miei Club</word>
   <word key="all_clubs" js="0">Tutti i Club</word>
   <word key="my_clubs_empty" js="0">Non sei membri di nessun club.</word>
@@ -6196,6 +6203,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="primary_group" js="0">Gruppo primario</word>
   <word key="member_exceeded_posts_per_day" js="0">Hai raggiunto il numero massimo di pubblicazioni giornaliere.</word>
   <word key="remove_name_desc" js="0">Questo mostrerà il contenuto attribuito a Ospite e rimuoverà qualsiasi indirizzo IP memorizzato</word>
+  <word key="unrestricted" js="0">Senza restrizioni</word>
   <word key="no_attachment_permission" js="0">Questo allegato non è disponibile. Potrebbe essere stato rimosso o la persona che lo ha condiviso potrebbe non disporre dell'autorizzazione per condividerlo in questa posizione.</word>
   <word key="invalid_guestgroup_admin" js="0">Le tue impostazioni per il gruppo di ospiti non sono valide. Per favore controlla il tuo file conf_global.php e assicurati che l'id del gruppo sia corretto.</word>
   <word key="form_items_max" js="0">Il valore deve essere inferiore a {# [1:oggetto][?:oggetti]}</word>
@@ -6244,6 +6252,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="allow_admin_emails_any" js="0">Sia sì che no</word>
   <word key="member_photo_delete" js="0">Rimuovi Foto</word>
   <word key="acplog__members_edited_content" js="0">Numero dei contenuti modificati per il membro: %s</word>
+  <word key="acplog__members_edited_password" js="0">Password modificata per il membro: %s</word>
+  <word key="acplog__members_edited_name" js="0">Modificato nome visualizzato per l'utente: %s</word>
+  <word key="acplog__members_edited_groups" js="0">Modificato gruppi per l'utente: %s</word>
   <word key="members_queued_for_unsub" js="0">Membri in coda per annullare l'iscrizione</word>
   <word key="memberACPProfileTitle_core_Main" js="0">Vista membro</word>
   <word key="edit_cover_photo" js="0">Modifica Foto Copertina</word>
@@ -6370,7 +6381,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="registration_global_settings" js="0">Tutti i nuovi account</word>
   <word key="registration_global_settings_blurb" js="0">Queste impostazioni si applicano a tutti i nuovi account, sia quelli creati dal modulo di registrazione standard sia tramite altri metodi di accesso.</word>
   <word key="moderators_name" js="0">Moderatori</word>
+  <word key="mod_use_restrictions" js="0">Permessi</word>
+  <word key="mod_all_permissions" js="0">Senza restrizioni</word>
   <word key="mod_all_permissions_desc" js="0">I moderatori senza restrizioni hanno accesso a tutte le autorizzazioni del moderatore in tutta la comunità, comprese eventuali nuove autorizzazioni aggiunte in futuro. Utilizzalo solo per i moderatori di cui ti fidi completamente.</word>
+  <word key="mod_restricted" js="0">Limitato</word>
   <word key="standard_emoji" js="0">Emoji Standard</word>
   <word key="custom_emoji" js="0">Emoji Personalizzate</word>
   <word key="emoji_style" js="0">Stile Emoji</word>
@@ -6567,7 +6581,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="form_interval_max_h" js="0">Il valore deve essere inferiore a {# [1:ora][?:ore]}.</word>
   <word key="form_interval_max_d" js="0">Il valore deve essere inferiore a {# [1:giorno][?:giorni]}.</word>
   <word key="form_multibyte_unicode_admin_cic" js="0"><![CDATA[Il valore inserito include un carattere non consentito come un Emoji. Per abilitare il supporto Emoji standard,<a href='{internal.admin.app=core&module=support&controller=support}'>contatta il supporto</a>]]></word>
-  <word key="acplog__exported_member_list" js="0">Scarica Elenco Membri</word>
+  <word key="acplog__exported_member_list" js="0">Scaricato elenco membri</word>
   <word key="go_to_public_profile" js="0">Vai al Profilo Pubblico</word>
   <word key="auto_track_type_desc" js="0"><![CDATA[La modifica di questa opzione non influisce sul <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>contenuto già seguito</a>.]]></word>
   <word key="notifications__embed" js="0">Qualcuno pubblica un link al mio contenuto</word>
@@ -6649,6 +6663,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="__ipbmafia__nulling_null_alert" js="0">
 </word>
   <word key="menu_item_2" js="0">Attività</word>
+  <word key="block_core_MemberStats" js="0">Statistiche utenti</word>
   <word key="widget_feed_status_published" js="0">Pubblico</word>
   <word key="view_support_account" js="0">Visualizza account</word>
  </app>
@@ -8394,8 +8409,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="_convert_club_downloads_files" js="0">File Club</word>
   <word key="_convert_club_downloads_comments" js="0">Commenti file del club</word>
   <word key="_convert_club_gallery_categories" js="0">Categorie Gallery Club</word>
+  <word key="queue_rebuilding_gallery_images" js="0">Ricostruzione delle immagini della galleria</word>
   <word key="_convert_nexus_invoices" js="0">Fatture</word>
   <word key="_convert_nexus_purchases" js="0">Acquisti</word>
+  <word key="f_gallery_images_rebuild" js="0">Ricostruzione delle immagini della galleria</word>
   <word key="convert_nexus_payment_methods" js="0">Converti metodi di pagamento</word>
   <word key="convert_start_date" js="0">Data di inizio</word>
  </app>
@@ -8609,8 +8626,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="blog_allow_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
   <word key="blog_word_custom" js="0">Nome Blog</word>
   <word key="create_blog" js="0">Crea un Blog</word>
+  <word key="create_new_blog" js="0">Crea nuovo blog</word>
   <word key="add_blog_entry" js="0">Aggiungi Post sul Blog</word>
   <word key="entry_comments" js="0">Commenti</word>
+  <word key="manage_blog" js="0">Gestisci Blog</word>
   <word key="blog_name" js="0">Nome</word>
   <word key="blog_name_group" js="0">Nome</word>
   <word key="blog_desc" js="0">Descrizione</word>
@@ -8619,18 +8638,25 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="blog_type_normal" js="0">Autore singolo</word>
   <word key="blog_type_group" js="0">Grouppo</word>
   <word key="blog_member_id" js="0">Autore</word>
+  <word key="edit_blog" js="0">Modifica Blog</word>
+  <word key="delete_blog" js="0">Elimina Blog</word>
   <word key="submit_entry" js="0">Aggiungi Nuovo Post</word>
   <word key="blog_entry_title" js="0">Titolo</word>
+  <word key="blog_entry_auto_follow_suffix" js="0">Notificami quando ci sono nuovi commenti</word>
   <word key="blog_entry_content" js="0">Contenuto</word>
   <word key="blog_entry_date" js="0">Data Pubblicazione</word>
   <word key="blog_entry_publish" js="0">Pubblico</word>
   <word key="blog_entry_mainTab" js="0">Post</word>
   <word key="blog_entry_pollTab" js="0">Sondaggio</word>
   <word key="create_blog_entry" js="0">Crea nuovo Post sul Blog</word>
+  <word key="entry_information" js="0">Dettagli post</word>
   <word key="view_this_entry" js="0">Visualizza la voce %s</word>
   <word key="blog_entry__comment_placeholder" js="0">Aggiungi un commento...</word>
+  <word key="entry_actions" js="0">Azioni Post</word>
+  <word key="report_entry" js="0">Segnala post</word>
   <word key="blog_comments" js="0">{!#[1:commento][?:commenti]}</word>
   <word key="no_entries_yet" js="0">Non ci sono ancora Blog</word>
+  <word key="add_entry" js="0">Crea un nuovo post</word>
   <word key="no_entries" js="0">Questo blog ha nessun post</word>
   <word key="num_contributors_to_this" js="0">{# [1:contributore][?:contributori]} a questo blog</word>
   <word key="about_this_blog" js="0">Informazioni su questo Blog</word>
@@ -8643,6 +8669,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="can_hide_blog_entry_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_unhide_blog_entry_comment" js="0">Può rendere visibile i commenti?</word>
   <word key="can_view_hidden_blog_entry_comment" js="0">Può nascondere i commenti?</word>
+  <word key="g_blog_allowlocal" js="0">Può creare i blog?</word>
+  <word key="g_blog_maxblogs" js="0">Numero massimo di blog</word>
+  <word key="g_blog_allowprivate" js="0">Può creare blog privati?</word>
+  <word key="g_blog_allowcomment" js="0">Può commentare nei blog?</word>
+  <word key="g_blog_allowownmod" js="0">Può moderare i messaggi nel suo blog?</word>
+  <word key="g_blog_allowdelete" js="0">Può eliminare i propri blog?</word>
   <word key="widget__blog_count_comments" js="0">Numero di commenti</word>
   <word key="__api_blog_comments" js="0">Commenti</word>
   <word key="blog_sidebar_title" js="0">Informazioni Blog</word>
@@ -8656,6 +8688,24 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="total_images" js="0">Immagini totali</word>
   <word key="total_disk_spaceg" js="0">Spazio su disco utilizzato in totale</word>
   <word key="total_albums" js="0">Totale Album</word>
+  <word key="largest_image" js="0">Immagine più grande</word>
+  <word key="most_viewed_image" js="0">Immagine più vista</word>
+  <word key="gallery_album_permissions" js="0">Restrizioni Album</word>
+  <word key="g_create_albums" js="0">Può creare gli album?</word>
+  <word key="g_create_albums_private" js="0">Può creare album privati?</word>
+  <word key="g_create_albums_fo" js="0">Può creare restrizioni di accesso agli album?</word>
+  <word key="g_album_limit" js="0">Numero massimo di album</word>
+  <word key="g_img_album_limit" js="0">Numero massimo di immagini per album</word>
+  <word key="gallery_restrictions" js="0">Restrizioni di utilizzo</word>
+  <word key="g_movies" js="0">Può caricare i filmati?</word>
+  <word key="g_movie_size" js="0">Dimensione massima per i filmati</word>
+  <word key="g_max_upload" js="0">Dimensione massima per le immagini</word>
+  <word key="g_max_transfer" js="0">Consumo massimo di banda</word>
+  <word key="g_max_views" js="0">Visualizzazioni massime di immagini e filmati</word>
+  <word key="gallery_suffix_day" js="0">per giorno</word>
+  <word key="gallery_suffix_kb_day" js="0">kB/giorno</word>
+  <word key="gallery_requires_log" js="0">Queste impostazioni si basano sul registro dettagliato della larghezza di banda che può essere disabilitato nelle Impostazioni galleria e cancellato periodicamente. Se si utilizzano queste impostazioni, si consiglia di lasciare il registro acceso e di non cancellare più spesso di ogni 48 ore, altrimenti si potrebbero verificare comportamenti imprevisti.</word>
+  <word key="g_download_original" js="0">Può scaricare l'immagine originale?</word>
   <word key="g_download_raw" js="0">Si, senza watermark</word>
   <word key="g_download_watermarked" js="0">Si, con watermark</word>
   <word key="gcategory_parent_id" js="0">Categoria Genitore</word>
@@ -8686,9 +8736,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="category_show_rules_full_desc" js="0">Le regole verranno visualizzate nell'intestazione della categoria</word>
   <word key="category_rules_title" js="0">Titolo Regole</word>
   <word key="category_rules_text" js="0">Regole</word>
+  <word key="acplog__catalbum_mass_move" js="0">Spostato di massa l'album %s da %s a %s</word>
+  <word key="acplog__catalbum_mass_delete" js="0">Eliminato di massa l'album %s da %s</word>
   <word key="error_messages" js="0">Messaggi di Errore</word>
   <word key="category_permission_custom_error" js="0">Messaggio personalizzato di autorizzazione negata</word>
   <word key="category_permission_custom_error_desc" js="0">Questo messaggio di errore verrà mostrato a tutti coloro che possono sfogliare la categoria ma non possono visualizzare le immagini al suo interno</word>
+  <word key="gallery_permerror_placeholder" js="0">Aggiungi un messaggio di errore...</word>
   <word key="node_no_parentg" js="0">Nessun genitore</word>
   <word key="category_allow_reviews" js="0">Consenti recensioni?</word>
   <word key="category_review_moderate" js="0">Le recensioni devono essere approvate?</word>
@@ -8737,6 +8790,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="gallery_options" js="0">Impostazioni generali</word>
   <word key="gallery_rss_enabled" js="0">Abilitare Feed RSS per le immagini più recenti</word>
   <word key="gallery_rss_enabled_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
+  <word key="rebuilding_gallery_images" js="0">Ricostruzione delle immagini della galleria</word>
   <word key="gallery_stats" js="0">Mostra Statistiche Galleria</word>
   <word key="bdate" js="0">Data</word>
   <word key="bandwidth_stats" js="0">Banda Utilizzata</word>
@@ -8763,9 +8817,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="submit_go_back" js="0">Salve dettagli</word>
   <word key="gallery_submit_prefix_cat" js="0">Carica nella cateogira &quot;%s&quot;</word>
   <word key="image_title" js="0">Didascalia</word>
+  <word key="image_auto_follow_suffix" js="0">Notificami quando ci saranno nuovi commenti</word>
   <word key="image_description" js="0">Descrizione</word>
   <word key="report_image" js="0">Segnala immagine</word>
   <word key="image__comment_placeholder" js="0">Aggiungi un commento...</word>
+  <word key="image_submit_comment" js="0">Invia Commento</word>
   <word key="set_image_as" js="0">Imposta come</word>
   <word key="new_images" js="0">Nuove Immagini</word>
   <word key="new_image_comments_notification" js="0">Inviami commenti su queste immagini</word>
@@ -8786,7 +8842,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="cover_album_only" js="0">Cover dell'Album</word>
   <word key="cover_album" js="0">Imposta foto come Cover dell'Album</word>
   <word key="change_author" js="0">Cambia autore</word>
+  <word key="view_all_photo_info" js="0">Visualizza tutte le informazioni EXIF della foto</word>
   <word key="view_photo_info" js="0">Visualizza le informazioni EXIF della foto</word>
+  <word key="imageLocation" js="0">Carica nuova immagine</word>
   <word key="viewfilter_thumbnails" js="0">Miniature</word>
   <word key="viewfilter_large" js="0">Immagini di grandi dimensioni</word>
   <word key="set_gallery_image_photo" js="0">Imposta come mia foto del profilo</word>
@@ -8802,6 +8860,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="unread_cat_images" js="0">Questa categoria ha nuove immagini</word>
   <word key="image_tools" js="0">Strumenti immagine</word>
   <word key="cat_comment_count" js="0">{# [1:commento][?:commenti]}</word>
+  <word key="image_review_count" js="0">{# [1:recensione][?:recensioni]}</word>
   <word key="image_comment_count" js="0">{# [1:commento][?:commenti]}</word>
   <word key="add_image_note" js="0">Aggiungi Nota</word>
   <word key="view_in_lightbox" js="0">Visualizza in lightbox</word>
@@ -8836,10 +8895,32 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="set_copyright_desc" js="0">Imposta il copyright per ogni immagine che stai caricando tranne quelle per le quali aggiungi individualmente un copyright.</word>
   <word key="credit_desc" js="0">Imposta il credit per ogni immagine che stai caricando tranne quelle per cui aggiungi individualmente un credit.</word>
   <word key="exif_title" js="0">Dati EXIF completi</word>
+  <word key="gallery_exif_camera" js="0">Scattata con</word>
+  <word key="FILE.MimeType" js="0">Tipo formato</word>
+  <word key="FILE.FileSize" js="0">Dimensione originale del file</word>
+  <word key="COMPUTED.ApertureFNumber" js="0">Apertura focale</word>
+  <word key="COMPUTED.Height" js="0">Altezza immagine</word>
+  <word key="COMPUTED.Width" js="0">Larghezza immagine</word>
+  <word key="COMPUTED.IsColor" js="0">Colore</word>
+  <word key="COMPUTED.IsColor_map_1" js="0">Attivo</word>
+  <word key="COMPUTED.ByteOrderMotorola" js="0">Ordine dei byte Motorola</word>
+  <word key="COMPUTED.ByteOrderMotorola_map_1" js="0">Attivo</word>
   <word key="IFD0.ImageDescription" js="0">Descrizione Immagine</word>
+  <word key="IFD0.Make" js="0">Marca fotocamera</word>
+  <word key="IFD0.Model" js="0">Modello fotocamera</word>
+  <word key="IFD0.DateTime" js="0">Ultima modifica</word>
+  <word key="IFD0.Orientation" js="0">Orientamento</word>
+  <word key="EXIF.ExposureTime" js="0">Tempo di esposizione</word>
+  <word key="EXIF.ExifVersion" js="0">Versione Exif</word>
+  <word key="EXIF.DateTimeOriginal" js="0">Data dello scatto</word>
+  <word key="EXIF.DateTimeDigitized" js="0">Data della digitazione</word>
   <word key="EXIF.Contrast_map_0" js="0">Normale</word>
   <word key="EXIF.Saturation_map_0" js="0">Normale</word>
   <word key="EXIF.Sharpness_map_0" js="0">Normale</word>
+  <word key="EXIF.WhiteBalance" js="0">Bilanciamento del bianco</word>
+  <word key="EXIF.ColorSpace" js="0">Spazio del colore</word>
+  <word key="EXIF.ExifImageWidth" js="0">Larghezza immagine</word>
+  <word key="EXIF.ExifImageLength" js="0">Lunghezza immagine</word>
   <word key="digest_area_gallery_image" js="0">Immagini</word>
   <word key="digest_area_gallery_category" js="0">Categorie</word>
   <word key="__api_gallery_images" js="0">Immagini</word>

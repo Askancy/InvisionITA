@@ -118,6 +118,9 @@
   <word key="all_activity_follow_member" js="0">Quando un utente segue un altro utente</word>
   <word key="all_activity_follow_content" js="0">Quando un utente segue un contenuto</word>
   <word key="all_activity_photo" js="0">Quando un utente cambia la foto del suo profilo</word>
+  <word key="all_activity_like" js="0">Quando a un membro piace qualcosa</word>
+  <word key="all_activity_rep_pos" js="0">Quando un membro da reputazione positiva</word>
+  <word key="all_activity_rep_neg" js="0">Quando un membro dà una reputazione negativa</word>
   <word key="activity_member_joined" js="0">%s si è unito alla community</word>
   <word key="activity_member_followed" js="0">%s ha incominciato a seguire %s</word>
   <word key="activity_member_updated_photo" js="0">%s ha cambiato la sua immagine del profilo</word>
@@ -2072,6 +2075,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="photos" js="0">Foto</word>
   <word key="usernames" js="0">Nome visualizzato</word>
   <word key="max_user_name_length" js="0">Massima lunghezza del nome visualizzato</word>
+  <word key="username_characters" js="0">Caratteri consentiti nei nomi visualizzati</word>
   <word key="signatures" js="0">Firme</word>
   <word key="signatures_enabled" js="0">Abilitare firme?</word>
   <word key="signatures_disabled" js="0">Non sei autorizzato a modificare la propria firma.</word>
@@ -4817,6 +4821,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="userApproved" js="1">{{name}}, la registrazione è stata approvata</word>
   <word key="userBanned" js="1">{{name}} è stato bannato</word>
   <word key="languageSave" js="1">Salva</word>
+  <word key="check_all" js="1">Seleziona tutto</word>
+  <word key="uncheck_all" js="1">Deseleziona tutto</word>
   <word key="followUpdated" js="1">Le tue preferenze per seguire questo elemento sono state aggiornate</word>
   <word key="previewBtnCancel" js="1">Torna indietro e modifica</word>
   <word key="filesStillUploading" js="1">Uno o più allegati sono in caricamento.</word>
@@ -5186,6 +5192,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="ipAddresses__core_Votes" js="0">Voti del sondaggio</word>
   <word key="poll_member_id" js="0">Membro</word>
   <word key="poll_poll" js="0">Sondaggio</word>
+  <word key="user_name_length" js="0">Lunghezza consentita per il nome visualizzato</word>
   <word key="can_unban" js="0">Può rimuovere il ban ai membri?</word>
   <word key="last_six_months" js="0">Ultimi 6 mesi</word>
   <word key="last_year" js="0">Ultimo anno</word>
@@ -6140,22 +6147,29 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="log_ip_address" js="0">Indirizzo IP</word>
   <word key="view_all" js="0">Visualizza tutto</word>
   <word key="log_type_title_display_name" js="0">Visualizza modifiche al nome</word>
+  <word key="log_type_title_social_account" js="0">Metodi di accesso abilitati/disabilitati</word>
   <word key="log_type_title_warning" js="0"><![CDATA[Avvertimenti & Restrizioni]]></word>
   <word key="required_fields" js="0">Richiesta informazioni</word>
   <word key="suggested_fields" js="0">Informazioni suggerite</word>
+  <word key="complete_profile_photo" js="0">Foto</word>
   <word key="complete_profile_cover_photo" js="0">Foto Copertina</word>
   <word key="complete_profile_birthday" js="0">Compleanno</word>
   <word key="complete_profile_profile_fields" js="0">Campi profilo</word>
   <word key="profile_step_title" js="0">Titolo</word>
+  <word key="profile_step_title_desc" js="0">Titolo dello step della procedura guidata opzionale. Se lasciato vuoto, verrà automatizzato. Ad esempio: Profilo di base (Informazioni personali, Sesso).</word>
   <word key="profile_completion_status" js="0">Stato profilo</word>
   <word key="profile_completion_percent" js="0">Il tuo profilo è %s completato!</word>
   <word key="complete_profile_app__core_Core" js="0">Sistema</word>
   <word key="complete_profile_app__core_ProfileFields" js="0">Campi profilo</word>
   <word key="profile_step_subaction_profile_fields" js="0">Campi</word>
   <word key="profile_step_text" js="0">Descrizione passaggio</word>
+  <word key="profile_step_text_desc" js="0">Testo mostrato all'utente per incoraggiarli a completare il passaggio o spiegare perché è necessario.</word>
+  <word key="profile_step_completion_act" js="0">Azione per completare il passaggio</word>
   <word key="profile_acp_table_word_custom" js="0">Titolo</word>
   <word key="profile_generic" js="0">Informazioni di base sul profilo</word>
   <word key="profile_profile_fields" js="0">Altre informazioni sul profilo</word>
+  <word key="complete_profile_basic_profile" js="0">Profilo di base</word>
+  <word key="complete_profile_social_login" js="0">Metodi di accesso</word>
   <word key="profile_step_subaction_basic_profile" js="0">Campi</word>
   <word key="profile_complete_blurb_title" js="0">Completamento del profilo dopo la registrazione</word>
   <word key="profile_complete_blurb_desc" js="0">Creare passaggi per avere membri completi. Questi passaggi possono essere obbligatori o facoltativi. Se si crea un nuovo passaggio obbligatorio, questo passaggio verrà mostrato a tutti gli utenti per il completamento.</word>
@@ -6232,6 +6246,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="allow_email_changes_redirect" js="0">Reindirizza a un sito esterno
 </word>
   <word key="allow_email_changes_disabled" js="0">No</word>
+  <word key="allow_password_changes" js="0">Consentire agli utenti di cambiare la password?</word>
   <word key="allow_password_changes_normal" js="0">Sì (Raccomandato)</word>
   <word key="allow_password_changes_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_password_changes_disabled" js="0">No</word>
@@ -6325,6 +6340,13 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="rebuild_sitemap_initialized" js="0">Attività in background inizializzata</word>
   <word key="sitemap_profiles_content" js="0">Numero contenuti</word>
   <word key="status_updates_disabled" js="0">Disattivato</word>
+  <word key="status_updates_enabled_nomem" js="0">Disabilitato di default</word>
+  <word key="status_updates_enabled_nomem_desc" js="0">Gli utenti potranno abilitare gli aggiornamenti di stato per il loro account</word>
+  <word key="status_updates_enabled_mem" js="0">Abilitato di default</word>
+  <word key="status_updates_enabled_mem_desc" js="0">Gli aggiornamenti di stato saranno abilitati per impostazione predefinita, ma gli utenti saranno in grado di disabilitarli per il proprio account</word>
+  <word key="leaderboard_excluded_groups" js="0">Escludere questi gruppi</word>
+  <word key="leaderboard_excluded_groups_desc" js="0"><![CDATA[I membri di questi gruppi non saranno inclusi nella classifica.
+Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-ipsDialog-title='Rebuild Leaderboard' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>ricostruire la classifica</a> per rimuovere i membri dei gruppi esclusi dai risultati storici.]]></word>
   <word key="acprestrictions_name" js="0">Amministratore</word>
   <word key="deleted_group" js="0">Gruppo Eliminato</word>
   <word key="diagnostics_reporting_usage" js="0">Dati di utilizzo</word>
@@ -6377,6 +6399,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="allow_reg_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_reg_redirect_desc" js="0">Puoi utilizzare questa opzione se la tua comunità utilizza principalmente un metodo di accesso con il proprio modulo di registrazione come un database MySQL esterno o LDAP.</word>
   <word key="allow_reg_disabled" js="0">No</word>
+  <word key="allow_reg_target" js="0">URL di registrazione</word>
   <word key="force_reg_terms_0" js="0">Solo quando si utilizza il modulo di registrazione standard</word>
   <word key="registration_global_settings" js="0">Tutti i nuovi account</word>
   <word key="registration_global_settings_blurb" js="0">Queste impostazioni si applicano a tutti i nuovi account, sia quelli creati dal modulo di registrazione standard sia tramite altri metodi di accesso.</word>
@@ -6585,6 +6608,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="go_to_public_profile" js="0">Vai al Profilo Pubblico</word>
   <word key="auto_track_type_desc" js="0"><![CDATA[La modifica di questa opzione non influisce sul <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>contenuto già seguito</a>.]]></word>
   <word key="notifications__embed" js="0">Qualcuno pubblica un link al mio contenuto</word>
+  <word key="signatures_mobile" js="0">Mostrare le firme sui dispositivi mobili?</word>
+  <word key="signatures_guests" js="0">Mostra le firme agli ospiti?</word>
   <word key="custom_fields_hide" js="0">Non mostrare</word>
   <word key="custom_fields_staff" js="0">Mostra allo staff</word>
   <word key="custom_fields_all" js="0">Mostra a tutti</word>
@@ -6629,7 +6654,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="remote_image_proxy_secure_info" js="0">Ciò impedirà ai browser di segnalare che alcuni contenuti della pagina non sono sicuri.</word>
   <word key="__api_core_clubs" js="0">Club</word>
   <word key="reorder_club_menu" js="0">Riordina Menu</word>
+  <word key="complete_profile_custom" js="0">Messaggio personalizzato</word>
+  <word key="complete_profile_custom_editor" js="0">Messaggio personalizzato</word>
+  <word key="complete_profile_profile_photo" js="0">Foto del profilo</word>
   <word key="profile_step_title_crop" js="0">Taglia foto</word>
+  <word key="profile_step_subaction_profile_photo" js="0">Tipo Foto</word>
+  <word key="profile_step_subaction_custom" js="0">Messaggio personalizzato</word>
   <word key="acp_notifications" js="0">Notifiche dell'amministratore</word>
   <word key="acp_notification_dismiss_perm" js="0">Nascondi questa notifica</word>
   <word key="acp_notification_dismiss_temp" js="0">Nascondi questa notifica fino a domani</word>
@@ -8343,6 +8373,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_restrictions__downloads_Downloads" js="0">Download</word>
   <word key="content_stats__downloads_Downloads" js="0">Download</word>
   <word key="modperms__downloads_Files" js="0">Download</word>
+  <word key="download_no_permission" js="0">Spiacenti, non ti è consentito scaricare questo file.</word>
+  <word key="download_no_permission_guest" js="0">Spiacenti, non ti è consentito scaricare questo file. Tuttavia, potresti essere in grado di scaricarlo se effetti l'accedi.</word>
   <word key="enable_purchases" js="0">Abilita acquisti</word>
   <word key="downloads_stat_of_total_link" js="0">%s (%d%% del totale) %s</word>
   <word key="downloadsScreenshotsWatermark" js="1">Ricostruire gli screenshot esistenti?</word>
@@ -8745,12 +8777,16 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="node_no_parentg" js="0">Nessun genitore</word>
   <word key="category_allow_reviews" js="0">Consenti recensioni?</word>
   <word key="category_review_moderate" js="0">Le recensioni devono essere approvate?</word>
+  <word key="albums" js="0">Album</word>
   <word key="album_name" js="0">Nome</word>
   <word key="album_description" js="0">Descrizione</word>
   <word key="album_owner" js="0">Nome del proprietario</word>
   <word key="album_category" js="0">Categoria</word>
+  <word key="album_use_comments" js="0">Consenti commenti su questo album?</word>
+  <word key="album_type" js="0">Privacy</word>
   <word key="album_private_mod" js="0">Solo il proprietario può vedere questo album</word>
   <word key="album_submit_type" js="0">Inseriti</word>
+  <word key="album_submittype_public" js="0">Chiunque può pubblicare in questo album?</word>
   <word key="set_album_owner" js="0">Proprietario</word>
   <word key="set_album_owner_me" js="0">Questo album è per me</word>
   <word key="set_album_owner_other" js="0">Questo album è per qualcun altro</word>
@@ -8837,6 +8873,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="rotate_left" js="0">Routa a Sinistra</word>
   <word key="rotate_right" js="0">Routa a Destra</word>
   <word key="gallery_image_rotated" js="0">L'immagine è stata ruotata</word>
+  <word key="add_more_images" js="0">Aggiungi altre immagini</word>
   <word key="set_cover_photo" js="0">Imposta foto copertina</word>
   <word key="cover_category_only" js="0">Cover della Categoria</word>
   <word key="cover_album_only" js="0">Cover dell'Album</word>
@@ -8884,9 +8921,11 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="use_rte_editor" js="0">Usa rich text editor</word>
   <word key="album_create_owner" js="0">Proprietà</word>
   <word key="with_all_images" js="0">Con tutte le immagini</word>
+  <word key="add_to_existing_album" js="0">Aggiungi ad album esistente</word>
   <word key="set_copyright" js="0">Imposta Copyright...</word>
   <word key="set_copyright_all" js="0">Imposta il copyright su tutti i file</word>
   <word key="set_credit_all" js="0">Imposta credit su tutte</word>
+  <word key="add_gallery_album_limit" js="0"><![CDATA[Puoi caricare <strong>{# [1:un immagine o video][?:immagini e video]}</strong> in questo album]]></word>
   <word key="x_more_images_album" js="0">Puoi aggiungere {# [1:immagine][?:immagini]} a questo album</word>
   <word key="saving_images_desc" js="0">Le tue immagini stanno per essere archiviate, attendi...</word>
   <word key="adding_to_category_x" js="0"><![CDATA[Immagini aggiunte in <strong>%s</strong>]]></word>
@@ -9584,6 +9623,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="custom_package_fields" js="0">Campi personalizzati</word>
   <word key="gift_voucher_sender" js="0">Il tuo nome</word>
   <word key="x_in_stock" js="0">{# [?:disponibili]}</word>
+  <word key="add_to_cart" js="0">Aggiungi al carrello</word>
   <word key="on_invoice" js="0">In fattura</word>
   <word key="view_products_grid" js="0">Vista a griglia</word>
   <word key="view_products_list" js="0">Vista a elenco</word>
@@ -9595,6 +9635,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="your_cart" js="0">Il tuo carrello</word>
   <word key="products_sort_name" js="0">Nome</word>
   <word key="change_address" js="0">Cambia autore</word>
+  <word key="add_new_address" js="0">Aggiungi nuovo indirizzo</word>
   <word key="store_clear_filters" js="0">Rimuovi filtri</word>
   <word key="in_stock_only" js="0">Mostra solo prodotti in stock</word>
   <word key="menu__nexus_store_settings" js="0">Impostazioni</word>

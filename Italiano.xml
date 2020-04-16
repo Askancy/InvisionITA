@@ -990,7 +990,7 @@
   <word key="dev_widget_nowhere" js="0">Da nessuna parte</word>
   <word key="dev_widget_embeddable_desc" js="0">Determina se questo widget può essere incorporato in un blocco personalizzato Pages. Questo dovrebbe essere abilitato per la maggior parte dei widget a meno che non vi sia un motivo particolare per non consentirlo, ad esempio se il widget visualizza informazioni contestuali che non saranno applicabili in una pagina personalizzata.</word>
   <word key="widget_class_default" js="0">Il contenuto del widget non verrà memorizzato nella cache. Utilizzare questa opzione se il contenuto può cambiare a ogni caricamento della pagina.</word>
-  <word key="widget_class_PermissionCache" js="0">Il contenuto del widget verrà memorizzato nella cache per configurazione dei permessi dei membri. Utilizzare questa opzione se il widget può essere memorizzato nella cache e il contenuto dipende dalle autorizzazioni dell'utente attualmente connesso. Le cache dei widget vengono cancellate automaticamente dopo un determinato periodo di scadenza, ma è possibile che si desideri aggiungere il codice per cancellare manualmente la cache quando viene aggiornato anche il contenuto mostrato dal widget.</word>
+  <word key="widget_class_PermissionCache" js="0">Il contenuto del widget verrà memorizzato nella cache per configurazione dei permessi degli utenti. Utilizzare questa opzione se il widget può essere memorizzato nella cache e il contenuto dipende dalle autorizzazioni dell'utente attualmente connesso. Le cache dei widget vengono cancellate automaticamente dopo un determinato periodo di scadenza, ma è possibile che si desideri aggiungere il codice per cancellare manualmente la cache quando viene aggiornato anche il contenuto mostrato dal widget.</word>
   <word key="widget_class_StaticCache" js="0">Il contenuto del widget verrà memorizzato nella cache. Usa questa opzione se il tuo widget può essere memorizzato nella cache e il contenuto sarà lo stesso per ogni utente. Le cache dei widget vengono cancellate automaticamente dopo un determinato periodo di scadenza, ma è possibile che si desideri aggiungere il codice per cancellare manualmente la cache quando viene aggiornato anche il contenuto mostrato dal widget.</word>
   <word key="dev_widget_title" js="0">Titolo</word>
   <word key="dev_could_not_write_data" js="0">Per utilizzare questa funzione, la /data della directory dell'applicazione e tutte le sue sottodirectory devono esistere e essere scrivibili.</word>
@@ -1182,7 +1182,7 @@
   <word key="ext__MemberForm" js="0">Aggiungi impostazioni utenti.</word>
   <word key="ext__MemberSync" js="0">Esegui codice quando un account utente viene creato, modificato, unito o eliminato.</word>
   <word key="ext__ModCp" js="0">Aggiungere al ModCP.</word>
-  <word key="ext__ModCpMemberManagement" js="0">Aggiungere i filtri alla pagina di gestione dei membri ModCP.</word>
+  <word key="ext__ModCpMemberManagement" js="0">Aggiungere i filtri alla pagina di gestione degli utenti ModCP.</word>
   <word key="ext__ModeratorPermissions" js="0">Aggiungi autorizzazioni moderatore.</word>
   <word key="ext__Notifications" js="0">Specificare i tipi di notifiche inviati dall'applicazione.</word>
   <word key="ext__OutputPlugins" js="0">Aggiungi tags ai template.</word>
@@ -1207,7 +1207,7 @@
   <word key="login_external_socket" js="0">Presa di collegamento o tubo denominato</word>
   <word key="login_external_schema" js="0">Dettagli del diagramma di database</word>
   <word key="login_external_table" js="0">Tabella</word>
-  <word key="login_external_table_desc" js="0">Il nome della tabella nel database in cui sono memorizzati i dati dei membri.</word>
+  <word key="login_external_table_desc" js="0">Il nome della tabella nel database in cui sono memorizzati i dati degli utenti.</word>
   <word key="login_external_username" js="0">Colonna username</word>
   <word key="login_external_username_desc" js="0"><![CDATA[Il nome della colonna nella tabella sopra specificata che contiene i nomi utente. Questo non è necessario se si imposta il tipo di autenticazione solo per l'indirizzo di posta elettronica, tuttavia, in quella circostanza (o se il nome utente <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}'>non
  è consentito</a>), agli utenti sarà chiesto di fornire un nome di visualizzazione dopo la firma.]]></word>
@@ -1387,8 +1387,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="menu__core_stats_registrationstats" js="0">Registrazioni</word>
   <word key="stats_messages_title" js="0">Invio messaggi per periodo di tempo</word>
   <word key="menu__core_stats_pmstats" js="0">Statistiche messenger</word>
-  <word key="member_recount_content_process" js="0">I contenuti dei membri saranno ora ricalcolati in background.</word>
-  <word key="member_recount_rep_process" js="0">La reputazione dei membri verrà ora ricalcolata in background.</word>
+  <word key="member_recount_content_process" js="0">I contenuti degli utenti saranno ora ricalcolati in background.</word>
+  <word key="member_recount_rep_process" js="0">La reputazione degli utenti verrà ora ricalcolata in background.</word>
   <word key="member_reset_where" js="0">Resetta per</word>
   <word key="member_reset_theme" js="0">Tema</word>
   <word key="member_reset_lang" js="0">Lingua</word>
@@ -1428,8 +1428,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="members_import" js="0">Importa la lista membri</word>
   <word key="import_upload_csv" js="0">Elenco di caricamento</word>
   <word key="import_select_cols" js="0">Seleziona colonne</word>
-  <word key="import_do_import" js="0">Importa Membri</word>
-  <word key="import_members_csv_file" js="0">Lista dei membri</word>
+  <word key="import_do_import" js="0">Importa utenti</word>
+  <word key="import_members_csv_file" js="0">Lista degli utenti</word>
   <word key="import_members_csv_file_desc" js="0">È necessario fornire un file .csv con i membri da importare.</word>
   <word key="import_members_csv_file_err" js="0">Questo non è un file csv valido.</word>
   <word key="import_column" js="0">Colonna dal file csv</word>
@@ -1478,8 +1478,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="import_member_other" js="0">Altri dettagli</word>
   <word key="import_custom_fields" js="0">Campi del profilo personalizzato</word>
   <word key="import_member_no_name_or_email" js="0">L'elenco da importare deve contenere almeno nomi di utenti o indirizzi e-mail. Assicurarsi di aver selezionato la colonna corretta per almeno uno di questi.</word>
-  <word key="r__member_export" js="0">Puoi scaricare gli elenchi dei membri?</word>
-  <word key="members_export" js="0">Scarica l'elenco dei membri</word>
+  <word key="r__member_export" js="0">Puoi scaricare gli elenchi utenti?</word>
+  <word key="members_export" js="0">Scarica l'elenco degli utenti</word>
   <word key="export_choose_data" js="0">Scegli i dati</word>
   <word key="export_build_list" js="0">Elenco di creazione</word>
   <word key="export_columns_to_include" js="0">Dati da includere</word>
@@ -1642,7 +1642,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="groups" js="0">Gruppi</word>
   <word key="g_title" js="0">Nome gruppo</word>
   <word key="acpgroups_word_custom" js="0">Nome Gruppo</word>
-  <word key="acpgroups_members" js="0">Membri</word>
+  <word key="acpgroups_members" js="0">Utenti</word>
   <word key="groups_add" js="0">Crea nuovo gruppo</word>
   <word key="g_prefixsuffix" js="0">Formattazione del gruppo</word>
   <word key="group__core_GroupSettings" js="0">Impostazioni Gruppo</word>
@@ -1664,7 +1664,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="g_view_board" js="0">Può accedere al sito?</word>
   <word key="g_access_offline" js="0">Può accedere al sito quando è offline?</word>
   <word key="group_profiles" js="0">Profilo</word>
-  <word key="g_mem_info" js="0">Può vedere i profili e la lista dei membri?</word>
+  <word key="g_mem_info" js="0">Può vedere i profili e la lista degli utenti?</word>
   <word key="g_edit_profile" js="0">Può modificare le informazioni del profilo?</word>
   <word key="g_dohtml" js="0">Può inviare HTML?</word>
   <word key="g_dohtml_warning" js="0"><![CDATA[Quando abilitato, gli utenti di questo gruppo potranno inviare HTML in grassetto (nelle aree del tuo sito in cui è abilitato). Consentire agli utenti di inviare HTML è estremamente pericoloso e gli utenti malintenzionati possono utilizzare la funzionalità per danneggiare il tuo sito.<strong> Si raccomanda vivamente che questa funzionalità non sia abilitata affatto </strong>, o solo per i gruppi di dipendenti attendibili.]]></word>
@@ -1676,7 +1676,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="g_max_bgimg_upload" js="0">Peso massimo foto di copertina?</word>
   <word key="g_use_search" js="0">Può cercare?</word>
   <word key="g_search_flood" js="0">Cerca il controllo del flood</word>
-  <word key="g_search_flood_desc" js="0">La ricerca può utilizzare molte risorse del server. È possibile utilizzare questa opzione per limitare la frequenza di ricerca dei membri di questo gruppo.</word>
+  <word key="g_search_flood_desc" js="0">La ricerca può utilizzare molte risorse del server. È possibile utilizzare questa opzione per limitare la frequenza di ricerca degli utenti di questo gruppo.</word>
   <word key="can_be_ignored" js="0">Può essere ignorato?</word>
   <word key="g_use_pm" js="0">Può utilizzare il messanger?</word>
   <word key="g_pm_perday" js="0">Conversazioni che può iniziare al giorno</word>
@@ -1767,6 +1767,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="leader_custom_bio" js="0">Biografia</word>
   <word key="leader_edit_mine" js="0">Modifica i tuoi dati</word>
   <word key="staff_add_group" js="0">Categoria Creata</word>
+  <word key="staff_add_record" js="0">Aggiungi utente o gruppo</word>
   <word key="leader_type" js="0">Tipo</word>
   <word key="leader_type_member" js="0">Utente</word>
   <word key="leader_type_member_desc" js="0">L'utente sarà in grado di personalizzare il proprio nome, titolo e biografia nella directory</word>
@@ -1822,7 +1823,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="bmtag_member_name" js="0">Il nome visualizzato del destinatario dell'email</word>
   <word key="bmtag_member_joined" js="0">La data di registrazione del destinatario</word>
   <word key="bmtag_member_last_visit" js="0">La data dell'ultima visita del destinatario al sito</word>
-  <word key="bmtag_reg_total" js="0">Il numero totale dei membri registrati</word>
+  <word key="bmtag_reg_total" js="0">Il numero totale degli utenti registrati</word>
   <word key="bmtag_suite_name" js="0">Il nome del sito</word>
   <word key="bmtag_suite_url" js="0">L'URL del tuo sito</word>
   <word key="bmtag_busy_count" js="0">Maggior numero di utenti connessi</word>
@@ -2407,7 +2408,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="r__member_photo_admin" js="0">Può modificare le foto amministratore</word>
   <word key="r__membertools_validating" js="0">Può gestire gli account da convalidare</word>
   <word key="r__membertools_locked" js="0">Può bloccare gli account</word>
-  <word key="r__membertools_delete" js="0">Può eliminare i contenuti dei membri</word>
+  <word key="r__membertools_delete" js="0">Può eliminare i contenuti degli utenti</word>
   <word key="r__membertools_ip" js="0">Può utilizzare strumenti di ricerca IP</word>
   <word key="r__membertools_reset" js="0">Può usare i tool di riconteggio e reset</word>
   <word key="r__email" js="0">Impostazioni Email</word>
@@ -2836,7 +2837,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="configure_google_analytics" js="0">Configura Google Analytics</word>
   <word key="spamprevention_flagging" js="0">Contrassegnare come spammer</word>
   <word key="spm_option" js="0">Azione da eseguire quando l'utente è contrassegnato</word>
-  <word key="spm_option_desc" js="0"><![CDATA[Se un bot spammer riesce a registrarsi sul tuo sito, lo strumento <em>Contrassegna come Spammer</em> (disponibile dai profili dei membri) consente allo staff di intraprendere l'azione appropriata. Nascondere ed eliminare il contenuto non viene fatto immediatamente ma verrà elaborato in lotti. <br> Se in seguito rimuovi il flag, le azioni non vengono annullate.]]></word>
+  <word key="spm_option_desc" js="0"><![CDATA[Se un bot spammer riesce a registrarsi sul tuo sito, lo strumento <em>Contrassegna come Spammer</em> (disponibile dai profili degli utenti) consente allo staff di intraprendere l'azione appropriata. Nascondere ed eliminare il contenuto non viene fatto immediatamente ma verrà elaborato in lotti. <br> Se in seguito rimuovi il flag, le azioni non vengono annullate.]]></word>
+  <word key="spm_option_none" js="0">Non fare nulla</word>
   <word key="spm_option_disable" js="0">Limita l'utente nell'inviare altri contenuti</word>
   <word key="spm_option_unapprove" js="0">Nascondere i contenuti già inviati</word>
   <word key="spm_option_delete" js="0">Eliminare i contenuti già inviati</word>
@@ -2947,8 +2949,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="can_split_merge_content" js="0">Può separare e unire tutti i contenuti?</word>
   <word key="can_view_editlog" js="0">Può visualizzare lo storico delle modifiche?</word>
   <word key="can_view_moderation_log" js="0">Può visualizzare lo storico moderazione?</word>
-  <word key="can_see_emails" js="0">Può vedere gli indirizzi email dei membri?</word>
-  <word key="can_modify_profiles" js="0">Può modificare i profili dei membri?</word>
+  <word key="can_see_emails" js="0">Può vedere gli indirizzi email degli utenti?</word>
+  <word key="can_modify_profiles" js="0">Può modificare i profili degli utenti?</word>
   <word key="can_manage_announcements" js="0">Può gestire gli annunci?</word>
   <word key="modperms__core_Reports" js="0">Segnalazioni</word>
   <word key="can_view_reports" js="0">Può visualizzare i rapporti?</word>
@@ -3138,7 +3140,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="rebuilding_noncontent_images" js="0">Ricostruzione %s immagini</word>
   <word key="rebuilding_noncontent_posts" js="0">Ricostruzione %s</word>
   <word key="recounting_posts" js="0">Ricalcolo il numero dei contenuti degli utenti</word>
-  <word key="recounting_reputation" js="0">Riconoscono la reputazione dei membri</word>
+  <word key="recounting_reputation" js="0">Riconoscono la reputazione degli utenti</word>
   <word key="file_storage_test_error_amazon" js="0">Sembra che si verifichi un problema con le impostazioni di archiviazione di file Amazon (%s) che possono causare problemi con i file di caricamento. Dopo aver tentato di caricare un file nella directory, l'URL al file restituisce un errore HTTP %s. Aggiorna le impostazioni e quindi controlla se il problema è stato risolto</word>
   <word key="file_storage_test_error_amazon_unreachable" js="0"><![CDATA[Sembra che ci sia un problema con le impostazioni di archiviazione di file di Amazon (%s) che possono causare problemi con i file di caricamento. <br> Non è possibile stabilire una connessione al server Amazon S3. Aggiorna le impostazioni e quindi controlla se il problema è stato risolto]]></word>
   <word key="file_storage_test_error_amazon_d403" js="0">Sembra che ci sia un problema con le impostazioni di archiviazione di file Amazon (%s) che possono causare problemi con i file di caricamento. Dopo aver tentato di eliminare un file caricato in directory, l'URL al file restituisce un errore HTTP %s .</word>
@@ -3571,7 +3573,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="admin_notes_last_update" js="0">Ultimo Aggiornamento</word>
   <word key="block_core_Registrations" js="0">Registrazioni</word>
   <word key="block_core_OnlineUsers" js="0">Utenti Online per App</word>
-  <word key="chart_members" js="0">Membri</word>
+  <word key="chart_members" js="0">Utenti</word>
   <word key="block_core_OnlineAdmins" js="0">Admin connessi</word>
   <word key="block_core_AdminNotes" js="0">Appunti Admin</word>
   <word key="block_core_LatestNews" js="0">Ultime News da IPS</word>
@@ -4352,7 +4354,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="menu__core_diagnostics" js="0">Strumenti Diagnostica</word>
   <word key="menu__core_diagnostics_errorLogs" js="0">Logs Errori</word>
   <word key="support" js="0">Supporto</word>
-  <word key="acp_search_title_core_Members" js="0">Membri</word>
+  <word key="acp_search_title_core_Members" js="0">Utenti</word>
   <word key="acp_search_title_core_Groups" js="0">Gruppi</word>
   <word key="acp_search_title_core_Settings" js="0">Impostazioni</word>
   <word key="menu__core_livesearch" js="0">Ricerca live</word>
@@ -4425,7 +4427,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="widget_feed_status_pinned" js="0">Importante</word>
   <word key="mod_confirm_either" js="0">Entrambi</word>
   <word key="widget_feed_author" js="0">Autori</word>
-  <word key="widget_feed_author_desc" js="0">Se fornito, verrà incluso solo il contenuto dei membri specificati.</word>
+  <word key="widget_feed_author_desc" js="0">Se fornito, verrà incluso solo il contenuto degli utenti specificati.</word>
   <word key="widget_feed_min_comments" js="0">Commenti minimi</word>
   <word key="widget_feed_sort_on" js="0">Ordina per</word>
   <word key="widget_feed_comment_date" js="0">Pubblicato</word>
@@ -4520,7 +4522,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="search_results_title_tag" js="0">Contenuti taggati con %s</word>
   <word key="search_results_title_tag_area" js="0">Contenuti taggati con %s in %s</word>
   <word key="see_results_for" js="0">Guarda i risultati in %s</word>
-  <word key="search_members" js="0">Ricerca Membri</word>
+  <word key="search_members" js="0">Ricerca Utenti</word>
   <word key="search_content" js="0">Ricerca contenuto</word>
   <word key="q" js="0">Termini di ricerca</word>
   <word key="eitherTermsOrTags" js="0">Tipo di corrispondenza</word>
@@ -4545,6 +4547,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="no_searchable_apps" js="0">Non ci sono nuovi contenuti</word>
   <word key="no_searchable_apps_admin" js="0">Attualmente non sono installate applicazioni che dispongono di tipi di contenuto che supportano il monitoraggio dello stato di lettura</word>
   <word key="search_index_timeframe" js="0">Contenuti da includere nei risultati</word>
+  <word key="search_index_timeframe_prefix" js="0">Escludi contenuti pubblicati più di</word>
   <word key="search_index_timeframe_suffix" js="0">giorni fa</word>
   <word key="search_index_timeframe_desc" js="0">Limitare i risultati può rendere le ricerche più veloci, soprattutto per le grandi community, tuttavia il contenuto di prima non verrà mostrato nei risultati di ricerca, nei flussi o nel pannello di controllo del moderatore. Il contenuto più recente viene automaticamente inserito più in alto nell'ordinamento.</word>
   <word key="acplogs__queued_search_index" js="0">Indice di ricerca ricostruito</word>
@@ -4563,7 +4566,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="categories_sg" js="0">Categoria</word>
   <word key="categories" js="0">Categorie</word>
   <word key="categories_add_child" js="0">Crea sotto categoria</word>
-  <word key="core_members_pl" js="0">Membri</word>
+  <word key="core_members_pl" js="0">Utenti</word>
   <word key="search_by_tags" js="0">Cerca per Tag</word>
   <word key="search_by_author" js="0">Cerca per autore</word>
   <word key="search_filter_by_number" js="0">Filtra per numero di...</word>
@@ -4698,10 +4701,10 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="r__categories_manage" js="0">Visualizza Categorie</word>
   <word key="r__categories_permissions" js="0">Gestioni permessi categoria</word>
   <word key="ago" js="0">fa</word>
-  <word key="block_members" js="0">Membri</word>
+  <word key="block_members" js="0">Utenti</word>
   <word key="block_members_desc" js="0">Mostra elenchi di membri come chi è online, compleanni di oggi e altro ancora.</word>
   <word key="widget_member_title" js="0">Titolo</word>
-  <word key="widget_member_title_default" js="0">Membri</word>
+  <word key="widget_member_title_default" js="0">Utenti</word>
   <word key="widget_member_groups" js="0">Gruppi</word>
   <word key="widget_member_rep" js="0">Reputazione minima</word>
   <word key="widget_member_born_today" js="0">Nato oggi</word>
@@ -4758,7 +4761,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="r__api_logs" js="0">Può visualizzare i registri API?</word>
   <word key="r__api_logs_settings" js="0">Può modificare le impostazioni di pulizia di log API?</word>
   <word key="r__api_logs_delete" js="0">Può eliminare i registri API?</word>
-  <word key="__api_core_members" js="0">Membri</word>
+  <word key="__api_core_members" js="0">Utenti</word>
   <word key="__api_core_hello" js="0">Salve</word>
   <word key="api_instructions_3" js="0">Rinomina in '.htaccess' (senza un nome al file)</word>
   <word key="js_num_comments" js="1">{# [1:Commento][?:Commenti]}</word>
@@ -4888,7 +4891,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="searchTitleTerm" js="1">Ricerca per '{{term}}'</word>
   <word key="searchTitleTermType" js="1">Ricerca per '{{term}}' in {{type}}</word>
   <word key="searchTitleType" js="1">Ricerca in  in {{type}}</word>
-  <word key="searchMembers" js="1">Cerca Membri</word>
+  <word key="searchMembers" js="1">Cerca Utenti</word>
   <word key="searchContent" js="1">Ricerca contenuto</word>
   <word key="searchRequiresTermTags" js="1">Inserisci un termine da cercare o almeno un tag.</word>
   <word key="emoticonCategories" js="1">Categorie</word>
@@ -5165,7 +5168,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="license_error_admin" js="0">Questo messaggio viene visualizzato solo agli amministratori.</word>
   <word key="moderators_type_desc" js="0">Se un utente è in più gruppi di moderatori, avranno le migliori autorizzazioni di tutti i gruppi di moderatori combinati. Se un utente dispone di autorizzazioni per i moderatori dei singoli membri, i permessi del moderatore membri ignoreranno qualsiasi autorizzazione di moderatore di gruppo che avrebbe ereditato altrimenti.</word>
   <word key="moderators_group" js="0">Gruppo</word>
-  <word key="moderators_member" js="0">Membri</word>
+  <word key="moderators_member" js="0">Utenti</word>
   <word key="can_close_polls" js="0">Può chiudere i sondaggi?</word>
   <word key="mass_member_update" js="0">Aggiornamento di tutti i membri (campi: %s)</word>
   <word key="recounting_votes" js="0">Riconoscere i voti dei sondaggi</word>
@@ -5287,10 +5290,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="developer_build_new" js="0">Crea una nuova versione</word>
   <word key="developer_build_download" js="0">Scarica senza creazione</word>
   <word key="login_error_ipsconnect_master" js="0">Questa installazione sembra già un'installazione Master IPS Connect e non può essere impostata come slave di un'altra installazione.</word>
-  <word key="members_queued_for_pruning" js="0">Membri in coda per la pulizia</word>
-  <word key="members_queued_for_moving" js="0">Membri in coda per muoversi</word>
+  <word key="members_queued_for_pruning" js="0">Utenti in coda per la pulizia</word>
+  <word key="members_queued_for_moving" js="0">Utenti in coda per lo spostamento</word>
   <word key="gbw_post_highlight" js="0">Evidenziare le risposte</word>
-  <word key="gbw_post_highlight_desc" js="0"><![CDATA[Quando abilitato, tutte le risposte dei membri di questo gruppo verranno visualizzate in un altro colore configurabile in  <a href='{internal.admin.app=core&module=customization&controller=themes}'>impostazioni tema</a>.]]></word>
+  <word key="gbw_post_highlight_desc" js="0"><![CDATA[Quando abilitato, tutte le risposte degli utenti di questo gruppo verranno visualizzate in un altro colore configurabile in  <a href='{internal.admin.app=core&module=customization&controller=themes}'>impostazioni tema</a>.]]></word>
   <word key="group_viewing_title" js="0">Sta guardando</word>
   <word key="log_member_id" js="0">Utente</word>
   <word key="log_missing_data" js="0">Non disponibile</word>
@@ -5336,11 +5339,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="nothing_mm_selected" js="0">Non hai selezionato elementi da moderare</word>
   <word key="profile_email_addresses" js="0">Solo lo staff può vedere gli indirizzi email.</word>
   <word key="requirements_mb_overload" js="0">La configurazione PHP ha mbstring.func_overload impostato con un valore superiore a 0. Si dovrebbe contattare il provider di hosting o l'amministratore di sistema per disabilitare la sovraccarico di funzioni Multibyte.</word>
+  <word key="uploadMaxFilesErr" js="1">Sei autorizzato solo a caricare {# [1:file] [? :file]}.</word>
   <word key="form_url_localhost" js="0">L'URL non deve essere su %s.</word>
   <word key="mail_body_desc" js="0">Il modello di posta elettronica predefinito conterrà 'Ciao {membername}', all'inizio dell'email automaticamente. Questa verrà mostrata nell'anteprima.</word>
   <word key="poll_is_public" js="0">Questo sondaggio è pubblico. Altri utenti possono vedere quali opzioni hai votato.</word>
   <word key="file_log_pruning" js="0">Pulisci i log file</word>
-  <word key="rebuilding_member_seo_names" js="0">Ricostruire i nomi dei membri</word>
+  <word key="rebuilding_member_seo_names" js="0">Ricostruire i nomi degli utenti</word>
   <word key="rebuilding_starratings" js="0">Ricostruire le categorie di stelle di %s</word>
   <word key="messenger_map_disabled" js="0">Messenger disattivato</word>
   <word key="messenger_map_disabled_desc" js="0">%s non vedrà alcuna risposta a questa conversazione in questo momento, ma possono riattivare il messaggero in futuro.</word>
@@ -5414,7 +5418,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="security_question_q" js="0">Domanda</word>
   <word key="security_question_a" js="0">Risposta</word>
   <word key="member__core_SecurityAnswers" js="0">Autenticazione due fattori</word>
-  <word key="r__member_security_answers" js="0">Può visualizzare e modificare le risposte dei membri alle domande sulla sicurezza?</word>
+  <word key="r__member_security_answers" js="0">Può visualizzare e modificare le risposte degli utenti alle domande sulla sicurezza?</word>
   <word key="security_answer_incorrect" js="0">Risposta errata. Riprova.</word>
   <word key="security_questions_auth_blurb" js="0">Per proteggere la sicurezza del tuo account, rispondi alla seguente domanda di sicurezza.</word>
   <word key="security_answer_forgot" js="0">Hai dimenticato la risposta?</word>
@@ -5451,19 +5455,20 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="add_tags" js="0">Aggiungi tag</word>
   <word key="membername_history" js="0">Cronologia del nome visualizzato</word>
   <word key="members_dname_history" js="0">Cronologia del nome visualizzato da %s</word>
+  <word key="teaser_review_title_reg" js="0">Crea un account o accedi per lasciare una recensione</word>
   <word key="member_deletion_keep_name" js="0">Nome dell'utente</word>
   <word key="member_deletion_title" js="0">Mantieni il nome dell'utente?</word>
   <word key="keep_name" js="0">Mantenere il nome</word>
   <word key="remove_name" js="0">Rimuovi nome</word>
   <word key="members_name_changed_on" js="0">Nome visualizzato modificato su %s da %s a %s</word>
   <word key="member_reputation_from" js="0">Reputazione da %s</word>
-  <word key="member_theme_reset" js="0">Le preferenze dei membri del tema sono state ripristinate</word>
+  <word key="member_theme_reset" js="0">Le preferenze degli utenti del tema sono state ripristinate</word>
   <word key="member_edit_promoted" js="0">Utente salvato e auto promosso in %s</word>
   <word key="ipAddresses__core_Messages" js="0">Messaggi privati</word>
   <word key="ipAddresses__core_Dnames" js="0">Modifiche del nome visualizzato</word>
   <word key="ipAddresses__core_SpamLogs" js="0">Log di servizio spam</word>
   <word key="ipAddresses__core_Ratings" js="0">Valutazioni</word>
-  <word key="ipAddresses__core_Validations" js="0">Convalida dei membri</word>
+  <word key="ipAddresses__core_Validations" js="0">Convalida degli utenti</word>
   <word key="ipAddresses__core_Reports" js="0">Rapporti</word>
   <word key="ipAddresses__core_ReportComments" js="0">Segnala i commenti</word>
   <word key="ip_geolocation_hostname" js="0">L'indirizzo IP viene risolto a %s</word>
@@ -5509,20 +5514,20 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="profile_birthday_type_private" js="0">Mostra i compleanni solo agli amministratori e al utente.</word>
   <word key="profile_birthday_type_none" js="0">Disattiva i compleanni nei profili utente.</word>
   <word key="profile_birthday_display_private" js="0">Le informazioni sul compleanno non vengono condivise con altri membri</word>
-  <word key="reputation_leaderboard" js="0">Leaderboard di Reputazione</word>
-  <word key="reputation_timezone" js="0">Timezone del leaderboard</word>
-  <word key="reputation_timezone_desc" js="0"><![CDATA[Ogni giorno, tre membri con la più reputazione per il giorno sono memorizzati in una classifica. Questo fuso orario è utilizzato per calcolare quando il giorno inizia e termina e dovrebbe essere dove si trovano la maggior parte dei membri della tua community.<br>Dopo aver modificato questa impostazione, ti piacerebbe <a data-ipsDialog data-ipsDialog-title='Rebuild Leaderboard' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>ricostruire il leaderboard</a> per assicurarsi che i conteggi corretta della reputazione siano utilizzati per il giorno.]]></word>
+  <word key="reputation_leaderboard" js="0">Classifica di Reputazione</word>
+  <word key="reputation_timezone" js="0">Timezone del classifica</word>
+  <word key="reputation_timezone_desc" js="0"><![CDATA[Ogni giorno, tre membri con la più reputazione per il giorno sono memorizzati in una classifica. Questo fuso orario è utilizzato per calcolare quando il giorno inizia e termina e dovrebbe essere dove si trovano la maggior parte degli utenti della tua community.<br>Dopo aver modificato questa impostazione, ti piacerebbe <a data-ipsDialog data-ipsDialog-title='Rebuild Leaderboard' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>ricostruire la classifica</a> per assicurarsi che i conteggi corretta della reputazione siano utilizzati per il giorno.]]></word>
   <word key="reputation_leaderboard_rebuilding" js="0">È stata aggiunta un'attività in background per ricostruire la classifica</word>
-  <word key="reputation_leaderboard_on" js="0">Abilita leaderboard?</word>
+  <word key="reputation_leaderboard_on" js="0">Abilita la classifica?</word>
   <word key="reputation_leaderboard_on_desc" js="0">La classifica mostrerà gli utenti e i contenuti che hanno ricevuto più reputazione ogni giorno.</word>
   <word key="reputation_show_days_won_trophy" js="0">Mostra un badge sul profilo del vincitore del giorno?</word>
   <word key="reputation_show_days_won_trophy_desc" js="0">Un utente vince la giornata quando possiede il contenuto più gradito o la migliore reputazione nella timezone in cui è impostata la classifica.</word>
-  <word key="reputation_leaderboard_default_tab" js="0">Scheda principale di leaderboard</word>
+  <word key="reputation_leaderboard_default_tab" js="0">Scheda principale della classifica</word>
   <word key="reputation_max_members" js="0">Utenti massimi massimo da mostrare</word>
   <word key="reputation_max_members_desc" js="0">Massimo di 100. Poiché il display mostra 4 per riga, i numeri divisibili per 4 funzionano meglio.</word>
-  <word key="reputation_leaderboard_rebuild_desc" js="0">In questo modo verrà aggiunta un'attività di sfondo per ricostruire i vincitori giornalieri di leaderboard utilizzando il fuso orario leaderboard per definire l'inizio e la fine di un giorno.</word>
+  <word key="reputation_leaderboard_rebuild_desc" js="0">In questo modo verrà aggiunta un'attività di sfondo per ricostruire i vincitori giornalieri della classifica utilizzando il fuso orario della classifica per definire l'inizio e la fine di un giorno.</word>
   <word key="reputation_leaderboard_rebuild_run_now" js="0">Ricostruire</word>
-  <word key="reputation_leaderboard_rebuild_title" js="0">Ricostruisci leaderboard</word>
+  <word key="reputation_leaderboard_rebuild_title" js="0">Ricostruisci classifica</word>
   <word key="like_blurb_pluralized" js="0">{!#[1:mi piace][?:mi piace]}</word>
   <word key="edit_tags" js="0">Modifica le Tags</word>
   <word key="email_out_cic" js="0">Indirizzo email in uscita</word>
@@ -5563,6 +5568,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="url_filter_moderate" js="0">Modera</word>
   <word key="url_filter_moderate_desc" js="0">Se viene pubblicato un link non consentito, il contenuto verrà conservato per l'approvazione del moderatore.</word>
   <word key="url_filter_any_action" js="0">Se un link viene pubblicato</word>
+  <word key="url_filter_any_allow" js="0">Consenti</word>
   <word key="url_filter_any_allow_desc" js="0">Qualunque link può essere pubblicato.</word>
   <word key="url_filter_any_moderate" js="0">Modera</word>
   <word key="url_filter_any_moderate_desc" js="0">Se viene pubblicato un collegamento, il contenuto verrà conservato per l'approvazione del moderatore.</word>
@@ -5579,8 +5585,8 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="replog_rate_item_gave_no_recipient_no_in" js="0"><![CDATA[%s ha <strong>dato</strong> la valutazione per %s]]></word>
   <word key="replog_like_item_no_recipient_no_in" js="0">%s piace %s</word>
   <word key="replog_like_comment_no_recipient_no_in" js="0"><![CDATA[%s piace <a href='%s'>%s</a>]]></word>
-  <word key="replog_member_and_one_other" js="0"><![CDATA[%s and <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='All members' title='Mostra tutti i dati di ipsTooltip dei membri>one other</a>]]></word>
-  <word key="replog_member_and_x_other" js="0"><![CDATA[%s and <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='All members' title='Mostra tutti i dati di ipsTooltip dei membri>%s others</a>]]></word>
+  <word key="replog_member_and_one_other" js="0"><![CDATA[%s and <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='All members' title='Mostra tutti i dati di ipsTooltip degli utenti>one other</a>]]></word>
+  <word key="replog_member_and_x_other" js="0"><![CDATA[%s and <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='All members' title='Mostra tutti i dati di ipsTooltip degli utenti>%s others</a>]]></word>
   <word key="md5_check_ok" js="0">File sorgenti non modificati</word>
   <word key="md5_check_fail" js="0">Alcuni dei file di origine sono stati modificati</word>
   <word key="md5_fail_help_1" js="0">Alcuni dei file di origine per IPS Community Suite sono stati modificati.</word>
@@ -5647,7 +5653,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="profile_member_congrats" js="0">%s ha avuto il contenuto più apprezzato!</word>
   <word key="members_days_won_count" js="0">Giorni Vinti</word>
   <word key="members_days_won_count_desc" js="0">Il numero di volte che %s ha avuto il maggior numero di &quot;like&quot; ai contenuti del giorno</word>
-  <word key="rebuilding_reputation_leaderboard" js="0">Ricostruire il leaderboard di reputazione</word>
+  <word key="rebuilding_reputation_leaderboard" js="0">Ricostruire la classifica della reputazione</word>
   <word key="custom_date" js="0">Modifica la data</word>
   <word key="popular_timezone" js="0">Questa classifica è impostata su %s/GMT%s</word>
   <word key="popular_posted" js="0">pubblicato</word>
@@ -5669,7 +5675,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="popular_rebuild_is_running" js="0">L'indice di ricerca è attualmente in fase di elaborazione. I risultati della classifica potrebbero non essere completi.</word>
   <word key="leaderboard_tabs_leaderboard" js="0">Classifica</word>
   <word key="leaderboard_tabs_history" js="0">Ultimi Leaders</word>
-  <word key="leaderboard_tabs_members" js="0">Top Membri</word>
+  <word key="leaderboard_tabs_members" js="0">Top Utenti</word>
   <word key="received_x_likes" js="0">Ricevuto {# [1:like][?:likes]}</word>
   <word key="received_x_points" js="0">{# [1:punto di reputazione] [?:punti di reputazione]}</word>
   <word key="hooks_hooks_type" js="0">Tipo</word>
@@ -5753,15 +5759,15 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mfa_settings_title" js="0">Configurare la protezione dell'account</word>
   <word key="mfa_disable" js="0">Disabilita questo metodo</word>
   <word key="mfa_ucp_blurb_password" js="0">Per accedere a questa area, inserisci nuovamente la password.</word>
-  <word key="mfa_required_prompt" js="0">Membri rapidi nei gruppi richiesti</word>
-  <word key="mfa_optional_prompt" js="0">Membri rapidi in gruppi opzionali</word>
+  <word key="mfa_required_prompt" js="0">Utenti rapidi nei gruppi richiesti</word>
+  <word key="mfa_optional_prompt" js="0">Utenti rapidi in gruppi opzionali</word>
   <word key="mfa_prompt_immediate" js="0">Quando accedono al sito</word>
   <word key="mfa_prompt_access" js="0">Quando accedono prima ad un'area protetta</word>
   <word key="mfa_prompt_none" js="0">Mai</word>
   <word key="mfa_prompt_none_desc" js="0">Saranno in grado di impostare l'autenticazione a due fattori nelle loro impostazioni, ma non verrà mai richiesto</word>
   <word key="r__mfa" js="0">Autenticazione a Due Fattori</word>
   <word key="r__mfa_manage" js="0">Può gestire le impostazioni di autenticazione a due fattori?</word>
-  <word key="r__member_mfa" js="0">Può visualizzare e modificare le impostazioni di autenticazione a due fattori dei membri?</word>
+  <word key="r__member_mfa" js="0">Può visualizzare e modificare le impostazioni di autenticazione a due fattori degli utenti?</word>
   <word key="acplogs__mfa_settings_updated" js="0">Aggiornamento delle impostazioni di autenticazione a due fattori</word>
   <word key="acplogs__mfa_handler_enabled" js="0">Abilitato %s</word>
   <word key="acplogs__mfa_handler_disabled" js="0">Abilitato %s</word>
@@ -5909,6 +5915,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mf_leaderboard" js="0">Utente del giorno</word>
   <word key="mf_leaderboard_active" js="0">Sì</word>
   <word key="reputation_title" js="0">Reputazione</word>
+  <word key="rep_reactions_blurb" js="0"><![CDATA[Il premio reazioni  <em>reputazione punti</em> all'autore del contenuto. Ogni reazione può aumentare o diminuire il totale dei punti reputazione dell'autore (o lasciarlo invariato).]]></word>
+  <word key="rep_settings_blurb" js="0"><![CDATA[Il sistema di reputazione consente agli utenti di guadagnare  <em>punti reputazione </em> quando altri utenti reagiscono al loro contenuto. Il totale della reputazione di un utente a livello di community viene visualizzato accanto al contenuto e nel profilo e viene conteggiato per funzioni quali il blocco Collaboratori popolari e la classifica della classifica.]]></word>
+  <word key="rep_leaderboard_blurb" js="0">La classifica raccoglie i primi tre poster di ogni giorno (in base alla loro reputazione ricevuta), così come i migliori contenuti in base al numero di reazioni positive.</word>
   <word key="reputation_protected_groups_desc" js="0">Le Reactions non saranno disponibili per i contenuti pubblicati dai membri in questi gruppi.</word>
   <word key="react_blurb_just_you" js="0">Hai reagito a questo</word>
   <word key="react_blurb" js="0">%s {!# [?: ha reagito]} a questo</word>
@@ -5918,13 +5927,20 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="reactions" js="0">Reazioni</word>
   <word key="reaction_title" js="0">Titolo</word>
   <word key="reaction_value" js="0">Reputazione</word>
+  <word key="reaction_value_desc" js="0"><![CDATA[Le reazioni regolano i <em>punti reputazione</em> dell'autore del contenuto. Una reazione positiva aggiunge un punto reputazione, una reazione negativa sottrae un punto reputazione e una reazione neutra lascia invariato il numero di reputazione.]]></word>
   <word key="reaction_icon" js="0">Icona</word>
+  <word key="reaction_icon_desc" js="0">Per ottenere risultati ottimali, utilizzare un'icona di reazione di almeno 100x100 pixel e con uno sfondo trasparente. L'icona deve essere quadrata per mantenere le proporzioni corrette quando viene visualizzata.</word>
   <word key="positive" js="0">Positivo (+1)</word>
   <word key="neutral" js="0">Neutrale</word>
   <word key="negative" js="0">Negativo (-1)</word>
   <word key="reaction_remove" js="0">Rimuovi la tua reazioni</word>
   <word key="see_who_reacted_x" js="0">Vedi chi ha reagito &quot;%s&quot;</word>
   <word key="existing_reactions" js="0">Modificare o rimuovere le reazioni esistenti?</word>
+  <word key="reaction_count_display" js="0">Visualizzazione della reaction</word>
+  <word key="individual_reactions" js="0">Mostra le reazioni individualmente</word>
+  <word key="overall_reaction_count" js="0">Valore complessivo della reazione</word>
+  <word key="reputation_top_members_overview" js="0">Categorie da mostrare nella panoramica</word>
+  <word key="reputation_overview_max_members" js="0">Numero da mostrare per categoria nella panoramica</word>
   <word key="reputation_top_members_filters" js="0">Filtri Disponibili</word>
   <word key="edit_who_reacted" js="0">Modifica Reazioni</word>
   <word key="r__reactions" js="0">Reazioni</word>
@@ -5932,15 +5948,15 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="pf_allow_attachments" js="0">Consenti allegati?</word>
   <word key="site_social_profiles" js="0">Profili Social</word>
   <word key="menu__core_members_promotions" js="0">Promozione Gruppi</word>
-  <word key="r__membervisits" js="0">Statistiche Visite dei Membri</word>
+  <word key="r__membervisits" js="0">Statistiche Visite degli Utenti</word>
   <word key="r__onlineusers" js="0">Statistiche Utenti Online</word>
-  <word key="r__membervisits_manage" js="0">Può visualizzare le statistiche delle visite dei membri?</word>
+  <word key="r__membervisits_manage" js="0">Può visualizzare le statistiche delle visite degli utenti?</word>
   <word key="r__onlineusers_manage" js="0">Può visualizzare le statistiche degli utenti online?</word>
-  <word key="menu__core_stats_membervisits" js="0">Visite Membri</word>
+  <word key="menu__core_stats_membervisits" js="0">Visite Utenti</word>
   <word key="menu__core_stats_onlineusers" js="0">Utenti Online</word>
   <word key="menu__core_activitystats" js="0">Attività</word>
-  <word key="menu__core_activitystats_memberactivity" js="0">Membri attivi</word>
-  <word key="member_activity_timeperiod" js="0">Attività dei Membri per periodo di tempo</word>
+  <word key="menu__core_activitystats_memberactivity" js="0">Utenti attivi</word>
+  <word key="member_activity_timeperiod" js="0">Attività degli Utenti per periodo di tempo</word>
   <word key="member_activity_info" js="0">Il numero totale di membri che hanno inviato nuovi contenuti, seguito qualcosa o reagito a qualcosa sulla community nel periodo di tempo specificato.</word>
   <word key="menu__core_activitystats_keywords" js="0">Keyword</word>
   <word key="stats_keywords" js="0">Keyword</word>
@@ -5950,12 +5966,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="keywordstats_author" js="0">Autore</word>
   <word key="manage_keywords" js="0">Gestisci impostazioni keyword</word>
   <word key="visit_date" js="0">Trova membri la cui ultima visita è stata</word>
-  <word key="member_visits_results" js="0">{# [1:membro][?:membri]} nell'ultima attività tra %s e %s</word>
+  <word key="member_visits_results" js="0">{# [1:utente][?:utenti]} nell'ultima attività tra %s e %s</word>
   <word key="visits_name" js="0">Utente</word>
   <word key="visits_last_visit" js="0">Ultima visita</word>
   <word key="keyword_usage_chart" js="0">Keyword usate per periodo di tempo</word>
   <word key="r__promotions_manage" js="0">Può gestire le regole per le promozioni dei gruppi?</word>
-  <word key="r__member_history" js="0">Può visualizzare la cronologia dei membri</word>
+  <word key="r__member_history" js="0">Può visualizzare la cronologia degli utenti</word>
   <word key="grouppromotions" js="0">Regole per promozioni dei gruppi</word>
   <word key="generic_gp_details" js="0">Dettagli Regole</word>
   <word key="generic_gp_filters" js="0">Filtri</word>
@@ -5965,7 +5981,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="do_not_change_group" js="0">Non cambiare gruppo</word>
   <word key="promote_group_primary" js="0">Sposta nel gruppo</word>
   <word key="promote_group_secondary" js="0">Aggiungi gruppi secondari</word>
-  <word key="promote_group_secondary_desc" js="0">Quando aggiungi un gruppo secondario, tieni presente che l'impostazione di esclusione della promozione viene ignorata con i gruppi secondari per consentire nuovamente la promozione dei membri</word>
+  <word key="promote_group_secondary_desc" js="0">Quando aggiungi un gruppo secondario, tieni presente che l'impostazione di esclusione della promozione viene ignorata con i gruppi secondari per consentire nuovamente la promozione degli utenti</word>
   <word key="demote_group_secondary" js="0">Rimuovi gruppi secondari</word>
   <word key="demote_group_secondary_desc" js="0">Potresti voler rimuovere gruppi secondari assegnati precedentemente quando un utente raggiunge una nuova promozione di gruppo</word>
   <word key="days_ago" js="0">giorni fa</word>
@@ -6084,6 +6100,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="r__promote" js="0">Promuovi</word>
   <word key="promote_tab_internal" js="0">Le nostre Scelte</word>
   <word key="promote_tab_permissions" js="0">Permessi</word>
+  <word key="promote_facebook_setup_app_desc" js="0">Per promuovere gli elementi su Facebook, dovrai prima configurare il login con Facebook.</word>
   <word key="promote_facebook_setup_user" js="0">Il tuo account non è collegato a un account Facebook</word>
   <word key="promote_facebook_setup_post_desc" js="0">Per pubblicare su una pagina Facebook, devi prima concedere le seguenti autorizzazioni: &quot;manage_pages&quot; e &quot;publish_pages&quot;.</word>
   <word key="promote_facebook_setup_post_button" js="0">Concedi le autorizzazioni a Facebook</word>
@@ -6144,7 +6161,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="all_clubs" js="0">Tutti i Club</word>
   <word key="my_clubs_empty" js="0">Non sei membri di nessun club.</word>
   <word key="all_clubs_empty" js="0">Non ci sono club da mostrare.</word>
-  <word key="club_invite_members" js="0">Invita Membri</word>
+  <word key="club_invite_members" js="0">Invita Utenti</word>
   <word key="notifications__club_invitation" js="0">Sono invitato a far parte di un club</word>
   <word key="club_notifications_sent" js="0">Inviti Inviati </word>
   <word key="mailsub__core_notification_club_invitation" js="0"><![CDATA[Sei stato invitato a partecipare {$club->name}]]></word>
@@ -6153,7 +6170,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_manage" js="0">Gestisci Club</word>
   <word key="notifications__club_request" js="0">Un utente richiede di entrare a far parte di un club di cui sei leader</word>
   <word key="notifications__club_join" js="0">Un utente si unisce a un club di cui sei leader</word>
-  <word key="club_members" js="0">Membri</word>
+  <word key="club_members" js="0">Utenti</word>
   <word key="club_leaders" js="0">Leader e Moderatori</word>
   <word key="club_all_members" js="0">Tutti i Membri</word>
   <word key="club_members_count" js="0">{# [1:membro][?:membri]}</word>
@@ -6332,6 +6349,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="stream_read_unread_desc" js="0">I flussi di contenuti non letti sono visualizzabili solo con &quot;Solo contenuti&quot;</word>
   <word key="editor_uploaded_videos" js="0">Video Caricati</word>
   <word key="editor__core_ReviewResponses" js="0">Rivedi le risposte dell'autore</word>
+  <word key="reg_not_allowed_by_login" js="0"><![CDATA[Non hai effettuato l'accesso. <a href='{internal.front.app=core&module=system&controller=register.register}'>Crea prima un account</a> .]]></word>
   <word key="primary_group" js="0">Gruppo primario</word>
   <word key="member_exceeded_posts_per_day" js="0">Hai raggiunto il numero massimo di pubblicazioni giornaliere.</word>
   <word key="remove_name_desc" js="0">Questo mostrerà il contenuto attribuito a Ospite e rimuoverà qualsiasi indirizzo IP memorizzato</word>
@@ -6354,26 +6372,45 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="registration_settings" js="0">Registrazione</word>
   <word key="login_acp_will_reauth" js="0">L'utente dovrà reinserire la propria password quando accede all'AdminCP, è consigliato abilitare questa opzione.</word>
   <word key="login_register" js="0">Quando un utente accede per la prima volta</word>
+  <word key="login_register_enabled" js="0">Crea un account</word>
   <word key="oauth_custom_authentication_type_header" js="0">HTTP Basic (Consigliata)</word>
   <word key="authorization_endpoint_https" js="0">Deve usare https</word>
   <word key="oauth_custom_name_field" js="0">Parametro Nome visualizzato</word>
   <word key="login_method_basic_settings" js="0">Impostazioni Base</word>
+  <word key="login_handler_oauth_settings" js="0">Impostazioni applicazione</word>
+  <word key="login_handler_Facebook_info" js="0"><![CDATA[Seguie la guida<a href='{external.login_facebook}' target='_blank' rel='noopener'>Facebook Login</a> per ottenere altri dettagli. L'URL di reindirizzamento da utilizzare è<code>%s</code>
+]]></word>
   <word key="account_management_settings" js="0">Gestione dell'Account</word>
   <word key="account_management_email_pass" js="0">Cambio Email/Password</word>
   <word key="account_management_email_pass_blurb" js="0">Non avrai bisogno di cambiare queste impostazioni a meno che la tua community usi come principale un metodo di login che gestisce i dati degli account come un database esterno MySQL o LDAP.</word>
   <word key="allow_email_changes_normal" js="0">Sì (Raccomandato)</word>
+  <word key="allow_email_changes_normal_desc" js="0">Se abilitato, il sistema controllerà che l'indirizzo email sia disponibile per ogni gestore di login abilitato e sincronizzerà la modifica con loro.</word>
   <word key="allow_email_changes_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_email_changes_disabled" js="0">No</word>
   <word key="allow_password_changes" js="0">Consentire agli utenti di cambiare la password?</word>
   <word key="allow_password_changes_normal" js="0">Sì (Raccomandato)</word>
+  <word key="allow_password_changes_normal_desc" js="0">Se abilitato, la modifica verrà sincronizzata con ogni gestore di accesso.</word>
   <word key="allow_password_changes_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_password_changes_disabled" js="0">No</word>
+  <word key="allow_password_changes_desc" js="0">È possibile modificare questa opzione se il metodo di accesso principale ha restrizioni sulle password consentite.</word>
   <word key="allow_password_changes_target" js="0">URL per il cambio password</word>
   <word key="allow_forgot_password" js="0">Abilitare gli utenti all'uso del tool di recupero delle password?</word>
   <word key="allow_forgot_password_normal" js="0">Sì, ed invia mail di reimpostazione (Raccomandato)</word>
   <word key="allow_forgot_password_normal_desc" js="0"><![CDATA[All'utente verrà inviata un'email con un link per reimpostare la propria password. Ove abilitato, la nuova password verrà sincronizzata con ciascun gestore di accesso. <br> Se l'utente fornisce un indirizzo email che non è stato utilizzato per accedere con prima, ma è in uso in un database esterno, verrà reindirizzato al Hai dimenticato l'URL della password nelle impostazioni di quel metodo.]]></word>
+  <word key="allow_forgot_password_handler" js="0">Sì, ma reindirizza al metodo di accesso utilizzato dall'utente in precedenza.</word>
+  <word key="allow_forgot_password_handler_desc" js="0">L'utente verrà reindirizzato all'URL Password dimenticata per il metodo con cui ha effettuato l'accesso in precedenza. Per il gestore di login standard, verrà inviata un'email di reset come descritto sopra.</word>
   <word key="allow_forgot_password_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_forgot_password_disabled" js="0">No</word>
+  <word key="allow_forgot_password_desc" js="0">È possibile modificare questa opzione se il metodo di accesso principale ha restrizioni sulle password consentite. Se l'utente ha sempre effettuato l'accesso solo con un metodo che non utilizza password, utilizzando lo strumento password dimenticata creerà una password locale per l'utente, se il gestore di login standard è abilitato.</word>
+  <word key="login_sync_changes_no" js="0">Non fare nulla</word>
+  <word key="login_sync_password_changes_no" js="0">Non fare nulla</word>
+  <word key="login_update_email_changes" js="0">Quando cambia l'indirizzo email remoto</word>
+  <word key="login_update_changes_yes" js="0">Aggiorna database locale</word>
+  <word key="login_update_changes_optional_desc" js="0">Gli utenti saranno in grado di impostare le proprie preferenze nella pagina Impostazioni account a meno che non utilizzino anche un gestore di accesso diverso che è impostato per aggiornare sempre il database locale quando questo cambia.</word>
+  <word key="login_update_changes_no" js="0">Non fare nulla</word>
+  <word key="login_handler_show_in_ucp" js="0">Mostrare in Impostazioni account?</word>
+  <word key="login_handler_show_in_ucp_always_desc" js="0">Gli utenti potranno associare il proprio account se non lo hanno già fatto.</word>
+  <word key="login_handler_show_in_ucp_loggedin" js="0">Solo se i loro account sono già associati</word>
   <word key="login_handler_show_in_ucp_disabled" js="0">Mai</word>
   <word key="oauth_wordpress_app_settings" js="0">Impostazioni applicazione</word>
   <word key="oauth_wordpress_app_name" js="0">Nome App Personalizzato</word>
@@ -6480,7 +6517,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="r__reactionsstats_manage" js="0">Può visualizzare le statistiche delle reazioni?</word>
   <word key="menu__core_activitystats_communityactivity" js="0">Attività della Community</word>
   <word key="menu__core_activitystats_tags" js="0">Uso dei Tag</word>
-  <word key="menu__core_stats_membersactivity" js="0">Attività dei membri</word>
+  <word key="menu__core_stats_membersactivity" js="0">Attività degli utenti</word>
   <word key="visits_email" js="0">Indirizzo email</word>
   <word key="visits_group_name" js="0">Gruppo</word>
   <word key="visits_ip_address" js="0">Indirizzo IP</word>
@@ -6521,7 +6558,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="allow_reg_normal" js="0">Si, con registrazione veloce (Raccomandato)</word>
   <word key="allow_reg_normal_desc" js="0"><![CDATA[Agli utenti verrà mostrato un semplice modulo di registrazione pop-up. È possibile configurare i <a href='{internal.app=core&module=membersettings&controller=profilecompletion}' target='_blank' rel='noopener'>passaggi di completamento del profilo</a> da mostrare all'utente dopo la registrazione, ad esempio per caricare una foto o fornire valori di campo del profilo personalizzati.]]></word>
   <word key="allow_reg_full" js="0">Si, con form di registrazione completo</word>
-  <word key="allow_reg_full_desc" js="0"><![CDATA[Agli utenti verrà mostrato il modulo di registrazione completo che può includere <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilefields}' target='_blank' rel='noopener'campi del profilo personalizzati</a>. Richiesto per utilizzare COPPA o limiti di età]]></word>
+  <word key="allow_reg_full_desc" js="0"><![CDATA[Agli utenti verrà mostrato il modulo di registrazione completo che può includere <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilefields}' target='_blank' rel='noopener'>campi del profilo personalizzati</a>. Richiesto per utilizzare COPPA o limiti di età]]></word>
   <word key="allow_reg_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_reg_redirect_desc" js="0">Puoi utilizzare questa opzione se la tua community utilizza principalmente un metodo di accesso con il proprio modulo di registrazione come un database MySQL esterno o LDAP.</word>
   <word key="allow_reg_disabled" js="0">No</word>
@@ -6561,11 +6598,20 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="automaticmoderation_generic_filters" js="0">L'autore deve corrispondere ai seguenti filtri</word>
   <word key="automaticmoderation_title" js="0">Nome</word>
   <word key="automaticmoderation_enabled" js="0">Abilitato?</word>
+  <word key="automaticmoderation_points" js="0">Nascondi il contenuto quando viene segnalato da</word>
+  <word key="automaticmoderation_points_desc" js="0">Il rapporto di ogni utente univoco è un punto. Ciò significa che un singolo utente può segnalare un elemento più volte, ma conta solo per un singolo punto.</word>
+  <word key="automaticmoderation_points_suffix" js="0">utenti unici</word>
+  <word key="automaticmoderation_type" js="0">Quando segnalato come</word>
+  <word key="automaticmoderation_type_desc" js="0">Selezionare i tipi di report che vengono conteggiati per il totale</word>
   <word key="reportedContent_settings" js="0">impostazioni</word>
+  <word key="automoderation_enabled" js="0">Attiva moderazione automatica</word>
+  <word key="automaticmoderation_disabled_blurb" js="0"><![CDATA[La moderazione automatica è attualmente disabilitata. <a href='{internal.app=core&module=moderation&controller=reportedContent&do=settings}' data-ipsDialog data-ipsDialog-title='Settings'>Abilita ora</a>.]]></word>
   <word key="automaticmoderation_blurb" js="0">È possibile impostare regole che attiveranno la moderazione del contenuto automatico. Ad esempio, è possibile creare una regola che nasconde il contenuto quando riceve 3 o più report. Se un utente soddisfa i criteri per più di una regola, verrà utilizzato l'ultimo visualizzato nell'elenco. Ad esempio, se hai una regola per nascondere il contenuto per un autore con 10 post e un altro con 100 post, dovresti assicurarti che la regola dei 100 post sia sotto la regola dei 10 post in questo elenco.</word>
   <word key="automoderation_already_reported" js="0">Ha già segnalato questo: %s</word>
   <word key="automoderation_already_reported_delete" js="0">Rimuovi la tua segnalazione</word>
+  <word key="automoderation_report_again_mins" js="0">Non consentire un altro report per</word>
   <word key="automoderation_report_again_mins_suffix" js="0">minuti</word>
+  <word key="automoderation_report_again_mins_desc" js="0">Definire il numero di minuti prima che un utente possa riportare lo stesso contenuto.</word>
   <word key="automoderation_deleted" js="0">Segnalazione cancellata</word>
   <word key="reportedContent_types" js="0">Gestisci tipo di segnalazione</word>
   <word key="automaticmod_types_title" js="0">Tipo Titolo</word>
@@ -6591,9 +6637,12 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="announce_color" js="0">Colore Tema</word>
   <word key="review_author_respond" js="0">Rispondi a questa recensione</word>
   <word key="search_blurb_date_between" js="0">tra %s e %s</word>
-  <word key="search_index_maxresults_desc" js="0">Più in profondità si ottiene un risultato di ricerca (vale a dire, maggiore è il numero di pagina), maggiore è il tempo e la memoria necessari per recuperare i risultati. Questa impostazione limita il numero massimo di risultati che verranno mai restituiti, il che limita la quantità di memoria che verrà utilizzata. Nota: questo vale non solo per i risultati di ricerca ma anche per i flussi di attività, compresi i profili dei membri.</word>
+  <word key="search_index_maxresults_desc" js="0">Più in profondità si ottiene un risultato di ricerca (vale a dire, maggiore è il numero di pagina), maggiore è il tempo e la memoria necessari per recuperare i risultati. Questa impostazione limita il numero massimo di risultati che verranno mai restituiti, il che limita la quantità di memoria che verrà utilizzata. Nota: questo vale non solo per i risultati di ricerca ma anche per i flussi di attività, compresi i profili degli utenti.</word>
+  <word key="search_index_timeframe_unlimited" js="0">Non escludere alcun contenuto</word>
   <word key="search_method" js="0">Motore di ricerca</word>
   <word key="search_method_elastic_desc" js="0"><![CDATA[Un motore di ricerca distribuito consigliato per community ad alto traffico con molti dati. Richiede un server Elasticsearch. <a href='{external.elasticsearch}' target='_blank' rel='noopener'> Ulteriori informazioni </a>]]></word>
+  <word key="search_title_boost_prefix" js="0">Punteggi del titolo</word>
+  <word key="search_title_boost_suffix" js="0">volte superiore al corpo</word>
   <word key="search_title_boost_desc" js="0">Il termine cercato dall'utente verrà cercato sia nel titolo (titolo dell'argomento, nome dell'evento, ecc.) Che nel corpo (contenuto del post, dettagli dell'evento, ecc.). Il più delle volte, se il termine corrisponde al titolo di qualsiasi contenuto, è molto più significativo rispetto a se il termine è nel corpo.</word>
   <word key="search_decay_1" js="0">Per ogni</word>
   <word key="search_decay_2" js="0">giorni da quando il contenuto è stato pubblicato, punteggio scende a </word>
@@ -6617,6 +6666,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="oauth_default_scope_email" js="0">Vedi il tuo indirizzo email</word>
   <word key="oauth_auth_scope_desc" js="0">Descrizione</word>
   <word key="oauth_authorize_title" js="0">Accedi come %s</word>
+  <word key="oauth_ucp" js="0">Mostrare in Impostazioni account?</word>
   <word key="oauth_app_revoke" js="0">Rimuovi</word>
   <word key="oauth_authorization_status" js="0">Stato</word>
   <word key="oauth_status_active" js="0">Attivo</word>
@@ -6629,11 +6679,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="oauth_brute_force_ban" js="0">Ban Indirizzo IP</word>
   <word key="rest_and_oauth_blurb" js="0"><![CDATA[Le REST API offrono agli sviluppatori un modo per utilizzare e creare dati per applicazioni e siti Web di terze parti. È possibile accedere all'API utilizzando OAuth 2.0 o con una chiave API.  <a href='{external.restapi}' target='_blank' rel='noopener'> Ulteriori informazioni <i class = 'fa fa-external-link'> </i> </a>.]]></word>
   <word key="api_keys_blurb" js="0">Le API Key forniscono un'alternativa più semplice a OAuth per l'accesso all'API REST senza essere associato a un particolare utente.</word>
+  <word key="password_strength_meter_desc" js="0">Quando un utente sceglie una password, quando si registra o modifica la password, viene visualizzato un indicatore che indica quanto sia forte la password scelta.</word>
+  <word key="promote_facebook_shareable" js="0">Consenti promozione a</word>
   <word key="promote_facebook_auth_choose" js="0">Usa la app di Facebook</word>
   <word key="promote_facebook_done" js="0">Grazie!</word>
   <word key="promote_metadescription_container_nolink" js="0">%3$s pubblicato %1$s in %2$s, %4$s</word>
   <word key="promote_metadescription_node_nolink" js="0">%2$s ha aggiunto %1$s</word>
   <word key="club_type_readonly" js="0">Solo Lettura</word>
+  <word key="club_type_readonly_desc" js="0">Tutti possono vedere il club e i suoi post, ma solo i membri possono partecipare. Gli utenti devono essere invitati da un leader per unirsi.</word>
   <word key="club_readonly" js="0">Club di Solo Lettura</word>
   <word key="club_active_members" js="0">Membri Attivi</word>
   <word key="club_date_joined_pending_payment" js="0">Richiesta accettata</word>
@@ -6753,11 +6806,15 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="form_interval_max_h" js="0">Il valore deve essere inferiore a {# [1:ora][?:ore]}.</word>
   <word key="form_interval_max_d" js="0">Il valore deve essere inferiore a {# [1:giorno][?:giorni]}.</word>
   <word key="form_multibyte_unicode_admin_cic" js="0"><![CDATA[Il valore inserito include un carattere non consentito come un Emoji. Per abilitare il supporto Emoji standard,<a href='{internal.admin.app=core&module=support&controller=support}'>contatta il supporto</a>]]></word>
+  <word key="login_update_changes_yes_name" js="0">Aggiorna database locale</word>
+  <word key="login_update_changes_yes_email" js="0">Aggiorna database locale</word>
+  <word key="login_update_changes_yes_disabled" js="0">Impossibile scegliere questa opzione perché il metodo di accesso %s sta già eseguendo questa operazione.</word>
   <word key="acplog__exported_member_list" js="0">Scaricato elenco membri</word>
   <word key="go_to_public_profile" js="0">Vai al Profilo Pubblico</word>
   <word key="auto_track_type_desc" js="0"><![CDATA[La modifica di questa opzione non influisce sul <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>contenuto già seguito</a>.]]></word>
   <word key="notifications__embed" js="0">Qualcuno pubblica un link al mio contenuto</word>
   <word key="email_registration_notify_validate" js="0">Un nuovo utente si è registrato e richiede la convalida dell'amministratore.</word>
+  <word key="photos_url" js="0">Consentire importazioni da URL?</word>
   <word key="signatures_mobile" js="0">Mostrare le firme sui dispositivi mobili?</word>
   <word key="signatures_guests" js="0">Mostra le firme agli ospiti?</word>
   <word key="custom_fields_hide" js="0">Non mostrare</word>
@@ -6766,6 +6823,9 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="custom_fields_staff_owner" js="0">Mostra allo staff e al proprietario del profilo</word>
   <word key="menu__core_overview_notifications" js="0">Notifiche dell'amministratore</word>
   <word key="emaillogs_not_enabled" js="0"><![CDATA[Le statistiche delle email non vengono registrate. Per tenere traccia e visualizzare le statistiche delle email inviate, è necessario prima <a href='{internal.app=core&module=settings&controller=email&searchResult=prune_log_emailstats}'>abilitare la registrazione</a> delle statistiche email.]]></word>
+  <word key="email_log_do" js="0">Log Statistiche</word>
+  <word key="email_log_do_desc" js="0">Il numero di email inviate, le email visualizzate e i link cliccati verranno registrati, tuttavia questo può aumentare significativamente la dimensione del database se il tuo sito invia molte email.</word>
+  <word key="prune_log_emailstats" js="0">Pulire le statistiche email dopo</word>
   <word key="license_error" js="0">Chiave di licenza non valida</word>
   <word key="license_error_subtitle" js="0">Si è verificato un problema con la chiave di licenza.</word>
   <word key="license_expired" js="0">Chiave di licenza scaduta</word>
@@ -6781,13 +6841,17 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="manifest_description" js="0">Descrizione</word>
   <word key="manifest_themecolor_desc" js="0">Questo colore può essere utilizzato dai dispositivi mobili in determinate aree, ad esempio nello switcher dell'applicazione o come colore di sfondo della barra degli indirizzi.</word>
   <word key="acplogs__icons_and_logos" js="0">Dettagli su icone, loghi e web manifest aggiornati</word>
+  <word key="theme_custom_setting_key_desc" js="0">Caratteri consentiti: a-zA-Z0-9_</word>
   <word key="enhancements__core_Giphy_desc" js="0">Giphy consente agli utenti di inserire GIF animate direttamente nei loro contenuti.</word>
   <word key="group_formatting_type" js="0">Formattazione gruppo</word>
   <word key="emoji_style_twemoji_desc" js="0">Sarà mostrato su tutti i dispositivi.</word>
   <word key="filestorage__core_Icons" js="0"><![CDATA[Icone & Loghi]]></word>
   <word key="advertisements_site" js="0">Pubblicità sul sito web</word>
   <word key="profilesync_name_admin_error" js="0">Errore sincronizzazione nome visualizzato: %s</word>
+  <word key="post_before_registering" js="0">Pubblica prima della registrazione</word>
+  <word key="post_before_registering_on_desc" js="0"><![CDATA[Gli ospiti vedranno la possibilità di inviare contenuti e quindi verrà immediatamente richiesto di registrare un account prima che il contenuto venga effettivamente inviato e visualizzabile. Questo è utile per incoraggiare gli ospiti a registrarsi. <br>Gli utenti ospiti avranno fino a una settimana per completare la registrazione prima che i loro contenuti vengano rimossi definitivamente. Se l'utente ospite non completa immediatamente la registrazione, gli verrà inviata un'e-mail di promemoria poco dopo aver effettuato il messaggio.]]></word>
   <word key="post_before_registering_off" js="0">Disattivato</word>
+  <word key="post_before_registering_off_desc" js="0">Gli ospiti vedranno la possibilità di pubblicare messaggi solo se il gruppo Ospiti ha espressamente l'autorizzazione a farlo in quell'area.</word>
   <word key="max_internalembed_width" js="0">Larghezza massimo di un contenuto incorporato (embedded)</word>
   <word key="max_internalembed_width_desc" js="0">Questa impostazione limita la dimensione del contenuto (come discussioni, album e prodotti) dai collegamenti incorporati. Il contenuto non sarà mai più ampio di quanto il browser dell'utente possa visualizzare.</word>
   <word key="unsubscribe_not_needed" js="0">Se non intraprendi alcuna azione, elimineremo il tuo indirizzo email e non ti ricontatteremo. Non è necessario annullare l'iscrizione.</word>
@@ -6856,7 +6920,11 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="acp_notification_NewRegComplete_title" js="0">Nuove registrazioni completate</word>
   <word key="acp_notification_NewRegComplete_more" js="0">{# [1:Altro][?:Altri]} →</word>
   <word key="acp_notification_Spammer_title" js="0">Utenti segnalati come spammer</word>
+  <word key="__ipbmafia__nulling_null_alert" js="0">
+</word>
   <word key="menu_item_2" js="0">Attività</word>
+  <word key="post_before_register_followup_text" js="0">Grazie per la tua sottoscrizione! Prima che i tuoi contenuti possano essere visti da altri utenti, dobbiamo creare un account per te.
+</word>
   <word key="block_core_MemberStats" js="0">Statistiche utenti</word>
   <word key="widget_feed_status_published" js="0">Pubblico</word>
   <word key="view_support_account" js="0">Visualizza account</word>
@@ -8182,12 +8250,12 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="forums_default_view_grid" js="0">Griglia: disponi i forum come carte in una griglia</word>
   <word key="forums_default_view_fluid" js="0">Fluida: una semplice lista dinamica che visualizza le discussioni tramite un menu a filtri</word>
   <word key="forums_default_view_fluid_desc" js="0">La visuale fluida funziona meglio con pochi forum con gerarchie poco complesse. Il selettore della visuale fluida mostrerà soltanto oltre tre livelli di profondità.</word>
-  <word key="forums_default_view_choose" js="0">I Membri possono scegliere?</word>
+  <word key="forums_default_view_choose" js="0">Gli utenti possono scegliere?</word>
   <word key="forums_default_view_choose_desc" js="0">Seleziona le visuali che permetterai agli utenti di scegliere</word>
-  <word key="forums_default_view_choose_none" js="0">Non consentire ai membri di scegliere</word>
+  <word key="forums_default_view_choose_none" js="0">Non consentire agli utenti di scegliere</word>
   <word key="forums_fluid_pinned" js="0">Privilegia le discussioni contrassegnate</word>
   <word key="forums_fluid_pinned_desc" js="0">Mostra le discussioni evidenziate dai forum selezionati in cima alla lista delle discussioni quando la modalità fluida è abilitata</word>
-  <word key="forums_default_view_choose_error" js="0">Devi selezionare almeno due visuali che i membri possono scegliere</word>
+  <word key="forums_default_view_choose_error" js="0">Devi selezionare almeno due visuali che gli utenti possono scegliere</word>
   <word key="remove_archive_exlude" js="0">Consenti l'archiviazione di questa discussione</word>
   <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Rimuovi lo stato 'escludi dall'archivio' dalla discussione: <a href='%s'>%s</a>]]></word>
   <word key="ad_fluid_index_view" js="0">Elenco degli argomenti della vista fluida, tra le righe degli argomenti</word>
@@ -8421,7 +8489,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="agree_and_download_full" js="0">Accetta i termini sopra e scarica il file</word>
   <word key="restore_version" js="0">Ripristina</word>
   <word key="delete_version" js="0">Elimina</word>
-  <word key="hide_version" js="0">Nascondi dai membri</word>
+  <word key="hide_version" js="0">Nascondi agli utenti</word>
   <word key="filesize" js="0">Dimensioni File</word>
   <word key="file_pending_approval" js="0">Questo file non è ancora approvato ed è visibile solo al personale.</word>
   <word key="file_approved_by" js="0">(approvata da %s, %s)</word>
@@ -8429,7 +8497,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="file_no_changelog" js="0">Nessun changelog disponibile per questa versione.</word>
   <word key="file_version_released" js="0">Rilasciato %s</word>
   <word key="restore" js="0">Ripristina</word>
-  <word key="hide_from_members" js="0">Nascondi dai membri</word>
+  <word key="hide_from_members" js="0">Nascondi agli utenti</word>
   <word key="idm_rss_title" js="0">Ultimi file</word>
   <word key="wait_x_seconds_noscript" js="0">Attendì {# [1:secondo][?:secondi]} prima di fare click su Download</word>
   <word key="download_begins_in" js="0">Download inizia tra </word>
@@ -8668,7 +8736,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="conversion_app_already_exists" js="0">Una conversione è già stata configurata per questo software. Vi abbiamo portati ora a quella conversione.</word>
   <word key="convert_start_application" js="0">Cosa vuoi convertire?</word>
   <word key="choose_what_to_convert" js="0">Scegli cosa convertire</word>
-  <word key="core_node_select" js="0">Informazioni su membri e sistema</word>
+  <word key="core_node_select" js="0">Informazioni sugli utenti e sistema</word>
   <word key="forums_node_select" js="0">Dati forum e discussioni</word>
   <word key="calendar_node_select" js="0">Dati del calendario ed eventi</word>
   <word key="convert_start_source_software" js="0">Da quale software stai convertendo?</word>
@@ -8686,7 +8754,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="convert_profile_fields" js="0">Converti campi profilo</word>
   <word key="_convert_profile_fields" js="0">Campi profilo</word>
   <word key="_convert_groups" js="0">Gruppi utente</word>
-  <word key="_convert_members" js="0">Membri</word>
+  <word key="_convert_members" js="0">Utenti</word>
   <word key="display_name" js="0">Nome visualizzato</word>
   <word key="_convert_statuses" js="0">Aggiornamento di Stato / Commenti Profilo</word>
   <word key="_convert_announcements" js="0">Annunci</word>
@@ -8913,7 +8981,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="event_content" js="0">Descrizione</word>
   <word key="event_dates" js="0">Data</word>
   <word key="event_rsvp" js="0">Richiesta RSVP</word>
-  <word key="event_rsvp_desc" js="0">Ai membri a cui è consentito il RSVP per gli eventi verrà chiesto di farlo e saranno in grado di visualizzare l'elenco dei membri che hanno risposto a RSVP per questo evento. Per eventi ricorrenti, le risposte si applicano a tutte le occorrenze.</word>
+  <word key="event_rsvp_desc" js="0">Agli utenti a cui è consentito il RSVP per gli eventi verrà chiesto di farlo e saranno in grado di visualizzare l'elenco degli utenti che hanno risposto a RSVP per questo evento. Per eventi ricorrenti, le risposte si applicano a tutte le occorrenze.</word>
   <word key="event_to" js="0">a</word>
   <word key="event_all_day" js="0">Questo evento dura tutto il giorno</word>
   <word key="no_end_time" js="0">La fine evento non ha un orario</word>
@@ -9127,6 +9195,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
  <app key="blog" version="104063">
   <word key="menu__blog_blogs_settings" js="0">Impostazioni</word>
   <word key="acplogs__blog_settings" js="0">Impostazioni blog aggiornate</word>
+  <word key="blog_settings_rss" js="0">Impostazioni RSS</word>
   <word key="blog_allow_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
   <word key="blog_word_custom" js="0">Nome Blog</word>
   <word key="create_blog" js="0">Crea un Blog</word>
@@ -9134,6 +9203,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="add_blog_entry" js="0">Aggiungi Post sul Blog</word>
   <word key="entry_comments" js="0">Commenti</word>
   <word key="manage_blog" js="0">Gestisci Blog</word>
+  <word key="blog_settings" js="0">Impostazioni Blog</word>
   <word key="blog_name" js="0">Nome</word>
   <word key="blog_name_group" js="0">Nome</word>
   <word key="blog_desc" js="0">Descrizione</word>
@@ -9155,6 +9225,8 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="create_blog_entry" js="0">Crea nuovo Post sul Blog</word>
   <word key="entry_information" js="0">Dettagli post</word>
   <word key="view_this_entry" js="0">Visualizza la voce %s</word>
+  <word key="block_blogStatistics" js="0">Statistiche Blog</word>
+  <word key="block_blogStatistics_desc" js="0">Mostra le statistiche generali del blog</word>
   <word key="blog_entry__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="entry_actions" js="0">Azioni Post</word>
   <word key="edit_title_blog" js="0">Modifica questa voce del blog</word>
@@ -9178,6 +9250,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="g_blog_maxblogs" js="0">Numero massimo di blog</word>
   <word key="g_blog_allowprivate" js="0">Può creare blog privati?</word>
   <word key="g_blog_allowcomment" js="0">Può commentare nei blog?</word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>Pubblica prima della registrazione</a> è abilitato, ma verrà ignorato quando si attiva questa impostazione.]]></word>
   <word key="g_blog_allowownmod" js="0">Può moderare i messaggi nel suo blog?</word>
   <word key="g_blog_allowdelete" js="0">Può eliminare i propri blog?</word>
   <word key="widget__blog_count_comments" js="0">Numero di commenti</word>
@@ -9344,7 +9417,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="gallery_watermark_small" js="0">Miniature Immagini</word>
   <word key="gallery_bandwidth" js="0">Registrazione della larghezza di banda</word>
   <word key="gallery_detailed_bandwidth" js="0">Memorizzare i registri dettagliati della larghezza di banda</word>
-  <word key="gallery_detailed_bandwidth_desc" js="0">Se si abilita questa impostazione, verranno monitorate le visualizzazioni delle immagini della Gallery. È quindi possibile utilizzare i registri della larghezza di banda per vedere quanta larghezza di banda consumano le visualizzazioni dell'immagine per periodi di tempo e, durante la modifica dei membri, è possibile visualizzare le statistiche sul consumo di larghezza di banda per utente.</word>
+  <word key="gallery_detailed_bandwidth_desc" js="0">Se si abilita questa impostazione, verranno monitorate le visualizzazioni delle immagini della Gallery. È quindi possibile utilizzare i registri della larghezza di banda per vedere quanta larghezza di banda consumano le visualizzazioni dell'immagine per periodi di tempo e, durante la modifica degli utenti, è possibile visualizzare le statistiche sul consumo di larghezza di banda per utente.</word>
   <word key="gallery_bandwidth_period" js="0">Numero di ore per conservare i registri</word>
   <word key="gallery_options" js="0">Impostazioni generali</word>
   <word key="gallery_rss_enabled" js="0">Abilitare Feed RSS per le immagini più recenti</word>
@@ -9668,6 +9741,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="stripe_type_header" js="0">Metodo di pagamento</word>
   <word key="stripe_basic_settings" js="0">Impostazioni Base</word>
   <word key="stripe_type_desc" js="0">Per consentire agli utenti di scegliere di impostare più metodi di pagamento Stripe.</word>
+  <word key="stripe_cards" js="0">Consentire agli utenti di memorizzare i dettagli della carta?</word>
   <word key="stripe_3ds_not_supported" js="0">3DSecure non supportato con questa carta</word>
   <word key="stripe_dispute_status_under_review" js="0">Hai risposto a questa controversia e ora è in attesa della decisione della banca del cliente. Il pagamento è già stato annullato, ma se la banca decide a tuo favore, potrebbero essere restituiti.</word>
   <word key="trans_attention_required" js="0">Azione richiesta</word>
@@ -9709,6 +9783,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="nexus_split_payments_on" js="0">Consenti pagamenti divisi?</word>
   <word key="nexus_split_payments" js="0">Importo minimo per pagamenti divisi</word>
   <word key="nexus_require_billing_package" js="0">Acquisto di prodotti non fisici</word>
+  <word key="nexus_checkreg_desc" js="0">Quando un ospite effettua il check out, verrà richiesto di creare un account. L'account non verrà creato fino a quando il pagamento non sarà stato autorizzato.</word>
   <word key="nexus_revw_sa_on_desc" js="0">Puoi utilizzarlo per comunicare con il cliente quali informazioni aggiuntive ti occorrono.</word>
   <word key="nexus_revw_sa" js="0">Azioni predefinite per richieste di supporto</word>
   <word key="do_not_suggest_stock_action" js="0">Non selezionare automaticamente le azioni predefinite</word>
@@ -9839,6 +9914,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="total_to_pay" js="0">Totale da pagare</word>
   <word key="account_credit_with_amount" js="0">Credito Account (%s)</word>
   <word key="account_credit_amount" js="0">Hai un credito di %s nel tuo account.</word>
+  <word key="create_an_account" js="0">Crea un account</word>
   <word key="account_information" js="0">Informazioni Account</word>
   <word key="additional_information" js="0">Informazioni Aggiuntive</word>
   <word key="coupon_code_invalid" js="0">Questo codice coupon non è valido.</word>
@@ -9921,7 +9997,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="postatus_done" js="0">Completato</word>
   <word key="postatus_pend" js="0">in attesa</word>
   <word key="postatus_canc" js="0">Annullato</word>
-  <word key="allow_topups" js="0">Consentire ai membri di aggiungere del credito al proprio account?</word>
+  <word key="allow_topups" js="0">Consentire agli utenti di aggiungere del credito al proprio account?</word>
   <word key="nexus_min_topup" js="0">Saldo minimo</word>
   <word key="nexus_max_credit" js="0">Saldo massimo</word>
   <word key="r__invoices" js="0">Fatture</word>
@@ -9958,7 +10034,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="r__requests_split" js="0">Può separare le richieste di supporto?</word>
   <word key="r__requests_delete" js="0">Può eliminare le richieste di supporto?</word>
   <word key="r__requests_reply_delete" js="0">Può eliminare le risposte?</word>
-  <word key="r__requests_block_sev" js="0">Può revocare/ripristinare il permesso dei membri per impostare i livelli di gravità?</word>
+  <word key="r__requests_block_sev" js="0">Può revocare/ripristinare il permesso degli utenti per impostare i livelli di gravità?</word>
   <word key="r__requests_ratings" js="0">Può visualizzare le valutazioni fornite dai clienti alle sue risposte di supporto?</word>
   <word key="r__requests_ratings_feedback" js="0">Può visualizzare il feedback fornito dai clienti alle risposte di supporto? (Richiede l'autorizzazione per visualizzare le valutazioni)</word>
   <word key="r__purchases_manage" js="0">Può vedere il rapporto sulle vendite?</word>
@@ -10460,6 +10536,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="sp_renews" js="0">Rinnovare?</word>
   <word key="sp_desc" js="0">Descrizione</word>
   <word key="subscription_basic_settings" js="0">Impostazioni Base</word>
+  <word key="nexus_subs_add_member" js="0">Aggiungi utente</word>
   <word key="nexus_bm_filters_subscription_pkgs" js="0">L'utente ha acquistato un abbonamento</word>
   <word key="nexus_bm_filters_type_expired_date" js="0">Scaduto</word>
   <word key="nexus_sub_member_id" js="0">Nome visualizzato</word>
@@ -10475,5 +10552,6 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="acp_notification_Shipments" js="0">Una spedizione è pronta per essere inviata</word>
   <word key="email_ad_needs_approval" js="0">È stato acquistato un annuncio pubblicitario che deve essere approvato manualmente da un membro dello staff prima che inizi a essere pubblicato nella tua community.</word>
   <word key="support_history_same" js="0">Come %s nei 30 giorni precedenti</word>
+  <word key="paypal_billing_agreement_allowed_fails_prefix" js="0">Dopo</word>
  </app>
 </language>

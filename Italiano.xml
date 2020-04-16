@@ -147,6 +147,7 @@
   <word key="stream_blurb_date_between" js="0">pubblicato tra %s e %s</word>
   <word key="stream_blurb_date_after" js="0">pubblicato dopo %s</word>
   <word key="stream_blurb_date_before" js="0">pubblicato prima %s</word>
+  <word key="stream_edit_feed" js="0">Modifica questo flusso</word>
   <word key="stream_copy_feed" js="0">Aggiungi ai miei flussi</word>
   <word key="stream_edit_filters" js="0">Modifica le impostazioni stream</word>
   <word key="stream_rename" js="0">Rinomina</word>
@@ -475,7 +476,7 @@
   <word key="publish" js="0">Pubblica</word>
   <word key="mod_confirm_publish" js="0">Pubblicarlo adesso?</word>
   <word key="hidden_no_reason" js="0">Nessuna ragione data</word>
-  <word key="unapproved" js="0">Disapprovato</word>
+  <word key="unapproved" js="0">Non approvato</word>
   <word key="pending_approval" js="0">In attesa di approvazione</word>
   <word key="pin" js="0">Importante</word>
   <word key="unpin" js="0">Non Importante</word>
@@ -978,6 +979,7 @@
 </word>
   <word key="dev_versions" js="0">Versioni</word>
   <word key="dev_settings" js="0">Impostazioni</word>
+  <word key="dev_settings_default" js="0">Valore di default</word>
   <word key="dev_widget_restrict" js="0">Può essere utilizzato in</word>
   <word key="dev_widget_default_area_desc" js="0">Se specificato, questo widget verrà visualizzato automaticamente nell'applicazione quando non vengono configurati widget specifici per la pagina. Di solito è meglio non specificare questo e consentire agli amministratori di configurare manualmente i propri widget desiderati.</word>
   <word key="dev_widget_allow_reuse" js="0">Consenti il riutilizzo del widget?</word>
@@ -1602,8 +1604,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="mailsub__core_notification_new_likes" js="0"><![CDATA[A qualcuno piace {$comment->indefiniteArticle( $email->language )}]]></word>
   <word key="mailsub__core_notification_member_follow" js="0"><![CDATA[{$member->name|raw} ha iniziato a seguirti]]></word>
   <word key="mailsub__core_notification_report_center" js="0"><![CDATA[{expression="\IPS\Member::load( $latestReport['report_by'] )->name" raw="true"} ha segnalato qualcosa]]></word>
-  <word key="mailsub__core_notification_unapproved_content" js="0"><![CDATA[{$member->name|raw} has posted {$email->language->addToStack("__indefart_" . $content::$title )} richiedono approvazioni]]></word>
-  <word key="mailsub__core_notification_unapproved_content_bulk" js="0"><![CDATA[{$member->name|raw} has posted new {$email->language->addToStack( $contentClass::$title . "_pl" )} richiede la tua approvazione]]></word>
+  <word key="mailsub__core_notification_unapproved_content" js="0"><![CDATA[{$member->name|raw} ha pubblicato {$email->language->addToStack("__indefart_" . $content::$title )}  richiede l'approvazione]]></word>
+  <word key="mailsub__core_notification_unapproved_content_bulk" js="0"><![CDATA[{$member->name|raw} ha pubblicato un nuovo {$email->language->addToStack( $contentClass::$title . "_pl" )} richiede la tua approvazione]]></word>
   <word key="mailsub__core_upgrade" js="0">La versione {$version} di IPS Community Suite è ora disponibile</word>
   <word key="follow_send_me" js="0">Inviami:</word>
   <word key="follow_type_none" js="0">Non inviarmi notifiche</word>
@@ -2519,7 +2521,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="license_benefit_forums" js="0">Forum</word>
   <word key="license_benefit_calendar" js="0">Calendario</word>
   <word key="license_benefit_blog" js="0">Blog</word>
-  <word key="license_benefit_gallery" js="0">Galleria</word>
+  <word key="license_benefit_gallery" js="0">Gallery</word>
   <word key="license_benefit_downloads" js="0">Download</word>
   <word key="license_benefit_cms" js="0">Pagine</word>
   <word key="license_benefit_spam" js="0">Servizio di Monitorazione Spam</word>
@@ -2774,6 +2776,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="theme_custom_setting_type_other" js="0">Altro / Manuale</word>
   <word key="theme_custom_setting_manual_code" js="0">Codice</word>
   <word key="theme_custom_setting_type_content" js="0">Opzioni</word>
+  <word key="theme_custom_setting_type_content_desc" js="0">Ogni opzione ha una chiave e un valore. Il valore è la scelta leggibile dall'uomo e la chiave viene utilizzata in modo programmatico.</word>
   <word key="theme_custom_setting_type_multiple" js="0">Multiplo</word>
   <word key="theme_custom_tab_custom" js="0">Personalizza</word>
   <word key="theme_custom_tab_admincpcolors" js="0">Colori AdminCP</word>
@@ -2783,7 +2786,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
 ]]></word>
   <word key="core_theme_settings_error_key_not_unique" js="0">L'impostazione della chiave necessita di essere unica</word>
   <word key="core_theme_settings_error_tab_key_not_unique" js="0">Hai inserito una nuova tab con un nome già esistente. Scegli una tab già esistente o inserisci un nome unico</word>
-  <word key="theme_custom_setting_type_default" js="0">Valore Default</word>
+  <word key="theme_custom_setting_type_default" js="0">Valore di default</word>
   <word key="activity_stream_timeline" js="0">Colore Timeline Attività</word>
   <word key="themesetting_poll_bar" js="0">Barra Sondaggi</word>
   <word key="themesetting_sidebar_responsive" js="0">Mostra sidebar sul cellulare</word>
@@ -3365,6 +3368,8 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="loc_viewing_guidelines" js="0">Vedi linee guida</word>
   <word key="loc_viewing_reg_terms" js="0">Visualizzazione dei Termini di registrazione</word>
   <word key="reg_terms" js="0">Condizioni di registrazione</word>
+  <word key="admin_reconfirm_blurb" js="0">Hai aggiornato i termini di registrazione o l'informativa sulla privacy. Facoltativamente, è possibile richiedere agli utenti al successivo accesso di accettare i nuovi criteri.</word>
+  <word key="admin_reconfirm_reg_terms" js="0">Costringere gli utenti ad accettare i nuovi termini di registrazione?</word>
   <word key="sharelinks" js="0">Condivisione</word>
   <word key="menu__core_promotion_sharelinks" js="0">Condivisione</word>
   <word key="r__sharelinks" js="0">Condividi Link di Servizi </word>
@@ -4595,7 +4600,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="search_titles_only" js="0">%s solo nei titoli del contenuto</word>
   <word key="menu__core_support" js="0">Supporto</word>
   <word key="menu__core_support_dashboard" js="0">Supporto</word>
-  <word key="get_support" js="0">Otteni Supporto</word>
+  <word key="get_support" js="0">Ottieni supporto</word>
   <word key="type_of_problem" js="0">Tipo di problema</word>
   <word key="self_service" js="0">Cerca una soluzione</word>
   <word key="contact_support" js="0">Contatta il Supporto Tecnico</word>
@@ -4627,13 +4632,16 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="php_version" js="0">Versione PHP</word>
   <word key="mysql_version" js="0">Versione MySQL</word>
   <word key="sql_table_name" js="0">Tabella</word>
+  <word key="sql_table_rows" js="0">Righe</word>
   <word key="sql_table_engine" js="0">Motore</word>
+  <word key="run_query" js="0">Esegui query</word>
   <word key="continue_anyway" js="0">Continua comunque</word>
   <word key="knowledgebase_blurb" js="0">I seguenti articoli della knowledge base possono fornire una soluzione per il problema riscontrato.</word>
   <word key="not_running_latest_version" js="0">Non si esegue la versione più recente di IPS Community Suite. Potresti scoprire che il problema che si sta verificando è stato risolto nell'ultima versione.</word>
   <word key="upgrade_now" js="0">Aggiorna Ora</word>
   <word key="support_search" js="0">Pagine AdmiCP</word>
   <word key="support_guides" js="0">Documentazione</word>
+  <word key="sql_toolbox_warning" js="0">Le funzionalità disponibili qui sono per utenti esperti e hanno il potenziale di causare danni irreversibili significativi alla tua community. Non eseguire mai una query a meno che non si sia certi di quale sarà l'effetto.</word>
   <word key="error_logs" js="0">Registro Errori</word>
   <word key="latest_knowledgebase_articles" js="0">Ultimi articoli di Knowledgebase</word>
   <word key="diagnostic_logs" js="0">Registri diagnostici</word>
@@ -4698,7 +4706,7 @@ fosse consentito</a>, agli utenti verrà chiesto di fornire un nome di visualizz
   <word key="widget_member_rep" js="0">Reputazione minima</word>
   <word key="widget_member_born_today" js="0">Nato oggi</word>
   <word key="widget_member_born_month" js="0">Nati in questo mese</word>
-  <word key="widget_member_has_album" js="0">Possiede un album nella galleria</word>
+  <word key="widget_member_has_album" js="0">Possiede un album nella gallery</word>
   <word key="widget__sort_name" js="0">Nome</word>
   <word key="widget__sort_joined" js="0">Iscritto</word>
   <word key="widget__sort_activity" js="0">Ultima attività</word>
@@ -5365,9 +5373,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="email_email_address_changed" js="0">Questa email conferma che hai recentemente cambiato indirizzo email su% s. Se non hai fatto questa modifica, rispondi subito a questa email per farci sapere.</word>
   <word key="mailsub__core_email_address_changed" js="0">L'indirizzo email è stato modificato</word>
   <word key="notification_pruning" js="0">Potatura</word>
-  <word key="auto_follow_replied_to" js="0">I membri seguono automaticamente il contenuto quando commentano?</word>
+  <word key="auto_follow_new_content" js="0">Gli utenti seguono automaticamente i contenuti creati?</word>
+  <word key="auto_follow_replied_to" js="0">Gli utenti seguono automaticamente il contenuto quando commentano?</word>
   <word key="auto_follow_replied_to_desc" js="0">Include risposte e commenti. I membri possono regolarlo autonomamente nelle impostazioni di notifica o per ogni singolo elemento.</word>
-  <word key="auto_follow_preferences" js="0">Seguito automatico</word>
+  <word key="auto_follow_preferences" js="0">Segui automatici</word>
   <word key="can_remove_followers" js="0">Può rimuovere i followers?</word>
   <word key="ftp_bypass_validation" js="0">Seleziona questa casella per salvare questi dati senza convalidare</word>
   <word key="file_config_is_the_same_as_existing" js="0">Questa configurazione non può essere salvata. Esiste una configurazione di archiviazione di file esistente con gli stessi dettagli.</word>
@@ -5388,6 +5397,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="security_questions" js="0">Domande di sicurezza</word>
   <word key="security_questions_enabled" js="0">Abilitare le domande di sicurezza?</word>
   <word key="security_questions_enabled_desc" js="0">Quando un utente accede a determinate aree, dovrà fornire una risposta a una domanda di sicurezza che ha configurato.</word>
+  <word key="security_questions_prompt" js="0">Chiedere domande di sicurezza al momento della registrazione?</word>
   <word key="security_questions_prompt_access" js="0">No</word>
   <word key="security_questions_prompt_register" js="0">Si, ma obbligatorio</word>
   <word key="security_questions_encrypt" js="0">Crittografare le risposte?</word>
@@ -5397,6 +5407,9 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="MFA_core_EmailChange" js="0">Modifica dell'indirizzo di posta elettronica</word>
   <word key="MFA_core_PasswordChange" js="0">Modifica della password</word>
   <word key="MFA_core_SecurityQuestions" js="0">Aggiornamento dell'installazione di autenticazione a due fattori</word>
+  <word key="security_questions_tries" js="0">Numero di tentativi consentiti</word>
+  <word key="security_questions_timer" js="0">Non chiedere di nuovo per</word>
+  <word key="security_questions_timer_session" js="0">per il resto della sessione</word>
   <word key="security_question_title" js="0">Domanda</word>
   <word key="security_question_q" js="0">Domanda</word>
   <word key="security_question_a" js="0">Risposta</word>
@@ -5770,6 +5783,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="mfa_recovery_google" js="0">Ottieni un codice di verifica dall'applicazione Google Authenticator</word>
   <word key="mfa_google_reauth" js="0">Riconfigurare</word>
   <word key="security_answer_submit" js="0">Verifica risposta</word>
+  <word key="security_questions_groups" js="0">Gruppi che possono utilizzare le domande di sicurezza</word>
   <word key="security_questions_prompt_optional" js="0">Si, ma facoltativo</word>
   <word key="mfa_recovery_questions" js="0">Rispondi a una domanda di sicurezza</word>
   <word key="mfa_questions_reauth" js="0">Scegli le nuove risposte</word>
@@ -5799,6 +5813,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="requirements_extension_advice_phar" js="0">Non hai caricato l'estensione Phar PHP. Senza questa estensione PHP, non sarà possibile installare applicazioni di terze parti nel AdminCP. È necessario contattare il provider di hosting o l'amministratore di sistema per assistenza per l'installazione di questa estensione.</word>
   <word key="requirements_extension_advice_zip" js="0">Non è stata caricata l'estensione Zip PHP. Senza questa estensione PHP, non sarà possibile installare i plugin CKEditor o utilizzare l'aggiornamento automatico nel AdminCP. È necessario contattare il provider di hosting o l'amministratore di sistema per assistenza per l'installazione di questa estensione.</word>
   <word key="requirements_suhosin_cookie_encrypt" js="0">L'impostazione di PHP suhosin.cookie.encrypt è impostata su 1. Ciò può causare problemi in alcune aree come la funzionalità di salvataggio automatico dell'editor. Abbiamo consigliato un valore di 0 per disattivarlo.</word>
+  <word key="security_questions_timer_desc" js="0">All'utente verrà sempre richiesto nuovamente a ogni una nuova sessione.</word>
   <word key="google_wait_for_code" js="0">In attesa di un nuovo codice</word>
   <word key="__defart_comment" js="0">commento</word>
   <word key="embed_posted_item" js="0">%s pubblicato un oggetto in %s</word>
@@ -5821,6 +5836,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="poll_status_opened_no_date" js="0">Sondaggio aperto, la data di chiusura automatica è stata rimossa</word>
   <word key="poll_close_date" js="0">Data di chiusura del sondaggio</word>
   <word key="poll_specify_close_time" js="0">Chiudi automaticamente il sondaggio ad una data specifica?</word>
+  <word key="recommended_by" js="0">Raccomandato da %s</word>
   <word key="go_to_this_comment" js="0">Vai a questo %s</word>
   <word key="add_message" js="0">Aggiungi Messaggio</word>
   <word key="content_item_message" js="0">Messaggio aggiunto da %s</word>
@@ -5856,6 +5872,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="member_names_devices" js="0">Dispositivi di %s</word>
   <word key="members_ips_info" js="0">Questa tabella mostra tutti gli indirizzi IP che %s ha usato nella community. Un indirizzo IP rappresenta una rete, quindi è comune che un utente abbia utilizzato diversi indirizzi IP differenti. Ad esempio, se un utente accede alla community a casa e anche a lavoro, vedrai due record di indirizzi IP in questa tabella. È anche comune che gli indirizzi IP cambino, quindi anche se l'utente ha visitato la community solo da una posizione, è possibile che vengano visualizzati più record di indirizzi IP.</word>
   <word key="device_table_ip_address" js="0">Indirizzo IP</word>
+  <word key="device_table_location" js="0">Luogo sistemato*</word>
   <word key="device_table_last_seen" js="0">Ultimo accesso</word>
   <word key="device_table_login_handler" js="0">Accesso effettuato con</word>
   <word key="device_table_member_id" js="0">Utente</word>
@@ -5872,6 +5889,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="secure_account_change_password" js="0">Se qualcun altro è stato in grado di accedere al tuo account, è stato in grado di indovinare o scoprire la tua password. Ricordati di scegliere una password che sarà difficile da indovinare, non utilizzare mai la stessa password su più siti. La modifica della password ti disconnette automaticamente da tutti gli altri dispositivi.</word>
   <word key="secure_account_login_title" js="0">Metodi di accesso</word>
   <word key="secure_account_login_info" js="0">Sei in grado di accedere con i seguenti metodi. Se hai notato un accesso che non riconosci da uno di questi, dovresti cambiare la password su quel sito.</word>
+  <word key="mailsub__core_new_device" js="0">Accesso nuovo dispositivo</word>
   <word key="disable_automatic_login" js="0">Disabilita accesso automatico</word>
   <word key="follow_sec_recommend" js="0">Seguendo le raccomandazioni di seguito contribuirà a migliorare la sicurezza della vostra community.</word>
   <word key="modlog__featured_comment" js="0"><![CDATA[Raccomandato un commento: <a href='%s'>%s</a>]]></word>
@@ -5956,13 +5974,17 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="emailtpl_info" js="0">Ogni email inviata comprende due versioni: una versione HTML avanzata e una versione in testo normale. Il client di posta elettronica dell'utente determina quale versione mostrare, in genere la versione HTML, a meno che l'utente non abbia espressamente scelto di visualizzare le email in chiaro.</word>
   <word key="content_plaintext_desc" js="0">Nelle email di testo normale, gli spazi bianchi vengono conservati così come sono.</word>
   <word key="emailtpl_notification_event_reminder" js="0">Promemoria evento</word>
+  <word key="emailtpl_new_device" js="0">Accesso da un nuovo dispositivo</word>
+  <word key="themesetting_featured_color" js="0">Colore Esposto/Raccomandato</word>
   <word key="allowed_reg_email" js="0">Domini di posta elettronica consentiti per la registrazione</word>
   <word key="can_feature_comments" js="0">Può raccomandare tutti i commenti?</word>
+  <word key="can_unfeature_comments" js="0">Può rimuovere la raccomandazione su tutti i commenti?</word>
   <word key="can_add_item_message_desc" js="0">I messaggi vengono visualizzati nella parte superiore del contenuto prima di qualsiasi commento e possono essere utilizzati dai moderatori per richiamare qualsiasi informazione o regola speciale.</word>
   <word key="can_manage_deleted_content" js="0">Può gestire i contenuti cancellati?</word>
   <word key="can_remove_reactions" js="0">Può rimuovere reazioni?</word>
   <word key="can_feature_comments_content" js="0">Può mettere in evidenza i commenti?</word>
   <word key="can_unfeature_comments_content" js="0">Può rimuovere l'evidenza ai commenti?</word>
+  <word key="editor_toolbar_width_info" js="0">La larghezza dell'editor qui sotto è un esempio per comodità. La larghezza effettiva dell'editor può variare a seconda del dispositivo dell'utente.</word>
   <word key="filestorage__core_Promote" js="0">Immagini di Promozione Social Media</word>
   <word key="filestorage__core_Reaction" js="0">Reazioni</word>
   <word key="dellog_retention_period" js="0">Contenuto eliminato permanentemente</word>
@@ -5998,7 +6020,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="minimum_chart_date" js="0">La data di inizio per il grafico è troppo presto. La prima data disponibile è %s.</word>
   <word key="stats_include_hidden_content" js="0">Il conteggio qui include i contenuti nascosti e quelli visibili.</word>
   <word key="acp_search_title_core_Clubs" js="0">Club</word>
+  <word key="feature_mod_note" js="0">Nota moderatore</word>
+  <word key="feature_mod_note_desc" js="0">Una breve nota che sarà mostrata agli utenti.</word>
+  <word key="this_is_a_featured_post" js="0">Commento esposto</word>
+  <word key="recommended" js="0">Raccomandato</word>
   <word key="recommended_replies" js="0">Commenti Raccomandati</word>
+  <word key="unrecommend_content" js="0">Rimuovi raccomandazione</word>
   <word key="recommend_comment" js="0">Commento Raccomandato</word>
   <word key="add_recommend_content" js="0">Aggiungi Raccomandazione</word>
   <word key="posted_by_x" js="0">Pubblicato da %s, %s</word>
@@ -6006,14 +6033,50 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="today" js="0">Oggi</word>
   <word key="__api_core_groups" js="0">Gruppi</word>
   <word key="mfa_recovery_known_device_details" js="0">Puoi accedere utilizzando qualsiasi dispositivo che hai già utilizzato in precedenza senza richiedere ulteriori verifiche. Una volta effettuato l'accesso, è possibile riconfigurare le impostazioni di sicurezza del proprio account.</word>
+  <word key="MFA_core_AuthenticateFrontKnown" js="0">Accesso al front-end da un dispositivo conosciuto</word>
+  <word key="MFA_core_AuthenticateFrontKnown_desc" js="0">Ciò non si applica se l'utente ha effettuato l'accesso automatico perché ha utilizzato il checkbox Ricordami.</word>
+  <word key="authy_mfa_desc_sms" js="0">Inserisci il tuo numero di telefono e ti invieremo un SMS con un codice da verificare.</word>
+  <word key="authy_mfa_desc_sms_or_phone" js="0">Inserisci il tuo numero di telefono e ti chiameremo o ti invieremo un SMS con un codice da verificare.</word>
+  <word key="authy_mfa_desc_fallback_sms_or_phone" js="0">Se non hai uno smartphone, possiamo chiamarti o inviarti un SMS con un codice da verificare.</word>
+  <word key="authy_mfa_desc_fallback_sms" js="0">Se non hai uno smartphone, possiamo inviarti un SMS con un codice da verificare.</word>
   <word key="authy_placeholder" js="0">Numero di telefono</word>
   <word key="authy_register" js="0">Verifica numero di telefono</word>
+  <word key="authy_sms_auth" js="0">Per proteggere la sicurezza del tuo account, ti abbiamo inviato un messaggio di testo con un codice. Inserisci il codice che hai ricevuto.</word>
+  <word key="authy_sms_auth_done" js="0">Ti abbiamo inviato un messaggio di testo con un codice. Inserisci il codice che hai ricevuto.</word>
+  <word key="authy_choose_auth" js="0">Per proteggere la sicurezza del tuo account, dobbiamo verificare la tua identità. Possiamo chiamarti o inviarti un SMS.</word>
   <word key="authy_submit_onetouch" js="0">Ho accettato la richiesta</word>
+  <word key="authy_submit_sms" js="0">Invia messaggio di testo</word>
+  <word key="mfa_authy_desc" js="0"><![CDATA[Un servizio a pagamento che invierà una notifica push all'app per smartphone Authy affinché l'utente possa approvare, oppure invierà un codice tramite SMS, telefonata o app per accedere all'utente. <a href='{external.authy}' target='_blank' rel='noopener'>Per saperne di più</a>]]></word>
+  <word key="authy_key_suffix" js="0"><![CDATA[<a href='{external.authy_api_key}' target='_blank' rel='noopener'>Ottieni la chiave API</a>	]]></word>
+  <word key="authy_groups" js="0">Gruppi che possono usare Authy</word>
+  <word key="authy_setup" js="0">Configura metodi di verifica</word>
+  <word key="authy_setup_desc" js="0">Quando si imposta Authy l'utente dovrà scegliere uno di questi metodi abilitati per verificare il proprio numero di telefono.</word>
+  <word key="authy_setup_header" js="0">Configurazione</word>
+  <word key="authy_setup_protection" js="0">Tentativi di installazione consentiti</word>
+  <word key="authy_setup_protection_desc" js="0">Quando si imposta Authy, l'utente può modificare il numero di telefono se lo ha inserito in modo errato, sarà inviato un altro messaggio di testo o sarà effettuata un'altra telefonata. Poiché ogni messaggio/chiamata addebiterà il tuo account Authy, questa impostazione impedisce agli utenti malintenzionati di modificare deliberatamente il proprio numero di telefono molte volte durante l'installazione per incorrere in tariffe elevate o inviare messaggi di spam o chiamate.</word>
   <word key="authy_setup_protection_1" js="0">L'Utente ha</word>
+  <word key="authy_setup_protection_2" js="0">tentativi, quindi deve attendere</word>
+  <word key="authy_setup_protection_3" js="0">ore per poter riprovare</word>
+  <word key="authy_setup_lockout" js="0">Hai cambiato il tuo numero di telefono troppe volte. Per evitare abusi, è necessario attendere un po' prima di poter accettare un altro numero di telefono. Sarai in grado di riprovare tra %s.</word>
   <word key="authy_method" js="0">Metodi di autenticazione</word>
+  <word key="authy_method_sms" js="0">Metodo SMS</word>
+  <word key="authy_method_phone" js="0">Telefonata</word>
+  <word key="authy_method_desc" js="0">Questo è il metodo che verrà utilizzato per verificare l'identità dell'utente dopo aver già configurato Authy.</word>
   <word key="authy_alt_method" js="0">Metodo di autenticazione alternativo</word>
+  <word key="authy_alt_method_desc" js="0">Se l'utente ha installato l'app Authy per smartphone ma non ha accesso al telefono, è possibile consentire di ricevere un SMS o una telefonata.</word>
+  <word key="authy_authy_setup" js="0">Inserisci il token dalla tua app Authy.</word>
+  <word key="authy_alt_sms" js="0">Ricevi invece un messaggio di testo</word>
+  <word key="authy_alt_phone" js="0">Ricevi invece una telefonata</word>
   <word key="mfa_sms_title" js="0">Messaggi SMS</word>
+  <word key="mfa_sms_desc_user" js="0">Quando avremo bisogno che tu verifichi la tua identità, ti invieremo un messaggio di testo contenente un codice da inserire.</word>
+  <word key="mfa_sms_or_phone_desc_user" js="0">Quando abbiamo bisogno che tu verifichi la tua identità, ti invieremo un SMS o ti chiameremo con un codice da inserire.</word>
   <word key="authy_setup_alternative" js="0">Non hai uno smartphone?</word>
+  <word key="mfa_sms_recovery" js="0">Ricevi un codice di verifica tramite SMS</word>
+  <word key="authy_key_no_sms" js="0">La chiave API è valida, ma non dispone di SMS abilitati o SMS non è disponibile nel piano dell'account Authy. Abilita SMS con Authy o deseleziona i messaggi di testo dalle impostazioni riportate di seguito.</word>
+  <word key="authy_key_no_phone" js="0">La chiave API è valida, ma non dispone di chiamate telefoniche abilitate o le telefonate non sono disponibili nel piano dell'account Authy. Attiva le telefonate con Authy o deseleziona le chiamate dalle impostazioni riportate di seguito.</word>
+  <word key="authy_onetouch_on_desc" js="0">L'app Authy invierà all'utente una notifica push e sceglierà di approvare o rifiutare.</word>
+  <word key="authy_onetouch_off_desc" js="0">L'utente aprirà l'app Authy sul proprio telefono e inserirà il codice visualizzato.</word>
+  <word key="authy_onetouch_desc" js="0">Non si applica durante l'installazione iniziale, che utilizzerà sempre SoftToken.</word>
   <word key="leaderboard_show_more" js="0">Mostra altri</word>
   <word key="repuation_points" js="0">Punti Reputazione</word>
   <word key="view_all_picks" js="0">Visualizza tutto</word>
@@ -6149,9 +6212,12 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="clubs_header" js="0">Mostra informazioni sul Club</word>
   <word key="clubs_header_full" js="0">Nell'intestazione</word>
   <word key="clubs_header_sidebar" js="0">Nella sidebar</word>
+  <word key="clubs_header_desc" js="0">Le informazioni del club vengono visualizzate durante la visualizzazione di qualsiasi pagina del club, inclusi i contenuti.</word>
   <word key="clubs_locations" js="0">I Club hanno una location predefinita?</word>
+  <word key="clubs_locations_desc" js="0"><![CDATA[Se <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank' rel='noopener'>Google Maps</a> o <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_Mapbox}' target='_blank' rel='noopener'>Mapbox</a> sono configurati, nella home page dei club sarà visualizzata una mappa in cui mostra la posizione di tutti i club.]]></word>
   <word key="club_location" js="0">Località</word>
   <word key="can_manage_featured_clubs" js="0">Può mettere e rimuovere un club in Evidenza?</word>
+  <word key="featured_clubs" js="0">I nostri club in evidenza</word>
   <word key="clubs_activity_joined" js="0">%s è entrato nel club</word>
   <word key="club_about" js="0">Descrizione</word>
   <word key="clubs_default_sort" js="0">Ordinamento predefinito nella home page dei Club</word>
@@ -6176,8 +6242,10 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="club_closed_title" js="0">Club chiuso</word>
   <word key="clubs_no_recent_activity" js="0">Quando sei membro di uno o più club, la loro attività recente sarà mostrata qui.</word>
   <word key="club_joined" js="0">Iscritto %s</word>
+  <word key="clubs_edit_this_container" js="0">Modifica questa %s</word>
   <word key="clubs_require_approval" js="0">I nuovi club devono essere approvati?</word>
   <word key="club_unapproved_desc_mod" js="0">Fino a quando un moderatore non approva questo club, solo la persona che lo ha creato e altri moderatori possono vederlo.</word>
+  <word key="club_unapproved_desc_public" js="0">Finché un moderatore non approva questo club, solo tu puoi vederlo.</word>
   <word key="block_clubs_desc" js="0">Mostra una lista dei club</word>
   <word key="club_embed_created_line" js="0">%s ha creato un club</word>
   <word key="club_last_activity" js="0">Ultima attività</word>
@@ -6223,6 +6291,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="profile_complete_blurb_title" js="0">Completamento del profilo dopo la registrazione</word>
   <word key="profile_complete_blurb_desc" js="0">Creare passaggi per avere membri completi. Questi passaggi possono essere obbligatori o facoltativi. Se si crea un nuovo passaggio obbligatorio, questo passaggio verrà mostrato a tutti gli utenti per il completamento.</word>
   <word key="supportAcpAccountDisableNo" js="1">No grazie</word>
+  <word key="commentUnrecommended" js="1">La raccomandazione a questo commento è stata rimossa</word>
   <word key="month_0_short" js="1">Gen</word>
   <word key="month_1_short" js="1">Feb</word>
   <word key="month_2_short" js="1">Mar</word>
@@ -6293,8 +6362,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="account_management_email_pass" js="0">Cambio Email/Password</word>
   <word key="account_management_email_pass_blurb" js="0">Non avrai bisogno di cambiare queste impostazioni a meno che la tua community usi come principale un metodo di login che gestisce i dati degli account come un database esterno MySQL o LDAP.</word>
   <word key="allow_email_changes_normal" js="0">Sì (Raccomandato)</word>
-  <word key="allow_email_changes_redirect" js="0">Reindirizza a un sito esterno
-</word>
+  <word key="allow_email_changes_redirect" js="0">Reindirizza a un sito esterno</word>
   <word key="allow_email_changes_disabled" js="0">No</word>
   <word key="allow_password_changes" js="0">Consentire agli utenti di cambiare la password?</word>
   <word key="allow_password_changes_normal" js="0">Sì (Raccomandato)</word>
@@ -6370,6 +6438,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="report_type" js="0">Perché vuoi segnalare questo?</word>
   <word key="report_type_byline" js="0">Segnalato come %s.</word>
   <word key="notifications__unapproved_club" js="0">Viene creato un nuovo club che richiede l'approvazione</word>
+  <word key="notification__new_club_unapproved" js="0">%s ha creato un nuovo club che richiede l'approvazione: %s</word>
   <word key="mailsub__core_notification_unapproved_club" js="0"><![CDATA[{$club->owner->name|raw} ha creato un nuovo club che richiede l'approvazione: {$club->name|raw}]]></word>
   <word key="g_attach_per_post_suffix" js="0">kB per contenuto (pubblicazioni, commenti, etc.)</word>
   <word key="mf_name" js="0">Nome utente</word>
@@ -6390,6 +6459,7 @@ Se hai fatto altre personalizzazioni, andranno perse.</word>
   <word key="whitelist_content" js="0">Contenuto</word>
   <word key="rebuild_sitemap_initialized" js="0">Attività in background inizializzata</word>
   <word key="sitemap_profiles_content" js="0">Numero contenuti</word>
+  <word key="sitemap_profiles_content_desc" js="0">Il numero minimo di contenuti che l'utente ha creato prima che il profilo venga aggiunto alla Sitemap.</word>
   <word key="status_updates_disabled" js="0">Disattivato</word>
   <word key="status_updates_enabled_nomem" js="0">Disabilitato di default</word>
   <word key="status_updates_enabled_nomem_desc" js="0">Gli utenti potranno abilitare gli aggiornamenti di stato per il loro account</word>
@@ -6508,6 +6578,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="attach_allowed_types_media" js="0"><![CDATA[Solo Immagini & Video]]></word>
   <word key="performance_settings" js="0">Performance</word>
   <word key="close_warning" js="0">Disattiva questo avviso per una settimana</word>
+  <word key="dashboard_invalid_cachesetup" js="0">Cache non funzionante</word>
   <word key="facebook_https_warning_title2" js="0">Facebook Login non funziona</word>
   <word key="notifications__automatic_moderation" js="0">Il contenuto è automaticamente moderato</word>
   <word key="member_existing_penalties" js="0"><![CDATA[<em>%s ha già penalità attive, impostando una nuova penalità la precedente sarà sostituita</em>]]></word>
@@ -6587,7 +6658,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="log_type_title_photo" js="0">Modifiche alle foto del profilo</word>
   <word key="history_new_photo_custom" js="0">Nuova immagine del profilo caricata da %s.</word>
   <word key="history_new_photo_gallery" js="0">Nuova foto profilo impostata da %s%s.</word>
-  <word key="history_new_photo_gallery_link" js="0">immagine galleria</word>
+  <word key="history_new_photo_gallery_link" js="0">immagine gallery</word>
   <word key="history_new_photo_profilesync" js="0">Foto del profilo sincronizzata con %s.</word>
   <word key="history_photo_resize" js="0">Foto del profilo ridimensionata%s.</word>
   <word key="history_photo_remove" js="0">Foto del profilo rimossa%s</word>
@@ -6599,6 +6670,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="history_group_change_purchase_primary" js="0">gruppo</word>
   <word key="history_group_legacy_group_promotion" js="0"><![CDATA[Promosso dalle regole di Promozione Gruppi <a>%s</a> a %s.]]></word>
   <word key="history_group_legacy_group_promotion_o" js="0"><![CDATA[Gruppi secondari promossi da Promozione Gruppi <a>%s</a> da %s a %s.]]></word>
+  <word key="history_new_device" js="0">Accesso da un nuovo dispositivo: %s</word>
   <word key="history_account_locked" js="0">Account bloccato dal login utilizzando questo indirizzo IP dopo% d tentativi di accesso non riusciti.</word>
   <word key="history_account_locked_time" js="0">Account bloccato dall'accesso utilizzando questo indirizzo IP fino a% s dopo% d tentativi di accesso non riusciti.</word>
   <word key="history_account_mfa_locked" js="0">Account bloccato da aree di autenticazione a due fattori che seguono% d tentativi di autenticazione a due fattori non riusciti.</word>
@@ -6720,6 +6792,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="max_internalembed_width_desc" js="0">Questa impostazione limita la dimensione del contenuto (come discussioni, album e prodotti) dai collegamenti incorporati. Il contenuto non sarà mai più ampio di quanto il browser dell'utente possa visualizzare.</word>
   <word key="unsubscribe_not_needed" js="0">Se non intraprendi alcuna azione, elimineremo il tuo indirizzo email e non ti ricontatteremo. Non è necessario annullare l'iscrizione.</word>
   <word key="redis_table_enabled" js="0">Stato</word>
+  <word key="dashboard_invalid_cachesetup_subtitle" js="0">La memorizzazione nella cache non funziona correttamente. Esaminare la configurazione del metodo di memorizzazione nella cache e regola le impostazioni in base alle esigenze.</word>
   <word key="block_mostContributions_desc" js="0">Mostra i principali collaboratori per numero di contenuti</word>
   <word key="everything" js="0">qualsiasi</word>
   <word key="announce_type" js="0">Tipo</word>
@@ -6758,15 +6831,19 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="mailsub__core_acp_notification_Spammer" js="0">Utente segnalato come spammer</word>
   <word key="acp_notification_group_important" js="0">Aggiornamenti Invision Community</word>
   <word key="acp_notification_group_system" js="0">Informazione Sistema</word>
+  <word key="emailtpl_notification_unapproved_club" js="0">Il club richiede la notifica di approvazione</word>
   <word key="s3-RequestTimeTooSkewed_admin" js="0"><![CDATA[Il server S3 ha segnalato che il tempo di richiesta era troppo lungo, il che potrebbe indicare che l'ora del server è impostato in modo errato. Eseguito <a href='{internal.admin.app=core&module=support&controller=support}'> lo strumento di supporto </a> per ulteriori informazioni.]]></word>
   <word key="emailstats__admin_reg" js="0">L'amministratore ha creato manualmente un account</word>
   <word key="emailstats__acp_notification_NewRegComplete" js="0">Notifica amministratore per la nuova registrazione</word>
   <word key="emailstats__email_address_changed" js="0">Cambia Indirizzo email</word>
   <word key="emailstats__forgotSecurityAnswers" js="0">L'utente ha dimenticato le risposte di sicurezza</word>
+  <word key="emailstats__new_device" js="0">Accesso da un nuovo dispositivo</word>
   <word key="emailstats__email_change" js="0">Convalida modifica indirizzo email</word>
   <word key="emailstats__acp_notification_Spammer" js="0">Notifica dell'account contrassegnato come spammer</word>
   <word key="emailstats__acp_notification_License" js="0">Informazioni sulla chiave di licenza</word>
   <word key="emailstats__notification_new_status" js="0">Notifica aggiornamento di stato</word>
+  <word key="emailstats__notification_unapproved_club" js="0">Il club appena creato richiede la notifica di approvazione</word>
+  <word key="tag_recommended" js="1">Raccomandato</word>
   <word key="attachmentDownloads" js="1">{# [1:download][?:download]}</word>
   <word key="pbr_confirm_text" js="1">Questo rimuoverà immediatamente la tua richiesta e il tuo indirizzo email.</word>
   <word key="pbr_confirm_ok" js="1">Sì, rimuovi ora</word>
@@ -6779,8 +6856,6 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="acp_notification_NewRegComplete_title" js="0">Nuove registrazioni completate</word>
   <word key="acp_notification_NewRegComplete_more" js="0">{# [1:Altro][?:Altri]} →</word>
   <word key="acp_notification_Spammer_title" js="0">Utenti segnalati come spammer</word>
-  <word key="__ipbmafia__nulling_null_alert" js="0">
-</word>
   <word key="menu_item_2" js="0">Attività</word>
   <word key="block_core_MemberStats" js="0">Statistiche utenti</word>
   <word key="widget_feed_status_published" js="0">Pubblico</word>
@@ -6966,10 +7041,15 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="page_wrapper_template_desc" js="0">Wrapper template per questa pagina</word>
   <word key="cms_page_wrapper_template_none" js="0">Nessuno</word>
   <word key="cms_pages_settings" js="0">Impostazioni avanzate</word>
+  <word key="cms_use_different_gateway_desc" js="0"><![CDATA[Puoi abilitarlo se hai la tua community installata in un sottodominio ma vuoi che Pages appaia come root nel tuo sito web <a href='{external.devdocs-pages_different_root}' target='_blank' rel='noopener'>Maggiori informazioni</a>]]></word>
   <word key="pages_gateway_url_not_exist" js="0">Impossibile trovare l'URL.</word>
+  <word key="cms_pages_different_gateway_impossible" js="0">La tua Invision Community Suite è già installata come root del dominio.</word>
   <word key="pages_different_gateway_load_error" js="0">Impossibile caricare pagine in questa posizione. Hai caricato il file 'index.php'?</word>
   <word key="pages_different_gateway_load_error_rewrite" js="0"><![CDATA[Impossibile caricare Pagine in questa posizione. Hai caricato il file 'index.php' e installato il file .htaccess? <a href='{external.devdocs-pages_different_root}' target='_blank'>Ulteriori informazioni </a>]]></word>
   <word key="cms_tag_pages" js="0">Pagine</word>
+  <word key="cms_error_page" js="0">Pagina di errore</word>
+  <word key="cms_error_page_desc" js="0">Una pagina di errore personalizzata verrà visualizzata quando la suite visualizza un errore. Le pagine del builder di pagine non è adatto per le pagine di errore.</word>
+  <word key="cms_error_page_none" js="0">Non utilizzare una pagina di errore personalizzata</word>
   <word key="cms_articles_homepage_form" js="0">Opzioni Homepage</word>
   <word key="menu_content_page" js="0">Pagina</word>
   <word key="page_add_to_menu" js="0">Aggiungi al menu</word>
@@ -7020,6 +7100,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="perm_content_field_perm__edit" js="0">Modifica Contenuto del Campo</word>
   <word key="perm_content_field_perm__add" js="0">Aggiungi Contenuto al Campo</word>
   <word key="perm_content_field_perm__label" js="0">Gruppi</word>
+  <word key="field_default_value" js="0">Valore di default</word>
   <word key="field_filter" js="0">Consenti il filtraggio</word>
   <word key="field_filter_desc" js="0">Quando abilitato, è possibile selezionare questa opzione per filtrare da quando si visualizza un elenco di record.</word>
   <word key="field_is_searchable" js="0">Consenti la ricerca</word>
@@ -7535,6 +7616,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="module__forums_forums" js="0">Forum</word>
   <word key="module__forums_stats" js="0">Statistiche</word>
   <word key="filestorage__forums_Icons" js="0">Icona Forum</word>
+  <word key="post" js="0">Messaggio</word>
   <word key="editor__forums_Forums" js="0">Forum e Discussioni</word>
   <word key="acp_search_title_forums_Forums" js="0">Forum</word>
   <word key="menu__forums_forums" js="0">Forum</word>
@@ -7583,6 +7665,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="can_split_merge_topic" js="0">Può separare o unire le discussioni/domande?</word>
   <word key="can_edit_post" js="0">Può modificare i messaggi/risposte?</word>
   <word key="can_hide_post" js="0">Può nascondere i messaggi/risposte?</word>
+  <word key="can_unhide_post" js="0">Può rendere nuovamente pubblici i messaggi/risposte nasconste?</word>
   <word key="can_view_hidden_post" js="0">Può visualizzare i messaggi/risposte nascosti?</word>
   <word key="can_delete_post" js="0">Può rimuovere i messaggi/risposte?</word>
   <word key="can_read_all_topics" js="0">Può visualizzare tutte le discussioni/domande?</word>
@@ -7621,6 +7704,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="forum_settings" js="0">Impostazioni Forum</word>
   <word key="posting_settings" js="0">Impostazioni di Scrittura</word>
   <word key="forum_allow_poll" js="0">Attivare Sondaggi?</word>
+  <word key="posts" js="0">Messaggi</word>
   <word key="forum_preview_posts" js="0">I messaggi devono essere approvati?</word>
   <word key="forum_preview_posts_qa" js="0">I messaggi devono essere approvati?</word>
   <word key="forum_preview_posts_topics" js="0">Nuove Discussioni</word>
@@ -7704,10 +7788,11 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="archive_topic_pinned" js="0">Importante/Non Importante</word>
   <word key="archive_topic_featured" js="0">Evidenziata/Non Evidenziata</word>
   <word key="archive_topic_state" js="0">Bloccato/Sbloccato</word>
-  <word key="unlocked" js="0">Aperto</word>
+  <word key="unlocked" js="0">Sbloccato</word>
   <word key="archive_topic_approved" js="0">Nascosto/Visibile</word>
   <word key="unhidden" js="0">Visibile</word>
   <word key="archive_topic_poll" js="0">Sondaggio</word>
+  <word key="topic_has_poll" js="0">Ha un sondaggio</word>
   <word key="topic_does_not_have_poll" js="0">Nessun sondaggio</word>
   <word key="poll_with_recent_vote" js="0">Ultimo sondaggio votato: %s</word>
   <word key="archive_topic_post" js="0">Messaggi</word>
@@ -7722,6 +7807,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="archive_last_post" js="0">Ultimo messaggio</word>
   <word key="archive_not_last_post" js="0">Ultimo messaggio</word>
   <word key="archive_storage_location" js="0">Spostare i messaggi archiviati in</word>
+  <word key="archive_storage_location_desc" js="0">Se hai già impostato l'archiviazione e vuoi cambiare la posizione di archiviazione, dovrai spostare manualmente i post già archiviati. Contatta il supporto tecnico per assistenza.</word>
   <word key="archive_storage_location_local" js="0">Una tabella del database all'interno dello stesso database come il resto del sito</word>
   <word key="archive_storage_location_remote" js="0">Un database remoto</word>
   <word key="greater_than" js="0">Più di</word>
@@ -7731,6 +7817,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="forum_sort_key" js="0">Ordinamento predefinito</word>
   <word key="archive_settings" js="0">Impostazioni di archiviazione</word>
   <word key="archive_on" js="0">Attivare archiviazione?</word>
+  <word key="task__archive" js="0">Archivia messaggi.</word>
   <word key="restore_unmatched_settings" js="0">Sì, ripristinare argomenti che non corrispondono alle nuove impostazioni di archivio</word>
   <word key="leave_archived_topics" js="0">No, tenere tutti gli argomenti attualmente archiviati come archiviati</word>
   <word key="archive_remote_sql_user" js="0">Nome utente</word>
@@ -7740,6 +7827,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="archive_sql_port_desc" js="0">Se non siete sicuri, lasciate il valore predefinito</word>
   <word key="archive_sql_socket_desc" js="0">Se non fornita, verrà utilizzata l'impostazione di default del server. Se non siete sicuri, lasciate il valore predefinito.</word>
   <word key="archive_sql_tbl_prefix" js="0">Prefisso tabella</word>
+  <word key="archive_sql_tbl_prefix_desc" js="0">Se fornito, la tabella del database di archivio creata sarà preceduta dal prefisso fornito. Si consiglia di lasciarlo vuoto.</word>
   <word key="archive_remote_db_error" js="0">C'è stato un problema con i dettagli del database remoto forniti: %s</word>
   <word key="perm_forum_perm__view" js="0">Vedere il forum</word>
   <word key="perm_forum_perm__view_rest" js="0"><![CDATA[Vedere il forum<br><small>(con {# [1:oggetto][?:oggetti]} di contenuti)</small>]]></word>
@@ -7789,6 +7877,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="question_mainTab" js="0">Contenuto</word>
   <word key="question_title" js="0">Domanda</word>
   <word key="topic_title" js="0">Titolo</word>
+  <word key="topic_tags" js="0">Tag</word>
   <word key="topic_auto_follow_suffix" js="0">Notificami risposte</word>
   <word key="topic_pollTab" js="0">Sondaggio</word>
   <word key="topic_open_time" js="0">Apertura programmata</word>
@@ -7808,10 +7897,12 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="question_not_answered" js="0">Domande senza Miglior risposta</word>
   <word key="last_post" js="0">Data ultimo messaggio</word>
   <word key="last_poster" js="0">Nome dell'ultimo autore di post</word>
+  <word key="topic_starter" js="0">Nome della discussione iniziale</word>
   <word key="question_asker" js="0">Nome dell'utente che ha fatto la domanda</word>
   <word key="topic_started" js="0">Data di inizio</word>
   <word key="topic_started_date" js="0">Iniziato %s</word>
   <word key="replies" js="0">Risposte</word>
+  <word key="sort_direction" js="0">Ordina direzione</word>
   <word key="sort_num_replies" js="0">Più Risposto</word>
   <word key="asc" js="0">Crescente (Prima i più vecchi/alfabetico)</word>
   <word key="desc" js="0">Discendente (prima i nuovi)</word>
@@ -7858,6 +7949,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="no_forum_posts_password" js="0">Nessun post da mostrare</word>
   <word key="no_posts_returned" js="0">Non ci sono post da mostrare</word>
   <word key="topic_pl" js="0">Discussioni</word>
+  <word key="topic_pl_lc" js="0">discussioni</word>
   <word key="post_pl" js="0">Risposte</word>
   <word key="topic__comment_placeholder" js="0">Rispondi a questa discussione...</word>
   <word key="question__comment_placeholder" js="0">Rispondi a questa domanda...</word>
@@ -7899,6 +7991,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="submit_question" js="0">Invia Sondaggio</word>
   <word key="submit_topic" js="0">Pubblica la discussione</word>
   <word key="submit_topic_edit" js="0">Modifica discussione</word>
+  <word key="submit_question_edit" js="0">Modifica domanda</word>
   <word key="topic_submit_comment" js="0">Invia Risposta</word>
   <word key="edit_question" js="0">Modifica Domanda</word>
   <word key="edit_topic" js="0">Modifica discussione</word>
@@ -7908,6 +8001,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="go_back_to_qa_forum" js="0">Vai alla lista delle domande</word>
   <word key="first_unread_post" js="0">Vai al primo messaggio non letto</word>
   <word key="get_last_post" js="0">Vai all'ultimo commento</word>
+  <word key="topic_is_archived" js="0">Archiviato</word>
   <word key="topic_archived_desc" js="0"><![CDATA[Questa discussione &egrave; archiviata e chiusa a future risposte.]]></word>
   <word key="count_topics_in_forum" js="0">{# [1:discussione][?:discussioni] in questo forum}</word>
   <word key="count_questions_in_forum" js="0">{# [1:domanda][?:domande] in questo forum}</word>
@@ -7920,17 +8014,20 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="go_to_new_location" js="0">Vai a questo topic nella sua nuova posizione</word>
   <word key="topic_moved_to" js="0"><![CDATA[La discussione è stata spostata nel forum <a href='%s'><strong>%s</strong></a]]></word>
   <word key="question_moved_to" js="0"><![CDATA[La domanda è stata spostata nel forum <a href='%s'><strong>%s</strong></a>]]></word>
+  <word key="this_topic" js="0">Questa discussione</word>
   <word key="this_forum" js="0">Questo Forum</word>
   <word key="announce_forums" js="0">Forum</word>
   <word key="embed_topic" js="0">Discussione Forum</word>
   <word key="questions_with_best_answers" js="0">Domande con Miglior risposta</word>
   <word key="questions_without_best_answers" js="0">Domande senza Miglior risposta</word>
+  <word key="this_is_a_popular_post" js="0">Questo è un messaggio popolare.</word>
   <word key="rate_this_topic" js="0">Vota questo topic</word>
   <word key="rate_this_question" js="0">Vota questa domanda</word>
   <word key="sign_in_rate_question" js="0">Accedi per votare questa domanda</word>
   <word key="sign_in_rate_answer" js="0">Accedi per votare questa risposta</word>
   <word key="no_questions_in_forum" js="0">Non ci sono ancora domande in questo forum</word>
   <word key="no_topics_in_forum" js="0">Non ci sono ancora discussioni in questo forum</word>
+  <word key="submit_first_question" js="0">Fai la prima domanad</word>
   <word key="submit_first_topic" js="0">Apri la prima discussione</word>
   <word key="topic_pending_approval" js="0">Questa discussione non è ancora stata approvata ed è attualmente visibile solo allo staff.</word>
   <word key="topic_locked_can_comment" js="0"><![CDATA[Questa discussione &egrave; chiusa, ma i tuoi privilegi ti permettono di aggiungere una risposta.]]></word>
@@ -7956,6 +8053,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="topic_approve" js="0">Visibile/Nascondi</word>
   <word key="topic_move" js="0">Sposta</word>
   <word key="topic_move_none" js="0">Non spostare</word>
+  <word key="topic_move_link" js="0">Lasciare un link alla nuova posizione?</word>
   <word key="topic_title_st" js="0">Aggiungere all'inizio del titolo</word>
   <word key="topic_title_end" js="0">Aggiungere alla fine del titolo</word>
   <word key="add_reply" js="0">Aggiungi Risposta</word>
@@ -8001,11 +8099,15 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="block_topicFeed_title" js="0">Discussioni</word>
   <word key="block_postFeed_title" js="0">Messaggi</word>
   <word key="rssimport_task_error" js="0">Il tentativo di importare il feed non è riuscito con il seguente messaggio:% s</word>
+  <word key="block_poll" js="0">Sondaggio</word>
+  <word key="block_poll_desc" js="0">Crea un blocco con un sondaggio da una discussione</word>
+  <word key="widget_poll_tid" js="0">Discussione</word>
   <word key="widget_poll_tid_desc" js="0">Inizia a digitare il nome della discussione</word>
   <word key="poll_view_topic" js="0">Visualizza topic</word>
   <word key="__api_forums_posts" js="0">Messaggi</word>
   <word key="__api_forums_topics" js="0">Discussioni</word>
   <word key="forumMarkedRead" js="1">Forum segnato come letto</word>
+  <word key="topicMarkedRead" js="1">Discussione contrassegnata come letta</word>
   <word key="js_num_topic_posts" js="1">{# [1:messaggio][?:messaggi]} in questa discussione</word>
   <word key="votes_no_number" js="1">{!# [-1:voto][1:voto][?:voti]}</word>
   <word key="__app_forums" js="0">Forum</word>
@@ -8039,17 +8141,24 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="tfb_sort_dir_asc" js="0">Crescente (0-9)</word>
   <word key="tfb_any_posts" js="0">Qualsiasi</word>
   <word key="tfb_title" js="0">Titolo</word>
+  <word key="topic_unlocks_at" js="0">La discussione sarà sbloccata automaticamente %s alle %s</word>
+  <word key="topic_unlocks_at_short" js="0">Apertura %s</word>
+  <word key="topic_locks_at" js="0">La discussione sarà chiusa automaticamente %s alle %s</word>
+  <word key="topic_locks_at_short" js="0">Chiusura %s</word>
   <word key="queue_fixing_hidden_first_post" js="0">Aggiornamento di argomenti nascosti errati</word>
   <word key="queue_rebuilding_new_topic_flag" js="0">Ricostruzione della nuova bandiera degli argomenti nei post</word>
+  <word key="sort_question_rating" js="0">Maggior numero di voti</word>
   <word key="forum_sort_key_qa" js="0">Ordinamento predefinito</word>
   <word key="approve_title_topic" js="0">Approva questa discussione</word>
   <word key="__defart_post" js="0">messaggio in una discussione</word>
   <word key="__defart_topic" js="0">discussione</word>
   <word key="__defart_answer" js="0">Rispondi a una domanda</word>
   <word key="__defart_question" js="0">domanda</word>
+  <word key="post_pl_lc" js="0">messaggi</word>
   <word key="digest_area_forums_topic" js="0">Argomenti</word>
   <word key="digest_area_forums_forum" js="0">Forum</word>
   <word key="forums_topics_per_page" js="0">Discussioni per pagina</word>
+  <word key="saved_actions_sg" js="0">Azione salvata</word>
   <word key="forums_rss_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>RSS Feed personalizzato</a>]]></word>
   <word key="archivedpost_pl" js="0">Messaggi Archiviati</word>
   <word key="archivedpost_pl_lc" js="0">Messaggi archiviati</word>
@@ -8057,8 +8166,11 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="question_merged_to" js="0"><![CDATA[La domanda è stata fusa con <a href='%s'> <strong>%s</strong></a>]]></word>
   <word key="search_contextual_item_forums" js="0">Questo Forum</word>
   <word key="search_contextual_item_topic" js="0">Questo Topic</word>
+  <word key="post_lc" js="0">messaggio</word>
   <word key="r__forums_massManageContent" js="0">Può spostare/eliminare discussioni in blocco nei forum?</word>
   <word key="can_move_topic_desc" js="0">Sarà in grado di spostare discussioni/domande solo tra i forum in cui possono creare nuovi contenuti all'interno.</word>
+  <word key="can_feature_comments_topic" js="0">Puoi consigliare i messaggi in una discussione?</word>
+  <word key="can_unfeature_comments_topic" js="0">Può rimuovere un messaggio consigliato in una discussione?</word>
   <word key="can_add_item_message_topic" js="0">Può aggiungere post ai topic?</word>
   <word key="can_edit_item_message_topic" js="0">Può modificare i post nei topic?</word>
   <word key="can_delete_item_message_topic" js="0">Può rimuovere i messaggi da un topic?</word>
@@ -8076,11 +8188,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="forums_fluid_pinned" js="0">Privilegia le discussioni contrassegnate</word>
   <word key="forums_fluid_pinned_desc" js="0">Mostra le discussioni evidenziate dai forum selezionati in cima alla lista delle discussioni quando la modalità fluida è abilitata</word>
   <word key="forums_default_view_choose_error" js="0">Devi selezionare almeno due visuali che i membri possono scegliere</word>
+  <word key="remove_archive_exlude" js="0">Consenti l'archiviazione di questa discussione</word>
+  <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Rimuovi lo stato 'escludi dall'archivio' dalla discussione: <a href='%s'>%s</a>]]></word>
   <word key="ad_fluid_index_view" js="0">Elenco degli argomenti della vista fluida, tra le righe degli argomenti</word>
   <word key="ad_fluid_index_view_number" js="0">Mostra questo avviso dopo ogni</word>
   <word key="ad_fluid_index_view_repeat" js="0">Ripetuto</word>
   <word key="ad_fluid_index_view_repeat_suffix" js="0">volte</word>
   <word key="__api_forums_forums" js="0">Forum</word>
+  <word key="recommended_posts" js="0">Messaggi raccomandati</word>
   <word key="forums_simple_name_with_container" js="0"><![CDATA[Da %s in <a href='%s'>%s</a>]]></word>
   <word key="forums_show_all_forums" js="0">Visuale Elenco</word>
   <word key="forums_show_all_forums_tooltip" js="0">Mostra un elenco di categorie e forum</word>
@@ -8096,11 +8211,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="topicsFromXForums" js="1">Mostrando le discussioni da  {# [1:forum][?:forums]}</word>
   <word key="markForumAsReadConfirm" js="1">Sei sicuro di voler segnare tutte le discussioni in questo forum come lette?</word>
   <word key="club_node_forums" js="0">Forum dei Club</word>
+  <word key="stats_topics_tab_total" js="0">Tutte le discussioni nuove</word>
   <word key="stats_topics_tab_byforum" js="0">Nuove Discussioni dai Forum</word>
   <word key="stats_topics_title_byforum" js="0">Nuove discussioni dai forum</word>
+  <word key="stats_posts_tab_total" js="0">Tutti i messaggi nuovi</word>
   <word key="stats_posts_tab_byforum" js="0">Nuovi Messaggi dai Forum</word>
   <word key="stats_posts_title_byforum" js="0">Nuovi messaggi dai forum</word>
   <word key="remove_your_vote" js="0">Rimuovi il tuo voto</word>
+  <word key="poll_widget_no_poll" js="0">La discussione selezionata non dispone di un sondaggio attivo.</word>
   <word key="js_remove_your_vote" js="1">Rimuovi il tuo voto</word>
  </app>
  <app key="downloads" version="104063">
@@ -8250,7 +8368,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="write_review" js="0">Scrivi una recensione</word>
   <word key="file_auto_follow_suffix" js="0">Informatemi quando gli altri commenti sono inviati</word>
   <word key="upload_files" js="0">Carica i tuoi file</word>
-  <word key="dl_get_support" js="0">Otteni Supporto</word>
+  <word key="dl_get_support" js="0">Ottieni supporto</word>
   <word key="dl_get_support_title" js="0">Ottieni supporto per questo download</word>
   <word key="file_information" js="0">Informazioni sul file</word>
   <word key="import_files" js="0">Importa i file</word>
@@ -8547,6 +8665,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="convert_sw" js="0">Applicazioni</word>
   <word key="convert_finished" js="0">Finito?</word>
   <word key="convert_start" js="0">Inizia nuova conversione</word>
+  <word key="conversion_app_already_exists" js="0">Una conversione è già stata configurata per questo software. Vi abbiamo portati ora a quella conversione.</word>
   <word key="convert_start_application" js="0">Cosa vuoi convertire?</word>
   <word key="choose_what_to_convert" js="0">Scegli cosa convertire</word>
   <word key="core_node_select" js="0">Informazioni su membri e sistema</word>
@@ -8596,10 +8715,10 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="_convert_club_downloads_files" js="0">File Club</word>
   <word key="_convert_club_downloads_comments" js="0">Commenti file del club</word>
   <word key="_convert_club_gallery_categories" js="0">Categorie Gallery Club</word>
-  <word key="queue_rebuilding_gallery_images" js="0">Ricostruzione delle immagini della galleria</word>
+  <word key="queue_rebuilding_gallery_images" js="0">Ricostruzione delle immagini della gallery</word>
   <word key="_convert_nexus_invoices" js="0">Fatture</word>
   <word key="_convert_nexus_purchases" js="0">Acquisti</word>
-  <word key="f_gallery_images_rebuild" js="0">Ricostruzione delle immagini della galleria</word>
+  <word key="f_gallery_images_rebuild" js="0">Ricostruzione delle immagini della gallery</word>
   <word key="convert_nexus_payment_methods" js="0">Converti metodi di pagamento</word>
   <word key="convert_start_date" js="0">Data di inizio</word>
  </app>
@@ -8621,6 +8740,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="event" js="0">Evento</word>
   <word key="editor__calendar_Events" js="0">Eventi Calendario</word>
   <word key="editor__calendar_Calendar" js="0">Calendari</word>
+  <word key="editor__calendar_Venue" js="0">Sedi</word>
   <word key="acp_search_title_calendar_Calendars" js="0">Calendari</word>
   <word key="calendar_event_pl_lc" js="0">eventi calendario</word>
   <word key="search_contextual_item_calendars" js="0">Questo Calendario</word>
@@ -8651,6 +8771,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="calendar_rss_feed_order_publish" js="0">Data di pubblicazione</word>
   <word key="acplogs__calendar_settings" js="0">Impostazioni calendario aggiornate</word>
   <word key="calendar_default_view" js="0">Layout predefinito</word>
+  <word key="calendar_default_view_desc" js="0">Questa impostazione consente di controllare il layout predefinito della home page del calendario. Se lo desiderano, gli utenti possono ignorare la visualizzazione predefinita.</word>
   <word key="cal_df_month" js="0">Mese corrente</word>
   <word key="cal_df_week" js="0">Settimana corrente</word>
   <word key="cal_df_day" js="0">Giorno corrente</word>
@@ -8664,11 +8785,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="calendar_custom_df" js="0">specificare un formato della data personalizzato</word>
   <word key="calendar_date_format" js="0">Formato data per gli eventi</word>
   <word key="calendar_date_format_custom" js="0">Personalizza formato data</word>
+  <word key="calendar_no_date_format" js="0">È necessario scegliere un formato di data predefinito o specificare un formato di data personalizzato</word>
   <word key="calendar_block_past_changes" js="0">Prevenire le modifiche agli eventi passati</word>
+  <word key="calendar_block_past_changes_desc" js="0">Se attivata, gli utenti non saranno in grado di RSVP per eventi o modificare eventi passati. I moderatori saranno comunque in grado di modificare gli eventi passati.</word>
   <word key="calendars" js="0">Calendari</word>
   <word key="calendars_sg" js="0">Calendario</word>
   <word key="calendar_settings" js="0">Impostazioni</word>
   <word key="calendar_permissions" js="0">Permessi</word>
+  <word key="calendar_moderation" js="0">Moderazione</word>
   <word key="cal_title" js="0">Nome</word>
   <word key="cal_moderate" js="0">Gli eventi devono essere approvati?</word>
   <word key="cal_comment_moderate" js="0">I commenti devono essere approvati?</word>
@@ -8680,6 +8804,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="calperm_perm__add" js="0">Aggiungere eventi</word>
   <word key="calperm_perm__reply" js="0">Commento</word>
   <word key="calperm_perm__askrsvp" js="0">Richiesta RSVP</word>
+  <word key="calperm_perm__rsvp" js="0">RSVP</word>
   <word key="cal_color" js="0">Colore</word>
   <word key="add_calendar" js="0">Aggiungi Calendario</word>
   <word key="edit_calendar" js="0">Modifica calendario</word>
@@ -8690,6 +8815,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="can_feature_calendar_event" js="0">Può esporre un evento?</word>
   <word key="can_unfeature_calendar_event" js="0">Può rimuovere l'esposizione di un evento?</word>
   <word key="can_move_calendar_event" js="0">Può spostare gli eventi?</word>
+  <word key="can_move_calendar_event_desc" js="0">Sarà in grado di spostare gli eventi solo tra i calendari in cui è possibile creare nuovi contenuti.</word>
   <word key="can_lock_calendar_event" js="0">Può chiudere gli eventi?</word>
   <word key="can_unlock_calendar_event" js="0">Può riaprire gli eventi?</word>
   <word key="can_reply_to_locked_calendar_event" js="0">Può commentare gli eventi chiusi?</word>
@@ -8709,6 +8835,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="can_view_hidden_calendar_event_review" js="0">Può visualizzare le recensioni nascoste?</word>
   <word key="can_delete_calendar_event_review" js="0">Può rimuovere le recensioni?</word>
   <word key="can_feature_comments_calendar_event" js="0">Puoi consigliare commenti su eventi?</word>
+  <word key="can_unfeature_comments_calendar_event" js="0">Può rimuovere i commenti raccomandati dagli eventi?</word>
   <word key="can_add_item_message_calendar_event" js="0">Puoi aggiungere messaggi agli eventi?</word>
   <word key="can_edit_item_message_calendar_event" js="0">Puoi modificare i messaggi sugli eventi?</word>
   <word key="can_delete_item_message_calendar_event" js="0">Puoi eliminare i messaggi dagli eventi?</word>
@@ -8725,6 +8852,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="feed_url" js="0">URL</word>
   <word key="feed_url_desc" js="0">Ti consigliamo di iniziare l'url con http://, https:// or webcal://</word>
   <word key="feed_member_id" js="0">Utente</word>
+  <word key="feed_member_id_desc" js="0">Gli eventi di questo feed saranno creati da questo utente</word>
   <word key="feed_calendar_id" js="0">Calendario</word>
   <word key="feed_calendar_id_desc" js="0">Seleziona il calendario in cui verranno salvati gli eventi di questo feed</word>
   <word key="feed_allow_rsvp" js="0">Abilitare RSVP</word>
@@ -8736,6 +8864,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="acplog__icalfeed_refreshed" js="0">Feed iCalendar aggiornato (%s eventi importati e %s eventi ignorati)</word>
   <word key="feed_refreshed" js="0">Feed iCalendar aggiornati</word>
   <word key="feed_file" js="0">File iCalendar</word>
+  <word key="feed_file_desc" js="0">I file iCalendar di solito hanno un'estensione.ics</word>
   <word key="feed_not_found" js="0">Impossibile trovare il feed iCalendar</word>
   <word key="acplog__icalfeed_deleted" js="0">Feed %s iCalendar eliminato</word>
   <word key="keep_events" js="0">Mantieni eventi</word>
@@ -8758,6 +8887,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="next_week" js="0">La prossima settimana</word>
   <word key="no_events_today" js="0">Nessun evento in programma per oggi</word>
   <word key="no_events_month" js="0">Non ci sono eventi programmati per questo mese</word>
+  <word key="error_bad_date" js="0">La data richiesta sembra non valida.</word>
   <word key="birthdays_today" js="0">{# [1:compleanno][?:compleanni]} oggi</word>
   <word key="birthdays_count" js="0">{# [1:compleanno][?:compleanni]}</word>
   <word key="birthdays_view_all" js="0">Mostra tutto</word>
@@ -8768,6 +8898,8 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="calendar_event_comment_pl" js="0">Commenti Evento</word>
   <word key="calendar_event_comment_pl_lc" js="0">commenti evento</word>
   <word key="calendar_event_review_pl" js="0">Recensioni Evento</word>
+  <word key="calendar_event_review_pl_lc" js="0">recensioni degli eventi</word>
+  <word key="event_review_count" js="0">{# [1:Recensione][?:Recensioni]}</word>
   <word key="event_comment_count" js="0">{# [1:Commento][?:Commenti]}</word>
   <word key="calendar_rss_title" js="0">Prossimi eventi</word>
   <word key="submit_event" js="0">Pubblica Evento</word>
@@ -8777,6 +8909,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="event_container" js="0">Calendario</word>
   <word key="event_title" js="0">Titolo</word>
   <word key="event_ip_address" js="0">Indirizzo IP</word>
+  <word key="event_tags" js="0">Tag</word>
   <word key="event_content" js="0">Descrizione</word>
   <word key="event_dates" js="0">Data</word>
   <word key="event_rsvp" js="0">Richiesta RSVP</word>
@@ -8784,11 +8917,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="event_to" js="0">a</word>
   <word key="event_all_day" js="0">Questo evento dura tutto il giorno</word>
   <word key="no_end_time" js="0">La fine evento non ha un orario</word>
+  <word key="event_repeat" js="0">Ripetere</word>
   <word key="change_timezone" js="0">Cambia il fuso orario</word>
   <word key="event_timezone" js="0">Fuso orario dell'evento</word>
   <word key="event_rpm_repeats" js="0">Ripetersi:</word>
   <word key="event_rpm_repeats_daily" js="0">Quotidiano</word>
+  <word key="event_rpm_repeats_weekly" js="0">Settimanale</word>
   <word key="event_rpm_repeats_monthly" js="0">Mensile</word>
+  <word key="event_rpm_repeats_yearly" js="0">Annuale</word>
   <word key="event_rpm_repeatevery" js="0">Ripetersi ogni:</word>
   <word key="event_rpm_repeatevery_day" js="0">giorni</word>
   <word key="event_rpm_repeatevery_week" js="0">settimane</word>
@@ -8821,6 +8957,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="jump_to" js="0">Vai al</word>
   <word key="events_happening_today" js="0">Eventi di oggi</word>
   <word key="day_view_all_day" js="0"><![CDATA[TUTTO<br>IL GIORNO]]></word>
+  <word key="you_are_going" js="0">Tu stai partecipando</word>
   <word key="you_were_going" js="0">Parteciperai all'evento</word>
   <word key="you_arent_going" js="0">Non ci andrai</word>
   <word key="you_werent_going" js="0">Non parteciperai</word>
@@ -8828,6 +8965,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="you_are_not_going_to_this" js="0">Non parteciperai a questo evento</word>
   <word key="rsvp_change" js="0">Cambia RSVP</word>
   <word key="confirm_attendance" js="0">Conferma presenza</word>
+  <word key="featured_events" js="0">Eventi in vetrina</word>
   <word key="invalid_start_date" js="0">La data di inizio fornita non è valida</word>
   <word key="invalid_end_date" js="0">La data di fine fornita non è valida</word>
   <word key="invalid_recurrence" js="0">L'evento non può essere ripetuto frequentemente. Ogni occorrenza deve terminare prima dell'inizio successivo.</word>
@@ -8838,9 +8976,11 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="event_details" js="0">Dettagli Evento</word>
   <word key="event_created_by" js="0">Evento creato da %s</word>
   <word key="event_rating_value" js="0">La tua valutazione</word>
+  <word key="event_review_text" js="0">La tua recensione</word>
   <word key="event__review_placeholder" js="0">Aggiungi una recensione...</word>
   <word key="event__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="event_submit_comment" js="0">invia commento</word>
+  <word key="event_rsvp_attendees" js="0">Partecipanti</word>
   <word key="report_event" js="0">Segnala evento</word>
   <word key="calendar_edit_details" js="0">Modifica dettagli</word>
   <word key="calendar_edit_details_title" js="0">Modifica i dettagli di questo evento</word>
@@ -8879,6 +9019,9 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="recur_human_daily_multi" js="0">Questo evento si ripete ogni {# [?:giorni]} %s</word>
   <word key="recur_human__forever" js="0">sempre</word>
   <word key="recur_human__until" js="0">fino a %s</word>
+  <word key="event_rss_feed_off" js="0">Questo feed RSS non è attualmente disponibile</word>
+  <word key="event_rss_feed_off_admin" js="0">Il feed RSS del calendario è attualmente disabilitato dal pannello di controllo di amministrazione</word>
+  <word key="rsvp_limit_info" js="0">{# [1:utente ha][?:utenti hanno]} confermato il loro RSVP per questo evento. Solo %s utenti potranno RSVP.	</word>
   <word key="rsvp_limit_nomaybe" js="0">Puoi indicare che stai parteciperai o meno quando un evento ha un limite specificato</word>
   <word key="task_BAD_CONTENT" js="0">Il feed iCalendar %s non è formattato correttamente in un formato iCalendar riconosciuto</word>
   <word key="task_NO_CONTENT" js="0">il feed iCalendar %s non ha restituito alcun evento da elaborare</word>
@@ -8910,12 +9053,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="maximum_count" js="0">Numero di eventi</word>
   <word key="view_this_event" js="0">Visualizza l'evento %s</word>
   <word key="block_todaysBirthdays" js="0">Compleanni di oggi</word>
+  <word key="block_todaysBirthdays_desc" js="0">Mostra compleanni da oggi</word>
   <word key="no_members_birthday_today" js="0">Nessun utente celebra oggi</word>
   <word key="member_age" js="0">({# [1:anno][?:anni]} fà)</word>
   <word key="block_recentReviews" js="0">Recensioni recenti sugli eventi</word>
   <word key="block_recentReviews_desc" js="0">Visualizza le recensioni più recenti</word>
   <word key="no_recent_reviews" js="0">Nessuna recensione recente trovata</word>
   <word key="announce_calendars" js="0">Calendari</word>
+  <word key="review_count" js="0">Numero di recensioni da mostrare</word>
   <word key="widget_calendar" js="0">Calendario</word>
   <word key="x_users_going" js="0">{# [1:utente][?:utenti]} andranno</word>
   <word key="task__icalendar" js="0">Controlla il feed iCalendar per nuovi eventi e le importa nel calendario.</word>
@@ -8932,6 +9077,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="all_activity_calendar_streamitems" js="0">Quando un utente RSVP a un evento</word>
   <word key="notifications__calendar_Events" js="0">Calendario</word>
   <word key="notifications__event_reminder" js="0">Promemoria eventi</word>
+  <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[Promemoria evento per  {$content->mapped("title")|raw}]]></word>
   <word key="email_event_reminder_when" js="0">Quando: %s</word>
   <word key="email_event_reminder_where" js="0">Dove: %s</word>
   <word key="days_to_go" js="0">{# [1:giorno][?:giorni]}</word>
@@ -8940,12 +9086,15 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="venues" js="0">Luogo</word>
   <word key="venue_title" js="0">Nome del luogo</word>
   <word key="event_venue_name" js="0">Luogo dell'evento</word>
+  <word key="event_venue" js="0">Sede</word>
   <word key="venues_not_listed" js="0">Luogo non elencato</word>
   <word key="venue_address" js="0">Indirizzo</word>
   <word key="r__venues_manage" js="0">Può gestire le sedi?</word>
+  <word key="editor__venues_Venue" js="0">Descrizione sede</word>
   <word key="venue_description" js="0">Descrizione</word>
   <word key="calendar_venues_enabled" js="0">Permettere luogo?</word>
   <word key="calendar_venues_enabled_desc" js="0">Se abilitati, gli amministratori possono creare sedi predefinite che possono essere selezionate durante la creazione di eventi.</word>
+  <word key="calendar_more_events_at_x" js="0">Altri eventi in questa sede</word>
   <word key="venue_details" js="0">Informazioni sul luogo</word>
   <word key="venue_upcoming_events" js="0">Prossimi eventi</word>
   <word key="feed_venue_id" js="0">Sede</word>
@@ -9008,6 +9157,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="view_this_entry" js="0">Visualizza la voce %s</word>
   <word key="blog_entry__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="entry_actions" js="0">Azioni Post</word>
+  <word key="edit_title_blog" js="0">Modifica questa voce del blog</word>
   <word key="report_entry" js="0">Segnala post</word>
   <word key="blog_comments" js="0">{!#[1:commento][?:commenti]}</word>
   <word key="no_entries_yet" js="0">Non ci sono ancora Blog</word>
@@ -9035,20 +9185,27 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="blog_sidebar_title" js="0">Informazioni Blog</word>
  </app>
  <app key="gallery" version="104063">
+  <word key="__app_gallery" js="0">Gallery</word>
+  <word key="search_contextual_item_gallery_image" js="0">Questa immagine</word>
   <word key="menu__gallery_gallery_categories" js="0">Categorie</word>
   <word key="menu__gallery_stats_diskspace" js="0">Migliori autori</word>
   <word key="menu__gallery_gallery_settings" js="0">Impostazioni</word>
   <word key="acp_search_title_gallery_Categories" js="0">Categorie Gallery</word>
   <word key="gallery_images" js="0">Immagini</word>
+  <word key="block_gallery_Overview" js="0">Panoramica della Gallery</word>
   <word key="total_images" js="0">Immagini totali</word>
   <word key="total_disk_spaceg" js="0">Spazio su disco utilizzato in totale</word>
   <word key="total_albums" js="0">Totale Album</word>
   <word key="largest_image" js="0">Immagine più grande</word>
   <word key="most_viewed_image" js="0">Immagine più vista</word>
+  <word key="restriction_no_gallery_access" js="0">Accesso limitato alla gallery</word>
+  <word key="restriction_no_gallery_uploads" js="0">Caricamento limitato delle immagini nella gallery</word>
   <word key="gallery_album_permissions" js="0">Restrizioni Album</word>
   <word key="g_create_albums" js="0">Può creare gli album?</word>
   <word key="g_create_albums_private" js="0">Può creare album privati?</word>
+  <word key="g_create_albums_private_desc" js="0">Gli album privati sono album che solo il creatore può visualizzare</word>
   <word key="g_create_albums_fo" js="0">Può creare restrizioni di accesso agli album?</word>
+  <word key="g_create_albums_fo_desc" js="0">Gli album con accesso limitato sono album che solo il creatore e gli utenti designati possono visualizzare</word>
   <word key="g_album_limit" js="0">Numero massimo di album</word>
   <word key="g_img_album_limit" js="0">Numero massimo di immagini per album</word>
   <word key="gallery_restrictions" js="0">Restrizioni di utilizzo</word>
@@ -9059,10 +9216,16 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="g_max_views" js="0">Visualizzazioni massime di immagini e filmati</word>
   <word key="gallery_suffix_day" js="0">per giorno</word>
   <word key="gallery_suffix_kb_day" js="0">kB/giorno</word>
-  <word key="gallery_requires_log" js="0">Queste impostazioni si basano sul registro dettagliato della larghezza di banda che può essere disabilitato nelle Impostazioni galleria e cancellato periodicamente. Se si utilizzano queste impostazioni, si consiglia di lasciare il registro acceso e di non cancellare più spesso di ogni 48 ore, altrimenti si potrebbero verificare comportamenti imprevisti.</word>
+  <word key="gallery_requires_log" js="0">Queste impostazioni si basano sul registro dettagliato della larghezza di banda che può essere disabilitato nelle Impostazioni gallery e cancellato periodicamente. Se si utilizzano queste impostazioni, si consiglia di lasciare il registro acceso e di non cancellare più spesso di ogni 48 ore, altrimenti si potrebbero verificare comportamenti imprevisti.</word>
   <word key="g_download_original" js="0">Può scaricare l'immagine originale?</word>
+  <word key="g_download_original_desc" js="0">Gli utenti saranno comunque in grado di scaricare l'immagine di grandi dimensioni tramite il loro browser</word>
   <word key="g_download_raw" js="0">Si, senza watermark</word>
   <word key="g_download_watermarked" js="0">Si, con watermark</word>
+  <word key="r__albums" js="0">Album</word>
+  <word key="r__albums_manage" js="0">Può visualizzare l'album?</word>
+  <word key="r__diskspace" js="0">Spazio su disco</word>
+  <word key="r__diskspace_manage" js="0">Può visualizzare le statistiche dello spazio su disco?</word>
+  <word key="r__bandwidth_manage" js="0">Può visualizzare le statistiche di banda?</word>
   <word key="gcategory_parent_id" js="0">Categoria Genitore</word>
   <word key="category_sort_options" js="0">Ordinamento degli album</word>
   <word key="category_sort_options_img" js="0">Ordinamento delle immagini</word>
@@ -9084,6 +9247,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="perm__view" js="0">Vedere le categorie</word>
   <word key="perm__read" js="0">Vedere le immagini</word>
   <word key="perm__add" js="0">Caricare le immagini</word>
+  <word key="perm__comment" js="0">Commento</word>
   <word key="perm__rate" js="0">Votare le immagini</word>
   <word key="perm__review" js="0">Recensire le immagini</word>
   <word key="perm__reply" js="0">Commento</word>
@@ -9098,66 +9262,102 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="category_rules_text" js="0">Regole</word>
   <word key="node_move_subalbums" js="0">Sposta album in</word>
   <word key="node_mass_move_delete_albums" js="0">Sposta album in / Elimina</word>
+  <word key="delete_or_move_pick_one" js="0">Se si sceglie di non eliminare le immagini in questa categoria, è necessario selezionare una nuova categoria o album in cui spostarle.</word>
   <word key="acplog__catalbum_mass_move" js="0">Spostato di massa l'album %s da %s a %s</word>
   <word key="acplog__catalbum_mass_delete" js="0">Eliminato di massa l'album %s da %s</word>
   <word key="error_messages" js="0">Messaggi di Errore</word>
   <word key="category_permission_custom_error" js="0">Messaggio personalizzato di autorizzazione negata</word>
   <word key="category_permission_custom_error_desc" js="0">Questo messaggio di errore verrà mostrato a tutti coloro che possono sfogliare la categoria ma non possono visualizzare le immagini al suo interno</word>
   <word key="gallery_permerror_placeholder" js="0">Aggiungi un messaggio di errore...</word>
+  <word key="image_category_id" js="0">Categoria</word>
   <word key="node_no_parentg" js="0">Nessun genitore</word>
   <word key="category_allow_reviews" js="0">Consenti recensioni?</word>
   <word key="category_review_moderate" js="0">Le recensioni devono essere approvate?</word>
   <word key="albums" js="0">Album</word>
+  <word key="album_settings" js="0">Impostazioni</word>
   <word key="album_name" js="0">Nome</word>
   <word key="album_description" js="0">Descrizione</word>
   <word key="album_owner" js="0">Nome del proprietario</word>
   <word key="album_category" js="0">Categoria</word>
+  <word key="album_sort_options" js="0">Ordinamento predefinito</word>
+  <word key="album_comments_and_ratings" js="0">Commenti e valutazioni</word>
+  <word key="album_allow_comments" js="0">Consentire commenti sulle immagini?</word>
+  <word key="album_allow_rating" js="0">Consentire valutazioni?</word>
+  <word key="album_allow_reviews" js="0">Consentire recensioni alle immagini?</word>
   <word key="album_use_comments" js="0">Consenti commenti su questo album?</word>
+  <word key="album_use_reviews" js="0">Consentire recensioni di questo album?</word>
   <word key="album_type" js="0">Privacy</word>
+  <word key="album_public" js="0">Tutti possono vedere questo album</word>
   <word key="album_private_mod" js="0">Solo il proprietario può vedere questo album</word>
+  <word key="album_private_badge" js="0">Album privato</word>
   <word key="album_submit_type" js="0">Inseriti</word>
+  <word key="album_submit_access_members" js="0">Utenti ammessi</word>
+  <word key="album_submit_access_groups" js="0">Gruppi ammessi</word>
+  <word key="album_submittype_owner" js="0">Solo io posso caricare in questo album</word>
   <word key="album_submittype_public" js="0">Chiunque può pubblicare in questo album?</word>
+  <word key="album_submittype_groups" js="0">Voglio scegliere quali gruppi possono caricare in questo album</word>
+  <word key="album_submittype_members" js="0">Voglio scegliere quali utenti possono caricare in questo album</word>
+  <word key="album_submittype_club" js="0">Chiunque in questo club può caricare in questo album</word>
   <word key="set_album_owner" js="0">Proprietario</word>
   <word key="set_album_owner_me" js="0">Questo album è per me</word>
   <word key="set_album_owner_other" js="0">Questo album è per qualcun altro</word>
   <word key="album_sort_caption" js="0">Didascalia</word>
   <word key="can_move_gallery_image" js="0">Può spostare le immagini?</word>
   <word key="can_lock_gallery_image" js="0">Puà chiudere le immagini?</word>
+  <word key="can_unlock_gallery_image" js="0">Può sbloccare le immagini?</word>
+  <word key="can_reply_to_locked_gallery_image" js="0">Può commentare le immagini chiuse?</word>
   <word key="can_edit_gallery_image" js="0">Può modifica le immagini?</word>
   <word key="can_hide_gallery_image" js="0">Può nascondere le immagini?</word>
+  <word key="can_view_hidden_gallery_image" js="0">Può visualizzare le immagini nascoste?</word>
   <word key="can_edit_gallery_image_comment" js="0">Può modificare i commenti?</word>
   <word key="can_hide_gallery_image_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_unhide_gallery_image_comment" js="0">Può rendere visibile i commenti?</word>
   <word key="can_view_hidden_gallery_image_comment" js="0">Può nascondere i commenti?</word>
   <word key="can_edit_gallery_album" js="0">Può modificare gli album?</word>
   <word key="can_hide_gallery_album" js="0">Può nascondere gli album?</word>
+  <word key="can_view_hidden_gallery_album" js="0">Può visualizzare gli album nascosti?</word>
   <word key="can_move_gallery_album" js="0">Può spostare gli album?</word>
   <word key="can_lock_gallery_album" js="0">Può chiudere gli album?</word>
+  <word key="can_unlock_gallery_album" js="0">Può sbloccare gli album?</word>
+  <word key="can_reply_to_locked_gallery_album" js="0">Può rispondere agli album chiusi?</word>
   <word key="can_edit_item_message_gallery_album" js="0">Può modificare i messaggi degli album?</word>
   <word key="can_hide_gallery_album_comment" js="0">Può nascondere i commenti degli album?</word>
+  <word key="can_view_hidden_gallery_album_comment" js="0">Può visualizzare i commenti nascosti degli album?</word>
+  <word key="can_view_hidden_gallery_album_review" js="0">Può visualizzare le recensioni nascoste degli album?</word>
   <word key="can_edit_gallery_image_review" js="0">Può modificare le recensioni?</word>
   <word key="can_hide_gallery_image_review" js="0">Può nascondere le recensioni?</word>
+  <word key="can_view_hidden_gallery_image_review" js="0">Può visualizzare le recensioni nascoste?</word>
+  <word key="can_unfeature_comments_gallery_image" js="0">Può rimuovere le raccomandazioni dai commenti su un'immagine?</word>
   <word key="can_edit_item_message_gallery_image" js="0">Può modificare i messaggi delle immagini?</word>
   <word key="can_delete_item_message_gallery_image" js="0">Può eliminare i messaggi delle immagini?</word>
+  <word key="acplogs__gallery_settings" js="0">Impostazioni gallery aggiornate</word>
+  <word key="acplogs__gallery_rebuilt" js="0">Esecuzione dello strumento di ricostruzione delle immagini.</word>
   <word key="gallery_dims_explanation" js="0">Le copie di tutte le immagini caricate nella Gallery verranno caricate con diverse dimensioni e utilizzate nel modo appropriato nell'interfaccia della gallery. Di seguito puoi controllare la dimensione massima per ogni dimensione.</word>
   <word key="gallery_large_dims" js="0">Dimensione immagine Grande</word>
   <word key="gallery_small_dims" js="0">Dimensione immagine della miniatura</word>
   <word key="gallery_use_square_thumbnails" js="0">Usare miniature quadrate</word>
   <word key="gallery_watermark_path" js="0">Immagine filigrana</word>
-  <word key="gallery_watermark_path_desc" js="0">L'immagine fornita verrà sovrapposta a tutte le immagini della galleria (ad esempio, per mostrare un messaggio di copyright). Tieni presente che le singole categorie possono disabilitare la filigrana sulle immagini. Per risultati ottimali, utilizzare una piccola immagine con uno sfondo trasparente.</word>
+  <word key="gallery_watermark_path_desc" js="0">L'immagine fornita verrà sovrapposta a tutte le immagini della gallery (ad esempio, per mostrare un messaggio di copyright). Tieni presente che le singole categorie possono disabilitare la filigrana sulle immagini. Per risultati ottimali, utilizzare una piccola immagine con uno sfondo trasparente.</word>
   <word key="gallery_watermark_images" js="0">Filigrana nelle immagini</word>
   <word key="gallery_use_watermarks" js="0">Filigrana nelle immagini?</word>
   <word key="gallery_watermark_large" js="0">Immagini Grandi</word>
   <word key="gallery_watermark_small" js="0">Miniature Immagini</word>
   <word key="gallery_bandwidth" js="0">Registrazione della larghezza di banda</word>
   <word key="gallery_detailed_bandwidth" js="0">Memorizzare i registri dettagliati della larghezza di banda</word>
-  <word key="gallery_detailed_bandwidth_desc" js="0">Se si abilita questa impostazione, verranno monitorate le visualizzazioni delle immagini della Galleria. È quindi possibile utilizzare i registri della larghezza di banda per vedere quanta larghezza di banda consumano le visualizzazioni dell'immagine per periodi di tempo e, durante la modifica dei membri, è possibile visualizzare le statistiche sul consumo di larghezza di banda per utente.</word>
+  <word key="gallery_detailed_bandwidth_desc" js="0">Se si abilita questa impostazione, verranno monitorate le visualizzazioni delle immagini della Gallery. È quindi possibile utilizzare i registri della larghezza di banda per vedere quanta larghezza di banda consumano le visualizzazioni dell'immagine per periodi di tempo e, durante la modifica dei membri, è possibile visualizzare le statistiche sul consumo di larghezza di banda per utente.</word>
   <word key="gallery_bandwidth_period" js="0">Numero di ore per conservare i registri</word>
   <word key="gallery_options" js="0">Impostazioni generali</word>
   <word key="gallery_rss_enabled" js="0">Abilitare Feed RSS per le immagini più recenti</word>
   <word key="gallery_rss_enabled_desc" js="0"><![CDATA[Sarà visualizzato solo i contenuti disponibili per gli ospiti. Per ulteriori opzioni, creare un <a href='{internal.app=core&module=discovery&controller=rss}'>Feed RSS personalizzato</a>]]></word>
-  <word key="rebuilding_gallery_images" js="0">Ricostruzione delle immagini della galleria</word>
-  <word key="gallery_stats" js="0">Mostra Statistiche Galleria</word>
+  <word key="gallery_rebuildimages" js="0">Ricostruzione delle immagini</word>
+  <word key="rebuilding_gallery_images" js="0">Ricostruzione delle immagini della gallery</word>
+  <word key="gallery_maps_default" js="0">Abilita mappe per default</word>
+  <word key="gallery_maps_default_desc" js="0">Gli utenti possono scegliere se mostrare o meno una mappa accanto alle immagini con dati di geolocalizzazione incorporati nell'immagine. Questa opzione controlla se tali mappe sono abilitate o meno di default, tuttavia gli utenti possono ignorare questa preferenza durante l'invio delle immagini.</word>
+  <word key="remove_gallery_access" js="0">Consentire l'accesso alla gallery?</word>
+  <word key="remove_gallery_upload" js="0">Consentire il caricamento delle immagini?</word>
+  <word key="gallery_stats" js="0">Mostra Statistiche Gallery</word>
+  <word key="deleted_image" js="0">Immagine eliminata</word>
+  <word key="image_id" js="0">Immagine</word>
   <word key="bdate" js="0">Data</word>
   <word key="bandwidth_stats" js="0">Banda Utilizzata</word>
   <word key="images_submitted" js="0">Immagini Inviate</word>
@@ -9183,11 +9383,19 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="add_copyright" js="0">Aggiungi copyright</word>
   <word key="submit_go_back" js="0">Salve dettagli</word>
   <word key="image_info_saved" js="0">Informazioni immagine salvate</word>
+  <word key="gallery_submit_prefix_album" js="0">Caricamento nell'album &quot;%s&quot;</word>
   <word key="gallery_submit_prefix_cat" js="0">Carica nella cateogira &quot;%s&quot;</word>
+  <word key="select_your_images" js="0">Seleziona le tue immagini</word>
+  <word key="select_your_movies" js="0">Seleziona i tuoi video</word>
   <word key="image_title" js="0">Didascalia</word>
+  <word key="image_ipaddress" js="0">Indirizzo IP</word>
   <word key="image_auto_follow_suffix" js="0">Notificami quando ci saranno nuovi commenti</word>
   <word key="image_description" js="0">Descrizione</word>
+  <word key="image_credit_info_desc" js="0">Se è necessario fornire credit per l'uso dell'immagine, fornire la fonte dell'immagine</word>
+  <word key="image_details" js="0">Informazioni su questa immagine</word>
   <word key="report_image" js="0">Segnala immagine</word>
+  <word key="report_album" js="0">Segnala album</word>
+  <word key="image_category" js="0">Categoria</word>
   <word key="image__comment_placeholder" js="0">Aggiungi un commento...</word>
   <word key="image_submit_comment" js="0">Invia Commento</word>
   <word key="set_image_as" js="0">Imposta come</word>
@@ -9196,10 +9404,16 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="images_no_number" js="0">{!# [1:immagine][?:immagini]}</word>
   <word key="gallery_rss_title" js="0">Ultima Immagine</word>
   <word key="gallery_rss_title_container" js="0">Ultima Immagine: %s</word>
+  <word key="gallery_rss_offline" js="0">Questo feed RSS è disattivato</word>
+  <word key="gallery_rss_offline_admin" js="0">L'opzione Gallery &quot;Abilita feed RSS immagini più recenti&quot; è attualmente disattivata. Cambia questa opzione a sì nel pannello di controllo di amministrazione per abilitare il feed RSS per le immagini più recenti.</word>
   <word key="no_images_in_cat" js="0">Non ci sono ancora immagini in questa categoria</word>
+  <word key="image_gps_show" js="0">Mostrare la mappa?</word>
+  <word key="image_gps_show_desc" js="0">Facoltativamente è possibile visualizzare una mappa per questa immagine che mostra dove è stata scattata</word>
   <word key="view_this_image" js="0">Visualizza l'immagine %s</word>
   <word key="view_this_video" js="0">Visualizza il video %s</word>
   <word key="view_this_album" js="0">Visualizza l'album %s</word>
+  <word key="num_images" js="0">{# [1:immagine][?:immagini]}</word>
+  <word key="num_images_in_album" js="0">{# [1:immagine][?:immagini]} in questo album</word>
   <word key="album_latest_images" js="0">Ultima Immagine</word>
   <word key="rotate_image" js="0">Routa</word>
   <word key="rotate_left" js="0">Routa a Sinistra</word>
@@ -9207,19 +9421,39 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="gallery_image_rotated" js="0">L'immagine è stata ruotata</word>
   <word key="add_more_images" js="0">Aggiungi altre immagini</word>
   <word key="set_cover_photo" js="0">Imposta foto copertina</word>
+  <word key="set_for_album" js="0">Imposta per l'album?</word>
+  <word key="set_for_category" js="0">Imposta per la categoria?</word>
   <word key="cover_category_only" js="0">Cover della Categoria</word>
   <word key="cover_album_only" js="0">Cover dell'Album</word>
   <word key="cover_album" js="0">Imposta foto come Cover dell'Album</word>
   <word key="cover_both" js="0">Entrambi: Copertina di categoria e album</word>
+  <word key="set_as_profile_photo" js="0">Questa immagine è stata impostata come foto del tuo profilo</word>
+  <word key="set_as_category_done" js="0">Questa immagine è stata impostata come copertina della categoria</word>
+  <word key="set_as_album_done" js="0">Questa immagine è stata impostata come copertina dell'album</word>
+  <word key="set_as_both_done" js="0">Questa immagine è stata impostata come cover della categoria dell'album</word>
   <word key="change_author" js="0">Cambia autore</word>
+  <word key="gallery_metadata" js="0">Informazioni foto per %s</word>
+  <word key="gallery_no_metadata" js="0">Nessun dato di immagine aggiuntivo</word>
   <word key="view_all_photo_info" js="0">Visualizza tutte le informazioni EXIF della foto</word>
   <word key="view_photo_info" js="0">Visualizza le informazioni EXIF della foto</word>
+  <word key="gallery_images_no_more" js="0">Non puoi caricare altre immagini in questo album.</word>
+  <word key="gallery_images_too_many" js="0">You can only upload {# [1:più immagine][?:altre immagini]} to this album.</word>
+  <word key="gallery_images_too_many_at_once" js="0">Puoi caricare solo 100 immagini alla volta.</word>
+  <word key="gallery_image_or_movie" js="0">Devi caricare almeno un'immagine o un filmato</word>
+  <word key="maximum_daily_views" js="0">È stato raggiunto il numero massimo di visualizzazioni giornaliere di immagini e filmati consentite dall'amministratore</word>
+  <word key="maximum_daily_transfer" js="0">È stata raggiunta la quantità massima di larghezza di banda consentita dall'amministratore per la visualizzazione di immagini e video nella gallery</word>
   <word key="imageLocation" js="0">Carica nuova immagine</word>
   <word key="viewfilter_thumbnails" js="0">Miniature</word>
   <word key="viewfilter_large" js="0">Immagini di grandi dimensioni</word>
   <word key="set_gallery_image_photo" js="0">Imposta come mia foto del profilo</word>
   <word key="view_fullsize_image" js="0">Mostra Immagine a Schermo Intero</word>
+  <word key="delete_album" js="0">Elimina Album</word>
+  <word key="sort_album_count_comments" js="0">Immagini più commentate</word>
+  <word key="sort_album_rating_aggregate" js="0">Voto più alto</word>
   <word key="sort_album_name" js="0">Nome Album</word>
+  <word key="delete_images" js="0">Elimina immagini?</word>
+  <word key="uploaded" js="0">Caricato</word>
+  <word key="in_album" js="0">Nell'album:</word>
   <word key="image__save" js="0">Salva immagine</word>
   <word key="gallery_move_title" js="0">Sposta questa immagine</word>
   <word key="lock_title_image" js="0">Chiudi questa immagine</word>
@@ -9230,22 +9464,49 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="approve_title_album" js="0">Approva questo album</word>
   <word key="unread_cat_images" js="0">Questa categoria ha nuove immagini</word>
   <word key="image_tools" js="0">Strumenti immagine</word>
+  <word key="cannot_download_original_image" js="0">Non si dispone dell'autorizzazione per scaricare delle immagini</word>
+  <word key="cat_img_count" js="0"># [1:immagine][?:immagini]}</word>
+  <word key="cat_album_count" js="0">{# [1:album][?:album]}</word>
   <word key="cat_comment_count" js="0">{# [1:commento][?:commenti]}</word>
   <word key="image_review_count" js="0">{# [1:recensione][?:recensioni]}</word>
   <word key="image_comment_count" js="0">{# [1:commento][?:commenti]}</word>
+  <word key="from_the_album" js="0">Dall'album:</word>
+  <word key="album_new_content" js="0">Questo album ha contenuti invisibili</word>
   <word key="add_image_note" js="0">Aggiungi Nota</word>
   <word key="view_in_lightbox" js="0">Visualizza in lightbox</word>
   <word key="view_entire_album" js="0">Visualizza l'intero album %s</word>
   <word key="events_in_album" js="0">{!# [1:Evento][?:Eventi]} in questo album</word>
   <word key="view_as_thumbnails" js="0">Mostra come miniature</word>
   <word key="view_as_list" js="0">Mostra come elenco</word>
+  <word key="gallery_image_comment" js="0">Commento immagine</word>
   <word key="gallery_image_pl" js="0">Immagini</word>
+  <word key="gallery_image_pl_lc" js="0">immagini</word>
+  <word key="gallery_album_item_pl" js="0">Album</word>
+  <word key="gallery_album_item_pl_lc" js="0">album</word>
+  <word key="gallery_image_comment_pl" js="0">Commenti immagine</word>
+  <word key="gallery_image_comment_pl_lc" js="0">commenti immagine</word>
+  <word key="gallery_image_review" js="0">Recensione Immagine</word>
+  <word key="gallery_image_review_pl" js="0">Recensioni Immagine</word>
+  <word key="gallery_image_review_pl_lc" js="0">recensioni immagine</word>
+  <word key="gallery_album_pl" js="0">Album</word>
+  <word key="gallery_album_pl_lc" js="0">album</word>
+  <word key="gallery_album_comment" js="0">Commento Album</word>
+  <word key="gallery_album_comment_pl" js="0">Commenti album</word>
+  <word key="gallery_album_comment_pl_lc" js="0">commenti album</word>
+  <word key="gallery_image_comments_s" js="0">{# [1:commento immagine][?:commenti immagine]}</word>
+  <word key="gallery_album_review" js="0">Recensioni Album</word>
+  <word key="image_locked_can_comment" js="0">Questa immagine è chiusa, ma le autorizzazioni ti consentono di aggiungere nuovi commenti.</word>
+  <word key="album_locked_cannot_comment" js="0">Questo album è ora chiuso per ulteriori commenti.</word>
   <word key="gallery_edit_details" js="0">Modifica i dettagli</word>
+  <word key="gallery_edit_details_title" js="0">Modifica i dettagli di questa immagine</word>
   <word key="image_rating_value" js="0">La tua valutazione</word>
   <word key="image__review_placeholder" js="0">Aggiungi una recensione...</word>
+  <word key="block_imageFeed_desc" js="0">Creare un feed di immagini</word>
   <word key="widget_feed_container_gallery_image" js="0">Categorie</word>
-  <word key="block_galleryStats" js="0">Statistiche Galleria</word>
+  <word key="block_galleryStats" js="0">Statistiche Gallery</word>
+  <word key="block_galleryStats_desc" js="0">Mostra le statistiche dell'applicazione Gallery</word>
   <word key="block_recentComments" js="0">Commenti Recente</word>
+  <word key="block_recentComments_desc" js="0">Mostra i commenti più recenti</word>
   <word key="total_images_front_h" js="0">{!#[1:Immagine][?:Immagini]}</word>
   <word key="total_images_front_v" js="0">{!#[?:Immagini]}</word>
   <word key="stats_total_comments_v" js="0">{!#[1:Commento][?:Commenti]}</word>
@@ -9253,28 +9514,56 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="total_albums_h" js="0">{!#[1:Album][?:Album]}</word>
   <word key="total_albums_v" js="0">{!#[?:Album]}</word>
   <word key="latest_image" js="0">Ultima Immagine</word>
+  <word key="block_recentImageReviews" js="0">Recensioni immagine</word>
+  <word key="block_recentImageReviews_desc" js="0">Mostra le recensioni delle immagini più recenti</word>
+  <word key="block_albums_desc" js="0">Creare un elenco di album</word>
   <word key="widget_feed_container_gallery_album" js="0">Categoria</word>
+  <word key="profile_gallery_album" js="0">Album</word>
+  <word key="profile_gallery_gallery" js="0">Album</word>
+  <word key="image_information" js="0">Aggiungi informazione</word>
+  <word key="process" js="0">Finito</word>
+  <word key="create_new_album" js="0">Crea un nuovo album</word>
   <word key="use_plain_editor" js="0">Usa plain editor</word>
   <word key="use_rte_editor" js="0">Usa rich text editor</word>
   <word key="album_create_owner" js="0">Proprietà</word>
+  <word key="add_information" js="0">Aggiungi informazioni immagine</word>
+  <word key="add_information_desc" js="0">Aggiungi titoli e descrizioni alle tue immagini</word>
+  <word key="add_information_plus_album_desc" js="0">Aggiungi titoli e descrizioni alle immagini e, facoltativamente, aggiungerli a un album</word>
+  <word key="images_you_uploaded" js="0">Immagini caricate</word>
   <word key="with_all_images" js="0">Con tutte le immagini</word>
+  <word key="create_album" js="0">Crea Album</word>
+  <word key="create_an_album" js="0">Crea un album</word>
   <word key="add_to_existing_album" js="0">Aggiungi ad album esistente</word>
+  <word key="set_tags" js="0">Imposta tag...</word>
   <word key="set_copyright" js="0">Imposta Copyright...</word>
   <word key="set_copyright_all" js="0">Imposta il copyright su tutti i file</word>
   <word key="set_credit_all" js="0">Imposta credit su tutte</word>
+  <word key="set_tags_all" js="0">Imposta tag a tutti</word>
+  <word key="notify_me" js="0">Avvisami quando vengono pubblicati i commenti</word>
   <word key="album_limit_message" js="0"><![CDATA[Gli album possono contenere fino a  <strong>{# [1:immagine o video][?:immagini o video]}</strong>, ma hai caricato <strong>%d</strong>. Solo le prime {# [1:immagine o video][?:immagini o video]} verranno aggiunti all'album quando salvi; eventuali contenuti verranno rimossi.]]></word>
+  <word key="ready_to_submit" js="0">Pronto per l'invio</word>
+  <word key="ready_to_submit_blurb" js="0"><![CDATA[Fai clic su <em>Termina modifica le immagini</em> per inviare le tue immagini alla nostra gallery.]]></word>
   <word key="continue_next_image" js="0">Salva questa immagine</word>
   <word key="finish_all_images" js="0">Termina e salva tutte le immagini</word>
+  <word key="image_info_finish" js="0">Termina la modifica delle immagini</word>
+  <word key="add_gallery_image_desc" js="0">Scegli le immagini che vuoi aggiungere alla gallery</word>
   <word key="add_gallery_album_limit" js="0"><![CDATA[Puoi caricare <strong>{# [1:un immagine o video][?:immagini e video]}</strong> in questo album]]></word>
   <word key="x_more_images_album" js="0">Puoi aggiungere {# [1:immagine][?:immagini]} a questo album</word>
+  <word key="saving_images" js="0">Salvataggio delle immagini</word>
   <word key="saving_images_desc" js="0">Le tue immagini stanno per essere archiviate, attendi...</word>
   <word key="adding_to_category_x" js="0"><![CDATA[Immagini aggiunte in <strong>%s</strong>]]></word>
   <word key="add_copyright_image" js="0">Aggiungi un copyright per questa immagine</word>
   <word key="add_credit_image" js="0">Aggiungi credit per questa immagine</word>
+  <word key="cannot_create_album" js="0">Spiacenti, non hai il permesso di creare un nuovo album in questa categoria.</word>
+  <word key="use_no_album" js="0">Continua senza utilizzare un album</word>
+  <word key="files_had_errors" js="0">Alcuni file hanno avuto errori</word>
   <word key="set_copyright_desc" js="0">Imposta il copyright per ogni immagine che stai caricando tranne quelle per le quali aggiungi individualmente un copyright.</word>
+  <word key="credit" js="0">Credit</word>
   <word key="credit_desc" js="0">Imposta il credit per ogni immagine che stai caricando tranne quelle per cui aggiungi individualmente un credit.</word>
+  <word key="gallery_this_will_be_moderated" js="0">A causa di un avviso ricevuto, le immagini saranno nascoste finché un moderatore non le approverà.</word>
   <word key="exif_title" js="0">Dati EXIF completi</word>
   <word key="gallery_focal_length_mm" js="0">%s mm</word>
+  <word key="gallery_shutterspeed" js="0">1/%s secondo</word>
   <word key="gallery_exif_camera" js="0">Scattata con</word>
   <word key="FILE.MimeType" js="0">Tipo formato</word>
   <word key="FILE.FileSize" js="0">Dimensione originale del file</word>
@@ -9307,19 +9596,30 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="EXIF.FocalPlaneYResolution" js="0">Lunghezza focale Y-Resolution</word>
   <word key="EXIF.FocalPlaneResolutionUnit" js="0">Unità di risoluzione del piano focale</word>
   <word key="digest_area_gallery_image" js="0">Immagini</word>
+  <word key="digest_area_gallery_album" js="0">Album</word>
   <word key="digest_area_gallery_category" js="0">Categorie</word>
+  <word key="__api_gallery_albums" js="0">Album</word>
   <word key="__api_gallery_images" js="0">Immagini</word>
   <word key="__api_gallery_comments" js="0">Commenti</word>
   <word key="__api_gallery_reviews" js="0">Recensioni</word>
+  <word key="delete_note" js="1">Elimina nota</word>
   <word key="save_note" js="1">Salva</word>
+  <word key="saving_note" js="1">Salvataggio...</word>
+  <word key="cancel_note" js="1">Annulla</word>
+  <word key="count_image" js="1"># [1:immagine][?:immagini]}</word>
+  <word key="delete_note_confirm" js="1">Sei sicuro di voler eliminare questa nota?</word>
   <word key="unsaved_image_data" js="1">Non hai salvato le modifiche per questa immagine. Sei sicuro di voler cambiare immagine?</word>
   <word key="unsaved_image_data_desc" js="1">Le informazioni per questa immagine andranno perse.</word>
+  <word key="set_as_photo_confirm" js="1">Sei sicuro di voler aggiornare la foto del tuo profilo?</word>
   <word key="rebuildGalleryThumbnails" js="1">Ricostruire le miniature esistenti?</word>
   <word key="rebuildGalleryThumbnailsBlurb" js="1">Si consiglia di ricostruire le miniature esistenti quando si carica una nuova immagine di filigrana o si modifica le dimensioni della miniatura</word>
   <word key="rebuildGalleryThumbnailsYes" js="1">Sì</word>
   <word key="uploader_add_images" js="1">Aggiungi Immagini</word>
   <word key="confirmSubmitClose" js="1">Siete sicuri di voler uscire? Tutte le immagini che hai caricato non verranno salvate.</word>
   <word key="addImages" js="1">Aggiungi Immagini</word>
+  <word key="createAlbum" js="1">Crea album</word>
+  <word key="imageUploadErrors" js="1">{# [1:immagine] [? :images]} ha avuto errori</word>
+  <word key="imageUploadErrorsDesc" js="1">Correggere gli errori {! # [1: sull'immagine] [? :sulle immagini]} e invia di nuovo.</word>
  </app>
  <app key="nexus" version="104063">
   <word key="menu__nexus_payments" js="0">Pagamenti</word>
@@ -9398,6 +9698,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="transaction_customer_since_header" js="0">Cliente Dal</word>
   <word key="transaction_spent" js="0">Speso %s</word>
   <word key="transaction_spent_header" js="0">Totale Speso</word>
+  <word key="maxmind_distance_estimated" js="0">Distanza stimata</word>
   <word key="amount_refunded" js="0">Rimborsato</word>
   <word key="amount_credited" js="0">Accreditato</word>
   <word key="menu__nexus_payments_paymentsettings" js="0">Impostazioni</word>
@@ -9447,6 +9748,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="invoice_reissue_yes" js="0"><![CDATA[Riemettere & Spedisci Email]]></word>
   <word key="invoice_reissue_no" js="0">Riemettere</word>
   <word key="invoice_delete_warning" js="0">L'eliminazione di una fattura eliminerà solo il record. Potresti voler annullare prima la fattura se non l'hai già fatto.</word>
+  <word key="invoice_unpaid_shipments_shipped" js="0">Questo ordine è già stato spedito</word>
   <word key="mailsub__nexus_newInvoice" js="0"><![CDATA[È stata creata una nuova fattura #{$invoice->id}  - {$status}]]></word>
   <word key="invoice_mailsub_paid" js="0">Segnato come pagato</word>
   <word key="generate_invoice" js="0">Crea fattura</word>
@@ -9467,6 +9769,8 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="item_paymethods" js="0">Modalità di pagamento disponibile</word>
   <word key="invoice_products" js="0">Prodotti</word>
   <word key="invoice_settings" js="0">Impostazioni fattura</word>
+  <word key="invoice_timeline_ba_warn_event" js="0">Se l'acquisto ha un contratto di fatturazione associato, viene inviata un'e-mail per avvertirli che il pagamento verrà effettuato automaticamente a breve.</word>
+  <word key="invoice_timeline_credit" js="0"><![CDATA[Se il prodotto ha un'e-mail personalizzata impostata da inviare quando l'acquisto scadrà a breve, tale e-mail verrà inviata. <br>In caso contrario, se un cliente ha del credito sul conto o una carta in archivio, verrà inviata un'e-mail per avvertirli che il pagamento sarà effettuato a breve in automatico.]]></word>
   <word key="ba_started" js="0">Data creazione</word>
   <word key="billing_agreement_transactions" js="0">Operazioni correlate</word>
   <word key="billing_agreement_active" js="0">Attiva</word>
@@ -9496,6 +9800,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="s_any_value" js="0">qualsiasi valore</word>
   <word key="shiprate_delivery_estimate" js="0">Stima della consegna</word>
   <word key="shiprate_delivery_estimate_desc" js="0">Verrà visualizzato al cliente nella schermata di pagamento.</word>
+  <word key="shiprate_delivery_estimate_placeholder" js="0">3-5 giorni</word>
   <word key="total_items_shipped" js="0">{# [1:oggetto][?:oggetti]} totale in questa spedizione</word>
   <word key="menu__nexus_payments_shipping" js="0">Spedizioni</word>
   <word key="sstatus_done" js="0">Spedito</word>
@@ -9700,6 +10005,8 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="support_stream_other" js="0">Nuovo Filtro</word>
   <word key="motivate_title" js="0">Lavoro fantastico!</word>
   <word key="motivate_desc" js="0">Non ci sono richieste da visualizzare per questo filtro!</word>
+  <word key="edit_this_stream" js="0">Modifica questo flusso</word>
+  <word key="show_fewer_rows" js="0">Mostra meno righe</word>
   <word key="menu__nexus_support_settings" js="0">Impostazioni</word>
   <word key="support_settings" js="0">Impostazioni Supporto</word>
   <word key="departments" js="0">Dipartimenti</word>
@@ -9890,6 +10197,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="staffnotify_note_header" js="0">%s ha aggiunto una nota alla richiesta di supporto.</word>
   <word key="staffnotify_note_warning" js="0">Se rispondi a questa email, sarà pubblicata e inviata come risposta al cliente.</word>
   <word key="manage_notification_settings" js="0">Gestisci Impostazioni notifiche</word>
+  <word key="support_reply_not_pending" js="0">Il messaggio è già stato inviato.</word>
   <word key="you_have_assigned_support_requests" js="0">Questo per ricordarti che ti sono state assegnate le seguenti richieste di supporto:</word>
   <word key="support_request" js="0">Richiesta di supporto</word>
   <word key="support_bounced_link" js="0">Creata nuova richiesta di supporto</word>
@@ -9982,12 +10290,14 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="on_invoice" js="0">In fattura</word>
   <word key="view_products_grid" js="0">Vista a griglia</word>
   <word key="view_products_list" js="0">Vista a elenco</word>
+  <word key="product_shipping_blurb_geo" js="0">Le opzioni visualizzate si basano sulla posizione stimata.</word>
   <word key="weight" js="0">Peso</word>
   <word key="featured_products" js="0">prodotti sponsorizzati</word>
   <word key="new_products" js="0">Nuovi Prodotti</word>
   <word key="all_categories" js="0">Tutte le categorie</word>
   <word key="continue_without_purchasing" js="0">No grazie, continua senza acquistare</word>
   <word key="your_cart" js="0">Il tuo carrello</word>
+  <word key="products_sort_default" js="0">Raccomandato</word>
   <word key="products_sort_name" js="0">Nome</word>
   <word key="change_address" js="0">Cambia autore</word>
   <word key="add_new_address" js="0">Aggiungi nuovo indirizzo</word>
@@ -10001,6 +10311,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="x_items" js="0">{# [1:element][?:elementi]}</word>
   <word key="write_package_review" js="0">Scrivi una recensione</word>
   <word key="recent_support_requests" js="0">Richieste di supporto recenti</word>
+  <word key="commerce_get_support" js="0">Ottieni supporto</word>
   <word key="client_cards" js="0">Modalità di pagamento</word>
   <word key="withdraw_method" js="0">Metodo di prelievo</word>
   <word key="withdraw__Manual" js="0">Altro</word>
@@ -10064,11 +10375,13 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="dl_invoice" js="0">Fattura</word>
   <word key="easypost_package" js="0">Tipo</word>
   <word key="easypost_package_weight" js="0">Peso</word>
-  <word key="easypost_rates_desc" js="0">Consegna Stimata: %d giorni.</word>
+  <word key="easypost_rates_desc" js="0">Consegna stimata: %d giorni.</word>
   <word key="epc_description" js="0">Descrizione</word>
   <word key="easypost_tax" js="0">Aliquota fiscale per le spese di spedizione</word>
   <word key="easypost_price_adjustment" js="0">Adeguamento del prezzo</word>
   <word key="easypost_delivery_adjustment" js="0">Rettifica del stima di consegna</word>
+  <word key="easypost_delivery_adjustment_desc" js="0">Il cliente potrà visionare le stime di consegna fornite da EasyPost, con l'aggiustamento specificato. Ad esempio, se EasyPost dice che la consegna stimata è di 3 giorni e inserisci 1 giorno qui, il cliente visualizzerà un preventivo di consegna di 4 giorni.</word>
+  <word key="easypost_delivery_estimate" js="0">{# [1:giorno][?:giorni]}</word>
   <word key="easypost_test_method_1" js="0">Scegli i prodotti da spedire</word>
   <word key="easypost_test_products" js="0">Prodotti</word>
   <word key="server_monitor_icon" js="0">Stato</word>
@@ -10159,6 +10472,7 @@ Dopo aver modificato questa impostazione, potresti dover <a data-ipsDialog data-
   <word key="acpNotification_nexusTransaction_dspd" js="0">{# [1:transazione][?:transazioni]} contestate</word>
   <word key="acp_notification_Support" js="0">Apri richieste di supporto</word>
   <word key="acpNotification_nexusSupport" js="0">{# [1:Richiesta di supporto aperta[?:Richieste di supporto aperte]}</word>
+  <word key="acp_notification_Shipments" js="0">Una spedizione è pronta per essere inviata</word>
   <word key="email_ad_needs_approval" js="0">È stato acquistato un annuncio pubblicitario che deve essere approvato manualmente da un membro dello staff prima che inizi a essere pubblicato nella tua community.</word>
   <word key="support_history_same" js="0">Come %s nei 30 giorni precedenti</word>
  </app>
